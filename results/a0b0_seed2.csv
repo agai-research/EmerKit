@@ -1,0 +1,15 @@
+seed,series,metric,value
+2,A0,precision,1.0
+2,A0,recall,0.9609375
+2,B0,acc_src_ID,0.8583333333333333
+2,B0,acc_src_PROF,0.975
+2,B0,acc_src_PERF,0.875
+2,B0,acc_src_BEH,0.95
+2,B0,acc_src_CONT,0.9416666666666667
+2,B0,acc_out,0.8583333333333333
+2,B0,coverage_eps0.05,0.9541666666666667
+2,B0,ambiguous_eps0.05,0.07777777777777778
+2,B0,coverage_eps0.1,0.9347222222222222
+2,B0,ambiguous_eps0.1,0.04722222222222222
+2,B0,coverage_eps0.2,0.9125
+2,B0,ambiguous_eps0.2,0.002777777777777778

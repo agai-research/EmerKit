@@ -1,0 +1,178 @@
+[
+ {
+  "domain": "programming",
+  "targets": [
+   "comprehensions",
+   "recursion"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "exceptions",
+   "parameters_and_scope"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "lists"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "exceptions",
+   "modules_and_packages"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "encapsulation"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "unit_testing",
+   "modules_and_packages"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "functions"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "unit_testing"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "monte_carlo_methods"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "morphology_and_lexicon"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "agent_based_view_of_ai"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "document_ranking"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "discourse_parsing",
+   "probabilistic_context_free_grammars"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "kkt_conditions"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "nlp_and_vision",
+   "variational_bayes_models"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "planning"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "essay_structure"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "essay_structure"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "idioms_and_register",
+   "pronunciation_stress_intonation"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "passive_voice"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "numbers_dates_time"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "present_perfect"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "argumentation"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "essay_structure",
+   "reading_short_texts"
+  ],
+  "known": 1
+ }
+]

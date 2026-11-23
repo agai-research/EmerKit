@@ -1,0 +1,182 @@
+[
+ {
+  "domain": "programming",
+  "targets": [
+   "functions"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "parameters_and_scope"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "searching"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "stacks_and_queues",
+   "modules_and_packages"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "nested_structures"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "lists",
+   "inheritance"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "iteration_patterns",
+   "exceptions"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "polymorphism"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "penn_treebank",
+   "multi_agent_systems"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "word_embedding_variations",
+   "dirichlet_processes"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "syntax"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "search_engines",
+   "neural_parsing"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "bio_text_mining"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "citation_networks"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "spectral_methods",
+   "mathematical_models"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "shift_reduce_parsing",
+   "neural_language_modeling"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "basic_vocabulary"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "comparatives_superlatives"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "listening_everyday",
+   "articles_and_plurals"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "relative_clauses"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "present_simple",
+   "first_conditional"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "present_continuous",
+   "argumentation"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "present_perfect",
+   "argumentation"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "debate_and_discussion"
+  ],
+  "known": 1
+ }
+]

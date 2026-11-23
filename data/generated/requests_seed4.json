@@ -1,0 +1,181 @@
+[
+ {
+  "domain": "programming",
+  "targets": [
+   "inheritance"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "primitive_types",
+   "conditionals"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "encapsulation",
+   "functions"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "unit_testing",
+   "classes_and_objects"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "tuples_and_sets",
+   "version_control"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "lists",
+   "comprehensions"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "inheritance",
+   "lists"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "files",
+   "tuples_and_sets"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "summarization_evaluation",
+   "structured_sparsity"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "machine_learning_resources",
+   "nlp_and_vision"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "message_passing"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "pointer_networks"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "maximum_likelihood_estimation"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "statistical_parsing"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "transition_based_dependency_parsing"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "neural_summarization"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "past_simple"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "basic_vocabulary",
+   "questions_and_negation"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "questions_and_negation"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "present_perfect"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "prepositions_of_place_time"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "pronunciation_stress_intonation"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "questions_and_negation",
+   "relative_clauses"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "present_perfect"
+  ],
+  "known": 1
+ }
+]

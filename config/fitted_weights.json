@@ -1,0 +1,20 @@
+{
+ "source": "selection probes on real Toucan definitions (Claude models only)",
+ "models": [
+  "claude-haiku-5-5",
+  "claude-opus-5-5"
+ ],
+ "lam_I": 10.941442591733797,
+ "beta": 80.0,
+ "omega0": 0.9990267783379851,
+ "lam_C": -0.002699459486653907,
+ "intercepts": {
+  "claude-haiku-5-5": 4.728168165746933,
+  "claude-opus-5-5": 3.9048425888718103
+ },
+ "test_auc": 0.8349709594305428,
+ "test_auc_without_interference": 0.5163762609720948,
+ "n_fit": 500,
+ "n_test": 500,
+ "note": "lam_I and lam_C are in log-odds units; the composer's results are insensitive to lam_I in [0, 2] (series D2)"
+}

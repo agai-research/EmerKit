@@ -1,0 +1,49 @@
+seed,request,method,parsed,n_tasks,equipped,any_dfr,obj_cov,raw_valid,repairs,prereq_viol,preservation_viol
+1,0,Compositio Prompto,1,5.0,1.0,1.0,1.0,,,,
+1,0,LLM-gen+EmerKit,1,8.0,0.75,0.0,1.0,1.0,1.0,0.0,0.0
+1,1,Compositio Prompto,1,4.0,1.0,1.0,0.0,,,,
+1,1,LLM-gen+EmerKit,1,7.0,0.7142857142857143,0.0,1.0,1.0,1.0,0.0,0.0
+1,2,Compositio Prompto,1,4.0,1.0,1.0,1.0,,,,
+1,2,LLM-gen+EmerKit,1,6.0,0.8333333333333334,0.0,1.0,1.0,1.0,0.0,0.0
+1,3,Compositio Prompto,1,5.0,1.0,1.0,1.0,,,,
+1,3,LLM-gen+EmerKit,1,8.0,0.5,0.0,1.0,1.0,1.0,0.0,0.0
+1,4,Compositio Prompto,1,6.0,1.0,1.0,1.0,,,,
+1,4,LLM-gen+EmerKit,1,8.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0
+1,5,Compositio Prompto,1,5.0,1.0,1.0,0.0,,,,
+1,5,LLM-gen+EmerKit,1,8.0,0.875,0.0,1.0,1.0,1.0,0.0,0.0
+1,6,Compositio Prompto,1,4.0,1.0,1.0,1.0,,,,
+1,6,LLM-gen+EmerKit,1,6.0,0.8333333333333334,0.0,1.0,1.0,1.0,0.0,0.0
+1,7,Compositio Prompto,1,6.0,1.0,1.0,0.0,,,,
+1,7,LLM-gen+EmerKit,1,6.0,0.8333333333333334,0.0,1.0,1.0,1.0,0.0,0.0
+1,8,Compositio Prompto,1,6.0,1.0,1.0,0.0,,,,
+1,8,LLM-gen+EmerKit,1,8.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0
+1,9,Compositio Prompto,1,5.0,1.0,1.0,1.0,,,,
+1,9,LLM-gen+EmerKit,1,8.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0
+1,10,Compositio Prompto,1,6.0,1.0,1.0,1.0,,,,
+1,10,LLM-gen+EmerKit,0,,,,,,,,
+1,11,Compositio Prompto,1,6.0,1.0,1.0,0.0,,,,
+1,11,LLM-gen+EmerKit,1,8.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0
+1,12,Compositio Prompto,1,6.0,1.0,1.0,0.0,,,,
+1,12,LLM-gen+EmerKit,0,,,,,,,,
+1,13,Compositio Prompto,1,6.0,1.0,1.0,0.0,,,,
+1,13,LLM-gen+EmerKit,1,8.0,0.75,0.0,1.0,1.0,1.0,0.0,0.0
+1,14,Compositio Prompto,1,5.0,1.0,1.0,1.0,,,,
+1,14,LLM-gen+EmerKit,1,8.0,0.625,0.0,1.0,1.0,1.0,0.0,0.0
+1,15,Compositio Prompto,1,7.0,1.0,1.0,1.0,,,,
+1,15,LLM-gen+EmerKit,1,8.0,0.625,0.0,1.0,1.0,1.0,0.0,0.0
+1,16,Compositio Prompto,1,5.0,1.0,1.0,1.0,,,,
+1,16,LLM-gen+EmerKit,1,8.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0
+1,17,Compositio Prompto,1,6.0,1.0,1.0,0.0,,,,
+1,17,LLM-gen+EmerKit,1,7.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0
+1,18,Compositio Prompto,1,5.0,1.0,1.0,1.0,,,,
+1,18,LLM-gen+EmerKit,1,7.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0
+1,19,Compositio Prompto,1,6.0,1.0,1.0,1.0,,,,
+1,19,LLM-gen+EmerKit,0,,,,,,,,
+1,20,Compositio Prompto,1,5.0,1.0,1.0,0.0,,,,
+1,20,LLM-gen+EmerKit,1,8.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0
+1,21,Compositio Prompto,1,7.0,1.0,1.0,1.0,,,,
+1,21,LLM-gen+EmerKit,1,8.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0
+1,22,Compositio Prompto,1,6.0,1.0,1.0,1.0,,,,
+1,22,LLM-gen+EmerKit,0,,,,,,,,
+1,23,Compositio Prompto,1,6.0,1.0,1.0,1.0,,,,
+1,23,LLM-gen+EmerKit,1,9.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0

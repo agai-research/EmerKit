@@ -1,0 +1,8063 @@
+{
+ "servers": {
+  "ins-atlas-0": {
+   "name": "ins-atlas-0",
+   "role": "INS",
+   "avail": 0.9031239376514663,
+   "preamble": 220,
+   "synthetic": true
+  },
+  "ins-quanta-1": {
+   "name": "ins-quanta-1",
+   "role": "INS",
+   "avail": 0.9283999226800934,
+   "preamble": 67,
+   "synthetic": true
+  },
+  "ins-pixel-2": {
+   "name": "ins-pixel-2",
+   "role": "INS",
+   "avail": 0.9748153371320223,
+   "preamble": 213,
+   "synthetic": true
+  },
+  "ins-sable-3": {
+   "name": "ins-sable-3",
+   "role": "INS",
+   "avail": 0.9564826706718437,
+   "preamble": 114,
+   "synthetic": true
+  },
+  "ins-cobalt-4": {
+   "name": "ins-cobalt-4",
+   "role": "INS",
+   "avail": 0.9321442020733182,
+   "preamble": 148,
+   "synthetic": true
+  },
+  "ins-maple-5": {
+   "name": "ins-maple-5",
+   "role": "INS",
+   "avail": 0.9183785473108574,
+   "preamble": 222,
+   "synthetic": true
+  },
+  "ins-fable-6": {
+   "name": "ins-fable-6",
+   "role": "INS",
+   "avail": 0.9098442293240118,
+   "preamble": 238,
+   "synthetic": true
+  },
+  "ins-nova-7": {
+   "name": "ins-nova-7",
+   "role": "INS",
+   "avail": 0.9242887493729088,
+   "preamble": 89,
+   "synthetic": true
+  },
+  "ins-sable-8": {
+   "name": "ins-sable-8",
+   "role": "INS",
+   "avail": 0.9006820966528637,
+   "preamble": 76,
+   "synthetic": true
+  },
+  "pro-aurora-9": {
+   "name": "pro-aurora-9",
+   "role": "PRO",
+   "avail": 0.9964705378874805,
+   "preamble": 80,
+   "synthetic": true
+  },
+  "pro-quanta-10": {
+   "name": "pro-quanta-10",
+   "role": "PRO",
+   "avail": 0.9708823415540269,
+   "preamble": 169,
+   "synthetic": true
+  },
+  "pro-nova-11": {
+   "name": "pro-nova-11",
+   "role": "PRO",
+   "avail": 0.9137886882382551,
+   "preamble": 44,
+   "synthetic": true
+  },
+  "pro-atlas-12": {
+   "name": "pro-atlas-12",
+   "role": "PRO",
+   "avail": 0.9284987933757924,
+   "preamble": 171,
+   "synthetic": true
+  },
+  "pro-maple-13": {
+   "name": "pro-maple-13",
+   "role": "PRO",
+   "avail": 0.9329013681992926,
+   "preamble": 87,
+   "synthetic": true
+  },
+  "pro-fable-14": {
+   "name": "pro-fable-14",
+   "role": "PRO",
+   "avail": 0.9850100266183807,
+   "preamble": 199,
+   "synthetic": true
+  },
+  "pro-cedar-15": {
+   "name": "pro-cedar-15",
+   "role": "PRO",
+   "avail": 0.9826273155100451,
+   "preamble": 35,
+   "synthetic": true
+  },
+  "pro-lumen-16": {
+   "name": "pro-lumen-16",
+   "role": "PRO",
+   "avail": 0.9965548895441653,
+   "preamble": 148,
+   "synthetic": true
+  },
+  "pro-sable-17": {
+   "name": "pro-sable-17",
+   "role": "PRO",
+   "avail": 0.9427700964580763,
+   "preamble": 97,
+   "synthetic": true
+  },
+  "pro-maple-18": {
+   "name": "pro-maple-18",
+   "role": "PRO",
+   "avail": 0.9861108927668443,
+   "preamble": 109,
+   "synthetic": true
+  },
+  "ext-vertex-19": {
+   "name": "ext-vertex-19",
+   "role": "EXT",
+   "avail": 0.9303135041994526,
+   "preamble": 167,
+   "synthetic": true
+  },
+  "ext-sable-20": {
+   "name": "ext-sable-20",
+   "role": "EXT",
+   "avail": 0.9231239357736621,
+   "preamble": 38,
+   "synthetic": true
+  },
+  "ext-maple-21": {
+   "name": "ext-maple-21",
+   "role": "EXT",
+   "avail": 0.9017930979428911,
+   "preamble": 208,
+   "synthetic": true
+  },
+  "ext-kite-22": {
+   "name": "ext-kite-22",
+   "role": "EXT",
+   "avail": 0.9548337044104375,
+   "preamble": 133,
+   "synthetic": true
+  },
+  "ext-orbit-23": {
+   "name": "ext-orbit-23",
+   "role": "EXT",
+   "avail": 0.9219618255049912,
+   "preamble": 222,
+   "synthetic": true
+  },
+  "ext-kite-24": {
+   "name": "ext-kite-24",
+   "role": "EXT",
+   "avail": 0.9467897675728938,
+   "preamble": 144,
+   "synthetic": true
+  },
+  "ext-cobalt-25": {
+   "name": "ext-cobalt-25",
+   "role": "EXT",
+   "avail": 0.9703687080334757,
+   "preamble": 169,
+   "synthetic": true
+  },
+  "ext-zenith-26": {
+   "name": "ext-zenith-26",
+   "role": "EXT",
+   "avail": 0.9352794809484893,
+   "preamble": 47,
+   "synthetic": true
+  },
+  "ext-quanta-27": {
+   "name": "ext-quanta-27",
+   "role": "EXT",
+   "avail": 0.9459332118671698,
+   "preamble": 77,
+   "synthetic": true
+  },
+  "ext-pixel-28": {
+   "name": "ext-pixel-28",
+   "role": "EXT",
+   "avail": 0.9970834934795423,
+   "preamble": 177,
+   "synthetic": true
+  },
+  "ext-orbit-29": {
+   "name": "ext-orbit-29",
+   "role": "EXT",
+   "avail": 0.9940383680429961,
+   "preamble": 32,
+   "synthetic": true
+  },
+  "pub-delta-30": {
+   "name": "pub-delta-30",
+   "role": "PUB",
+   "avail": 0.9833312775182836,
+   "preamble": 81,
+   "synthetic": true
+  },
+  "pub-fable-31": {
+   "name": "pub-fable-31",
+   "role": "PUB",
+   "avail": 0.955392849374719,
+   "preamble": 31,
+   "synthetic": true
+  },
+  "pub-delta-32": {
+   "name": "pub-delta-32",
+   "role": "PUB",
+   "avail": 0.9648158756420314,
+   "preamble": 229,
+   "synthetic": true
+  }
+ },
+ "tools": [
+  {
+   "id": "s0",
+   "name": "cobalt_explain_concept",
+   "role": "INS",
+   "desc": "Tool that can explain a concept with worked cases and analogies for learners. Provided by Cobalt.",
+   "params": [
+    "answer",
+    "level"
+   ],
+   "true_caps": [
+    "explain_concept"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 351.7090379501454,
+   "price": 0.0,
+   "rel": 0.8896486090589254,
+   "cost": 65,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-maple-5"
+  },
+  {
+   "id": "s1",
+   "name": "sable_explain_notion",
+   "role": "EXT",
+   "desc": "Lets the assistant explain a notion with worked examples and analogies. Provided by Sable.",
+   "params": [
+    "payload"
+   ],
+   "true_caps": [
+    "explain_concept"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 253.49214595525672,
+   "price": 0.005098869655687766,
+   "rel": 0.9612647756320496,
+   "cost": 56,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-orbit-23"
+  },
+  {
+   "id": "s2",
+   "name": "kite_walk_through_idea",
+   "role": "PRO",
+   "desc": "Service to explain a idea with worked examples and analogies quickly. Provided by Kite.",
+   "params": [
+    "query"
+   ],
+   "true_caps": [
+    "explain_concept"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 597.2719476314627,
+   "price": 0.0037529534529201396,
+   "rel": 0.8504609227480955,
+   "cost": 55,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-fable-14"
+  },
+  {
+   "id": "s3",
+   "name": "granite_walk_through_notion",
+   "role": "INS",
+   "desc": "Tool that can explain a concept with worked samples and analogies for learners. Provided by Granite.",
+   "params": [
+    "preferences",
+    "text"
+   ],
+   "true_caps": [
+    "explain_concept"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 161.34091138899538,
+   "price": 0.0,
+   "rel": 0.901290281529598,
+   "cost": 68,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-fable-6"
+  },
+  {
+   "id": "s4",
+   "name": "aurora_explain_concept",
+   "role": "PRO",
+   "desc": "Tool that can clarify a concept with worked samples and analogies for learners. Provided by Aurora.",
+   "params": [
+    "answer",
+    "level"
+   ],
+   "true_caps": [
+    "explain_concept"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 278.65065136021843,
+   "price": 0.0004927665112575093,
+   "rel": 0.8949962465876357,
+   "cost": 66,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-nova-11"
+  },
+  {
+   "id": "s5",
+   "name": "atlas_walk_through_idea",
+   "role": "PRO",
+   "desc": "Walk through a idea with worked examples and analogies with configurable options. Provided by Atlas. Sends the input to an external API for processing.",
+   "params": [
+    "query"
+   ],
+   "true_caps": [
+    "explain_concept"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "lat": 239.56727649659084,
+   "price": 0.0033365532916010136,
+   "rel": 0.9563972191921124,
+   "cost": 71,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-atlas-12"
+  },
+  {
+   "id": "s6",
+   "name": "nova_clarify_notion",
+   "role": "EXT",
+   "desc": "Lets the assistant explain a idea with worked samples and analogies.",
+   "params": [
+    "content",
+    "preferences"
+   ],
+   "true_caps": [
+    "explain_concept"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 1,
+    "out": 1
+   },
+   "lat": 476.12845653404383,
+   "price": 0.0026440126987018675,
+   "rel": 0.9546525029854042,
+   "cost": 59,
+   "synthetic": true,
+   "dup": 1,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-cobalt-25"
+  },
+  {
+   "id": "s7",
+   "name": "delta_walk_through_notion",
+   "role": "INS",
+   "desc": "Lets the assistant explain a idea with worked samples and analogies. Simple.",
+   "params": [
+    "content",
+    "level"
+   ],
+   "true_caps": [
+    "explain_concept"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 435.2012422535235,
+   "price": 0.0,
+   "rel": 0.9377994626920549,
+   "cost": 61,
+   "synthetic": true,
+   "dup": 1,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-sable-3"
+  },
+  {
+   "id": "s8",
+   "name": "nova_retrieve_courseware",
+   "role": "INS",
+   "desc": "Service to retrieve the class unit and reading material for a topic quickly. Provided by Nova.",
+   "params": [
+    "payload"
+   ],
+   "true_caps": [
+    "retrieve_courseware"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 127.16779580655046,
+   "price": 0.0,
+   "rel": 0.8742031183384861,
+   "cost": 58,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-nova-7"
+  },
+  {
+   "id": "s9",
+   "name": "harbor_retrieve_courseware",
+   "role": "INS",
+   "desc": "Service to retrieve the class lesson and reading material for a topic quickly. Provided by Harbor.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "retrieve_courseware"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 317.85666566208477,
+   "price": 0.0,
+   "rel": 0.9665721917862671,
+   "cost": 59,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-maple-5"
+  },
+  {
+   "id": "s10",
+   "name": "ember_retrieve_courseware",
+   "role": "INS",
+   "desc": "Lets the assistant get the module chapter and reading material for a topic. Provided by Ember.",
+   "params": [
+    "user_id"
+   ],
+   "true_caps": [
+    "retrieve_courseware"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 388.41830648003287,
+   "price": 0.0,
+   "rel": 0.8544181539436848,
+   "cost": 58,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-nova-7"
+  },
+  {
+   "id": "s11",
+   "name": "zenith_retrieve_courseware",
+   "role": "INS",
+   "desc": "Lets the assistant retrieve the class lesson and reading material for a topic. Provided by Zenith.",
+   "params": [
+    "learner_id"
+   ],
+   "true_caps": [
+    "retrieve_courseware"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 849.0539523666808,
+   "price": 0.0,
+   "rel": 0.9552697586750456,
+   "cost": 60,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-cobalt-4"
+  },
+  {
+   "id": "s12",
+   "name": "atlas_web_look_up",
+   "role": "PUB",
+   "desc": "Search the public web for pages about a query. Provided by Atlas.",
+   "params": [
+    "payload",
+    "webhook"
+   ],
+   "true_caps": [
+    "web_search"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "search",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "lat": 213.08228727111512,
+   "price": 0.0008554612732749645,
+   "rel": 0.879708307780487,
+   "cost": 56,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pub-delta-30"
+  },
+  {
+   "id": "s13",
+   "name": "granite_web_look_up",
+   "role": "EXT",
+   "desc": "Service to query the public web for pages about a query quickly. Provided by Granite.",
+   "params": [
+    "payload"
+   ],
+   "true_caps": [
+    "web_search"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "search",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": null
+   },
+   "lat": 241.50637777590086,
+   "price": 0.00498269474213464,
+   "rel": 0.8621266073614446,
+   "cost": 54,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-sable-20"
+  },
+  {
+   "id": "s14",
+   "name": "cedar_web_search",
+   "role": "EXT",
+   "desc": "Query the public web for pages about a query. Provided by Cedar.",
+   "params": [
+    "prompt",
+    "webhook"
+   ],
+   "true_caps": [
+    "web_search"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "search",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "lat": 50.0,
+   "price": 0.009461725080549922,
+   "rel": 0.8703366278379459,
+   "cost": 56,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-orbit-23"
+  },
+  {
+   "id": "s15",
+   "name": "orbit_web_query",
+   "role": "PUB",
+   "desc": "Helps students: look up the public web for pages about a query. Provided by Orbit. Sends the input to an external API for processing.",
+   "params": [
+    "callback_url",
+    "query"
+   ],
+   "true_caps": [
+    "web_search"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "search",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "lat": 98.09800721749238,
+   "price": 0.0018907932340857733,
+   "rel": 0.8770123972500065,
+   "cost": 74,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pub-fable-31"
+  },
+  {
+   "id": "s16",
+   "name": "cobalt_web_query",
+   "role": "PUB",
+   "desc": "Lets the assistant search the public web for pages about a query. Provided by Cobalt. Uploads data to our servers.",
+   "params": [
+    "callback_url",
+    "payload"
+   ],
+   "true_caps": [
+    "web_search"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "search",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 2000.0,
+   "price": 0.0002749712720727404,
+   "rel": 0.8549294061544463,
+   "cost": 70,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pub-delta-32"
+  },
+  {
+   "id": "s17",
+   "name": "tidal_web_query",
+   "role": "PRO",
+   "desc": "Service to search the public web for pages about a query quickly. Provided by Tidal.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "web_search"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "search",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "lat": 53.156132891389944,
+   "price": 0.000527745867265244,
+   "rel": 0.9412098155166642,
+   "cost": 53,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-lumen-16"
+  },
+  {
+   "id": "s18",
+   "name": "tidal_video_lookup",
+   "role": "PUB",
+   "desc": "Use this tool to find educational videos and lectures about a topic. Provided by Tidal.",
+   "params": [
+    "query"
+   ],
+   "true_caps": [
+    "video_lookup"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 334.1890970952924,
+   "price": 0.00019506743995140763,
+   "rel": 0.8977004531182043,
+   "cost": 54,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pub-fable-31"
+  },
+  {
+   "id": "s19",
+   "name": "sable_video_lookup",
+   "role": "PRO",
+   "desc": "Service to discover educational videos and lectures about a topic quickly. Provided by Sable.",
+   "params": [
+    "code"
+   ],
+   "true_caps": [
+    "video_lookup"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "lat": 199.58684555616043,
+   "price": 0.0029619643654426155,
+   "rel": 0.9814325067018574,
+   "cost": 55,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-atlas-12"
+  },
+  {
+   "id": "s20",
+   "name": "atlas_video_lookup",
+   "role": "EXT",
+   "desc": "Use this tool to discover educational videos and lectures about a topic. Provided by Atlas. Shares content with partner services.",
+   "params": [
+    "prompt"
+   ],
+   "true_caps": [
+    "video_lookup"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 251.0100720589327,
+   "price": 0.0038111241168231505,
+   "rel": 0.9289563225176881,
+   "cost": 65,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-orbit-23"
+  },
+  {
+   "id": "s21",
+   "name": "zenith_video_lookup",
+   "role": "EXT",
+   "desc": "Service to locate educational clips and lectures about a topic quickly. Provided by Zenith.",
+   "params": [
+    "answer"
+   ],
+   "true_caps": [
+    "video_lookup"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 317.4013782291828,
+   "price": 0.005659657360434159,
+   "rel": 0.939929081298123,
+   "cost": 56,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-vertex-19"
+  },
+  {
+   "id": "s22",
+   "name": "tidal_video_lookup",
+   "role": "EXT",
+   "desc": "Helps students: find educational clips and lectures about a topic. Provided by Tidal.",
+   "params": [
+    "payload"
+   ],
+   "true_caps": [
+    "video_lookup"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 130.9880976576015,
+   "price": 0.004707105619885151,
+   "rel": 0.862124410277373,
+   "cost": 54,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-pixel-28"
+  },
+  {
+   "id": "s23",
+   "name": "delta_video_lookup",
+   "role": "PUB",
+   "desc": "Find educational clips and lectures about a topic with configurable options. Provided by Delta. Results are synced to the vendor cloud.",
+   "params": [
+    "content",
+    "recipient_email"
+   ],
+   "true_caps": [
+    "video_lookup"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 468.42397739385456,
+   "price": 0.0015146211149729926,
+   "rel": 0.9325504042528109,
+   "cost": 76,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pub-delta-32"
+  },
+  {
+   "id": "s24",
+   "name": "fable_generate_quiz",
+   "role": "EXT",
+   "desc": "Tool that can produce test items and multiple choice items on a topic and evaluate quiz replies and return the result of the user for learners. Provided by Fable.",
+   "params": [
+    "prompt"
+   ],
+   "true_caps": [
+    "generate_quiz",
+    "grade_answers"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "quiz",
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 151.94163228941716,
+   "price": 0.008033556507147837,
+   "rel": 0.9888230317777222,
+   "cost": 73,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-sable-20"
+  },
+  {
+   "id": "s25",
+   "name": "granite_generate_quiz",
+   "role": "INS",
+   "desc": "Service to generate quiz questions and multiple choice items on a topic quickly. Provided by Granite. Results are synced to the vendor cloud.",
+   "params": [
+    "answer",
+    "preferences"
+   ],
+   "true_caps": [
+    "generate_quiz"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [
+    "quiz"
+   ],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 1601.1231715408915,
+   "price": 0.0,
+   "rel": 0.9482246983377867,
+   "cost": 77,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-cobalt-4"
+  },
+  {
+   "id": "s26",
+   "name": "sable_create_assessment",
+   "role": "INS",
+   "desc": "Generate test items and multiple choice items on a topic. Provided by Sable.",
+   "params": [
+    "content",
+    "preferences"
+   ],
+   "true_caps": [
+    "generate_quiz"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [
+    "quiz"
+   ],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 377.5819415531243,
+   "price": 0.0,
+   "rel": 0.9736031829869386,
+   "cost": 62,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-cobalt-4"
+  },
+  {
+   "id": "s27",
+   "name": "nova_generate_quiz",
+   "role": "EXT",
+   "desc": "Generate assessment questions and multiple choice items on a topic with configurable options. Provided by Nova.",
+   "params": [
+    "level",
+    "text"
+   ],
+   "true_caps": [
+    "generate_quiz"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [
+    "quiz"
+   ],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 668.2725134341731,
+   "price": 0.006072522276325951,
+   "rel": 0.9290759998021281,
+   "cost": 67,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-zenith-26"
+  },
+  {
+   "id": "s28",
+   "name": "pixel_produce_test",
+   "role": "EXT",
+   "desc": "Lets the assistant generate quiz questions and multiple choice items on a topic and evaluate assessment answers and return the result of the student. Provided by Pixel.",
+   "params": [
+    "payload"
+   ],
+   "true_caps": [
+    "generate_quiz",
+    "grade_answers"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "quiz",
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 50.0,
+   "price": 0.0009589401297283628,
+   "rel": 0.9460221171841683,
+   "cost": 75,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-kite-22"
+  },
+  {
+   "id": "s29",
+   "name": "maple_grade_answers",
+   "role": "EXT",
+   "desc": "Grade quiz replies and return the score of the student. Provided by Maple. Returns the score obtained.",
+   "params": [
+    "text",
+    "user_id"
+   ],
+   "true_caps": [
+    "grade_answers"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 1,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 609.9571413415941,
+   "price": 0.005339023720931161,
+   "rel": 0.9423848303309251,
+   "cost": 66,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-quanta-27"
+  },
+  {
+   "id": "s30",
+   "name": "ember_grade_answers",
+   "role": "EXT",
+   "desc": "Grade assessment answers and return the score of the student with configurable options. Provided by Ember.",
+   "params": [
+    "answer",
+    "student_id"
+   ],
+   "true_caps": [
+    "grade_answers"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 1,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 141.6933364271707,
+   "price": 0.009043591765947746,
+   "rel": 0.9222260784029523,
+   "cost": 68,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-vertex-19"
+  },
+  {
+   "id": "s31",
+   "name": "nova_mark_responses",
+   "role": "PRO",
+   "desc": "Tool that can evaluate quiz answers and return the score of the learner for learners. Provided by Nova. Returns the score obtained.",
+   "params": [
+    "content",
+    "student_id"
+   ],
+   "true_caps": [
+    "grade_answers"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 329.5722024835078,
+   "price": 0.0006892318760287712,
+   "rel": 0.9391866609940677,
+   "cost": 74,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-maple-18"
+  },
+  {
+   "id": "s32",
+   "name": "delta_grade_replies",
+   "role": "EXT",
+   "desc": "Use this tool to mark quiz replies and return the score of the learner. Provided by Delta.",
+   "params": [
+    "code",
+    "student_id"
+   ],
+   "true_caps": [
+    "grade_answers"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "lat": 327.51852753051554,
+   "price": 0.007895252627542997,
+   "rel": 0.9270274049486429,
+   "cost": 63,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-maple-21"
+  },
+  {
+   "id": "s33",
+   "name": "orbit_grade_answers",
+   "role": "EXT",
+   "desc": "Lets the assistant grade assessment replies and return the score of the student. Provided by Orbit.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "grade_answers"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 1,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 426.5895718204888,
+   "price": 0.0033548153814811988,
+   "rel": 0.8553051622950689,
+   "cost": 58,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-quanta-27"
+  },
+  {
+   "id": "s34",
+   "name": "orbit_mark_replies",
+   "role": "EXT",
+   "desc": "Mark assessment replies and return the result of the learner.",
+   "params": [
+    "text",
+    "user_id"
+   ],
+   "true_caps": [
+    "grade_answers"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 212.32109450284614,
+   "price": 0.0008475413891924166,
+   "rel": 0.9982731090762604,
+   "cost": 55,
+   "synthetic": true,
+   "dup": 2,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-kite-24"
+  },
+  {
+   "id": "s35",
+   "name": "cobalt_evaluate_replies",
+   "role": "PRO",
+   "desc": "Mark assessment replies and return the result of the learner. Simple.",
+   "params": [
+    "answer",
+    "student_id"
+   ],
+   "true_caps": [
+    "grade_answers"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 1,
+    "src_PERF": 1,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 693.6754257500824,
+   "price": 0.00388528080370964,
+   "rel": 0.9574827878196821,
+   "cost": 60,
+   "synthetic": true,
+   "dup": 2,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-quanta-10"
+  },
+  {
+   "id": "s36",
+   "name": "cedar_record_mark",
+   "role": "PRO",
+   "desc": "Use this tool to write a grade into the module records and read the grades of the learner from the gradebook. Provided by Cedar. Returns the learner identifier. Returns the score obtained. Results are synced to the vendor cloud.",
+   "params": [
+    "grade",
+    "student_id"
+   ],
+   "true_caps": [
+    "read_gradebook",
+    "record_grade"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID",
+    "PERF"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 1,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 501.4546140816903,
+   "price": 0.003062383422774722,
+   "rel": 0.8936238330077129,
+   "cost": 98,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-fable-14"
+  },
+  {
+   "id": "s37",
+   "name": "kite_record_evaluate",
+   "role": "PRO",
+   "desc": "Service to write a grade into the course gradebook quickly. Provided by Kite.",
+   "params": [
+    "learner_id",
+    "score"
+   ],
+   "true_caps": [
+    "record_grade"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID",
+    "PERF"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 126.45322507397732,
+   "price": 0.002725309190794315,
+   "rel": 0.8922427565242519,
+   "cost": 60,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-atlas-12"
+  },
+  {
+   "id": "s38",
+   "name": "nova_record_mark",
+   "role": "INS",
+   "desc": "Write a grade into the course gradebook. Provided by Nova.",
+   "params": [
+    "score",
+    "student_id"
+   ],
+   "true_caps": [
+    "record_grade"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID",
+    "PERF"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 707.3662347644712,
+   "price": 0.0,
+   "rel": 0.8614287973371615,
+   "cost": 55,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-cobalt-4"
+  },
+  {
+   "id": "s39",
+   "name": "fable_record_mark",
+   "role": "PRO",
+   "desc": "Write a grade into the course grade register with configurable options. Provided by Fable.",
+   "params": [
+    "grade",
+    "student_id"
+   ],
+   "true_caps": [
+    "record_grade"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID",
+    "PERF"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 267.03798551405407,
+   "price": 0.0031619260167154526,
+   "rel": 0.9022101672271775,
+   "cost": 63,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-sable-17"
+  },
+  {
+   "id": "s40",
+   "name": "delta_record_mark",
+   "role": "INS",
+   "desc": "Use this tool to write a mark into the module gradebook and load the grades of the user from the gradebook. Provided by Delta.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "read_gradebook",
+    "record_grade"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 137.7283323097036,
+   "price": 0.0,
+   "rel": 0.8875891661849963,
+   "cost": 64,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-sable-8"
+  },
+  {
+   "id": "s41",
+   "name": "granite_record_evaluate",
+   "role": "PRO",
+   "desc": "Lets the assistant write a evaluate into the class gradebook. Provided by Granite.",
+   "params": [
+    "query"
+   ],
+   "true_caps": [
+    "record_grade"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 350.28082230365635,
+   "price": 0.0004228514758994861,
+   "rel": 0.9911264926066976,
+   "cost": 54,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-aurora-9"
+  },
+  {
+   "id": "s42",
+   "name": "vertex_load_grade_register",
+   "role": "EXT",
+   "desc": "Tool that can access the grades of the user from the grade register for learners. Provided by Vertex. Returns the learner identifier.",
+   "params": [
+    "learner_id",
+    "recipient_email"
+   ],
+   "true_caps": [
+    "read_gradebook"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 106.45833368300643,
+   "price": 0.009636971176556668,
+   "rel": 0.9390620125696649,
+   "cost": 78,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-orbit-29"
+  },
+  {
+   "id": "s43",
+   "name": "lumen_access_records",
+   "role": "INS",
+   "desc": "Helps students: read the grades of the learner from the grade register. Provided by Lumen. Returns the score obtained. Uploads data to our servers.",
+   "params": [
+    "learner_id"
+   ],
+   "true_caps": [
+    "read_gradebook"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 299.17917120388904,
+   "price": 0.0,
+   "rel": 0.9237238568059816,
+   "cost": 71,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-maple-5"
+  },
+  {
+   "id": "s44",
+   "name": "zenith_access_records",
+   "role": "PRO",
+   "desc": "Lets the assistant load the grades of the user from the gradebook. Provided by Zenith. Returns the learner identifier.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "read_gradebook"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 154.24895846170145,
+   "price": 0.0023815475263234452,
+   "rel": 0.9012782768039351,
+   "cost": 63,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-fable-14"
+  },
+  {
+   "id": "s45",
+   "name": "quanta_read_gradebook",
+   "role": "INS",
+   "desc": "Lets the assistant access the grades of the learner from the gradebook. Provided by Quanta. Returns the learner identifier.",
+   "params": [
+    "student_id"
+   ],
+   "true_caps": [
+    "read_gradebook"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 351.6288822500214,
+   "price": 0.0,
+   "rel": 0.9874265790255901,
+   "cost": 65,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-pixel-2"
+  },
+  {
+   "id": "s46",
+   "name": "nova_read_gradebook",
+   "role": "EXT",
+   "desc": "Load the grades of the learner from the grade register. Provided by Nova. Returns the learner identifier. Returns the score obtained.",
+   "params": [
+    "learner_id"
+   ],
+   "true_caps": [
+    "read_gradebook"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 927.3441078676897,
+   "price": 0.0030027277033637736,
+   "rel": 0.8823507211330446,
+   "cost": 67,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-cobalt-25"
+  },
+  {
+   "id": "s47",
+   "name": "kite_read_profile",
+   "role": "EXT",
+   "desc": "Use this tool to access the user settings preferences and prior knowledge. Provided by Kite. Returns profile fields.",
+   "params": [
+    "user_id",
+    "webhook"
+   ],
+   "true_caps": [
+    "read_profile"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 1,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 324.08871792718656,
+   "price": 0.004556088771722929,
+   "rel": 0.8882473638393902,
+   "cost": 69,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-zenith-26"
+  },
+  {
+   "id": "s48",
+   "name": "aurora_load_settings",
+   "role": "PRO",
+   "desc": "Read the student profile preferences and prior knowledge. Provided by Aurora. Returns profile fields.",
+   "params": [
+    "learner_id"
+   ],
+   "true_caps": [
+    "read_profile"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 1,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "lat": 617.7506336217524,
+   "price": 0.0038717564613779563,
+   "rel": 0.8695529763280352,
+   "cost": 59,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-fable-14"
+  },
+  {
+   "id": "s49",
+   "name": "cobalt_read_profile",
+   "role": "PRO",
+   "desc": "Tool that can read the user profile preferences and prior knowledge for learners. Provided by Cobalt. Returns profile fields. Sends the input to an external API for processing.",
+   "params": [
+    "callback_url",
+    "prompt"
+   ],
+   "true_caps": [
+    "read_profile"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 1,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 638.6544637026453,
+   "price": 0.0012123738904441699,
+   "rel": 0.9750531554760876,
+   "cost": 86,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-cedar-15"
+  },
+  {
+   "id": "s50",
+   "name": "atlas_access_settings",
+   "role": "INS",
+   "desc": "Read the user account details preferences and prior knowledge with configurable options. Provided by Atlas.",
+   "params": [
+    "user_id"
+   ],
+   "true_caps": [
+    "read_profile"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 1,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 1054.9221268582737,
+   "price": 0.0,
+   "rel": 0.9151467046919913,
+   "cost": 60,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-sable-3"
+  },
+  {
+   "id": "s51",
+   "name": "orbit_load_settings",
+   "role": "INS",
+   "desc": "Helps students: access the user profile preferences and prior knowledge. Provided by Orbit. Returns the learner identifier.",
+   "params": [
+    "payload"
+   ],
+   "true_caps": [
+    "read_profile"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 1,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": 1,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 590.3071681358851,
+   "price": 0.0,
+   "rel": 0.882445723052162,
+   "cost": 64,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-fable-6"
+  },
+  {
+   "id": "s52",
+   "name": "delta_access_account_details",
+   "role": "INS",
+   "desc": "Lets the assistant load the user profile preferences and prior knowledge. Provided by Delta. Returns the learner identifier.",
+   "params": [
+    "learner_id"
+   ],
+   "true_caps": [
+    "read_profile"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 1,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 1965.3487950875212,
+   "price": 0.0,
+   "rel": 0.9987617163511324,
+   "cost": 67,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-sable-3"
+  },
+  {
+   "id": "s53",
+   "name": "read_profile",
+   "role": "INS",
+   "desc": "Read the learner settings preferences and prior knowledge. Returns the learner identifier. Returns profile fields.",
+   "params": [
+    "student_id"
+   ],
+   "true_caps": [
+    "read_profile"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 1,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 193.00780127398,
+   "price": 0.0,
+   "rel": 0.9584246162182628,
+   "cost": 60,
+   "synthetic": true,
+   "dup": 3,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-atlas-0"
+  },
+  {
+   "id": "s54",
+   "name": "read_profile",
+   "role": "PRO",
+   "desc": "Read the learner settings preferences and prior knowledge. Returns the learner identifier. Returns profile fields. Simple.",
+   "params": [
+    "callback_url",
+    "user_id"
+   ],
+   "true_caps": [
+    "read_profile"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 1,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": 1,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 322.58400418158607,
+   "price": 0.00393052299277442,
+   "rel": 0.9588504293557345,
+   "cost": 71,
+   "synthetic": true,
+   "dup": 3,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-fable-14"
+  },
+  {
+   "id": "s55",
+   "name": "quanta_give_hint",
+   "role": "INS",
+   "desc": "Service to give a hint for an exercise without revealing the full answer key quickly. Provided by Quanta.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "give_hint"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "lat": 1472.1224264602072,
+   "price": 0.0,
+   "rel": 0.9405073934504152,
+   "cost": 58,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-quanta-1"
+  },
+  {
+   "id": "s56",
+   "name": "quanta_give_hint",
+   "role": "INS",
+   "desc": "Helps students: give a hint for an exercise without revealing the full solution. Provided by Quanta.",
+   "params": [
+    "code"
+   ],
+   "true_caps": [
+    "give_hint"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 1167.8641015248545,
+   "price": 0.0,
+   "rel": 0.9208833237959984,
+   "cost": 56,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-sable-8"
+  },
+  {
+   "id": "s57",
+   "name": "tidal_give_hint",
+   "role": "PRO",
+   "desc": "Service to give a nudge for an exercise without revealing the full answer key quickly. Provided by Tidal. Sends the input to an external API for processing.",
+   "params": [
+    "prompt"
+   ],
+   "true_caps": [
+    "give_hint"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 149.45424058011994,
+   "price": 0.0018420356915968218,
+   "rel": 0.9599346986384318,
+   "cost": 71,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-aurora-9"
+  },
+  {
+   "id": "s58",
+   "name": "delta_give_nudge",
+   "role": "EXT",
+   "desc": "Service to give a nudge for an exercise without revealing the full solution quickly. Provided by Delta.",
+   "params": [
+    "query"
+   ],
+   "true_caps": [
+    "give_hint"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 486.16316966363377,
+   "price": 0.003754963810403004,
+   "rel": 0.8973764510142334,
+   "cost": 58,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-quanta-27"
+  },
+  {
+   "id": "s59",
+   "name": "tidal_give_hint",
+   "role": "EXT",
+   "desc": "Helps students: give a nudge for an exercise without revealing the full answer key. Provided by Tidal.",
+   "params": [
+    "text",
+    "webhook"
+   ],
+   "true_caps": [
+    "give_hint"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 313.4101943884235,
+   "price": 0.007637682025592019,
+   "rel": 0.8562383265185004,
+   "cost": 64,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-quanta-27"
+  },
+  {
+   "id": "s60",
+   "name": "maple_flashcards",
+   "role": "PRO",
+   "desc": "Service to create spaced repetition memory cards and track evaluations quickly. Provided by Maple.",
+   "params": [
+    "content",
+    "student_id"
+   ],
+   "true_caps": [
+    "flashcards"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 366.20542979623036,
+   "price": 0.002303907065818649,
+   "rel": 0.9168431677209813,
+   "cost": 65,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-maple-18"
+  },
+  {
+   "id": "s61",
+   "name": "cedar_flashcards",
+   "role": "EXT",
+   "desc": "Create spaced repetition memory cards and track evaluations with configurable options. Provided by Cedar. Shares content with partner services.",
+   "params": [
+    "answer",
+    "student_id"
+   ],
+   "true_caps": [
+    "flashcards"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 282.3457359881457,
+   "price": 0.002110702198934995,
+   "rel": 0.8604937777796065,
+   "cost": 76,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-pixel-28"
+  },
+  {
+   "id": "s62",
+   "name": "sable_flashcards",
+   "role": "INS",
+   "desc": "Helps students: create spaced repetition flashcards and track critiques. Provided by Sable.",
+   "params": [
+    "answer",
+    "user_id"
+   ],
+   "true_caps": [
+    "flashcards"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 1,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 400.5763244773355,
+   "price": 0.0,
+   "rel": 0.8985889275945107,
+   "cost": 62,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-atlas-0"
+  },
+  {
+   "id": "s63",
+   "name": "orbit_flashcards",
+   "role": "EXT",
+   "desc": "Tool that can create spaced repetition review cards and monitor critiques for learners. Provided by Orbit.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "flashcards"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "lat": 1461.6651683777227,
+   "price": 0.007694582962213955,
+   "rel": 0.9675585214481713,
+   "cost": 59,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-maple-21"
+  },
+  {
+   "id": "s64",
+   "name": "nova_board_publish",
+   "role": "INS",
+   "desc": "Use this tool to post a message to the course discussion board. Provided by Nova.",
+   "params": [
+    "query"
+   ],
+   "true_caps": [
+    "forum_post"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 182.582980154815,
+   "price": 0.0,
+   "rel": 0.9809194632400882,
+   "cost": 52,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-sable-8"
+  },
+  {
+   "id": "s65",
+   "name": "delta_board_write",
+   "role": "PRO",
+   "desc": "Service to write a message to the course discussion forum quickly. Provided by Delta.",
+   "params": [
+    "prompt",
+    "recipient_email"
+   ],
+   "true_caps": [
+    "forum_post"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 114.14394120573495,
+   "price": 0.003232468896905174,
+   "rel": 0.9469618045337331,
+   "cost": 63,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-maple-18"
+  },
+  {
+   "id": "s66",
+   "name": "granite_discussion_space_write",
+   "role": "PRO",
+   "desc": "Lets the assistant post a message to the course discussion forum. Provided by Granite.",
+   "params": [
+    "answer",
+    "learner_id"
+   ],
+   "true_caps": [
+    "forum_post"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 196.2151752173042,
+   "price": 6.822940314149095e-05,
+   "rel": 0.9611742426796687,
+   "cost": 66,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-nova-11"
+  },
+  {
+   "id": "s67",
+   "name": "harbor_forum_post",
+   "role": "INS",
+   "desc": "Publish a message to the class discussion forum with configurable options. Provided by Harbor.",
+   "params": [
+    "query"
+   ],
+   "true_caps": [
+    "forum_post"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 384.2308205111385,
+   "price": 0.0,
+   "rel": 0.9206657744493096,
+   "cost": 56,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-nova-7"
+  },
+  {
+   "id": "s68",
+   "name": "sable_peer_review",
+   "role": "INS",
+   "desc": "Service to assign and collect peer evaluations of submissions quickly. Provided by Sable. Returns the learner identifier.",
+   "params": [
+    "content",
+    "learner_id"
+   ],
+   "true_caps": [
+    "peer_review"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 925.747913757792,
+   "price": 0.0,
+   "rel": 0.8824003212867491,
+   "cost": 71,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-pixel-2"
+  },
+  {
+   "id": "s69",
+   "name": "aurora_peer_review",
+   "role": "INS",
+   "desc": "Tool that can assign and collect peer reviews of submissions for learners. Provided by Aurora.",
+   "params": [
+    "payload"
+   ],
+   "true_caps": [
+    "peer_review"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 546.5134926051252,
+   "price": 0.0,
+   "rel": 0.8729934961217226,
+   "cost": 56,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-maple-5"
+  },
+  {
+   "id": "s70",
+   "name": "ember_peer_review",
+   "role": "INS",
+   "desc": "Use this tool to assign and collect peer reviews of submissions. Provided by Ember.",
+   "params": [
+    "learner_id",
+    "text"
+   ],
+   "true_caps": [
+    "peer_review"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": null
+   },
+   "lat": 134.01765907298105,
+   "price": 0.0,
+   "rel": 0.9426115549477108,
+   "cost": 61,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-atlas-0"
+  },
+  {
+   "id": "s71",
+   "name": "nova_peer_review",
+   "role": "INS",
+   "desc": "Assign and collect peer reviews of submissions. Provided by Nova. Returns the full output text.",
+   "params": [
+    "text",
+    "user_id"
+   ],
+   "true_caps": [
+    "peer_review"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": null
+   },
+   "lat": 462.0610327455224,
+   "price": 0.0,
+   "rel": 0.890780512298838,
+   "cost": 63,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-sable-8"
+  },
+  {
+   "id": "s72",
+   "name": "cobalt_peer_review",
+   "role": "PRO",
+   "desc": "Assign and collect peer evaluations of submissions with configurable options. Provided by Cobalt. Returns the full output text.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "peer_review"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 646.2287083395515,
+   "price": 0.0030438359265900403,
+   "rel": 0.9478345693828324,
+   "cost": 64,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-atlas-12"
+  },
+  {
+   "id": "s73",
+   "name": "sable_peer_review",
+   "role": "INS",
+   "desc": "Assign and collect peer reviews of submissions. Provided by Sable. Returns the learner identifier.",
+   "params": [
+    "learner_id",
+    "text"
+   ],
+   "true_caps": [
+    "peer_review"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 122.21516602997389,
+   "price": 0.0,
+   "rel": 0.9728097480900747,
+   "cost": 65,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-cobalt-4"
+  },
+  {
+   "id": "s74",
+   "name": "peer_review",
+   "role": "INS",
+   "desc": "Use this tool to assign and collect peer reviews of submissions.",
+   "params": [
+    "code",
+    "user_id"
+   ],
+   "true_caps": [
+    "peer_review"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "lat": 163.34469959022414,
+   "price": 0.0,
+   "rel": 0.9499102094857987,
+   "cost": 54,
+   "synthetic": true,
+   "dup": 4,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-atlas-0"
+  },
+  {
+   "id": "s75",
+   "name": "peer_review",
+   "role": "INS",
+   "desc": "Use this tool to assign and collect peer reviews of submissions. Simple.",
+   "params": [
+    "content",
+    "user_id"
+   ],
+   "true_caps": [
+    "peer_review"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 151.76449898719054,
+   "price": 0.0,
+   "rel": 0.969703769027211,
+   "cost": 57,
+   "synthetic": true,
+   "dup": 4,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-sable-3"
+  },
+  {
+   "id": "s76",
+   "name": "ember_originality_check",
+   "role": "EXT",
+   "desc": "Helps students: check a upload for copying and similarity. Provided by Ember.",
+   "params": [
+    "payload"
+   ],
+   "true_caps": [
+    "plagiarism_check"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 110.93342665107795,
+   "price": 0.006752553326896599,
+   "rel": 0.8980096495103582,
+   "cost": 53,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-kite-22"
+  },
+  {
+   "id": "s77",
+   "name": "orbit_plagiarism_check",
+   "role": "PRO",
+   "desc": "Lets the assistant check a submission for plagiarism and similarity. Provided by Orbit.",
+   "params": [
+    "code",
+    "student_id"
+   ],
+   "true_caps": [
+    "plagiarism_check"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 334.3697050119394,
+   "price": 0.0026423155939182584,
+   "rel": 0.8643534726934632,
+   "cost": 63,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-lumen-16"
+  },
+  {
+   "id": "s78",
+   "name": "pixel_plagiarism_check",
+   "role": "PRO",
+   "desc": "Service to check a submission for copying and similarity quickly. Provided by Pixel.",
+   "params": [
+    "prompt"
+   ],
+   "true_caps": [
+    "plagiarism_check"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 668.3462029056651,
+   "price": 0.0001770086109618938,
+   "rel": 0.9545772535633399,
+   "cost": 54,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-maple-13"
+  },
+  {
+   "id": "s79",
+   "name": "kite_copying_check",
+   "role": "EXT",
+   "desc": "Lets the assistant check a submission for copying and similarity. Provided by Kite.",
+   "params": [
+    "content",
+    "user_id"
+   ],
+   "true_caps": [
+    "plagiarism_check"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 386.83218363241775,
+   "price": 0.009592099740572102,
+   "rel": 0.9792324251534352,
+   "cost": 61,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-quanta-27"
+  },
+  {
+   "id": "s80",
+   "name": "harbor_hand_in_homework",
+   "role": "INS",
+   "desc": "Use this tool to hand in an coursework file to the learning management system. Provided by Harbor.",
+   "params": [
+    "code",
+    "learner_id"
+   ],
+   "true_caps": [
+    "submit_assignment"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "lat": 265.477715312627,
+   "price": 0.0,
+   "rel": 0.9767131875236168,
+   "cost": 66,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-sable-8"
+  },
+  {
+   "id": "s81",
+   "name": "kite_hand_in_assignment",
+   "role": "INS",
+   "desc": "Helps students: hand in an homework file to the learning management system and check a upload for copying and similarity. Provided by Kite.",
+   "params": [
+    "learner_id",
+    "text"
+   ],
+   "true_caps": [
+    "plagiarism_check",
+    "submit_assignment"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 480.9642329067399,
+   "price": 0.0,
+   "rel": 0.9767211394172262,
+   "cost": 76,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-cobalt-4"
+  },
+  {
+   "id": "s82",
+   "name": "tidal_hand_in_coursework",
+   "role": "INS",
+   "desc": "Tool that can submit an assignment file to the learning management system for learners. Provided by Tidal.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "submit_assignment"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 354.0845567283688,
+   "price": 0.0,
+   "rel": 0.9627211257734907,
+   "cost": 61,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-quanta-1"
+  },
+  {
+   "id": "s83",
+   "name": "ember_submit_assignment",
+   "role": "EXT",
+   "desc": "Service to deliver an homework file to the learning management system quickly. Provided by Ember.",
+   "params": [
+    "code",
+    "student_id"
+   ],
+   "true_caps": [
+    "submit_assignment"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 250.2873569715151,
+   "price": 0.00576782852688806,
+   "rel": 0.8548609680104123,
+   "cost": 66,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-kite-22"
+  },
+  {
+   "id": "s84",
+   "name": "cobalt_notify_instructor",
+   "role": "EXT",
+   "desc": "Service to inform the instructor by message about the student quickly. Provided by Cobalt.",
+   "params": [
+    "query"
+   ],
+   "true_caps": [
+    "notify_instructor"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 57.445388857843426,
+   "price": 0.006726910513254071,
+   "rel": 0.8659565496310613,
+   "cost": 56,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-cobalt-25"
+  },
+  {
+   "id": "s85",
+   "name": "nova_alert_teacher",
+   "role": "EXT",
+   "desc": "Notify the instructor by message about the learner. Provided by Nova.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "notify_instructor"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 154.75156725679088,
+   "price": 0.0020902518091579303,
+   "rel": 0.9772593517089739,
+   "cost": 50,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-zenith-26"
+  },
+  {
+   "id": "s86",
+   "name": "harbor_alert_tutor",
+   "role": "EXT",
+   "desc": "Tool that can notify the teacher by message about the student for learners. Provided by Harbor.",
+   "params": [
+    "prompt",
+    "webhook"
+   ],
+   "true_caps": [
+    "notify_instructor"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 158.94027695543673,
+   "price": 0.007517645348160143,
+   "rel": 0.9492768186777053,
+   "cost": 64,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-cobalt-25"
+  },
+  {
+   "id": "s87",
+   "name": "vertex_alert_teacher",
+   "role": "INS",
+   "desc": "Notify the instructor by message about the learner. Provided by Vertex.",
+   "params": [
+    "payload"
+   ],
+   "true_caps": [
+    "notify_instructor"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 108.84879003124881,
+   "price": 0.0,
+   "rel": 0.8818703631303135,
+   "cost": 51,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-atlas-0"
+  },
+  {
+   "id": "s88",
+   "name": "zenith_notify_instructor",
+   "role": "PRO",
+   "desc": "Tool that can alert the instructor by message about the student for learners. Provided by Zenith.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "notify_instructor"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "record",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 204.26279121282295,
+   "price": 0.0013756845238987556,
+   "rel": 0.9036787877298575,
+   "cost": 58,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-quanta-10"
+  },
+  {
+   "id": "s89",
+   "name": "orbit_learning_analytics",
+   "role": "INS",
+   "desc": "Use this tool to log student usage time on task and engagement. Provided by Orbit. Includes the activity history. Returns the learner identifier.",
+   "params": [
+    "learner_id"
+   ],
+   "true_caps": [
+    "learning_analytics"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 1,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 458.70260121255194,
+   "price": 0.0,
+   "rel": 0.9581737183584946,
+   "cost": 71,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-quanta-1"
+  },
+  {
+   "id": "s90",
+   "name": "quanta_learning_analytics",
+   "role": "INS",
+   "desc": "Helps students: log student activity time on task and engagement. Provided by Quanta. Returns the learner identifier.",
+   "params": [
+    "student_id"
+   ],
+   "true_caps": [
+    "learning_analytics"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 603.5117042155698,
+   "price": 0.0,
+   "rel": 0.9847571170983865,
+   "cost": 64,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-nova-7"
+  },
+  {
+   "id": "s91",
+   "name": "tidal_learning_analytics",
+   "role": "PRO",
+   "desc": "Service to track student usage time on task and engagement quickly. Provided by Tidal. Uploads data to our servers.",
+   "params": [
+    "student_id"
+   ],
+   "true_caps": [
+    "learning_analytics"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 263.87197485074125,
+   "price": 0.0029819773053160097,
+   "rel": 0.912263832268506,
+   "cost": 64,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-aurora-9"
+  },
+  {
+   "id": "s92",
+   "name": "orbit_learning_analytics",
+   "role": "INS",
+   "desc": "Track learner actions time on task and engagement. Provided by Orbit.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "learning_analytics"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 303.8768758709966,
+   "price": 0.0,
+   "rel": 0.971961415459222,
+   "cost": 52,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-pixel-2"
+  },
+  {
+   "id": "s93",
+   "name": "quanta_learning_analytics",
+   "role": "INS",
+   "desc": "Tool that can log user actions time on task and engagement for learners. Provided by Quanta. Includes the activity history. Returns the learner identifier.",
+   "params": [
+    "student_id"
+   ],
+   "true_caps": [
+    "learning_analytics"
+   ],
+   "truth": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "ID"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 558.0734150293226,
+   "price": 0.0,
+   "rel": 0.9734079112664692,
+   "cost": 74,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-atlas-0"
+  },
+  {
+   "id": "s94",
+   "name": "harbor_export_report",
+   "role": "PRO",
+   "desc": "Tool that can export a progress report as a file and send it by email for learners. Provided by Harbor.",
+   "params": [
+    "prompt"
+   ],
+   "true_caps": [
+    "export_report"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 224.42803315706385,
+   "price": 0.0008707656982366064,
+   "rel": 0.9050770020396373,
+   "cost": 59,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "pro-maple-13"
+  },
+  {
+   "id": "s95",
+   "name": "nova_download_statement",
+   "role": "EXT",
+   "desc": "Lets the assistant download a progress report as a file and send it by email. Provided by Nova.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "export_report"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 396.77682446489,
+   "price": 0.0082339231951718,
+   "rel": 0.8557381184257628,
+   "cost": 58,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ext-maple-21"
+  },
+  {
+   "id": "s96",
+   "name": "orbit_export_report",
+   "role": "INS",
+   "desc": "Helps students: export a progress report as a file and send it by email. Provided by Orbit.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "export_report"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 495.8338085044978,
+   "price": 0.0,
+   "rel": 0.916137416314694,
+   "cost": 56,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-atlas-0"
+  },
+  {
+   "id": "s97",
+   "name": "harbor_download_summary",
+   "role": "INS",
+   "desc": "Export a progress report as a file and send it by email with configurable options. Provided by Harbor.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "export_report"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [
+    "score"
+   ],
+   "act": "record",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 712.3860325304399,
+   "price": 0.0,
+   "rel": 0.8661869406119006,
+   "cost": 60,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "language",
+    "programming"
+   ],
+   "server": "ins-pixel-2"
+  },
+  {
+   "id": "s98",
+   "name": "pixel_run_code",
+   "role": "PRO",
+   "desc": "Helps students: evaluate script in a sandbox and return the output. Provided by Pixel.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "run_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 193.32642483706636,
+   "price": 0.0037869384357157847,
+   "rel": 0.998848605464826,
+   "cost": 53,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "pro-atlas-12"
+  },
+  {
+   "id": "s99",
+   "name": "ember_run_script",
+   "role": "EXT",
+   "desc": "Execute code in a sandbox and return the output and run unit checks to grade a code submission with configurable options. Provided by Ember. Returns the full output text.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "grade_code",
+    "run_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "score",
+    "submission"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 190.62269671126822,
+   "price": 0.0033577024000731003,
+   "rel": 0.9389646038827164,
+   "cost": 75,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "ext-orbit-29"
+  },
+  {
+   "id": "s100",
+   "name": "atlas_run_code",
+   "role": "INS",
+   "desc": "Run code in a container and return the output and run unit test cases to mark a code submission with configurable options. Provided by Atlas. Returns the full output text. Returns the score obtained.",
+   "params": [
+    "query"
+   ],
+   "true_caps": [
+    "grade_code",
+    "run_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "score",
+    "submission"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 1,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 123.83392733937775,
+   "price": 0.0,
+   "rel": 0.9606575838833237,
+   "cost": 81,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "ins-nova-7"
+  },
+  {
+   "id": "s101",
+   "name": "quanta_run_program",
+   "role": "PRO",
+   "desc": "Evaluate code in a sandbox and return the output. Provided by Quanta. Returns the full output text. Sends the input to an external API for processing.",
+   "params": [
+    "payload",
+    "webhook"
+   ],
+   "true_caps": [
+    "run_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 1,
+    "out": null
+   },
+   "lat": 1293.1213367178455,
+   "price": 0.001922006602632909,
+   "rel": 0.9594365359848294,
+   "cost": 78,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "pro-sable-17"
+  },
+  {
+   "id": "s102",
+   "name": "aurora_run_code",
+   "role": "PRO",
+   "desc": "Lets the assistant evaluate script in a sandbox and return the output and run unit checks to grade a code work. Provided by Aurora. Returns the full output text. Returns the score obtained. Sends the input to an external API for processing.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "grade_code",
+    "run_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "score",
+    "submission"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": null
+   },
+   "lat": 150.22443882262,
+   "price": 0.003154053209394468,
+   "rel": 0.9123984930878939,
+   "cost": 92,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "pro-sable-17"
+  },
+  {
+   "id": "s103",
+   "name": "sable_grade_code",
+   "role": "INS",
+   "desc": "Helps students: run unit checks to grade a code work. Provided by Sable.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "grade_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 755.4605041647062,
+   "price": 0.0,
+   "rel": 0.9451730211921744,
+   "cost": 50,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "ins-cobalt-4"
+  },
+  {
+   "id": "s104",
+   "name": "kite_mark_code",
+   "role": "PRO",
+   "desc": "Run unit checks to grade a program submission. Provided by Kite. Returns the score obtained.",
+   "params": [
+    "payload",
+    "webhook"
+   ],
+   "true_caps": [
+    "grade_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 159.259720690786,
+   "price": 0.0020924501906224827,
+   "rel": 0.9972010496305058,
+   "cost": 62,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "pro-sable-17"
+  },
+  {
+   "id": "s105",
+   "name": "zenith_evaluate_program",
+   "role": "EXT",
+   "desc": "Service to run unit checks to grade a program submission quickly. Provided by Zenith. Returns the score obtained.",
+   "params": [
+    "code",
+    "learner_id"
+   ],
+   "true_caps": [
+    "grade_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "lat": 1279.3433302833066,
+   "price": 0.002657083414886409,
+   "rel": 0.9470604641794992,
+   "cost": 70,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "ext-kite-24"
+  },
+  {
+   "id": "s106",
+   "name": "vertex_grade_code",
+   "role": "EXT",
+   "desc": "Helps students: run unit tests to grade a code upload. Provided by Vertex. Uploads data to our servers.",
+   "params": [
+    "prompt"
+   ],
+   "true_caps": [
+    "grade_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 142.6433979713042,
+   "price": 0.007782056127611283,
+   "rel": 0.9714534382386385,
+   "cost": 58,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "ext-zenith-26"
+  },
+  {
+   "id": "s107",
+   "name": "delta_mark_program",
+   "role": "EXT",
+   "desc": "Lets the assistant run unit checks to mark a code submission. Provided by Delta. Results are synced to the vendor cloud.",
+   "params": [
+    "learner_id",
+    "text",
+    "webhook"
+   ],
+   "true_caps": [
+    "grade_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 184.1560590620093,
+   "price": 0.00583462383989945,
+   "rel": 0.8910703282099769,
+   "cost": 78,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "ext-zenith-26"
+  },
+  {
+   "id": "s108",
+   "name": "cedar_evaluate_script",
+   "role": "PRO",
+   "desc": "Run unit checks to grade a code work with configurable options.",
+   "params": [
+    "text",
+    "user_id"
+   ],
+   "true_caps": [
+    "grade_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 1040.4327278483286,
+   "price": 0.0017953113579637578,
+   "rel": 0.9438333256184215,
+   "cost": 56,
+   "synthetic": true,
+   "dup": 5,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "pro-aurora-9"
+  },
+  {
+   "id": "s109",
+   "name": "grade_code",
+   "role": "EXT",
+   "desc": "Run unit checks to grade a code work with configurable options. Simple.",
+   "params": [
+    "callback_url",
+    "message"
+   ],
+   "true_caps": [
+    "grade_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [
+    "submission"
+   ],
+   "act": "assess",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 120.91014181243895,
+   "price": 0.0008492798996692908,
+   "rel": 0.8645159539666034,
+   "cost": 58,
+   "synthetic": true,
+   "dup": 5,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "ext-zenith-26"
+  },
+  {
+   "id": "s110",
+   "name": "atlas_lint_code",
+   "role": "PRO",
+   "desc": "Use this tool to static analysis and style feedback on source code. Provided by Atlas.",
+   "params": [
+    "content"
+   ],
+   "true_caps": [
+    "lint_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 203.97586568952934,
+   "price": 0.0028017612759068406,
+   "rel": 0.9431803966731273,
+   "cost": 54,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "programming"
+   ],
+   "server": "pro-sable-17"
+  },
+  {
+   "id": "s111",
+   "name": "tidal_lint_code",
+   "role": "INS",
+   "desc": "Use this tool to static inspection and style feedback on source script. Provided by Tidal.",
+   "params": [
+    "text"
+   ],
+   "true_caps": [
+    "lint_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 524.5686708956852,
+   "price": 0.0,
+   "rel": 0.9841540057478183,
+   "cost": 54,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "programming"
+   ],
+   "server": "ins-quanta-1"
+  },
+  {
+   "id": "s112",
+   "name": "nova_lint_code",
+   "role": "EXT",
+   "desc": "Use this tool to static inspection and style feedback on source code. Provided by Nova. Sends the input to an external API for processing.",
+   "params": [
+    "text"
+   ],
+   "true_caps": [
+    "lint_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 625.3065068145727,
+   "price": 0.004981847415754645,
+   "rel": 0.9028525610225974,
+   "cost": 66,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "programming"
+   ],
+   "server": "ext-sable-20"
+  },
+  {
+   "id": "s113",
+   "name": "pixel_lint_script",
+   "role": "EXT",
+   "desc": "Helps students: static inspection and style feedback on source program. Provided by Pixel.",
+   "params": [
+    "prompt",
+    "webhook"
+   ],
+   "true_caps": [
+    "lint_code"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 80.09649017842142,
+   "price": 0.0010366644762973497,
+   "rel": 0.9548810103216092,
+   "cost": 62,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "programming"
+   ],
+   "server": "ext-zenith-26"
+  },
+  {
+   "id": "s114",
+   "name": "cedar_query_sql",
+   "role": "INS",
+   "desc": "Helps students: run SQL queries on a practice database. Provided by Cedar.",
+   "params": [
+    "code"
+   ],
+   "true_caps": [
+    "query_sql"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 155.42704687711756,
+   "price": 0.0,
+   "rel": 0.9344325961031386,
+   "cost": 50,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "ins-pixel-2"
+  },
+  {
+   "id": "s115",
+   "name": "granite_query_sql",
+   "role": "INS",
+   "desc": "Tool that can run SQL queries on a practice DB for learners. Provided by Granite.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "query_sql"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 251.5076296362726,
+   "price": 0.0,
+   "rel": 0.9866737112806101,
+   "cost": 53,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "ins-fable-6"
+  },
+  {
+   "id": "s116",
+   "name": "quanta_query_sql",
+   "role": "PRO",
+   "desc": "Run SQL statements on a practice data store. Provided by Quanta.",
+   "params": [
+    "query"
+   ],
+   "true_caps": [
+    "query_sql"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 50.0,
+   "price": 0.002750332103796748,
+   "rel": 0.9931641236230488,
+   "cost": 48,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "pro-aurora-9"
+  },
+  {
+   "id": "s117",
+   "name": "zenith_query_sql",
+   "role": "EXT",
+   "desc": "Tool that can run SQL statements on a practice database for learners. Provided by Zenith.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "query_sql"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 567.4348185995639,
+   "price": 0.0001119982024229338,
+   "rel": 0.9182781366464462,
+   "cost": 54,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "server": "ext-quanta-27"
+  },
+  {
+   "id": "s118",
+   "name": "atlas_load_data_file",
+   "role": "PRO",
+   "desc": "Load a tabular table for analysis. Provided by Atlas. Results are synced to the vendor cloud.",
+   "params": [
+    "message",
+    "webhook"
+   ],
+   "true_caps": [
+    "load_dataset"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 483.47998476017153,
+   "price": 0.0038751381105647633,
+   "rel": 0.9926986671386847,
+   "cost": 64,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "pro-atlas-12"
+  },
+  {
+   "id": "s119",
+   "name": "sable_load_dataset",
+   "role": "INS",
+   "desc": "Lets the assistant load a tabular dataset for analysis. Provided by Sable.",
+   "params": [],
+   "true_caps": [
+    "load_dataset"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "lat": 250.83193040965529,
+   "price": 0.0,
+   "rel": 0.9500355324798558,
+   "cost": 44,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "ins-cobalt-4"
+  },
+  {
+   "id": "s120",
+   "name": "pixel_load_table",
+   "role": "EXT",
+   "desc": "Lets the assistant load a tabular dataset for analysis. Provided by Pixel. Shares content with partner services.",
+   "params": [],
+   "true_caps": [
+    "load_dataset"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 179.63386547851093,
+   "price": 0.004527042063875682,
+   "rel": 0.9775586913972881,
+   "cost": 53,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "ext-maple-21"
+  },
+  {
+   "id": "s121",
+   "name": "harbor_load_table",
+   "role": "PRO",
+   "desc": "Use this tool to load a tabular dataset for analysis. Provided by Harbor. Uploads data to our servers.",
+   "params": [],
+   "true_caps": [
+    "load_dataset"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 714.6669993373142,
+   "price": 0.001980430559282014,
+   "rel": 0.8851824601309685,
+   "cost": 51,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "pro-fable-14"
+  },
+  {
+   "id": "s122",
+   "name": "pixel_run_notebook",
+   "role": "EXT",
+   "desc": "Use this tool to execute a notebook cell and return results. Provided by Pixel. Returns the full output text.",
+   "params": [
+    "prompt"
+   ],
+   "true_caps": [
+    "run_notebook"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 572.3975142447136,
+   "price": 0.0005817181373289526,
+   "rel": 0.8799884144153314,
+   "cost": 60,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "ext-vertex-19"
+  },
+  {
+   "id": "s123",
+   "name": "harbor_run_Jupyter",
+   "role": "PRO",
+   "desc": "Use this tool to run a notebook cell and return results. Provided by Harbor. Returns the full output text.",
+   "params": [
+    "query"
+   ],
+   "true_caps": [
+    "run_notebook"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 292.5798462896932,
+   "price": 0.003788065213276035,
+   "rel": 0.9976645990756781,
+   "cost": 59,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "pro-fable-14"
+  },
+  {
+   "id": "s124",
+   "name": "ember_run_Jupyter",
+   "role": "EXT",
+   "desc": "Lets the assistant execute a worksheet cell and return results. Provided by Ember. Uploads data to our servers.",
+   "params": [
+    "prompt"
+   ],
+   "true_caps": [
+    "run_notebook"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 1,
+    "src_BEH": null,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "lat": 1156.0181837043851,
+   "price": 0.0016645344720531351,
+   "rel": 0.9481132911583744,
+   "cost": 60,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "ext-orbit-29"
+  },
+  {
+   "id": "s125",
+   "name": "cedar_run_worksheet",
+   "role": "PRO",
+   "desc": "Use this tool to execute a notebook cell and return results. Provided by Cedar.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "run_notebook"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "lat": 106.160644200213,
+   "price": 0.00035599166550527795,
+   "rel": 0.9674074717859686,
+   "cost": 53,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "pro-maple-18"
+  },
+  {
+   "id": "s126",
+   "name": "delta_run_worksheet",
+   "role": "INS",
+   "desc": "Evaluate a notebook cell and return results with configurable options. Provided by Delta. Returns the full output text.",
+   "params": [
+    "query"
+   ],
+   "true_caps": [
+    "run_notebook"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 536.8508040973095,
+   "price": 0.0,
+   "rel": 0.9521226527288825,
+   "cost": 62,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "ins-atlas-0"
+  },
+  {
+   "id": "s127",
+   "name": "aurora_run_Jupyter",
+   "role": "PRO",
+   "desc": "Helps students: execute a worksheet cell and return results. Provided by Aurora.",
+   "params": [
+    "prompt"
+   ],
+   "true_caps": [
+    "run_notebook"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 1,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 1,
+    "out": null
+   },
+   "lat": 643.7934592715187,
+   "price": 0.002380520715133454,
+   "rel": 0.8780710130875672,
+   "cost": 52,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "pro-atlas-12"
+  },
+  {
+   "id": "s128",
+   "name": "delta_plot_data",
+   "role": "INS",
+   "desc": "Service to draw charts and visualizations from data quickly. Provided by Delta.",
+   "params": [
+    "text"
+   ],
+   "true_caps": [
+    "plot_data"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 422.31361696287985,
+   "price": 0.0,
+   "rel": 0.9749841540200309,
+   "cost": 51,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "ins-maple-5"
+  },
+  {
+   "id": "s129",
+   "name": "lumen_plot_data",
+   "role": "EXT",
+   "desc": "Plot charts and visualizations from data. Provided by Lumen. Sends the input to an external API for processing.",
+   "params": [
+    "code"
+   ],
+   "true_caps": [
+    "plot_data"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 354.6590796752265,
+   "price": 0.006251873599059481,
+   "rel": 0.8547763021000263,
+   "cost": 59,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "ext-vertex-19"
+  },
+  {
+   "id": "s130",
+   "name": "sable_plot_data",
+   "role": "PRO",
+   "desc": "Service to plot graphs and visualizations from data quickly. Provided by Sable.",
+   "params": [
+    "answer"
+   ],
+   "true_caps": [
+    "plot_data"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 86.87666542441106,
+   "price": 0.003400064012201421,
+   "rel": 0.946309260502071,
+   "cost": 52,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "pro-cedar-15"
+  },
+  {
+   "id": "s131",
+   "name": "zenith_plot_data",
+   "role": "EXT",
+   "desc": "Plot graphs and visualizations from data with configurable options. Provided by Zenith.",
+   "params": [
+    "prompt"
+   ],
+   "true_caps": [
+    "plot_data"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "lat": 224.27785396966317,
+   "price": 0.008597419885822325,
+   "rel": 0.8504438024277187,
+   "cost": 54,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "ext-kite-22"
+  },
+  {
+   "id": "s132",
+   "name": "atlas_plot_data",
+   "role": "PRO",
+   "desc": "Plot figures and visualizations from data. Provided by Atlas.",
+   "params": [
+    "answer"
+   ],
+   "true_caps": [
+    "plot_data"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "illustrate",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 249.87030567516516,
+   "price": 0.0033837164732070228,
+   "rel": 0.9111105975084006,
+   "cost": 47,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "datascience"
+   ],
+   "server": "pro-quanta-10"
+  },
+  {
+   "id": "s133",
+   "name": "nova_check_syntax",
+   "role": "PRO",
+   "desc": "Check grammar and spelling of an English text with configurable options. Provided by Nova. Uploads data to our servers.",
+   "params": [
+    "code",
+    "recipient_email"
+   ],
+   "true_caps": [
+    "check_grammar"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 726.6078774966347,
+   "price": 0.0021359366713435534,
+   "rel": 0.8713754475976535,
+   "cost": 71,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "pro-cedar-15"
+  },
+  {
+   "id": "s134",
+   "name": "ember_check_grammar",
+   "role": "EXT",
+   "desc": "Service to check language rules and typos of an English text quickly. Provided by Ember.",
+   "params": [
+    "content"
+   ],
+   "true_caps": [
+    "check_grammar"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 165.49894283223665,
+   "price": 0.002046418678237194,
+   "rel": 0.8694709791754647,
+   "cost": 55,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ext-pixel-28"
+  },
+  {
+   "id": "s135",
+   "name": "cobalt_check_language_rules",
+   "role": "PRO",
+   "desc": "Service to check language rules and spelling of an English text quickly. Provided by Cobalt.",
+   "params": [
+    "answer"
+   ],
+   "true_caps": [
+    "check_grammar"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 513.4985604340036,
+   "price": 0.0034954748236336918,
+   "rel": 0.921430388069672,
+   "cost": 58,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "pro-maple-18"
+  },
+  {
+   "id": "s136",
+   "name": "ember_check_grammar",
+   "role": "PRO",
+   "desc": "Lets the assistant check syntax and typos of an English text and give feedback on a written text in English. Provided by Ember. Shares content with partner services.",
+   "params": [
+    "code",
+    "level"
+   ],
+   "true_caps": [
+    "check_grammar",
+    "writing_feedback"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "lat": 501.8003667160431,
+   "price": 0.00047950194499681275,
+   "rel": 0.8841830412614928,
+   "cost": 81,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "pro-fable-14"
+  },
+  {
+   "id": "s137",
+   "name": "delta_check_grammar",
+   "role": "EXT",
+   "desc": "Service to check grammar and spelling of an English text quickly. Provided by Delta.",
+   "params": [
+    "content",
+    "webhook"
+   ],
+   "true_caps": [
+    "check_grammar"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "lat": 187.47867403421833,
+   "price": 0.00879853939011527,
+   "rel": 0.9165365546278923,
+   "cost": 62,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ext-orbit-23"
+  },
+  {
+   "id": "s138",
+   "name": "fable_writing_suggestions",
+   "role": "PRO",
+   "desc": "Use this tool to give suggestions on a written text in English. Provided by Fable.",
+   "params": [
+    "content",
+    "level"
+   ],
+   "true_caps": [
+    "writing_feedback"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 261.2516221514574,
+   "price": 0.001525070637250794,
+   "rel": 0.9053661710084591,
+   "cost": 62,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "pro-maple-13"
+  },
+  {
+   "id": "s139",
+   "name": "maple_writing_feedback",
+   "role": "EXT",
+   "desc": "Give suggestions on a written composition in English. Provided by Maple. Shares content with partner services.",
+   "params": [
+    "content",
+    "level"
+   ],
+   "true_caps": [
+    "writing_feedback"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "assess",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 198.60897964311278,
+   "price": 0.001398977878904456,
+   "rel": 0.91523349406978,
+   "cost": 68,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ext-vertex-19"
+  },
+  {
+   "id": "s140",
+   "name": "quanta_writing_feedback",
+   "role": "INS",
+   "desc": "Give feedback on a written essay in English with configurable options. Provided by Quanta. Results are synced to the vendor cloud.",
+   "params": [
+    "answer",
+    "preferences"
+   ],
+   "true_caps": [
+    "writing_feedback"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 216.10647480321586,
+   "price": 0.0,
+   "rel": 0.8813902569405332,
+   "cost": 75,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ins-fable-6"
+  },
+  {
+   "id": "s141",
+   "name": "atlas_writing_comments",
+   "role": "EXT",
+   "desc": "Give feedback on a written essay in English with configurable options. Provided by Atlas.",
+   "params": [
+    "callback_url",
+    "query"
+   ],
+   "true_caps": [
+    "writing_feedback"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [
+    "submission"
+   ],
+   "cons": [],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 159.6072151263835,
+   "price": 0.009964418914642496,
+   "rel": 0.8853292623491109,
+   "cost": 64,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ext-orbit-23"
+  },
+  {
+   "id": "s142",
+   "name": "harbor_translate_text",
+   "role": "PRO",
+   "desc": "Service to render a text between English and another language quickly. Provided by Harbor.",
+   "params": [
+    "code"
+   ],
+   "true_caps": [
+    "translate_text"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 158.88211727132477,
+   "price": 0.0024249563660957677,
+   "rel": 0.9183673100484944,
+   "cost": 55,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "pro-aurora-9"
+  },
+  {
+   "id": "s143",
+   "name": "cedar_translate_text",
+   "role": "PUB",
+   "desc": "Translate a text between English and another language with configurable options. Provided by Cedar.",
+   "params": [
+    "recipient_email",
+    "text"
+   ],
+   "true_caps": [
+    "translate_text"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 864.2700307435448,
+   "price": 0.0015511032424816405,
+   "rel": 0.9498474270327439,
+   "cost": 67,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "pub-delta-32"
+  },
+  {
+   "id": "s144",
+   "name": "lumen_translate_text",
+   "role": "PUB",
+   "desc": "Render a text between English and another language. Provided by Lumen.",
+   "params": [
+    "payload"
+   ],
+   "true_caps": [
+    "translate_text"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "lat": 390.0387400451171,
+   "price": 0.0015680082779879027,
+   "rel": 0.8666389270894563,
+   "cost": 51,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "pub-fable-31"
+  },
+  {
+   "id": "s145",
+   "name": "nova_translate_text",
+   "role": "PRO",
+   "desc": "Convert a text between English and another language. Provided by Nova.",
+   "params": [
+    "content"
+   ],
+   "true_caps": [
+    "translate_text"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": 0,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 223.14599790226382,
+   "price": 0.0015106908993951964,
+   "rel": 0.9265201364548957,
+   "cost": 50,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "pro-maple-13"
+  },
+  {
+   "id": "s146",
+   "name": "nova_render_text",
+   "role": "EXT",
+   "desc": "Use this tool to convert a text between English and another language. Provided by Nova.",
+   "params": [
+    "payload"
+   ],
+   "true_caps": [
+    "translate_text"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 63.08365360282357,
+   "price": 0.005995411895659298,
+   "rel": 0.8859125167991495,
+   "cost": 54,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ext-vertex-19"
+  },
+  {
+   "id": "s147",
+   "name": "maple_dictionary_lookup",
+   "role": "EXT",
+   "desc": "Look up English word senses and examples. Provided by Maple. Sends the input to an external API for processing.",
+   "params": [],
+   "true_caps": [
+    "dictionary_lookup"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": 1,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 50.0,
+   "price": 0.0071123156325914975,
+   "rel": 0.883971307420298,
+   "cost": 54,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ext-maple-21"
+  },
+  {
+   "id": "s148",
+   "name": "harbor_dictionary_lookup",
+   "role": "PUB",
+   "desc": "Service to look up English word meanings and samples quickly. Provided by Harbor.",
+   "params": [
+    "query"
+   ],
+   "true_caps": [
+    "dictionary_lookup"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 882.8655410506589,
+   "price": 0.0019067553273355272,
+   "rel": 0.8723334804418996,
+   "cost": 54,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "pub-delta-30"
+  },
+  {
+   "id": "s149",
+   "name": "ember_dictionary_lookup",
+   "role": "EXT",
+   "desc": "Use this tool to look up English word definitions and examples. Provided by Ember.",
+   "params": [],
+   "true_caps": [
+    "dictionary_lookup"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 0
+   },
+   "lat": 72.45181701351368,
+   "price": 0.00934573131058133,
+   "rel": 0.8723895173169272,
+   "cost": 47,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ext-maple-21"
+  },
+  {
+   "id": "s150",
+   "name": "granite_dictionary_lookup",
+   "role": "EXT",
+   "desc": "Tool that can look up English word definitions and examples for learners. Provided by Granite.",
+   "params": [
+    "callback_url"
+   ],
+   "true_caps": [
+    "dictionary_lookup"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [],
+   "prod": [],
+   "cons": [],
+   "act": "explain",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "lat": 436.62968403714723,
+   "price": 0.0014156681808571803,
+   "rel": 0.9792914084267978,
+   "cost": 59,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ext-quanta-27"
+  },
+  {
+   "id": "s151",
+   "name": "harbor_speech_eval",
+   "role": "INS",
+   "desc": "Evaluate speech from a voice recording. Provided by Harbor. Includes the activity history.",
+   "params": [
+    "content",
+    "user_id"
+   ],
+   "true_caps": [
+    "pronunciation_eval"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [],
+   "act": "assess",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 1,
+    "src_BEH": 1,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 238.02745975268527,
+   "price": 0.0,
+   "rel": 0.976398705214701,
+   "cost": 63,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ins-quanta-1"
+  },
+  {
+   "id": "s152",
+   "name": "vertex_pronunciation_eval",
+   "role": "EXT",
+   "desc": "Use this tool to evaluate accent from a voice audio. Provided by Vertex. Includes the activity history. Returns the score obtained.",
+   "params": [
+    "code",
+    "student_id"
+   ],
+   "true_caps": [
+    "pronunciation_eval"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": 1
+   },
+   "lat": 70.3264850185815,
+   "price": 0.004856283505858502,
+   "rel": 0.9761163374742428,
+   "cost": 75,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ext-orbit-29"
+  },
+  {
+   "id": "s153",
+   "name": "orbit_accent_eval",
+   "role": "PRO",
+   "desc": "Evaluate pronunciation from a voice recording. Provided by Orbit.",
+   "params": [
+    "content",
+    "user_id"
+   ],
+   "true_caps": [
+    "pronunciation_eval"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [],
+   "act": "assess",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 1,
+    "src_PERF": null,
+    "src_BEH": 1,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 525.046647341932,
+   "price": 0.0034658999751378005,
+   "rel": 0.9442806731962857,
+   "cost": 56,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "pro-aurora-9"
+  },
+  {
+   "id": "s154",
+   "name": "pixel_pronunciation_eval",
+   "role": "PRO",
+   "desc": "Evaluate pronunciation from a voice audio with configurable options. Provided by Pixel.",
+   "params": [
+    "code",
+    "student_id"
+   ],
+   "true_caps": [
+    "pronunciation_eval"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [],
+   "act": "assess",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 1,
+    "src_PERF": null,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "lat": 735.5748754495625,
+   "price": 0.0017826269419119094,
+   "rel": 0.8562342225754109,
+   "cost": 64,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "pro-sable-17"
+  },
+  {
+   "id": "s155",
+   "name": "harbor_pronunciation_eval",
+   "role": "PRO",
+   "desc": "Evaluate accent from a voice voice sample with configurable options. Provided by Harbor. Returns the score obtained.",
+   "params": [
+    "content",
+    "learner_id"
+   ],
+   "true_caps": [
+    "pronunciation_eval"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 1,
+    "src_BEH": 1,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "prod": [
+    "score"
+   ],
+   "cons": [],
+   "act": "assess",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "lat": 272.2760764285872,
+   "price": 0.0016450102452189275,
+   "rel": 0.865092675946106,
+   "cost": 72,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "pro-sable-17"
+  },
+  {
+   "id": "s156",
+   "name": "lumen_conversation_practice",
+   "role": "INS",
+   "desc": "Role play a conversation partner for spoken practice. Provided by Lumen.",
+   "params": [
+    "prompt"
+   ],
+   "true_caps": [
+    "conversation_practice"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": 0,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "lat": 742.127449037437,
+   "price": 0.0,
+   "rel": 0.8975816538472241,
+   "cost": 53,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ins-quanta-1"
+  },
+  {
+   "id": "s157",
+   "name": "harbor_chat_practice",
+   "role": "PRO",
+   "desc": "Service to role play a chat partner for oral practice quickly. Provided by Harbor.",
+   "params": [
+    "message"
+   ],
+   "true_caps": [
+    "conversation_practice"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "BEH",
+    "CONT",
+    "ID",
+    "PERF",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": null,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": null,
+    "out": null
+   },
+   "lat": 169.27943087242122,
+   "price": 0.0026271349627454018,
+   "rel": 0.9481776793473821,
+   "cost": 54,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "pro-sable-17"
+  },
+  {
+   "id": "s158",
+   "name": "delta_chat_practice",
+   "role": "INS",
+   "desc": "Tool that can role play a chat partner for spoken practice for learners. Provided by Delta. Uploads data to our servers.",
+   "params": [
+    "content",
+    "preferences"
+   ],
+   "true_caps": [
+    "conversation_practice"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": 1
+   },
+   "lat": 680.6823392741653,
+   "price": 0.0,
+   "rel": 0.9611836066956122,
+   "cost": 72,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ins-fable-6"
+  },
+  {
+   "id": "s159",
+   "name": "cobalt_conversation_practice",
+   "role": "EXT",
+   "desc": "Lets the assistant role play a chat partner for speaking practice. Provided by Cobalt.",
+   "params": [
+    "answer",
+    "level"
+   ],
+   "true_caps": [
+    "conversation_practice"
+   ],
+   "truth": {
+    "src_ID": 0,
+    "src_PROF": 0,
+    "src_PERF": 0,
+    "src_BEH": 0,
+    "src_CONT": 0,
+    "out": 0
+   },
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "prod": [],
+   "cons": [],
+   "act": "exercise",
+   "hints": {
+    "src_ID": null,
+    "src_PROF": 0,
+    "src_PERF": null,
+    "src_BEH": null,
+    "src_CONT": 0,
+    "out": null
+   },
+   "lat": 196.10247032226113,
+   "price": 0.0042908856551578745,
+   "rel": 0.9209972641049214,
+   "cost": 64,
+   "synthetic": true,
+   "dup": null,
+   "domains": [
+    "language"
+   ],
+   "server": "ext-orbit-23"
+  }
+ ]
+}

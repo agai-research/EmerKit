@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+/llm_log.jsonl
+data/traces/
+data/mcp_tools_with_embedding*.json
+data/tool_desc_emb_*
+report/*.aux
+report/*.log
+report/*.out
+data/sources/lecturebank2/

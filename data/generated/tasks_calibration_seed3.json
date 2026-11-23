@@ -1,0 +1,4485 @@
+[
+ {
+  "type": "acquisition",
+  "domain": "language",
+  "concepts": [
+   "questions_and_negation"
+  ],
+  "level": 2,
+  "R": [
+   "dictionary_lookup",
+   "explain_concept",
+   "read_profile",
+   "translate_text"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "language",
+  "concepts": [
+   "relative_clauses"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "read_profile"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "transition_based_dependency_parsing"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "web_search"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "programming",
+  "concepts": [
+   "loops"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "dependency_parsing"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "vector_representations"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "chomsky_hierarchy"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "load_dataset",
+   "read_profile",
+   "retrieve_courseware"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "programming",
+  "concepts": [
+   "linked_structures"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "read_profile",
+   "retrieve_courseware"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "linguistics_basics"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "programming",
+  "concepts": [
+   "lists"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "programming",
+  "concepts": [
+   "parameters_and_scope"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "web_search"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "resnet"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "retrieve_courseware"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "programming",
+  "concepts": [
+   "inheritance"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "video_lookup",
+   "web_search"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "parsing_evaluation"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "programming",
+  "concepts": [
+   "nested_structures"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "video_lookup"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "vector_representations"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "a__search"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "read_profile",
+   "retrieve_courseware"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "language",
+  "concepts": [
+   "present_simple"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "language",
+  "concepts": [
+   "numbers_dates_time"
+  ],
+  "level": 2,
+  "R": [
+   "dictionary_lookup",
+   "explain_concept",
+   "translate_text",
+   "web_search"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "manifold_learning"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "programming",
+  "concepts": [
+   "loops"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "read_profile",
+   "web_search"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "vector_semantics"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "video_lookup",
+   "web_search"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "programming",
+  "concepts": [
+   "stacks_and_queues"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "language",
+  "concepts": [
+   "formal_letters_emails"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "retrieve_courseware",
+   "video_lookup"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "language",
+  "concepts": [
+   "present_continuous"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "read_profile",
+   "retrieve_courseware",
+   "video_lookup"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "programming",
+  "concepts": [
+   "searching"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "retrieve_courseware"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "edit_distance"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "read_profile"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "vector_semantics"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "video_lookup"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "logic_and_logical_agents"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "programming",
+  "concepts": [
+   "debugging"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "retrieve_courseware",
+   "web_search"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "language",
+  "concepts": [
+   "past_simple"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "language",
+  "concepts": [
+   "prepositions_of_place_time"
+  ],
+  "level": 2,
+  "R": [
+   "dictionary_lookup",
+   "explain_concept",
+   "retrieve_courseware",
+   "translate_text"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "programming",
+  "concepts": [
+   "dictionaries"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "retrieve_courseware"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "acquisition",
+  "domain": "datascience",
+  "concepts": [
+   "transition_based_dependency_parsing"
+  ],
+  "level": 2,
+  "R": [
+   "explain_concept",
+   "load_dataset",
+   "retrieve_courseware",
+   "video_lookup"
+  ],
+  "D": [
+   "PROF"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "datascience",
+  "concepts": [
+   "natural_language_processing_intro"
+  ],
+  "level": 3,
+  "R": [
+   "run_notebook"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "language",
+  "concepts": [
+   "debate_and_discussion"
+  ],
+  "level": 3,
+  "R": [
+   "check_grammar"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "datascience",
+  "concepts": [
+   "manifold_learning"
+  ],
+  "level": 3,
+  "R": [
+   "query_sql",
+   "run_notebook"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [
+   "submission"
+  ],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "language",
+  "concepts": [
+   "argumentation"
+  ],
+  "level": 3,
+  "R": [
+   "check_grammar"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "language",
+  "concepts": [
+   "debate_and_discussion"
+  ],
+  "level": 3,
+  "R": [
+   "check_grammar",
+   "conversation_practice",
+   "give_hint"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "datascience",
+  "concepts": [
+   "computer_vision"
+  ],
+  "level": 3,
+  "R": [
+   "give_hint",
+   "grade_code",
+   "run_code",
+   "run_notebook"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [
+   "submission"
+  ],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "programming",
+  "concepts": [
+   "searching"
+  ],
+  "level": 3,
+  "R": [
+   "flashcards",
+   "give_hint",
+   "run_code"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [
+   "submission"
+  ],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "programming",
+  "concepts": [
+   "sorting"
+  ],
+  "level": 3,
+  "R": [
+   "query_sql",
+   "run_code"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "datascience",
+  "concepts": [
+   "probabilities"
+  ],
+  "level": 3,
+  "R": [
+   "run_notebook"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "programming",
+  "concepts": [
+   "encapsulation"
+  ],
+  "level": 3,
+  "R": [
+   "give_hint",
+   "query_sql",
+   "run_code"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [
+   "submission"
+  ],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "programming",
+  "concepts": [
+   "strings"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code",
+   "run_code"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "language",
+  "concepts": [
+   "questions_and_negation"
+  ],
+  "level": 3,
+  "R": [
+   "check_grammar",
+   "flashcards",
+   "give_hint"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "programming",
+  "concepts": [
+   "classes_and_objects"
+  ],
+  "level": 3,
+  "R": [
+   "run_code"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "datascience",
+  "concepts": [
+   "word_distributions"
+  ],
+  "level": 3,
+  "R": [
+   "flashcards",
+   "grade_answers",
+   "run_notebook"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "datascience",
+  "concepts": [
+   "parsing"
+  ],
+  "level": 3,
+  "R": [
+   "generate_quiz",
+   "grade_code",
+   "run_code",
+   "run_notebook"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "practice",
+  "domain": "language",
+  "concepts": [
+   "articles_and_plurals"
+  ],
+  "level": 3,
+  "R": [
+   "check_grammar"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "programming",
+  "concepts": [
+   "inheritance"
+  ],
+  "level": 3,
+  "R": [
+   "run_code"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "programming",
+  "concepts": [
+   "dictionaries"
+  ],
+  "level": 3,
+  "R": [
+   "run_code"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "programming",
+  "concepts": [
+   "searching"
+  ],
+  "level": 3,
+  "R": [
+   "run_code"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "datascience",
+  "concepts": [
+   "chomsky_hierarchy"
+  ],
+  "level": 3,
+  "R": [
+   "generate_quiz",
+   "give_hint",
+   "grade_answers",
+   "run_notebook"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "language",
+  "concepts": [
+   "questions_and_negation"
+  ],
+  "level": 3,
+  "R": [
+   "check_grammar",
+   "flashcards",
+   "generate_quiz"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "datascience",
+  "concepts": [
+   "visual_qa"
+  ],
+  "level": 3,
+  "R": [
+   "flashcards",
+   "grade_answers",
+   "run_notebook"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "language",
+  "concepts": [
+   "first_conditional"
+  ],
+  "level": 3,
+  "R": [
+   "check_grammar",
+   "conversation_practice",
+   "flashcards",
+   "pronunciation_eval"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "language",
+  "concepts": [
+   "questions_and_negation"
+  ],
+  "level": 3,
+  "R": [
+   "check_grammar",
+   "conversation_practice",
+   "generate_quiz",
+   "give_hint"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "programming",
+  "concepts": [
+   "input_output"
+  ],
+  "level": 3,
+  "R": [
+   "generate_quiz",
+   "query_sql",
+   "run_code"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [
+   "submission"
+  ],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "datascience",
+  "concepts": [
+   "feature_learning"
+  ],
+  "level": 3,
+  "R": [
+   "grade_answers",
+   "query_sql",
+   "run_notebook"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [
+   "submission"
+  ],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "datascience",
+  "concepts": [
+   "knowledge_representation"
+  ],
+  "level": 3,
+  "R": [
+   "run_notebook"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [
+   "submission"
+  ],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "language",
+  "concepts": [
+   "past_simple"
+  ],
+  "level": 3,
+  "R": [
+   "check_grammar",
+   "give_hint",
+   "grade_answers"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "datascience",
+  "concepts": [
+   "search"
+  ],
+  "level": 3,
+  "R": [
+   "run_notebook"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "datascience",
+  "concepts": [
+   "sampling"
+  ],
+  "level": 3,
+  "R": [
+   "plot_data",
+   "query_sql",
+   "run_notebook"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "programming",
+  "concepts": [
+   "expressions"
+  ],
+  "level": 3,
+  "R": [
+   "run_code"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "programming",
+  "concepts": [
+   "functions"
+  ],
+  "level": 3,
+  "R": [
+   "flashcards",
+   "run_code"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "datascience",
+  "concepts": [
+   "random_walks_and_harmonic_functions"
+  ],
+  "level": 3,
+  "R": [
+   "flashcards",
+   "generate_quiz",
+   "run_notebook"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "practice",
+  "domain": "language",
+  "concepts": [
+   "reported_speech"
+  ],
+  "level": 3,
+  "R": [
+   "check_grammar",
+   "generate_quiz",
+   "grade_answers"
+  ],
+  "D": [
+   "CONT"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [
+   "score"
+  ],
+  "ho_in": []
+ },
+ {
+  "type": "formative",
+  "domain": "language",
+  "concepts": [
+   "past_simple",
+   "reading_short_texts"
+  ],
+  "level": 3,
+  "R": [
+   "grade_answers",
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [],
+  "ho_out": [
+   "score",
+   "submission"
+  ],
+  "ho_in": []
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "exceptions",
+   "debugging"
+  ],
+  "level": 3,
+  "R": [
+   "grade_answers",
+   "grade_code",
+   "record_grade"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "score",
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "language",
+  "concepts": [
+   "present_simple",
+   "questions_and_negation"
+  ],
+  "level": 3,
+  "R": [
+   "grade_answers",
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "dictionaries",
+   "nested_structures"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code",
+   "run_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [
+   "score",
+   "submission"
+  ],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "linked_structures",
+   "tuples_and_sets"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [
+   "score"
+  ],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "datascience",
+  "concepts": [
+   "probabilities",
+   "manifold_learning"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "language",
+  "concepts": [
+   "past_simple",
+   "phrasal_verbs"
+  ],
+  "level": 3,
+  "R": [
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "formative",
+  "domain": "datascience",
+  "concepts": [
+   "sequence_to_sequence",
+   "n_gram_models"
+  ],
+  "level": 3,
+  "R": [
+   "grade_answers",
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "datascience",
+  "concepts": [
+   "dependency_parsing",
+   "evaluation_of_dependency_parsing"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "dictionaries",
+   "nested_structures"
+  ],
+  "level": 3,
+  "R": [
+   "generate_quiz",
+   "grade_code",
+   "learning_analytics",
+   "record_grade"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "language",
+  "concepts": [
+   "present_simple",
+   "present_continuous"
+  ],
+  "level": 3,
+  "R": [
+   "learning_analytics",
+   "record_grade",
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [],
+  "ho_out": [
+   "submission"
+  ],
+  "ho_in": []
+ },
+ {
+  "type": "formative",
+  "domain": "datascience",
+  "concepts": [
+   "logic_and_logical_agents",
+   "expert_systems"
+  ],
+  "level": 3,
+  "R": [
+   "grade_answers",
+   "grade_code",
+   "record_grade",
+   "run_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [
+   "submission"
+  ],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "loops",
+   "lists"
+  ],
+  "level": 3,
+  "R": [
+   "grade_answers",
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "searching",
+   "sorting"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code",
+   "read_gradebook"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "datascience",
+  "concepts": [
+   "topic_modeling",
+   "kkt_conditions"
+  ],
+  "level": 3,
+  "R": [
+   "grade_answers",
+   "grade_code",
+   "learning_analytics"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "score",
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "unit_testing",
+   "software_design"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code",
+   "record_grade"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "datascience",
+  "concepts": [
+   "natural_language_processing_intro",
+   "knowledge_representation"
+  ],
+  "level": 3,
+  "R": [
+   "generate_quiz",
+   "grade_code",
+   "learning_analytics"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "modules_and_packages",
+   "version_control"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "lists",
+   "dictionaries"
+  ],
+  "level": 3,
+  "R": [
+   "generate_quiz",
+   "grade_answers",
+   "grade_code",
+   "run_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [
+   "submission"
+  ],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "datascience",
+  "concepts": [
+   "graph_theory"
+  ],
+  "level": 3,
+  "R": [
+   "generate_quiz",
+   "grade_answers",
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "language",
+  "concepts": [
+   "debate_and_discussion",
+   "presentations"
+  ],
+  "level": 3,
+  "R": [
+   "generate_quiz",
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "strings",
+   "files"
+  ],
+  "level": 3,
+  "R": [
+   "grade_answers",
+   "grade_code",
+   "run_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [
+   "submission"
+  ],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "language",
+  "concepts": [
+   "past_simple",
+   "phrasal_verbs"
+  ],
+  "level": 3,
+  "R": [
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "formative",
+  "domain": "datascience",
+  "concepts": [
+   "entailment",
+   "computational_phonology"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code",
+   "learning_analytics"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "language",
+  "concepts": [
+   "present_perfect",
+   "reported_speech"
+  ],
+  "level": 3,
+  "R": [
+   "generate_quiz",
+   "learning_analytics",
+   "record_grade",
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [],
+  "ho_out": [
+   "submission"
+  ],
+  "ho_in": []
+ },
+ {
+  "type": "formative",
+  "domain": "datascience",
+  "concepts": [
+   "structured_learning",
+   "vector_semantics"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [
+   "score"
+  ],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "primitive_types"
+  ],
+  "level": 3,
+  "R": [
+   "generate_quiz",
+   "grade_answers",
+   "grade_code",
+   "learning_analytics"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "score",
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "recursion",
+   "linked_structures"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "functions",
+   "parameters_and_scope"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "datascience",
+  "concepts": [
+   "unsupervised_learning",
+   "k_means"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code",
+   "read_gradebook"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "programming",
+  "concepts": [
+   "lists",
+   "tuples_and_sets"
+  ],
+  "level": 3,
+  "R": [
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "language",
+  "concepts": [
+   "present_perfect",
+   "reported_speech"
+  ],
+  "level": 3,
+  "R": [
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "formative",
+  "domain": "language",
+  "concepts": [
+   "present_simple",
+   "present_continuous"
+  ],
+  "level": 3,
+  "R": [
+   "learning_analytics",
+   "read_gradebook",
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [
+   "submission"
+  ],
+  "ho_in": [
+   "score"
+  ]
+ },
+ {
+  "type": "formative",
+  "domain": "language",
+  "concepts": [
+   "paragraph_writing",
+   "essay_structure"
+  ],
+  "level": 3,
+  "R": [
+   "learning_analytics",
+   "record_grade",
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "formative",
+  "delta_in": [
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "score"
+  ]
+ },
+ {
+  "type": "summative",
+  "domain": "programming",
+  "concepts": [
+   "software_design",
+   "nested_structures"
+  ],
+  "level": 4,
+  "R": [
+   "grade_code",
+   "plagiarism_check",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "present_simple"
+  ],
+  "level": 4,
+  "R": [
+   "pronunciation_eval"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "countable_uncountable",
+   "phrasal_verbs"
+  ],
+  "level": 4,
+  "R": [
+   "pronunciation_eval"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "modal_verbs"
+  ],
+  "level": 4,
+  "R": [
+   "generate_quiz",
+   "pronunciation_eval",
+   "read_gradebook",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "datascience",
+  "concepts": [
+   "parts_of_speech",
+   "markov_chain_monte_carlo"
+  ],
+  "level": 4,
+  "R": [
+   "generate_quiz",
+   "grade_code",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "formal_letters_emails"
+  ],
+  "level": 4,
+  "R": [
+   "grade_answers",
+   "pronunciation_eval",
+   "record_grade",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "reading_short_texts",
+   "essay_structure"
+  ],
+  "level": 4,
+  "R": [
+   "pronunciation_eval"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "questions_and_negation"
+  ],
+  "level": 4,
+  "R": [
+   "pronunciation_eval"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "datascience",
+  "concepts": [
+   "knowledge_representation",
+   "computer_vision"
+  ],
+  "level": 4,
+  "R": [
+   "grade_code",
+   "read_gradebook",
+   "run_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "datascience",
+  "concepts": [
+   "expectation_maximization_algorithm",
+   "nlp_for_the_humanities"
+  ],
+  "level": 4,
+  "R": [
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "programming",
+  "concepts": [
+   "stacks_and_queues",
+   "dictionaries"
+  ],
+  "level": 4,
+  "R": [
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "present_continuous"
+  ],
+  "level": 4,
+  "R": [
+   "plagiarism_check",
+   "pronunciation_eval",
+   "read_gradebook",
+   "record_grade"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "summative",
+  "domain": "programming",
+  "concepts": [
+   "conditionals",
+   "version_control"
+  ],
+  "level": 4,
+  "R": [
+   "grade_code",
+   "run_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "programming",
+  "concepts": [
+   "inheritance",
+   "debugging"
+  ],
+  "level": 4,
+  "R": [
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "past_simple",
+   "future_forms"
+  ],
+  "level": 4,
+  "R": [
+   "pronunciation_eval",
+   "record_grade"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "programming",
+  "concepts": [
+   "linked_structures",
+   "files"
+  ],
+  "level": 4,
+  "R": [
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "summative",
+  "domain": "datascience",
+  "concepts": [
+   "probabilities"
+  ],
+  "level": 4,
+  "R": [
+   "generate_quiz",
+   "grade_code",
+   "read_gradebook"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "programming",
+  "concepts": [
+   "conditionals",
+   "recursion"
+  ],
+  "level": 4,
+  "R": [
+   "generate_quiz",
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "pronunciation_stress_intonation"
+  ],
+  "level": 4,
+  "R": [
+   "generate_quiz",
+   "pronunciation_eval",
+   "record_grade",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "programming",
+  "concepts": [
+   "functions"
+  ],
+  "level": 4,
+  "R": [
+   "grade_code",
+   "plagiarism_check"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "reported_speech"
+  ],
+  "level": 4,
+  "R": [
+   "generate_quiz",
+   "plagiarism_check",
+   "pronunciation_eval",
+   "read_gradebook"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "modal_verbs",
+   "present_simple"
+  ],
+  "level": 4,
+  "R": [
+   "pronunciation_eval"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "essay_structure"
+  ],
+  "level": 4,
+  "R": [
+   "pronunciation_eval",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "datascience",
+  "concepts": [
+   "logic_and_reasoning"
+  ],
+  "level": 4,
+  "R": [
+   "grade_answers",
+   "grade_code",
+   "run_code",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "programming",
+  "concepts": [
+   "lists"
+  ],
+  "level": 4,
+  "R": [
+   "grade_code",
+   "plagiarism_check",
+   "run_code",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "programming",
+  "concepts": [
+   "comprehensions",
+   "dictionaries"
+  ],
+  "level": 4,
+  "R": [
+   "grade_code",
+   "read_gradebook",
+   "record_grade"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "score"
+  ]
+ },
+ {
+  "type": "summative",
+  "domain": "programming",
+  "concepts": [
+   "iteration_patterns",
+   "parameters_and_scope"
+  ],
+  "level": 4,
+  "R": [
+   "generate_quiz",
+   "grade_answers",
+   "grade_code",
+   "plagiarism_check"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "programming",
+  "concepts": [
+   "comprehensions"
+  ],
+  "level": 4,
+  "R": [
+   "grade_code"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "summative",
+  "domain": "datascience",
+  "concepts": [
+   "latent_variable_models",
+   "shallow_parsing"
+  ],
+  "level": 4,
+  "R": [
+   "grade_code",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "countable_uncountable"
+  ],
+  "level": 4,
+  "R": [
+   "pronunciation_eval",
+   "read_gradebook",
+   "record_grade"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "passive_voice",
+   "first_conditional"
+  ],
+  "level": 4,
+  "R": [
+   "plagiarism_check",
+   "pronunciation_eval"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "relative_clauses"
+  ],
+  "level": 4,
+  "R": [
+   "generate_quiz",
+   "grade_answers",
+   "pronunciation_eval",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "summative",
+  "domain": "language",
+  "concepts": [
+   "basic_vocabulary"
+  ],
+  "level": 4,
+  "R": [
+   "grade_answers",
+   "plagiarism_check",
+   "pronunciation_eval"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "summative",
+  "domain": "programming",
+  "concepts": [
+   "comprehensions",
+   "iteration_patterns"
+  ],
+  "level": 4,
+  "R": [
+   "grade_answers",
+   "grade_code",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "asm": "summative",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "discussion",
+  "domain": "programming",
+  "concepts": [
+   "tuples_and_sets",
+   "stacks_and_queues"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "linear_discriminant_analysis",
+   "backpropagation"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "language",
+  "concepts": [
+   "phrasal_verbs",
+   "basic_vocabulary"
+  ],
+  "level": 5,
+  "R": [
+   "explain_concept",
+   "forum_post"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "programming",
+  "concepts": [
+   "algorithmic_complexity",
+   "version_control"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "notify_instructor",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "information_retrieval",
+   "text_generation"
+  ],
+  "level": 5,
+  "R": [
+   "explain_concept",
+   "forum_post",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "language",
+  "concepts": [
+   "present_simple",
+   "countable_uncountable"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "notify_instructor"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "programming",
+  "concepts": [
+   "dictionaries"
+  ],
+  "level": 5,
+  "R": [
+   "explain_concept",
+   "forum_post",
+   "notify_instructor",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "discussion",
+  "domain": "programming",
+  "concepts": [
+   "conditionals",
+   "tuples_and_sets"
+  ],
+  "level": 5,
+  "R": [
+   "explain_concept",
+   "forum_post"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "text_summarization",
+   "maximum_likelihood_estimation"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "language",
+  "concepts": [
+   "essay_structure",
+   "prepositions_of_place_time"
+  ],
+  "level": 5,
+  "R": [
+   "conversation_practice",
+   "forum_post"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "graph_theory"
+  ],
+  "level": 5,
+  "R": [
+   "explain_concept",
+   "forum_post",
+   "notify_instructor",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "dialog_systems",
+   "autoencoders"
+  ],
+  "level": 5,
+  "R": [
+   "explain_concept",
+   "forum_post",
+   "notify_instructor",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "language",
+  "concepts": [
+   "phrasal_verbs",
+   "paragraph_writing"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "language",
+  "concepts": [
+   "formal_letters_emails",
+   "listening_everyday"
+  ],
+  "level": 5,
+  "R": [
+   "conversation_practice",
+   "forum_post"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "parsing",
+   "kkt_conditions"
+  ],
+  "level": 5,
+  "R": [
+   "explain_concept",
+   "forum_post",
+   "notify_instructor",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "language",
+  "concepts": [
+   "pronunciation_stress_intonation"
+  ],
+  "level": 5,
+  "R": [
+   "conversation_practice",
+   "forum_post",
+   "notify_instructor",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "discussion",
+  "domain": "programming",
+  "concepts": [
+   "parameters_and_scope"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "language",
+  "concepts": [
+   "reported_speech"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "gated_recurrent_units",
+   "semi_supervised_learning"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "notify_instructor",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "context_free_grammar",
+   "long_short_term_memory_networks"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "notify_instructor",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "language",
+  "concepts": [
+   "numbers_dates_time"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "discussion",
+  "domain": "language",
+  "concepts": [
+   "future_forms"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "markov_chain_monte_carlo"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "notify_instructor",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "programming",
+  "concepts": [
+   "sorting",
+   "debugging"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "notify_instructor"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "sequence_classification_and_conditional_random_fields",
+   "resnet"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "text_to_speech_generation",
+   "neural_machine_translation"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "notify_instructor",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "syntax",
+   "multilingual_word_embedding"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "language",
+  "concepts": [
+   "questions_and_negation"
+  ],
+  "level": 5,
+  "R": [
+   "explain_concept",
+   "forum_post",
+   "notify_instructor"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "visual_qa",
+   "k_means"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "notify_instructor"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "datascience",
+  "concepts": [
+   "clustering"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "language",
+  "concepts": [
+   "formal_letters_emails",
+   "present_perfect"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "notify_instructor",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "discussion",
+  "domain": "language",
+  "concepts": [
+   "debate_and_discussion"
+  ],
+  "level": 5,
+  "R": [
+   "explain_concept",
+   "forum_post"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "programming",
+  "concepts": [
+   "nested_structures"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "notify_instructor"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "discussion",
+  "domain": "programming",
+  "concepts": [
+   "algorithmic_complexity",
+   "strings"
+  ],
+  "level": 5,
+  "R": [
+   "forum_post",
+   "notify_instructor",
+   "peer_review"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "datascience",
+  "concepts": [
+   "logic_and_logical_agents"
+  ],
+  "level": 6,
+  "R": [
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "language",
+  "concepts": [
+   "comparatives_superlatives"
+  ],
+  "level": 6,
+  "R": [
+   "check_grammar",
+   "peer_review",
+   "submit_assignment",
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "language",
+  "concepts": [
+   "presentations"
+  ],
+  "level": 6,
+  "R": [
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "datascience",
+  "concepts": [
+   "parsing_evaluation",
+   "markov_chains"
+  ],
+  "level": 6,
+  "R": [
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "programming",
+  "concepts": [
+   "inheritance",
+   "nested_structures"
+  ],
+  "level": 6,
+  "R": [
+   "peer_review",
+   "plagiarism_check",
+   "run_code",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "programming",
+  "concepts": [
+   "linked_structures"
+  ],
+  "level": 6,
+  "R": [
+   "export_report",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "score"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "datascience",
+  "concepts": [
+   "dynamic_programming",
+   "text_generation"
+  ],
+  "level": 6,
+  "R": [
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "datascience",
+  "concepts": [
+   "visual_qa"
+  ],
+  "level": 6,
+  "R": [
+   "export_report",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "score"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "programming",
+  "concepts": [
+   "functions"
+  ],
+  "level": 6,
+  "R": [
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "language",
+  "concepts": [
+   "comparatives_superlatives",
+   "present_simple"
+  ],
+  "level": 6,
+  "R": [
+   "check_grammar",
+   "submit_assignment",
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "datascience",
+  "concepts": [
+   "word_embedding"
+  ],
+  "level": 6,
+  "R": [
+   "plagiarism_check",
+   "run_code",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "language",
+  "concepts": [
+   "reported_speech"
+  ],
+  "level": 6,
+  "R": [
+   "export_report",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "datascience",
+  "concepts": [
+   "kernels"
+  ],
+  "level": 6,
+  "R": [
+   "export_report",
+   "plagiarism_check",
+   "plot_data",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "CONT",
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "score",
+   "submission"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "datascience",
+  "concepts": [
+   "machine_learning_resources",
+   "knowledge_representation"
+  ],
+  "level": 6,
+  "R": [
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "datascience",
+  "concepts": [
+   "vector_representations"
+  ],
+  "level": 6,
+  "R": [
+   "export_report",
+   "plot_data",
+   "run_code",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "score"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "programming",
+  "concepts": [
+   "debugging"
+  ],
+  "level": 6,
+  "R": [
+   "peer_review",
+   "plagiarism_check",
+   "run_code",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "language",
+  "concepts": [
+   "questions_and_negation",
+   "listening_everyday"
+  ],
+  "level": 6,
+  "R": [
+   "check_grammar",
+   "plagiarism_check",
+   "submit_assignment",
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "datascience",
+  "concepts": [
+   "memory_networks"
+  ],
+  "level": 6,
+  "R": [
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "language",
+  "concepts": [
+   "future_forms"
+  ],
+  "level": 6,
+  "R": [
+   "export_report",
+   "submit_assignment",
+   "writing_feedback"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "score"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "programming",
+  "concepts": [
+   "debugging",
+   "lists"
+  ],
+  "level": 6,
+  "R": [
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "language",
+  "concepts": [
+   "prepositions_of_place_time",
+   "relative_clauses"
+  ],
+  "level": 6,
+  "R": [
+   "export_report",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "datascience",
+  "concepts": [
+   "edit_distance"
+  ],
+  "level": 6,
+  "R": [
+   "export_report",
+   "plot_data",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "score"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "language",
+  "concepts": [
+   "questions_and_negation"
+  ],
+  "level": 6,
+  "R": [
+   "check_grammar",
+   "peer_review",
+   "plagiarism_check",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "datascience",
+  "concepts": [
+   "transition_based_dependency_parsing"
+  ],
+  "level": 6,
+  "R": [
+   "export_report",
+   "plagiarism_check",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "score"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "programming",
+  "concepts": [
+   "linked_structures",
+   "tuples_and_sets"
+  ],
+  "level": 6,
+  "R": [
+   "export_report",
+   "run_code",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "ID",
+   "PERF"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "score"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "language",
+  "concepts": [
+   "paragraph_writing",
+   "present_perfect"
+  ],
+  "level": 6,
+  "R": [
+   "check_grammar",
+   "export_report",
+   "peer_review",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "language",
+  "concepts": [
+   "present_simple",
+   "present_continuous"
+  ],
+  "level": 6,
+  "R": [
+   "check_grammar",
+   "peer_review",
+   "plagiarism_check",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ },
+ {
+  "type": "production",
+  "domain": "datascience",
+  "concepts": [
+   "evaluation_of_dependency_parsing"
+  ],
+  "level": 6,
+  "R": [
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "programming",
+  "concepts": [
+   "software_design"
+  ],
+  "level": 6,
+  "R": [
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [],
+  "ho_out": [],
+  "ho_in": []
+ },
+ {
+  "type": "production",
+  "domain": "programming",
+  "concepts": [
+   "encapsulation",
+   "primitive_types"
+  ],
+  "level": 6,
+  "R": [
+   "peer_review",
+   "plagiarism_check",
+   "run_code",
+   "submit_assignment"
+  ],
+  "D": [
+   "CONT",
+   "ID"
+  ],
+  "asm": "none",
+  "delta_in": [
+   "CONT",
+   "ID"
+  ],
+  "ho_out": [],
+  "ho_in": [
+   "submission"
+  ]
+ }
+]

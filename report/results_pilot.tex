@@ -1,0 +1,116 @@
+\documentclass[10pt]{article}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{booktabs,graphicx,amsmath,xcolor}
+\input{macros}
+\input{macros2}
+\input{macros3}
+\title{EmerKit: experimental results without language models\\\large Final data, with language models (Claude family only) --- \textcolor{red!60!black}{working report}}
+\date{}
+\begin{document}
+
+\maketitle
+
+\noindent Every number in this document is generated from the result files by \texttt{make\_report.py}; none is typed by hand.
+
+\section{Setup}
+The pilot runs on a synthetic catalogue of educational MCP servers with complete ground truth (capabilities, the learner data each tool returns, whether it forwards content beyond its server, receiver roles, confusable pairs), regenerated for each of \RNSeeds{} seeds (about 165 tools on 36 servers per seed). Tasks are generated independently of any scenario from concept graphs in three domains: data science (LectureBank 2.0, human-annotated prerequisites), programming (expert-authored after CS2023) and English as a foreign language (expert-authored after the CEFR): 300 test tasks per seed, 50 per pedagogical type, \RNTasks{} in total. Default parameters: $B=2000$ tokens, $\theta=0.75$, $k_{\max}=4$, $N=20$, $\tau=1.25$, target risk $\xi=0.05$, $\zeta=0.1$, 300 calibration tasks and a level grid refined near zero ($0.001$ to $0.02$, then steps of $0.025$ up to $0.5$); 40\% of annotations are present, 5\% of them are wrong, and observable cues appear in 40\% of the descriptions. No language model is called: capabilities are extracted by a similarity mapper and labels by weak supervision.
+
+A toolkit is \emph{valid} when it is returned, covers every required capability, makes no denied flow possible under the true labels, and meets the QoS bounds of its task. DFR is the share of returned toolkits with at least one denied flow. Baselines are RAG-MCP (top-$k$ by relevance) and the integer program of Zeng et al. (one service per capability, global QoS constraints), each with and without a filter on declared annotations. The \emph{oracle} is EmerKit given the true labels; it bounds what any label-inference method can achieve.
+
+\section{Preparation quality (series A0 and B0)}
+Capability extraction reaches a precision of \RCapPrec\% and a recall of \RCapRec\%; synthetic descriptions are easier than real ones, so this figure is optimistic. Label classifiers reach an accuracy between \RLabAccMin\% and \RLabAccMax\% depending on the label. The empirical coverage of the conformal sets is \RConfCovFive\%, \RConfCovTen\%, and \RConfCovTwenty\% for $\epsilon=0.05$, $0.1$, and $0.2$, so it stays at or above the nominal $1-\epsilon$ in all three cases, as split conformal prediction guarantees.
+
+\section{Reference comparison (series A1)}
+\input{tables}
+
+\begin{figure}[t]\centering
+\includegraphics[width=0.48\linewidth]{fig_a1_tradeoff.pdf}\hfill
+\includegraphics[width=0.48\linewidth]{fig_b1_calibration.pdf}
+\caption{Left: tasks equipped against the denied-flow rate of returned toolkits (series A1; bars are 95\% bootstrap intervals). Right: calibration curve of series B1, averaged over seeds.}\label{fig:a1b1}
+\end{figure}
+
+\paragraph{Observations.} Table~\ref{tab:a1} and Fig.~\ref{fig:a1b1} (left) show that EmerKit returns toolkits with a denied flow in \RAEmerkitDfr\% of the equipped tasks, against \RARagMcpDfr\% for RAG-MCP, \RAZengDfr\% for Zeng et al., and still \RARagMcpPlusFilterDfr\% and \RAZengPlusFilterDfr\% when both are filtered on declared annotations. Its toolkits violate the QoS bounds in \RAEmerkitQviol\% of the cases, against \RARagMcpQviol\% for RAG-MCP, and carry almost no redundant provider (\RAEmerkitRed{} per task, against \RARagMcpRed{} for RAG-MCP). In exchange, EmerKit equips \RAEmerkitEq\% of the tasks, against \RAOracleEq\% for the oracle and \RAZengPlusFilterEq\% for Zeng et al. with filter. On the composite criterion, EmerKit produces a valid toolkit for \RAEmerkitValid\% of the tasks, more than RAG-MCP (\RARagMcpValid\%) and Zeng et al. without filter (\RAZengValid\%), but fewer than Zeng et al. with filter (\RAZengPlusFilterValid\%) and the oracle (\RAOracleValid\%). Calibrated at $\xi=0.10$, EmerKit equips \RAEmerkitXiEq\% of the tasks and produces \RAEmerkitXiValid\% valid toolkits, with \RAEmerkitXiDfr\% denied flows.
+
+\paragraph{Interpretation.} The safety result is the expected one: relevance-based selection is blind to flows, QoS-optimal selection is blind to them as well, and a filter on declared annotations cannot see what is not declared. The coverage result is the cost of the guarantee: uncertain tools are excluded in the worst case, and some tasks lose all their admissible toolkits; the gap to the oracle measures this conservatism. Against the filtered QoS baseline, EmerKit trades a few points of valid toolkits for a denied-flow rate several times lower; the paper must state this trade-off as such. Task substitution (series C2) recovers part of the gap.
+
+\section{Calibration (series B1)}
+\paragraph{Observations.} In all twelve configurations of Table~\ref{tab:b1}, the test denied-flow rate stays below the target $\xi$; the largest ratio between the two is \RBMaxDfrRatio. At $\xi=0.05$, the share of equipped tasks grows from \RBEqHundred\% with 100 calibration tasks to \RBEqThree\% with 300, for a calibrated level of \RBEpsThree{} and a test denied-flow rate of \RBDfrThree\%. Without label inference ($\epsilon=0$, every set equal to $\{0,1\}$), only \RBEqEpsZero\% of the tasks are equipped (Fig.~\ref{fig:a1b1}, right).
+\paragraph{Interpretation.} The task-level calibration delivers what Proposition~3 states on held-out tasks: the risk bound holds for the toolkits that the composer actually returns. Its usefulness depends on statistical power. With few calibration tasks, the test tolerates almost no violation (Table~\ref{tab:power}): at $\xi=0.05$, 100 tasks tolerate a single one, so the fixed-sequence test stops at a very conservative level even when the true risk is well below the target. With 300 tasks and a grid refined near zero, the test certifies levels at which conformal label inference triples the share of equipped tasks over the purely worst-case check. The paper should state this sample-size rule; for real tools, each calibration task requires the audit of its returned toolkit.
+
+\section{Ablations (series D1)}
+\paragraph{Observations.} Replacing the conformal sets by declared annotations raises the share of equipped tasks to \RDDeclaredAnnotationsEq\% but the denied-flow rate to \RDDeclaredAnnotationsDfr\%. Additive utility multiplies the number of redundant providers from \RDFullEmerkitRed{} to \RDAdditiveUtilityRed{} per task. Without QoS, \RDNoQosQviol\% of the toolkits violate their bounds. Removing the interaction terms leaves the equipped share and the denied-flow rate unchanged and raises redundancy from \RDFullEmerkitRed{} to \RDNoInteractionsRed{} redundant providers per task.
+
+\paragraph{Interpretation.} The prediction sets and the worst-case check carry the safety of the approach, and counting each capability once carries most of its parsimony. At the default parameters, interference and saturation have little to act on: near-duplicates are rare and toolkits use a small part of the budget. Their effect is examined under stress in the next section.
+
+\section{Interference and context load (series A2 and A3)}
+\begin{figure}[t]\centering
+\includegraphics[width=0.9\linewidth]{fig_a3_context.pdf}
+\caption{Series A3: share of toolkits whose load exceeds the soft threshold $\theta B$, as a function of the context budget.}\label{fig:a3}
+\end{figure}
+\paragraph{Observations.} When up to 40\% of the capabilities have a near-duplicate provider, RAG-MCP returns a confusable pair in up to \RARagCpMax\% of its toolkits; EmerKit never does (\RAEmkCpMax\%), and its variant without interaction terms does in at most \RAEmkNoIntCpMax\%. Under a budget of 1{,}000 tokens, \RAOverEmk\% of EmerKit toolkits exceed the soft threshold, against \RAOverNoInt\% without the saturation term, \RAOverZeng\% for Zeng et al., and \RAOverRag\% for RAG-MCP (Fig.~\ref{fig:a3}); at 500 tokens, RAG-MCP exceeds the budget itself in \RARagExceed\% of the cases and Zeng et al. in \RAZengExceed\%.
+
+\paragraph{Interpretation.} On the composition side, avoiding confusable pairs follows mostly from counting each capability once; the interference term removes the residual cases. The saturation term has a clear but moderate effect on context load. Neither result tests the central claim of H1, which concerns the behaviour of an agent: whether these toolkits make an agent choose the right tool more often is the object of the selection probes (series A5 and A6), which require model calls.
+
+\section{QoS bounds (series A4)}
+\paragraph{Observations.} Grid series use a fixed level $\epsilon=0.05$ and three seeds (Table~\ref{tab:a4}). With bounds set at $1.25$ times the median aggregate, EmerKit returns a valid toolkit for \RAfourEmk\% of the tasks, against \RAfourZeng\% for Zeng et al. and \RAfourRag\% for RAG-MCP. When the bounds tighten to $0.75$, the shares fall to \RAfourEmkSevenFive\% and \RAfourZengSevenFive\%; at $0.5$ no method returns a valid toolkit.
+\paragraph{Interpretation.} QoS and flow constraints combine: Zeng et al. meet the bounds but not the norms, RAG-MCP meets neither. The share of valid toolkits depends strongly on how bounds are set, which the paper must state when it reports a single value.
+
+\section{Imperfect metadata (series B2)}
+\paragraph{Observations.} Across all ten configurations of Table~\ref{tab:b2}, the denied-flow rate of EmerKit stays between \RBtwoEmkMin\% and \RBtwoEmkMax\%. With declared annotations instead of prediction sets, it rises from \RBtwoDeclMzero\% when every annotation is present to \RBtwoDeclMeight\% when 80\% are missing; filtered baselines reach up to \RBtwoRagMax\% (RAG-MCP) and \RBtwoZengMax\% (Zeng et al.). The price is coverage: when the share of wrong annotations grows from 0 to 20\%, EmerKit equips \RBtwoEqWzero\% then \RBtwoEqWtwenty\% of the tasks.
+\paragraph{Interpretation.} This is the main evidence for H2: the risk of EmerKit does not depend on how many annotations providers publish, whereas every method that trusts declarations degrades with them. Wrong annotations do not raise its risk; they widen the prediction sets and make it more conservative.
+
+\section{Norms and receivers (series B3)}
+\paragraph{Observations.} Under the three norm profiles and three shares of third-party providers (Table~\ref{tab:b3}), the denied-flow rate of EmerKit never exceeds \RBthreeEmkMax\%. That of Zeng et al. with filter reaches \RBthreeZengHigh\% when third-party providers dominate, and that of EmerKit with declared annotations \RBthreeDeclMax\%.
+\paragraph{Interpretation.} The flow check adapts to the norm base as intended; the filtered QoS baseline is safe only as long as few providers are third parties.
+
+\section{Sensitivity to the weights (series D2)}
+\paragraph{Observations.} Over eleven settings of $\lambda_I$, $\lambda_C$, $\lambda_Q$ and $\theta$ (Table~\ref{tab:d2}), the share of valid toolkits stays between \RDtwoValidMin\% and \RDtwoValidMax\%. The interference weight changes redundancy only: \RDtwoRedNoI{} redundant providers per task without it, \RDtwoRedI{} with it.
+\paragraph{Interpretation.} The composer is not sensitive to its provisional weights at default load and confusability, so the comparisons above do not hinge on tuning. The weights matter where interactions are frequent (series A2, A3), and their values must come from the selection probes.
+
+\section{End-to-end composition and substitution (series C2, and C1 without language models)}
+\paragraph{Observations.} The generator produced no valid workflow for \RCtwoNoWf\% of the requests; these requests are excluded for every method in Table~\ref{tab:c2}. Without substitution, every task of the workflow is equipped for \RCtwoAllZero\% of the requests; with at most two substitutions, for \RCtwoAllTwo\% (\RCtwoAllThree\% with three), and \RCtwoSub\% of the tasks are substituted. The same generator followed by Zeng et al. with filter equips every task for \RCtwoZfAll\% of the requests. The final workflows cover at least \RCtwoObjMin\% of the target concepts, with \RCtwoPrereq{} prerequisite violations and \RCtwoPres{} substitution outside the preservation relation over all configurations. Per task, \RCtwoTaskDfr\% of EmerKit toolkits make a denied flow possible, so that \RCtwoWfRisk\% of the workflows contain at least one such toolkit, against \RCtwoZfRisk\% with Zeng et al. with filter, \RCtwoZRisk\% without filter, and \RCtwoRagRisk\% with RAG-MCP. In conservative mode, these figures are \RCtwoWfRiskCons\% and \RCtwoAllCons\%.
+\paragraph{Interpretation.} Substitution delivers what it is designed for: it turns a large share of incomplete workflows into complete ones without leaving the substitution catalogue. Two findings call for changes. First, the guarantee is stated per task, and risk accumulates over the tasks of a workflow; bounding the risk of a whole workflow requires calibrating each task at $\xi/|V|$, or calibrating on whole workflows. Second, at a fixed level the per-task rate exceeds the target of 5\%: end-to-end tasks inherit attributes through hand-offs and differ from the calibration distribution, which is exactly the shift the guarantee does not cover. Both points must be stated in the paper.
+
+\section{Solver and catalogue scaling (series C3 and C4)}
+\paragraph{Observations.} The median solving time per task never exceeds \RCthreeMedMax{} s and the 95th percentile \RCthreePmax{} s, with no time-out in any configuration (Table~\ref{tab:c3}); with five required capabilities, \RCthreeInfFive\% of the tasks have no admissible toolkit, and the minimal conflict contains \RCthreeConf{} constraint groups on average. With up to 2{,}960 tools drawn from MCP-tools and the Toucan server catalogue (Table~\ref{tab:c4}), preparation takes \RCfourPrep{} s, the median time per task moves from \RCfourEmkSmall{} to \RCfourEmkLarge{} ms, memory stays below \RCfourMem{} MB, and at most \RCfourReal\% of the toolkits use a real server.
+\paragraph{Interpretation.} Exact composition is practical at the sizes considered, and the cost of the approach is in preparation, not in composition. Real tools are rarely selected because few of them provide educational capabilities and none is annotated, so their labels stay uncertain.
+
+\section{Gap map (series E1 and E2)}
+\paragraph{Observations.} On the synthetic catalogue with standard norms, \REoneSafeSyn\% of the demand-weighted archetypes are safe, \REoneUncSyn\% uncertain and \REoneRiskStd\% risky (Table~\ref{tab:e1}); strict norms raise the risky share to \REoneRiskStrict\%, and adding MCP-tools raises the uncertain share to \REoneUncMix\%. When providers annotate half of the tools correctly, the uncertain share falls to \REtwoUncHalf\% (Table~\ref{tab:e2}).
+\paragraph{Interpretation.} The classes react to the levers they are meant to expose: norms create risky archetypes, undocumented tools create uncertain ones, and publishing annotations resolves them. No archetype is uncovered because the synthetic catalogue provides every capability; the uncovered class can only be tested on real catalogues.
+
+\input{tables2}
+
+\section{Live enactment through the MCP gateway (series F1)}
+\paragraph{Observations.} Every server of the synthetic catalogue runs as a real MCP server (official Python SDK) that behaves as its ground truth says: it returns learner data marked by unique canary values and really sends what it receives to the sink of each receiver it reaches. For \RFoneN{} toolkits over \RFoneSeeds{} seeds, the gateway exposed only the tools of the toolkit in \RFoneExposed\% of the runs and refused every call outside it in \RFoneBlocked\%. An exhaustive policy, which calls every tool with everything its parameters can carry, realised exactly the flows predicted by the flow model in \RFoneExact\% of the toolkits; \RFoneDenied\% of the toolkits allowed at least one denied flow, which is the empirical counterpart of the denied-flow rate. A run takes \RFoneSec{} s per task.
+\paragraph{Interpretation.} The flow model of Sect.~4.5 is not an approximation of what the runtime does: on these servers, the flows it predicts are the flows that occur. What an LLM agent actually does with the same toolkits (policy \texttt{llm}) requires model calls.
+
+\section{Audit of real tools}
+\paragraph{Observations.} Static analysis retrieved the code of \RAuServers{} real servers from GitHub and gathered evidence for \RAuTools{} tools. A model review (Claude) labelled \RAuReviewed{} of them: \RAuOut{} forward what they receive beyond their server, none returns learner data, and \RAuLowConf{} labels have low or medium confidence. The static heuristic agrees with the review on \RAuAgree{} of the \RAuReviewed{} tools.
+\paragraph{Interpretation.} Static evidence alone is not an audit: it misses calls made through libraries and over-generalises server-level evidence to every tool. The review is a model judgement and must be declared as such; a human check of a sample remains to be done.
+
+\section{Series with language models}
+All model calls below use Claude models (Haiku 5.5, Sonnet 5.5, Opus 5.5); no model of another family was available in this environment, which must be stated as a limitation. Every call is logged.
+
+\paragraph{Capability extraction (A0).} An LLM extractor (Haiku) reaches a precision of \RLaPrec\% and a recall of \RLaRec\% on the synthetic catalogue, against a recall of \RLaMapRec\% for the similarity mapper.
+
+\paragraph{Expert panel.} Three models rated every cell of the norm base, every substitution pair and every cell of the fit matrix. On the \RJnItems{} norm cells they agree unanimously (Fleiss' $\kappa=\RJnKappa$), and their majority matches the norm base on \RJnAgree\% of the cells (\RJnDis{} disagreements: stricter on profile and content sent to third parties during acquisition, more permissive for contracted processors in assessment). On the \RJsItems{} substitution pairs rated by all three ($\kappa=\RJsKappa$), the majority matches the catalogue on \RJsAgree\% of the pairs; the models reject the acquisition--discussion and practice--production substitutions. Their fit ratings correlate at \RJfCorr{} with the matrix (\RJfInter{} between models; mean gap \RJfGap). These are model judgements, not a validation by instructors.
+
+\paragraph{Sensitivity to the panel (P1, P2).} With the panel's majority norms at the task level, EmerKit equips \RPonePanelEq\% of the tasks (\RPoneStandardEq\% with the standard base) with a denied-flow rate of \RPonePanelDfr\% (\RPoneStandardDfr\%), and Zeng et al. with filter reaches \RPonePanelZfDfr\% (\RPoneStandardZfDfr\%). End to end, with the panel's norms and substitution catalogue, \RPtwoPanelAll\% of the workflows are fully equipped (\RPtwoStandardAll\%), \RPtwoPanelRisk\% contain a risky toolkit (\RPtwoStandardRisk\%), and \RPtwoPanelSub\% of the tasks are substituted (\RPtwoStandardSub\%). The conclusions do not depend on which of the two parameter sets is used.
+
+\paragraph{Selection probes (A5).} On synthetic definitions, the probed model chose a correct tool in \RAfiveSyn\% of the probes, whatever the distractors and toolkit size: synthetic descriptions are too distinct to probe confusion. On real definitions from the Toucan catalogue (\RAfiveN{} probes, \RAfiveModels{} models, Table~\ref{tab:a5real}), a request written by another model for one target tool was served correctly in \RAfiveHaikuRand\% (Haiku) and \RAfiveOpusRand\% (Opus) of the probes with random distractors, but only \RAfiveHaikuConf\% and \RAfiveOpusConf\% with the most similar tools of other servers. In a logistic model fitted on half of the probes, confusable distractors lower the log-odds of a correct choice by \RAfiveCoefConf{} ($p \RAfivePConf$) whereas the log of the context load has no effect (coefficient \RAfiveCoefLoad, $p=\RAfivePLoad$); with the similarity of the target to the other tools as predictor (coefficient \RAfiveCoefSim), the model predicts the errors of the held-out half with an AUC of \RAfiveAucSim{} (\RAfiveAucBase{} without it). The saturation term has a small positive coefficient (\RAfiveCoefSat, $p=\RAfivePSat$).
+
+\paragraph{Interpretation.} The probes support the interference component of H1: co-present tools with similar descriptions make agents choose wrongly, and a similarity-based interference term predicts these errors. They do not support the saturation component for these models and loads (up to 64 real definitions): the paper must report it as unsupported here and test it with smaller open models; its weight is set to the fitted value.
+
+\paragraph{Audit review of real tools.} Sonnet decided the forwarding label of \RAuSonnetDec{} of the 210 audited tools and agrees with the 40-tool review on \RAuSonnetAgree{} of \RAuSonnetN; Haiku decided \RAuHaikuDec{} and agrees on \RAuHaikuAgree{} of \RAuHaikuN; the two models agree on \RAuPair{} of \RAuPairN{} tools. Labels of real tools are taken from Sonnet; their reliability is moderate and must be declared.
+
+\paragraph{End to end with a language model (C1).} On \RCoN{} requests, Compositio Prompto (Sonnet, best of three, same candidate tools) equips \RCoCpEq\% of its tasks, but \RCoCpRisk\% of its compositions contain a toolkit with a denied flow, and it covers \RCoCpObj\% of the target concepts. Behind the LLM workflow generator, EmerKit obtains a valid workflow for \RCoLgValid\% of the requests (after deterministic repair; \RCoLgRaw\% of the valid ones needed no repair), equips \RCoLgEq\% of their tasks, covers \RCoLgObj\% of the targets with \RCoLgPrereq{} prerequisite violations, and \RCoLgRisk\% of its workflows contain a risky toolkit.
+
+\paragraph{Live enactment with an LLM agent (F1).} For \RFlN{} toolkits, a Haiku agent enacted the task through the gateway: the gateway exposed only the toolkit in \RFlExposed\% of the runs and refused calls outside it in \RFlBlocked\%; the agent realised \RFlRealised\% of the flows that the toolkits make possible, \RFlUnexp{} flow outside the predicted set, and \RFlDenied{} denied flow.
+
+\input{tables3}
+
+\section{Limits}
+The catalogue is synthetic and its descriptions are easier to analyse than real ones; capability extraction is therefore optimistic. No usage traces are available, so trace evidence ($\eta$) plays no role. Confusability is measured on known pairs, not on agent behaviour. Pedagogical parameters (norm base, fit matrix, substitution catalogue) are provisional. All language models come from one family (Claude); A6 is not run (synthetic definitions do not discriminate), A7 needs the Toucan trajectories, and ESCO is not integrated; C1 and F1 with a model use one seed. Grid series use three seeds and one factor at a time; the full factorial designs are defined (EMERKIT\_GRID=full).
+
+\end{document}

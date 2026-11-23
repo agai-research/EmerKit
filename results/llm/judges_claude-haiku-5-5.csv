@@ -1,0 +1,232 @@
+kind,a,b,model,value,current,rationale
+fit,explain,acquisition,claude-haiku-5-5,0.6,1.0,"```json
+{""fit"": 0.6, ""rationale"": ""Explanations support initial comprehension of new material, but acquisition also requires active practice and retrieval, which explanation alone does not provide.""}
+```"
+fit,explain,practice,claude-haiku-5-5,0.25,0.5,"{""fit"": 0.25, ""rationale"": ""Explaining supplies the reasoning that practice requires learners to generate, so it undercuts retrieval and application, and suits only brief feedback after attempts.""}"
+fit,explain,formative,claude-haiku-5-5,,0.2,
+fit,explain,summative,claude-haiku-5-5,0.15,0.1,"{""fit"": 0.15, ""rationale"": ""An explain tool supplies the reasoning a summative task is meant to measure, undermining validity and risking academic dishonesty, so it suits formative use better.""}"
+fit,explain,discussion,claude-haiku-5-5,0.3,0.7,"{""fit"": 0.3, ""rationale"": ""Explain delivers answers and casts the tool as authority, whereas discussion requires learners to articulate, question, and argue; it is useful only for background context.""}"
+fit,explain,production,claude-haiku-5-5,0.2,0.4,"{""fit"": 0.2, ""rationale"": ""Explaining supplies comprehension, but production requires learners to generate work themselves, and explanations risk substituting for productive effort and misaligning with the task's outcomes.""}"
+fit,search,acquisition,claude-haiku-5-5,0.3,0.9,"{""fit"": 0.3, ""rationale"": ""Search lets learners locate information but rarely builds encoded, retained knowledge; acquisition needs guided practice, elaboration, and retrieval, so the fit is weak.""}"
+fit,search,practice,claude-haiku-5-5,0.2,0.4,"{""fit"": 0.2, ""rationale"": ""Search mainly retrieves existing answers, which bypasses the retrieval effort and productive struggle that practice requires, so it fits poorly unless used for targeted lookup after attempts.""}"
+fit,search,formative,claude-haiku-5-5,0.3,0.1,"{""fit"": 0.3, ""rationale"": ""Search supports information retrieval but gives little feedback on student understanding, which formative tasks require, so fit is limited unless paired with explanation or self-checking.""}"
+fit,search,summative,claude-haiku-5-5,,0.0,
+fit,search,discussion,claude-haiku-5-5,0.2,0.6,"{""fit"": 0.2, ""rationale"": ""Search retrieves existing information, whereas discussion requires argumentation, interpretation, and responding to peers, so the pedagogical act mismatches the task's cognitive demands.""}"
+fit,search,production,claude-haiku-5-5,0.3,0.5,"{""fit"": 0.3, ""rationale"": ""Search supports retrieving existing information, whereas production requires generating original work, so fit is weak unless search is paired with synthesis and application activities.""}"
+fit,illustrate,acquisition,claude-haiku-5-5,0.55,0.9,"{""fit"": 0.55, ""rationale"": ""Illustrations build initial understanding of new concepts, but acquisition also needs explanation, practice, and feedback, which illustrating alone does not supply.""}"
+fit,illustrate,practice,claude-haiku-5-5,0.2,0.6,"{""fit"": 0.2, ""rationale"": ""Illustrating shows worked examples, whereas practice requires learners to generate and apply solutions themselves, so fit is weak unless used as a brief scaffold.""}"
+fit,illustrate,formative,claude-haiku-5-5,0.4,0.3,"{""fit"": 0.4, ""rationale"": ""Illustrating shows examples but does not elicit learner responses or diagnose understanding, so it supports formative tasks only partially and needs paired practice and feedback.""}"
+fit,illustrate,summative,claude-haiku-5-5,0.2,0.2,"{""fit"": 0.2, ""rationale"": ""Illustrate supports understanding through examples, but summative tasks assess independent performance, so providing illustrations risks giving away answers and invalidating results.""}"
+fit,illustrate,discussion,claude-haiku-5-5,0.25,0.5,"{""fit"": 0.25, ""rationale"": ""Illustrating supplies examples that can seed discussion, but it do"
+fit,illustrate,production,claude-haiku-5-5,0.3,0.7,"{""fit"": 0.3, ""rationale"": ""Illustrating demonstrates finished examples, which can support understanding, but production tasks require learners to create their own work, so the fit is weak and risks copying.""}"
+fit,exercise,acquisition,claude-haiku-5-5,0.3,0.4,"{""fit"": 0.3, ""rationale"": ""Exercise suits consolidation and fluency-building, but acquisition needs initial explanation, modelling, and worked examples before practice, so the match is weak.""}"
+fit,exercise,practice,claude-haiku-5-5,0.9,1.0,"{""fit"": 0.9, ""rationale"": ""An 'exercise' act directly matches a 'practice' task: both involve repeated, guided performance that builds skill, though fit depends on feedback and difficulty calibration.""}"
+fit,exercise,formative,claude-haiku-5-5,0.8,0.8,"{""fit"": 0.8, ""rationale"": ""Exercises give low-stakes, repeated practice with feedback, which directly supports formative assessment's goal of monitoring and improving learning, though fit depends on feedback quality.""}"
+fit,exercise,summative,claude-haiku-5-5,0.2,0.6,"{""fit"": 0.2, ""rationale"": ""Exercise supports practice and formative feedback, whereas summative tasks require evaluating final achievement, so the match is weak.""}"
+fit,exercise,discussion,claude-haiku-5-5,0.2,0.4,"{""fit"": 0.2, ""rationale"": ""Exercises prescribe convergent, individual practice with defined answers, whereas discussions require open-ended, dialogic reasoning and peer interaction, so alignment is weak.""}"
+fit,exercise,production,claude-haiku-5-5,0.3,0.7,"{""fit"": 0.3, ""rationale"": ""Exercise tools drill defined, closed-ended practice, while production tasks demand open-ended creation; fit is weak, though exercises can scaffold components.""}"
+fit,assess,acquisition,claude-haiku-5-5,0.3,0.1,"{""fit"": 0.3, ""rationale"": ""Assessment measures learning after the fact, while acquisition needs instruction, modelling, and scaffolded practice; only formative feedback offers partial fit.""}"
+fit,assess,practice,claude-haiku-5-5,0.3,0.7,"{""fit"": 0.3, ""rationale"": ""Assessment judges performance for grading, whereas practice needs low-stakes, iterative feedback and scaffolding, so the fit is weak unless the tool's feedback is formative.""}"
+fit,assess,formative,claude-haiku-5-5,,1.0,
+fit,assess,summative,claude-haiku-5-5,0.9,1.0,"{""fit"": 0.9, ""rationale"": ""Summative tasks aim to judge final achievement, so a tool whose core act is assessing aligns closely with that purpose, though fit depends on criteria and validity of the assessment.""}"
+fit,assess,discussion,claude-haiku-5-5,0.25,0.5,"{""fit"": 0.25, ""rationale"": ""Assessing evaluates outcomes against criteria, whereas discussion needs dialogic, formative interaction, so fit is weak unless used only for rubric-based grading of contributions.""}"
+fit,assess,production,claude-haiku-5-5,0.3,0.8,"{""fit"": 0.3, ""rationale"": ""Assessing judges learner output rather than prompting its creation, so it fits production tasks poorly unless used for formative feedback during drafting.""}"
+fit,record,acquisition,claude-haiku-5-5,0.3,0.3,"```json
+{""fit"": 0.3, ""rationale"": ""Recording captures information but does little to build understanding or skill, since acquisition needs active processing, retrieval practice, and feedback that passive capture does not provide.""}
+```"
+fit,record,practice,claude-haiku-5-5,0.2,0.5,"{""fit"": 0.2, ""rationale"": ""Recording captures work but does not prompt retrieval, performance, or feedback, which practice tasks require; the fit is weak unless paired with feedback.""}"
+fit,record,formative,claude-haiku-5-5,0.3,0.9,"{""fit"": 0.3, ""rationale"": ""Recording captures evidence of learning but gives no feedback or adjustment loop, which formative tasks require to guide improvement.""}"
+fit,record,summative,claude-haiku-5-5,0.7,1.0,"{""fit"": 0.7, ""rationale"": ""Recording captures verifiable evidence of performance for later judgment, suiting summative purposes, though it provides no formative feedback and raises privacy consent needs.""}"
+fit,record,discussion,claude-haiku-5-5,0.2,0.6,"{""fit"": 0.2, ""rationale"": ""Recording captures content passively, whereas discussion requires active interaction, responsive argumentation, and peer dialogue, so the fit is poor.""}"
+fit,record,production,claude-haiku-5-5,0.2,0.8,"{""fit"": 0.2, ""rationale"": ""A 'record' act captures and stores existing information rather than prompting learners to generate, transform, or apply knowledge, so it weakly supports production tasks.""}"
+sub,acquisition,acquisition,claude-haiku-5-5,True,True,"```json
+{""admissible"": true, ""rationale"": ""Yes, because a replacement at the same Bloom level and on the same concepts preserves constructive alignment, so the learning objective stays unchanged.""}
+```"
+sub,acquisition,practice,claude-haiku-5-5,False,False,"{""admissible"": false, ""rationale"": ""Acquisition and practice serve different purposes: practice assumes prior learning, so substituting it removes initial instruction and changes the objective's cognitive demand.""}"
+sub,acquisition,formative,claude-haiku-5-5,,False,
+sub,acquisition,summative,claude-haiku-5-5,False,False,"{""admissible"": false, ""rationale"": ""No: acquisition tasks build understanding through practice and feedback, while summative tasks assess achievement, so swapping changes the cognitive demand and purpose, misaligning the objective.""}"
+sub,acquisition,discussion,claude-haiku-5-5,False,True,"{""admissible"": false, ""rationale"": ""Not without changing the objective: acquisition tasks target recall and understanding, while discussion tasks elicit analysis, evaluation, or articulation, so constructive alignment breaks.""}"
+sub,acquisition,production,claude-haiku-5-5,False,False,"{""admissible"": false, ""rationale"": ""Switching from acquisition to production shifts the cognitive process and Bloom level, so the objective and its constructive alignment change, altering what is assessed.""}"
+sub,practice,acquisition,claude-haiku-5-5,False,False,"{""admissible"": false, ""rationale"": ""Practice and acquisition tasks differ in cognitive demand and learning stage, so swapping them changes the task's alignment with the stated learning objective.""}"
+sub,practice,practice,claude-haiku-5-5,True,True,"{""admissible"": true, ""rationale"": ""Yes, because constructive alignment only requires the replacement to target the same concepts at the same Bloom level, so the learning objective itself stays unchanged.""}"
+sub,practice,formative,claude-haiku-5-5,,False,"{""admissible"
+sub,practice,summative,claude-haiku-5-5,False,False,"{""admissible"": false, ""rationale"": ""A summative task changes the purpose, stakes, and feedback role, so students lose safe practice before they have developed mastery, even if the objective stays the same.""}"
+sub,practice,discussion,claude-haiku-5-5,False,False,"```json
+{""admissible"": false, ""rationale"": ""Not without changing the objective: practice targets application through doing, whereas discussion targets articulation and evaluation, so constructive alignment would break.""}
+```"
+sub,practice,production,claude-haiku-5-5,False,True,"{""admissible"": false, ""rationale"": ""Production tasks require generating novel output at a higher cognitive level than guided practice, which changes the performance demanded and therefore shifts the learning objective.""}"
+sub,formative,acquisition,claude-haiku-5-5,,False,
+sub,formative,practice,claude-haiku-5-5,False,False,"{""admissible"": false, ""rationale"": ""Formative tasks exist to gather evidence and feedback that guide instruction, a function that unassessed practice tasks lack unless they are deliberately redesigned to provide that feedback.""}"
+sub,formative,formative,claude-haiku-5-5,True,True,"{""admissible"": true, ""rationale"": ""Yes, because constructive alignment only requires that the replacement assess the same objective at the same Bloom level, so interchangeable formative tasks are acceptable when that holds.""}"
+sub,formative,summative,claude-haiku-5-5,,False,
+sub,formative,discussion,claude-haiku-5-5,,False,
+sub,formative,production,claude-haiku-5-5,,False,"{""admissible"":"
+sub,summative,acquisition,claude-haiku-5-5,,False,
+sub,summative,practice,claude-haiku-5-5,False,False,"{""admissible"": false, ""rationale"": ""Practice tasks are formative and usually scaffolded, so they cannot certify attainment of the objective the way a summative task must.""}"
+sub,summative,formative,claude-haiku-5-5,,False,
+sub,summative,summative,claude-haiku-5-5,True,False,"{""admissible"": true, ""rationale"": ""Yes, if the replacement targets the same learning objective at the same Bloom level, it preserves constructive alignment and assessment validity while changing only the task format.""}"
+sub,summative,discussion,claude-haiku-5-5,,False,
+sub,summative,production,claude-haiku-5-5,,False,
+sub,discussion,acquisition,claude-haiku-5-5,False,True,"{""admissible"": false, ""rationale"": ""Discussion and acquisition tasks engage different cognitive processes, so swapping them changes the objective and breaks constructive alignment.""}"
+sub,discussion,practice,claude-haiku-5-5,,False,
+sub,discussion,formative,claude-haiku-5-5,False,False,"{""admissible"": false, ""rationale"": ""Not in general: discussion objectives often require articulating, defending, and responding to peers, which formative tasks do not assess, so alignment would shift.""}"
+sub,discussion,summative,claude-haiku-5-5,False,False,"{""admissible"": false, ""rationale"": ""No: discussion and summative tasks serve different purposes and cognitive demands, so swapping them alters the activity's verbs, feedback loop, and alignment with the objective.""}"
+sub,discussion,discussion,claude-haiku-5-5,,True,
+sub,discussion,production,claude-haiku-5-5,,False,
+sub,production,acquisition,claude-haiku-5-5,False,False,"{""admissible"": false, ""rationale"": ""Acquisition tasks like recognition or comprehension demand lower cognitive processes than production, so the objective's level and constructive alignment would change.""}"
+sub,production,practice,claude-haiku-5-5,False,True,"{""admissible"": false, ""rationale"": ""Production and practice tasks demand different cognitive performance, so swapping them changes the evidence of learning, shifts the objective, and breaks constructive alignment.""}"
+sub,production,formative,claude-haiku-5-5,,False,
+sub,production,summative,claude-haiku-5-5,,False,
+sub,production,discussion,claude-haiku-5-5,False,False,"{""admissible"": false, ""rationale"": ""Discussion typically targets understanding or evaluation, whereas production targets applying or creating, so the cognitive demand and alignment with the objective would change.""}"
+sub,production,production,claude-haiku-5-5,True,True,"{""admissible"": true, ""rationale"": ""Yes: a different production task on the same concepts preserves constructive alignment if it demands the same cognitive process at the same Bloom level, such as generating rather than recognizing.""}"
+norm,acquisition|ID,INS,claude-haiku-5-5,,True,
+norm,acquisition|ID,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor may receive identity data under an Article 28 GDPR agreement, limited to what the acquisition task strictly requires.""}"
+norm,acquisition|ID,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Identity data may not go to a third party: it is directly identifying, and no contracted-processor or institutional basis, or consent, is shown.""}"
+norm,acquisition|ID,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Identity data must not be disclosed to the public web, since publishing identifiable learner information breaches GDPR data minimisation and FERPA consent requirements.""}"
+norm,acquisition|PROF,INS,claude-haiku-5-5,,True,{
+norm,acquisition|PROF,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor may receive learner profile data for the acquisition purpose under a GDPR Article 28 processing agreement, with FERPA-aligned safeguards and minimisation.""}"
+norm,acquisition|PROF,EXT,claude-haiku-5-5,False,True,"```json
+{""allowed"": false, ""rationale"": ""Profile data may not fl"
+norm,acquisition|PROF,PUB,claude-haiku-5-5,False,True,"```json
+{""allowed"": false, ""rationale"": ""Profile data may not flow to"
+norm,acquisition|PERF,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Performance data flowing to the institution supports assessment"
+norm,acquisition|PERF,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor may receive performance data under a GDPR Article 28 processing agreement with purpose limitation, consistent with FERPA's school-official exception.""}"
+norm,acquisition|PERF,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Third-party transfer of identifiable performance data lacks a contract and"
+norm,acquisition|PERF,PUB,claude-haiku-5-5,False,False,"```json
+{""allowed"": false, ""rationale"": """
+norm,acquisition|BEH,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""The institution is the data controller, and behaviour data within an acquisition task serves its legitimate educational purpose, provided purpose limitation and data minimisation are observed.""}"
+norm,acquisition|BEH,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor may receive behaviour data under a GDPR Article 28 agreement, limited to the task's educational purpose and minimised.""}"
+norm,acquisition|BEH,EXT,claude-haiku-5-5,,False,{
+norm,acquisition|BEH,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Publish"
+norm,acquisition|CONT,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""The institution is the controller for learning acquisition, so learner-produced content flowing to it serves the educational purpose and is permitted.""}"
+norm,acquisition|CONT,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor may handle learners' produced content for the institution's acquisition purpose under a GDPR Article 28 data processing agreement, with data minimisation.""}"
+norm,acquisition|CONT,EXT,claude-haiku-5-5,False,True,"{""allowed"": false, ""rationale"": ""Learner-produced content may not flow to an unrelated third party without a lawful basis or explicit consent, and GDPR and FERPA restrict such disclosure.""}"
+norm,acquisition|CONT,PUB,claude-haiku-5-5,False,True,"{""allowed"": false, ""rationale"": ""Public web publication of learner-produced content lac"
+norm,practice|ID,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Identity data reaching the institution, the enrolling controller,"
+norm,practice|ID,PRO,claude-haiku-5-5,True,True,"```json
+{""allowed"": true, ""rationale"": ""Permitted under a GDPR Article 28 processor contract, provided identity data is necessary for the practice task and kept to the minimum needed.""}
+```"
+norm,practice|ID,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Identity data sent to an unrelated third party lacks a lawful basis and is unnecessary for practice-task learning, so disclosure is prohibited.""}"
+norm,practice|ID,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Identity data published to the"
+norm,practice|PROF,INS,claude-haiku-5-5,,True,"{""allow"
+norm,practice|PROF,PRO,claude-haiku-5-5,True,True,"```json
+{""allowed"": true, ""rationale"": ""Permitted for a contracted processor under a GDPR-compliant data processing agreement, limited to data necessary for the practice task.""}
+```"
+norm,practice|PROF,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Sending identifiable learner profile data to an unrelated third party lacks a legitimate educational purpose or valid consent basis under GDPR and FERPA, so the transfer is prohibited.""}"
+norm,practice|PROF,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Learner profile data is personal; public web disclosure lacks lawful basis and breaches GDPR purpose limitation and F"
+norm,practice|PERF,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Performance data may flow to the institution, which is the controlling educator with a legitimate need to support formative learning, under purpose limitation and minimisation.""}"
+norm,practice|PERF,PRO,claude-haiku-5-5,True,True,"```json
+{""allowed"": true, ""rationale"": ""A contracted processor may handle performance data for the institution under a GDPR Article 28 processing agreement, limited to the stated practice purpose.""}
+```"
+norm,practice|PERF,EXT,claude-haiku-5-5,False,False,"```json
+{""allowed"": false, ""rationale"": ""Identifiable performance data sent to a third party lacks a legitimate educational purpose and learner consent, so disclosure is prohibited under GDPR and FERPA.""}
+```"
+norm,practice|PERF,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": """
+norm,practice|BEH,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Behavioural data flowing to the institution, which is the controller responsible for the learning, is permitted for educational purposes under GDPR and FERPA, provided it is limited to the practice task's purpose.""}"
+norm,practice|BEH,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor may handle behavioural data for the institution's practice purpose under an Article 28 processing agreement, with data minimisation and purpose limitation applied.""}"
+norm,practice|BEH,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Behavioural data sent to a third party lacks a law"
+norm,practice|BEH,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Behavioural learner data must not be disclosed to the public web, as this breaches GDPR purpose limitation, data minimisation and consent requirements, and FERPA.""}"
+norm,practice|CONT,INS,claude-haiku-5-5,,True,
+norm,practice|CONT,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor bound by a GDPR Article 28 agreement may handle learner-produced content for the institution's practice-task purpose, subject to data minimisation and purpose limitation.""}"
+norm,practice|CONT,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Third-party disclosure of learner-produced content lacks a necessary educational purpose and lawful basis, breaching data minimisation and purpose limitation under GDPR and FERPA.""}"
+norm,practice|CONT,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Publishing learner-produced content to the public web exposes identifiable work without a lawful basis or consent, which GDPR and FERPA require; the practice task does not need public disclosure.""}"
+norm,formative|ID,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Identity data may flow to the institution, as controller, when necessary to deliver and record the formative task under data minimisation.""}"
+norm,formative|ID,PRO,claude-haiku-5-5,True,False,"{""allowed"": true, ""rationale"": ""Permitted if the contracted processor acts under a GDPR-compliant data processing agreement, on institutional instructions, and only for the formative task's purpose.""}"
+norm,formative|ID,EXT,claude-haiku-5-5,False,False,"```json
+{""allowed"": false, ""rationale"": ""Identity data sent to a third party exce"
+norm,formative|ID,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Publishing learners' identity data on the public web lacks a lawful basis and exceeds formative purpose; GDPR data minimisation and FERPA consent requirements prohibit it.""}"
+norm,formative|PROF,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Institutional processing of learner profile data for formative feedback is a normal educational purpose, permitted under GDPR and FERPA if purpose limitation and data minimisation are respected.""}"
+norm,formative|PROF,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Permitted if a binding processor contract (GDPR Art. 28) applies and purpose limitation and data minimisation are enforced, since profile data is needed only for formative feedback.""}"
+norm,formative|PROF,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Profile data disclosed to an unrelated third party lacks a lawful basis or educational necessity; GDPR and FERPA require consent or contracted processor safeguards.""}"
+norm,formative|PROF,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Learner profile data is identifiable, and public web disclosure lac"
+norm,formative|PERF,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Institutions may process performance data from formative tasks for educational feedback under GDPR and FERPA, as they are the controller with a legitimate educational purpose.""}"
+norm,formative|PERF,PRO,claude-haiku-5-5,,False,
+norm,formative|PERF,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Third-party disclosure of identifiable performance data lacks a legitimate educational purpose and need"
+norm,formative|PERF,PUB,claude-haiku-5-5,False,False,"```json
+{""allowed"": false, ""rationale"": ""Publishing identifiable performance data to the public web lacks a lawful basis and exceeds formative purpose; data must stay within institutional or contracted processing.""}
+```"
+norm,formative|BEH,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Institutional receipt of behaviour data supports formative feedback within the educational purpose, subject to data minimisation and transparency to learners.""}"
+norm,formative|BEH,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Permitted for a contracted processor under a GDPR Art. 28 agreement and the FERPA school-official exception, provided behaviour data is minimised and used only for formative feedback.""}"
+norm,formative|BEH,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Sharing behavioural data with a third party exceeds the formative purpose and lacks"
+norm,formative|BEH,PUB,claude-haiku-5-5,,False,"{""allowed"":"
+norm,formative|CONT,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Content a learner produces in a formative task is needed by the institution for feedback, within its educational purpose and lawful basis, with minimisation applied.""}"
+norm,formative|CONT,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor may handle formative content on the institution's behalf under an Article 28 GDPR contract and the FERPA school-official exception, with purpose limitation maintained.""}"
+norm,formative|CONT,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Sharing learners' produced content with a third party requires explicit consent or another lawful basis under GDPR/FERPA; the formative purpose does not justify it.""}"
+norm,formative|CONT,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Publishing learners' produced content to the public web is unnecessary for formative assessment and lacks a lawful basis without explicit consent, violating data minimisation.""}"
+norm,summative|ID,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Identity data flowing to the institution serves the core educational purpose of summative assessment, provided a lawful basis applies and data minimisation is observed.""}"
+norm,summative|ID,PRO,claude-haiku-5-5,True,False,"{""allowed"": true, ""rationale"": ""A contracted processor under a GDPR Art. 28 agreement may handle identity data needed to run and authenticate summative assessment, limited to what is necessary.""}"
+norm,summative|ID,EXT,claude-haiku-5-5,,False,"```json
+{""all"
+norm,summative|ID,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Publishing identity data to the public web in a summative task breaches GDPR data minimisation and purpose limitation, and FERPA consent requirements.""}"
+norm,summative|PROF,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Institutions may process learners' profile data for summative assessment under a legitimate educational purpose, subject to data minimisation and purpose limitation.""}"
+norm,summative|PROF,PRO,claude-haiku-5-5,True,True,"```json
+{""allowed"": true, ""rationale"": ""Permitted: a contracted processor may handle profile data for summative assessment under a GDPR Art. 28 agreement and data-minimisation safeguards.""}
+```"
+norm,summative|PROF,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Learner profile data sent to a third party lacks"
+norm,summative|PROF,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Learner profile data is personal data, and publishing it to the public web in a summative assessment breaches GDPR and FERPA consent and data minimisation principles.""}"
+norm,summative|PERF,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Institutions need performance data to grade summative tasks, a necessary educational purpose under GDPR's public-task basis and FERPA's legitimate educational interest.""}"
+norm,summative|PERF,PRO,claude-haiku-5-5,True,False,"```json
+{""allowed"": true, ""rationale"": ""A contracted processor may handle performance data for summative assessment under an Article 28 GDPR processing agreement and FERPA school-official safeguards, limited to the assessment purpose.""}
+```"
+norm,summative|PERF,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Summative performance data is an education record, and disclosure to a third party requires explicit consent or a lawful exception, neither of which applies here.""}"
+norm,summative|PERF,PUB,claude-haiku-5-5,False,False,"```json
+{""allowed"": false, ""rationale"": ""Publishing identifiable summative performance data on the public web lacks a lawful basis under GDPR and is prohibited disclosure of education records under FERPA.""}
+```"
+norm,summative|BEH,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Institution processing behaviour data for summative assessment serves a legitimate educational purpose under GDPR purpose limitation and FERPA's legitimate educational interest, provided data minimisation applies.""}"
+norm,summative|BEH,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor may receive behaviour data for the summative purpose under an Article 28 GDPR contract, limited to fields necessary for assessment.""}"
+norm,summative|BEH,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""ration"
+norm,summative|BEH,PUB,claude-haiku-5-5,,False,
+norm,summative|CONT,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Institutions must receive learners' produced content to assess summative work, a core educational purpose covered by a public-task or contractual lawful basis, with data minimisation applied.""}"
+norm,summative|CONT,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor acting under the institution's written data processing agreement may handle assessed content solely for the summative purpose, with minimisation and security safeguards.""}"
+norm,summative|CONT,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Disclosing learners' summative work to an unrelated third party needs a lawful basis or consent, and no processor contract or institutional purpose applies.""}"
+norm,summative|CONT,PUB,claude-haiku-5-5,False,False,"```json
+{""allowed"": false, ""rationale"": ""Assessed learner work is personal data; public web publication lacks a law"
+norm,discussion|ID,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Identity data may flow to the institution, the controller processing it for the discussion task's educational purpose, subject to data minimisation.""}"
+norm,discussion|ID,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Allowed if a GDPR Article 28 processing agreement and FERPA-compliant controls are in place, and only the identity data the discussion task needs is shared.""}"
+norm,discussion|ID,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Identity data disclosed to an unrelated third party lacks a legitimate educational purpose and requires explicit consent or a legal basis under GDPR/FERPA, so it is disallowed by default.""}"
+norm,discussion|ID,PUB,claude-haiku-5-5,False,False,"```json
+{""allowed"": false, ""rationale"": ""Identifying data posted publicly lacks a lawful basis and necessity; GDPR and FERPA require consent and data minimisation.""}
+```"
+norm,discussion|PROF,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""r"
+norm,discussion|PROF,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor may receive learner profile data under a GDPR Article 28 data processing agreement and FERPA's school-official exception, limited to the discussion task's purpose.""}"
+norm,discussion|PROF,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Learner profile data sent to a third party requires explicit consent or another lawful basis under GDPR or FERPA, and none is established here.""}"
+norm,discussion|PROF,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Learner profile data identifies individuals, and publishing it to the public web lacks a lawful basis and consent, breaching GDPR's minimisation principle and FERPA's disclosure limits.""}"
+norm,discussion|PERF,INS,claude-haiku-5-5,,True,
+norm,discussion|PERF,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor may receive performance data for instructional purposes under a written processing agreement that limits use to the institution's documented instructions.""}"
+norm,discussion|PERF,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Identifiable performance data sent to a third party lacks a legitimate educational basis and needs explicit consent, so it is not allowed by default.""}"
+norm,discussion|PERF,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Performance data is identifiable learner information, and publishing it on the public web lacks a lawful basis and would breach GDPR and FERPA without explicit consent.""}"
+norm,discussion|BEH,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Behaviour data flowing to the institution serves the discussion task's educational purpose and is permitted under purpose limitation and data minimisation.""}"
+norm,discussion|BEH,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor may handle behavioural data for the discussion task under a binding data processing agreement, limited to that task's purpose and to the minimum data needed.""}"
+norm,discussion|BEH,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Behavioural learner data sent to an uncontracted third party lacks a lawful basis and necessity; GDPR and FERPA require consent or a processor agreement.""}"
+norm,discussion|BEH,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Learner behaviour data sent to the public web would expose identifiable students without a lawful basis or consent, breaching GDPR and FERPA disclosure and minimisation rules.""}"
+norm,discussion|CONT,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Content learners produce in a discussion task may flow to their institution, which is the controller and needs it for assessment and teaching.""}"
+norm,discussion|CONT,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Permitted for a contracted processor under a GDPR Article 28 data processing agreement, limited to the institution's instructional purpose and minimum necessary data.""}"
+norm,discussion|CONT,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Learner-produced content sent to a third party needs explicit consent or another lawful basis plus necessity justification, so it is not permitted by default.""}"
+norm,discussion|CONT,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Publishing learners' discussion contributions on the public web requires explicit informed consent under GDPR and FERPA; no lawful basis exists by default.""}"
+norm,production|ID,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Identity data reaching the institution itself is necessary for enrolment and assessment, so it is permitted under purpose limitation and data minimisation.""}"
+norm,production|ID,PRO,claude-haiku-5-5,True,True,"```json
+{""allowed"": true, ""rationale"": ""Permitted under GDPR and FERPA when the contracted processor acts on the institution's instructions under a data processing agreement, limited to what is necessary.""}
+```"
+norm,production|ID,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Identity data to an uncontracted third party lacks lawful basis and breaches data minimisation; only institutions or contracted processors qual"
+norm,production|ID,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Identifiable learner data must not flow to the public web; GDPR and FERPA require minimisation and consent that a public release would not"
+norm,production|PROF,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""The institution is the learner's own educational controller, so profile data serves the legitimate teaching purpose if minimised to what the task needs.""}"
+norm,production|PROF,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Permitted for a contracted processor acting on the institution's documented instructions under a GDPR Article 28 agreement, limited to what the production task necessarily requires.""}"
+norm,production|PROF,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Learner profile data may not flow to a third party without explicit consent or another lawful basis, as GDPR and FERPA restrict such disclosure.""}"
+norm,production|PROF,PUB,claude-haiku-5-5,False,False,"```json
+{""allowed"": false, ""rationale"": ""Profile"
+norm,production|PERF,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Sharing performance data with the institution is permitted because it is the controller that needs the data for assessment and feedback.""}"
+norm,production|PERF,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor may handle performance data under a GDPR Article 28 processing agreement and FERPA's school-official exception, limited to the educational purpose.""}"
+norm,production|PERF,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Learner performance data sent to an unvetted third party lacks a legitimate educational purpose or consent basis under GDPR/FERPA, so disclosure is prohibited.""}"
+norm,production|PERF,PUB,claude-haiku-5-5,False,False,"```json
+{""allowed"": false, ""rationale"": ""Performance data is personal education-record information; publishing it to the public web lacks a lawful basis and breaches GDPR and FERPA disclosure limits.""}
+```"
+norm,production|BEH,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""The institution is the controlling party for its own learners' behavioural data, so the flow is permitted when limited by purpose limitation and data minimisation.""}"
+norm,production|BEH,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Permitted for a contracted processor acting on the institution's documented instructions under a data processing agreement, limited to necessary behaviour data.""}"
+norm,production|BEH,EXT,claude-haiku-5-5,False,False,"```json
+{""allowed"": false, ""rationale"": ""Behavioural data is not permitted to reach third parties in production tasks without explicit consent and a lawful basis.""}
+```"
+norm,production|BEH,PUB,claude-haiku-5-5,,False,
+norm,production|CONT,INS,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""Learner-produced content may flow to the institution, which is the controller responsible for the educational purpose of the task, under GDPR and FERPA.""}"
+norm,production|CONT,PRO,claude-haiku-5-5,True,True,"{""allowed"": true, ""rationale"": ""A contracted processor may receive learner-produced content for the task under a GDPR Article 28 agreement and purpose limitation, so long as it is necessary.""}"
+norm,production|CONT,EXT,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Learner-produced content sent to an uncontracted third party needs explicit consent or another lawful basis under GDPR/FERPA, and no such basis is established here.""}"
+norm,production|CONT,PUB,claude-haiku-5-5,False,False,"{""allowed"": false, ""rationale"": ""Publishing learner-produced content to the public web exposes identifiable work without a lawful basis or consent, so it requires explicit, informed learner consent.""}"

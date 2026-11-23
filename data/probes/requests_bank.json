@@ -1,0 +1,250 @@
+{
+ "explain_concept": [
+  "I keep mixing up mitosis and meiosis for my bio exam Friday. Can you walk me through each with a comparison to something from everyday life, then give me two sample questions and show how you'd solve them?",
+  "I'm teaching 8th graders how to solve two-step equations like 3x + 5 = 20. Give me a classroom-friendly comparison, such as a balance scale, and three fully solved problems that get gradually harder.",
+  "I just pasted my Python file `inventory.py`. I don't get why the recursive function `count_items()` works. Can you break it down line by line with a small input and compare it to something like Russian nesting dolls?",
+  "Help me understand how compound interest differs from simple interest. Use a $1,000 savings example over 10 years at 5%, show the math each way, and add an analogy a teenager would get.",
+  "My students struggle with the difference between 'ser' and 'estar' in Spanish. Can you teach it with a memorable analogy and 5 example sentences, each followed by a short explanation of why that verb fits?",
+  "I'm studying for the physics GRE and don't really get how torque works. Explain it using a door or a wrench, then work through one problem with numbers where I have to find the force needed to turn a bolt."
+ ],
+ "retrieve_courseware": [
+  "Pull up the week 4 materials on photosynthesis for my 9th grade biology class, including the slides and the assigned article.",
+  "I'm behind on the Industrial Revolution unit. Can you send me the chapter and the notes my history teacher posted?",
+  "Find the PDF handout and the study guide for quadratic equations so I can prep for Friday's quiz.",
+  "Where is the Module 3 content for Intro to Python loops? I need the written tutorial and the sample exercises.",
+  "I'm subbing tomorrow for a 6th grade class on the water cycle. Show me the teaching plan and the student readings that go with it.",
+  "Grab everything we covered on the causes of World War I, the lecture outline plus the primary source excerpts, so I can write my essay."
+ ],
+ "web_search": [
+  "Find recent articles about how Finland teaches media literacy in middle schools.",
+  "I'm planning a unit on the Roman aqueducts. Can you track down some good classroom-friendly websites and virtual tours?",
+  "What are people currently saying online about the new SAT format? I need a few credible sources for my parent newsletter.",
+  "Look up free printable worksheets for practicing French irregular verbs, preferably from university or teacher-run sites.",
+  "Pull up a few pages explaining how CRISPR gene editing works in plain language for a high school biology presentation.",
+  "Are there any open-access datasets about local air quality in Chicago I could use for my statistics project? Show me where to get them."
+ ],
+ "video_lookup": [
+  "I'm struggling with how mitochondria produce ATP. Can you point me to a few clear walkthroughs I can watch tonight before my bio quiz?",
+  "Our unit on the causes of World War I starts Monday. Could you pull together some engaging recorded talks from historians that my 10th graders could watch in class?",
+  "I want to learn Python for data analysis from scratch. What are some good full-length course recordings that use pandas and Jupyter notebooks?",
+  "Looking for something where a professor explains eigenvalues and eigenvectors visually, ideally under 20 minutes, to go with my linear algebra problem set.",
+  "My students are curious about black holes after seeing the new photo. Can you suggest age-appropriate presentations or animated explainers I could show tomorrow?",
+  "I'm preparing for the AP Macroeconomics exam in May. Which free lecture series or recorded review sessions cover fiscal and monetary policy well?"
+ ],
+ "generate_quiz": [
+  "I'm teaching photosynthesis to 7th graders tomorrow. Can you give me 8 questions with four answer options each, and mark the right one?",
+  "Here are my notes on the French Revolution (pasted below). Turn them into a 10-item test I can use for my AP Euro class, with distractors that sound plausible.",
+  "I have a chemistry midterm on stoichiometry next week. Drill me with some practice problems where I pick A, B, C, or D, then explain what I got wrong.",
+  "Make a quick 5-question check for new hires on our company's phishing-awareness policy. Include one trick option per question.",
+  "Using the attached PDF chapter on the Krebs cycle, build a worksheet of 12 prompts mixing true/false and pick-the-best-answer formats for my nursing students.",
+  "My kid is learning Spanish food vocabulary. Can you put together a fun round of 6 questions where she chooses the correct translation from three choices?"
+ ],
+ "grade_answers": [
+  "Here are my answers to the 20-question World War II multiple-choice review: 1B, 2D, 3A, 4C, 5B, 6A, 7D, 8C, 9B, 10A, 11C, 12D, 13A, 14B, 15C, 16A, 17D, 18B, 19C, 20A. The answer key is in the pasted text below. How many did I get right?",
+  "I uploaded 'period3_cells_quiz.csv' with 28 students' responses on the cell biology test. Compare each row against the key in column Z and give me every student's percentage.",
+  "I just finished a Spanish verb conjugation worksheet. Check my responses: yo hablo, t\u00fa comes, ella vive, nosotros bebemos, ellos escriben. Tell me my mark out of 5 and which ones I missed.",
+  "Please look over my chemistry quiz on balancing equations (photo attached) and tell me what I earned out of 50 points, giving partial credit for correct coefficients.",
+  "My student Marcus wrote these short answers for the photosynthesis quiz. Using the rubric I'm pasting, assign points to each response and total his result so I can enter it in the gradebook.",
+  "I'm practicing for the driving theory exam. Here are my picks for the 15 road-signs questions and the correct ones from the handbook. Give me my final tally and whether it clears the 80% passing line."
+ ],
+ "record_grade": [
+  "Maya turned in her photosynthesis lab report and earned a 92. Please record that in the Biology 101 gradebook.",
+  "Log a 7/10 for Daniel Ortiz on the Chapter 4 fractions quiz in my 5th-period math sheet.",
+  "I just finished grading essays.csv, so can you push those scores into the Period 3 English gradebook?",
+  "Enter an A-minus for Priya's Spanish oral exam in the Spanish II class record and add a note that she retook it.",
+  "Change Lucas's midterm score in the World History gradebook from 78 to 85 since I found a grading mistake.",
+  "I'm a student who got full marks on my Python loops assignment. Can you update my score in the Intro to Coding course gradebook?"
+ ],
+ "read_gradebook": [
+  "Pull up Maya Chen's quarter-two marks from the Algebra II spreadsheet and tell me which assignments dragged her average below a B.",
+  "I'm a student: can you open my Biology 101 scores in the class portal and list every lab report where I got under 80%?",
+  "Look at the file period3_history_term2.csv and show me what Jamal Reyes earned on the Civil War essay and the Reconstruction quiz.",
+  "Before parent-teacher conferences, fetch Sofia Petrov's recorded results for Spanish vocabulary tests this semester so I can spot any trend.",
+  "Check my scores for the chemistry midterm and the stoichiometry homework, then tell me how many points I need on the final to reach a 90.",
+  "Retrieve the marks for Liam O'Brien in the 8th-grade geometry records and tell me if he's eligible for the math honors track."
+ ],
+ "read_profile": [
+  "Before you explain photosynthesis, check my profile notes in student_profile.docx and tell me what level to start at, since I think I already covered the basics last term.",
+  "I'm prepping a fractions unit for Maya. Open her intake form (maya_intake_2024.pdf) and suggest activities that suit how she likes to learn and what she already knows about decimals.",
+  "My goal is passing the B1 Spanish exam in June. Look at what I've told you about my past courses and favorite study styles, then draft a weekly plan that skips what I've mastered.",
+  "Pull up the saved settings for my Python class group and tell me which students prefer video over text and who has already used loops, so I can split them into teams.",
+  "I'm learning guitar again after ten years. Using the background I shared earlier in my account, recommend a first song and a practice routine that matches my taste and skill.",
+  "Here's the spreadsheet of my Year 9 history class (history_9B.xlsx). Use the columns on preferred formats and previous grades to tailor a worksheet on the causes of World War I for each student."
+ ],
+ "give_hint": [
+  "I'm stuck on problem 4 in my calculus worksheet: find the derivative of f(x) = x^2 * sin(x). Can you point me toward the right rule to use but let me work out the actual steps myself?",
+  "My Python script in lab3.py is supposed to reverse each word in a sentence, but it flips the whole string instead. Nudge me toward where the bug is without rewriting the code for me.",
+  "I'm preparing a quiz for my 8th graders on balancing chemical equations. For the question H2 + O2 -> H2O, write a small clue I can put in the margin that nudges students without balancing it for them.",
+  "I'm learning Spanish and the exercise asks me to conjugate 'tener' in the preterite for 'nosotros'. Could you give me a clue about the pattern, but not the final form?",
+  "My student is working on the classic puzzle of crossing a river with a wolf, a goat, and a cabbage. What's one guiding question I can ask her so she finds the first move herself?",
+  "I'm doing the SQL exercise in chapter 5 of my textbook: list customers who have never placed an order. Give me a pointer about which kind of join to consider, but don't write the query."
+ ],
+ "flashcards": [
+  "I'm taking the MCAT in October. Turn my biochemistry notes on amino acids and enzyme kinetics into question-and-answer cards, then quiz me daily and bring back the ones I miss more often than the ones I get right.",
+  "Here's my CSV of 200 Spanish vocabulary words (vocab_unit4.csv). Build a study deck from it and schedule when each word should come back so I remember them for my oral exam in six weeks.",
+  "I teach 8th grade history. Make a deck covering the causes of World War I for my class, and set it up so I can see which students keep forgetting the Triple Entente details and when they should next practice.",
+  "Can you help me memorize all 50 US state capitals by Friday? Test me a few at a time, and keep a log of which ones I've nailed and which I still blank on.",
+  "I uploaded lecture slides on organic chemistry reaction mechanisms (orgchem_week3.pdf). Pull out the key reactions into practice prompts and plan my next three review sessions based on how well I recall each one.",
+  "I'm learning Japanese hiragana and katakana. Start me off with the first 10 characters, ask me to recall them, and gradually space out the ones I get right while repeating the tricky ones sooner."
+ ],
+ "forum_post": [
+  "Let everyone in my Biology 101 class know that Thursday's lab report deadline has moved to Monday at 5 pm.",
+  "Share my notes on the causes of World War I with my study group in the History 210 space, and attach the PDF I just uploaded.",
+  "I'm stuck on question 4 of the calculus problem set about integration by parts. Can you ask my classmates for hints where the whole class can see it?",
+  "Tell my students that the guest speaker session on climate policy is cancelled and that I'll upload the recording tomorrow.",
+  "Introduce me to the other people in my Spanish Beginners course. Say I'm Maria, I'm from Chicago, and I'm looking for a conversation partner.",
+  "Start a conversation in our Python course board asking who wants to team up on the final web scraping project, and mention that groups are limited to four people."
+ ],
+ "peer_review": [
+  "Set up my 9th-grade biology class so each student gets two classmates' lab report PDFs to critique anonymously using a 4-point rubric, due Friday, and gather the feedback into one spreadsheet.",
+  "I uploaded essays_draft1.zip from my college composition course. Pair every student with three others for feedback on thesis strength, and email me a summary of who hasn't responded.",
+  "Can you randomly match my Python bootcamp cohort so everyone looks over another person's GitHub pull request for their todo-app project and posts comments in a shared form?",
+  "I'm studying for the bar exam with a group of 8. Help us swap our practice contract-law answers, have each person grade two others using the attached model answer, and compile the scores.",
+  "For my middle-school art class, create a process where kids exchange photos of their watercolor landscapes, leave one 'glow' and one 'grow' comment on a classmate's piece, and return the notes to the original artist.",
+  "My grad seminar has 12 conference-paper abstracts in abstracts.docx. Distribute them so each abstract is read by two other students double-blind, then collect their scored review forms before our Monday workshop."
+ ],
+ "plagiarism_check": [
+  "Here's my 1,200-word essay on the causes of the French Revolution (pasted below). Could you scan it against published sources and flag any passages that match too closely to something already written?",
+  "I'm grading 28 lab reports on enzyme kinetics from my bio class. Can you compare these three PDFs and tell me if any share suspiciously similar wording or identical data tables?",
+  "Before I turn in my thesis chapter on renewable energy policy, I want to be sure I didn't accidentally borrow phrasing from my sources. Can you highlight any sentences that echo the articles I cited?",
+  "Student_Python_Final.py looks a lot like a GitHub tutorial I know. Can you check whether the code was copied and show which functions overlap?",
+  "I paraphrased a paragraph from Wikipedia about photosynthesis for my science homework. Does it still read too much like the original, and how can I reword it more fully?",
+  "My student's reflective journal about her summer internship feels written in two different voices. Can you determine whether parts came from online text or from another classmate's paper?"
+ ],
+ "submit_assignment": [
+  "Here's my lab report on photosynthesis (photosynthesis_lab_v3.pdf). Can you get it to Dr. Alvarez's Biology 101 dropbox before tonight's midnight cutoff?",
+  "Please take my essay on the causes of World War I, history_essay_final.docx, and hand it in for Mr. Chen's Period 3 class on Canvas.",
+  "I'm a teacher: upload the scanned worksheet quadratic_equations_practice.pdf to the Algebra II course page as the Week 5 homework for my students to turn in against.",
+  "Attach my Python project, inventory_tracker.zip, to the Intro to Programming final project slot on Moodle and make sure it's marked as my submission.",
+  "I recorded my Spanish oral presentation as presentacion_familia.mp4. Could you deliver it to the Spanish II speaking assessment folder on Blackboard?",
+  "My group's slide deck on renewable energy policy, solar_policy_slides.pptx, needs to go into the Environmental Science team project area. Can you file it there for me?"
+ ],
+ "notify_instructor": [
+  "Ping Ms. Alvarez that Dev finished the photosynthesis lab report but is still confused about the control group, and ask her to review it before Friday.",
+  "Tell Professor Kim that Tomasz has uploaded his Python loops assignment (loops_hw3.py) and could use a quick check on why his while-loop never ends.",
+  "Send a note to my Spanish tutor saying I've nailed the preterite tense quizzes and want to move on to subjunctive next week.",
+  "Let Mr. Okafor know that Priya has missed three algebra sessions this month and her parents asked for a catch-up plan on quadratic equations.",
+  "Message Dr. Nguyen to say Lena's thesis outline on renewable energy storage is ready in the shared folder and she'd like feedback on the literature review section.",
+  "Alert the guitar teacher that Marcus is struggling with barre chords in 'Wonderwall' and would appreciate extra practice tips before Thursday's lesson."
+ ],
+ "learning_analytics": [
+  "Here's a CSV export from our Moodle algebra unit (algebra_unit3_logs.csv). Which students spent under 10 minutes on the quadratic equations quiz prep, and who clicked through the videos without pausing?",
+  "I'm learning Spanish on Duolingo and want to see if my 20-minute daily sessions are really helping. Can you read my practice history screenshot and tell me how long I actually spend per lesson versus idle on the screen?",
+  "Look at the Zoom attendance report for my 8th grade chemistry class on the periodic table lab. Flag anyone who left early, kept their camera off the whole time, or never used the chat or polls.",
+  "Our school's Google Classroom shows submission timestamps for the Civil War essay. Can you chart when each student first opened the doc, how long they worked on it, and who started the night before the deadline?",
+  "I'm a corporate trainer. Using the LMS report for the cybersecurity onboarding course, tell me which modules people skip ahead on, where they spend the longest, and where most drop off.",
+  "Help me set up a simple weekly tracker for my daughter's homeschool reading time. I want to log minutes spent, note when she seems distracted, and see a trend over a month."
+ ],
+ "export_report": [
+  "Take Maya's fractions quiz scores from this month, put them into a PDF summary, and mail it to her parents at the.rivera.family@example.com.",
+  "Compile my Spanish vocabulary practice results from the past two weeks into a spreadsheet and email it to my tutor, Se\u00f1or Alvarez.",
+  "Create a one-page Word document showing how each student in Period 3 Chemistry did on the periodic table unit, then send it to the department head.",
+  "I'm preparing for the bar exam. Turn my practice test history into a CSV and send it to my study partner Dana so we can compare weak areas.",
+  "Generate a printable chart of my son's weekly reading minutes and book levels, save it as an image file, and send it to his teacher Ms. Okafor.",
+  "Bundle the coding exercise completion rates for my Python bootcamp cohort into an Excel file and email it to the program director before Friday's meeting."
+ ],
+ "run_code": [
+  "Here's my homework function for Fibonacci numbers: def fib(n): return n if n<2 else fib(n-1)+fib(n-2). Please try it for n=10, 20, and 30 and tell me how long each call takes.",
+  "I uploaded grades.csv with columns student, quiz1, quiz2, and midterm. Compute each student's average and give me the three highest scorers.",
+  "Can you simulate rolling two dice 10,000 times and show me the frequency of each sum, so I can show my class how the distribution looks?",
+  "My Python loop prints 'Total: 0' every time even though the list has numbers. Here's the snippet: total=0; for x in [3,5,7]: total=0; total+=x; print('Total:', total). Can you try it and show me what you get?",
+  "Plot the temperature data in weather.xlsx as a line chart by month, then give me the image along with the hottest month.",
+  "Take this paragraph of Shakespeare and count how many times each word appears, then show me the top 10 words in a table."
+ ],
+ "grade_code": [
+  "Here's my student's fizzbuzz.py. Can you check it against the five test cases in test_fizzbuzz.py and tell me how many pass?",
+  "I uploaded my linked list implementation in linked_list.js. Please execute the Jest suite my instructor provided and show which assertions fail.",
+  "Score these 30 zipped Python homework files for the temperature-converter assignment using my pytest file, and give me a table of names and points out of 10.",
+  "My Java class BankAccount.java is supposed to satisfy BankAccountTest.java. Can you compile it, run the JUnit checks, and explain any red results?",
+  "Grade this C++ submission for the binary search exercise by running my Catch2 test file, then summarize which edge cases the student missed.",
+  "I wrote a recursive factorial function in factorial.rb. Could you run the RSpec examples from my class repo and tell me if I'd get full marks?"
+ ],
+ "lint_code": [
+  "Here's my Python script for a tic-tac-toe game (game.py). Can you point out unused variables, risky patterns, and anything that breaks PEP 8?",
+  "I'm teaching a Java unit on inheritance. Could you go through this Student.java and flag naming inconsistencies, overly long methods, and possible null pointer problems?",
+  "Please check my JavaScript quiz app in app.js for bugs you can spot without running it, plus suggestions to make the formatting more consistent.",
+  "Look over this C file that reads grades into an array. Are there any buffer overflow risks or memory leaks, and how could I tidy up the layout?",
+  "My students submitted these SQL queries for a library database assignment. Can you review them for inefficient joins, unclear aliases, and sloppy indentation?",
+  "Can you review this Rust program that parses a CSV of temperatures and tell me about unsafe usage, unneeded clones, and anything that clippy would complain about?"
+ ],
+ "query_sql": [
+  "I've uploaded chinook.db. Which five artists have the highest total sales across all their albums? Show me the results and the exact query you used.",
+  "My students are working with the classic 'employees' and 'departments' tables in our class sandbox. Can you pull the average salary per department and flag any department with fewer than 3 people?",
+  "Here's the file bookstore.sqlite. Find customers who ordered more than once in March 2024 but never bought anything from the Sci-Fi category.",
+  "I'm learning about joins. Using the sample Northwind data, show me what happens with a LEFT JOIN between customers and orders, and list the customers who have zero orders.",
+  "Take students.db and tell me how many learners failed each course last semester, sorted from worst to best pass rate. I want to paste the output into my lesson slides.",
+  "Using the sample movies database, write and test a query that returns the top 10 directors by average rating, only counting directors with at least 4 films. Tell me if the result looks wrong."
+ ],
+ "load_dataset": [
+  "Here's my students' quiz scores in grades_fall2024.csv. Can you pull it up and tell me which class section had the highest average?",
+  "I've got an Excel workbook called lab_measurements.xlsx with pendulum timing trials. Open the 'Trial2' sheet so we can graph period vs. string length.",
+  "Please read the attached survey_responses.tsv about school lunch preferences and show me the first ten rows and column types.",
+  "I'm studying for my stats exam. Bring in the housing_prices.csv file from my downloads folder so I can practice building a regression model.",
+  "My attendance log is a JSON file with one record per student per day. Can you turn it into a table so I can find who missed the most Mondays?",
+  "Take the Kaggle Titanic passenger spreadsheet I uploaded and get it ready so I can compare survival rates by ticket class."
+ ],
+ "run_notebook": [
+  "Can you run the cell that plots the histogram of exam scores in my statistics_week3.ipynb and show me the chart it produces?",
+  "My students' Jupyter file has a block that trains a tiny linear regression on housing_prices.csv. Please launch it and tell me the R-squared it prints.",
+  "Please go to the third code block in photosynthesis_lab.ipynb, kick it off, and paste whatever output appears so I can check my rate calculations.",
+  "I just fixed the loop in my fibonacci notebook. Could you fire off that snippet and let me know whether it now prints the first 20 numbers correctly?",
+  "Evaluate the pandas groupby block in class_survey_analysis.ipynb and give me the resulting table of average ratings by grade level.",
+  "Trigger the final snippet in my Python-for-beginners notebook that converts temperatures from Celsius to Fahrenheit, and report back what values it outputs or any error message."
+ ],
+ "plot_data": [
+  "Here's my CSV of weekly quiz scores for 28 students (quiz_scores.csv). Can you show how the class average changed from week 1 to week 10 as a line graph with a trendline?",
+  "I recorded how many centimeters my bean plants grew each day under three light conditions: sunlight, lamp, and dark. Turn those numbers into something I can put on my science fair poster.",
+  "Take the attached spreadsheet of our school's lunch survey and create a pie or bar graph showing which meals students prefer, sorted from most to least popular.",
+  "I'm teaching correlation tomorrow. Using the hours_studied and exam_grade columns in this Excel file, draw a scatter diagram with a best-fit line so students can see the relationship.",
+  "Can you make a histogram of the ages in this census sample for my statistics class, using 5-year bins and labeled axes?",
+  "Here are monthly rainfall totals for Nairobi and Seattle over the last five years. Build a side-by-side comparison graphic with different colors for each city and a clear legend."
+ ],
+ "check_grammar": [
+  "Here's my cover letter for the barista job at Brew & Co. Can you catch any slip-ups before I send it tonight?",
+  "Please proofread this paragraph about my summer trip to Lisbon: \"Last july we was visiting Lisbon and eated pastel de nata every mornin.\"",
+  "I'm a teacher and uploaded essays.docx with my Year 9 students' climate change essays. Can you mark every mistake and show the corrected sentences?",
+  "Fix the errors in my email to my landlord about the broken heater, but keep my polite tone.",
+  "My IELTS Task 2 answer on remote work is pasted below. Point out the wrong verb tenses, misspelled words, and article mistakes, and explain each one simply.",
+  "Can you polish this README for my open-source project so there are no typos or awkward wording, since English isn't my first language?"
+ ],
+ "writing_feedback": [
+  "Here's my 400-word paragraph on why school uniforms should be banned. Can you point out where my argument gets weak and fix any grammar slips?",
+  "I'm a Year 9 teacher. Could you read the attached file, student_climate_draft.docx, and suggest three specific improvements I can share with the writer?",
+  "Please look over my college application statement about volunteering at an animal shelter and tell me if it sounds natural or too repetitive.",
+  "My IELTS Task 2 answer on remote work is below. Estimate a band score and explain what I should change to reach 7.",
+  "Check my story about my grandmother's village for awkward phrasing, and tell me whether the ending feels satisfying.",
+  "Mark this B1 student's letter to a pen pal about a weekend trip. Highlight mistakes with tense and prepositions, and give a short encouraging comment."
+ ],
+ "translate_text": [
+  "Mi abuela me mand\u00f3 esta receta de arroz con leche y quiero entender cada paso: 'Hierve la leche con canela y piel de lim\u00f3n, a\u00f1ade el arroz y remueve sin parar durante 30 minutos.'",
+  "Here's my 10-line cover letter for a job in Lyon. Can you rewrite it so a French hiring manager would read it naturally?",
+  "I'm teaching a beginner class and need the lyrics of 'Fr\u00e8re Jacques' with an English line under each French line for a handout.",
+  "Voici le paragraphe d'introduction de mon m\u00e9moire sur le changement climatique. Peux-tu le transformer en anglais acad\u00e9mique pour ma candidature \u00e0 une universit\u00e9 au Canada?",
+  "Please convert the attached chapter3_dialogue.txt into Japanese, keeping the casual tone between the two teenage characters.",
+  "Was hei\u00dft 'Ich dr\u00fccke dir die Daumen f\u00fcr deine Pr\u00fcfung morgen' auf Englisch, and is there an idiom that sounds just as natural?"
+ ],
+ "dictionary_lookup": [
+  "What does \"ephemeral\" mean, and can you give me a couple of sentences I could use in my essay on social media trends?",
+  "I'm teaching a class on weather vocabulary. Explain how \"drizzle\" differs from \"downpour\" and show each used in a natural sentence.",
+  "In my vocab_list.csv, the word \"sanguine\" has a blank meaning column. Fill it in with a plain explanation and a sample line.",
+  "My IELTS speaking exam is next week. How is \"reluctant\" used in conversation, and what are some typical phrases that go with it?",
+  "Need to understand \"bank\" in the sentence \"We sat on the bank and ate lunch.\" Which sense is it, and what are other meanings with examples?",
+  "Make me flashcards for the words \"meticulous,\" \"candid,\" and \"mundane\": each with a short explanation and an example about office life."
+ ],
+ "pronunciation_eval": [
+  "I've attached my_french_intro.mp3 where I read a paragraph about my hometown. Can you tell me which vowel sounds I'm getting wrong and how to fix them?",
+  "Here's a clip of my student Mei reading 'The North Wind and the Sun' (mei_reading.wav). Please point out her problem spots with the 'th' and 'r' sounds so I can plan next week's drills.",
+  "I'm preparing for a job interview in English. Listen to interview_practice.m4a and tell me if my word stress sounds natural or if I'm putting emphasis on the wrong syllables.",
+  "Please check my Spanish tongue-twister attempt in trabalenguas.ogg. Am I rolling the double r correctly, and what should I change?",
+  "Our class recorded a short Mandarin dialogue today (class_dialogue.mp3). Can you give each speaker a score for tones and mark the syllables where the tone was off?",
+  "Here's a recording of me singing the first verse of a German song, lied_takes.wav. Does my accent come across as clear, and which words would a native speaker find hardest to understand?"
+ ],
+ "conversation_practice": [
+  "I leave for Madrid next week and want to practice ordering dinner in Spanish. Be the waiter, speak only in Spanish, and correct my mistakes after each of my replies.",
+  "Pretend you're the interviewer for a marketing assistant job at a small company. Ask me one question at a time in English so I can rehearse for Thursday, then rate my answers at the end.",
+  "I'm teaching a class of B1 French students. Can you act as a shop clerk in a Paris bakery so my students can take turns buying breakfast, using only vocabulary from unit 4 (attached as unit4_vocab.pdf)?",
+  "Play my new coworker from Seoul who just met me at the office kitchen. Chat in simple Korean about weekend plans and slow down if I say I don't understand.",
+  "I have a German A2 exam oral section in two weeks. Take the role of the examiner, give me a picture-description prompt about a family at a park, and follow up with questions like the real test does.",
+  "Be a friendly stranger at a train station in Tokyo who I'm asking for directions to the airport. Respond in Japanese with polite forms, and add a short English hint only when I get stuck."
+ ]
+}

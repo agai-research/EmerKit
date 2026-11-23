@@ -1,0 +1,210 @@
+{"server": "toucan:Two Truths and a Twist", "tool": "create_round", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Two Truths and a Twist", "tool": "submit_guess", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Two Truths and a Twist", "tool": "reveal_twist", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Two Truths and a Twist", "tool": "get_round", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Two Truths and a Twist", "tool": "get_last_round", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Two Truths and a Twist", "tool": "get_stats", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Binance Bitcoin Price Tool", "tool": "get_bitcoin_ticker", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Binance Bitcoin Price Tool", "tool": "get_bitcoin_order_book", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Binance Bitcoin Price Tool", "tool": "get_bitcoin_recent_trades", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Binance Bitcoin Price Tool", "tool": "get_bitcoin_price_history", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Binance Bitcoin Price Tool", "tool": "get_realtime_bitcoin_price", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:AKShare One MCP Server", "tool": "get_hist_data", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:AKShare One MCP Server", "tool": "get_realtime_data", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:AKShare One MCP Server", "tool": "get_news_data", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:AKShare One MCP Server", "tool": "get_balance_sheet", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:AKShare One MCP Server", "tool": "get_income_statement", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:AKShare One MCP Server", "tool": "get_cash_flow", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:AKShare One MCP Server", "tool": "get_inner_trade_data", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:AKShare One MCP Server", "tool": "get_time_info", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Marginalia", "tool": "search-marginalia", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Fetch Server", "tool": "fetch_html", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Fetch Server", "tool": "fetch_markdown", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Fetch Server", "tool": "fetch_txt", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Fetch Server", "tool": "fetch_json", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Fetch Server", "tool": "fetch", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Earthdata Server", "tool": "search_earth_datasets", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Earthdata Server", "tool": "search_earth_datagranules", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Anki Integration Server", "tool": "listDecks", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 1}}
+{"server": "toucan:Anki Integration Server", "tool": "listModels", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Anki Integration Server", "tool": "getModel", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Anki Integration Server", "tool": "addNote", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Anki Integration Server", "tool": "addNotes", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Playwright", "tool": "echo", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Playwright", "tool": "navigate", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Playwright", "tool": "get_all_content", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Playwright", "tool": "get_visible_content", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Playwright", "tool": "get_interactive_elements", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Playwright", "tool": "move_mouse", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Playwright", "tool": "mouse_click", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Playwright", "tool": "mouse_wheel", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Playwright", "tool": "drag_and_drop", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Trending Model Tracker", "tool": "get_trending_models", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Trending Model Tracker", "tool": "get_trending_datasets", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Trending Model Tracker", "tool": "get_trending_spaces", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Trending Model Tracker", "tool": "search_trending", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:MCP Server Semgrep", "tool": "scan_directory", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 1, "src_PERF": 0, "src_BEH": 0, "src_CONT": 1}}
+{"server": "toucan:MCP Server Semgrep", "tool": "list_rules", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:MCP Server Semgrep", "tool": "analyze_results", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": "unknown"}}
+{"server": "toucan:MCP Server Semgrep", "tool": "create_rule", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:MCP Server Semgrep", "tool": "filter_results", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 1, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:MCP Server Semgrep", "tool": "export_results", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:MCP Server Semgrep", "tool": "compare_results", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 1, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Minecraft Wiki Server", "tool": "MinecraftWiki_searchWiki", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Minecraft Wiki Server", "tool": "MinecraftWiki_getPageSummary", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Minecraft Wiki Server", "tool": "MinecraftWiki_getSectionsInPage", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Minecraft Wiki Server", "tool": "MinecraftWiki_getPageSection", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Minecraft Wiki Server", "tool": "MinecraftWiki_getPageContent", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Minecraft Wiki Server", "tool": "MinecraftWiki_resolveRedirect", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Minecraft Wiki Server", "tool": "MinecraftWiki_listCategoryMembers", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Minecraft Wiki Server", "tool": "MinecraftWiki_listAllCategories", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Minecraft Wiki Server", "tool": "MinecraftWiki_getCategoriesForPage", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Sequential Thinking Tools", "tool": "sequentialthinking_tools", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Bitcoin SV Tools Server", "tool": "bsv_getPrice", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Bitcoin SV Tools Server", "tool": "bsv_decodeTransaction", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 1, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Bitcoin SV Tools Server", "tool": "bsv_explore", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Bitcoin SV Tools Server", "tool": "ordinals_getInscription", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Bitcoin SV Tools Server", "tool": "ordinals_searchInscriptions", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Bitcoin SV Tools Server", "tool": "ordinals_marketListings", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Bitcoin SV Tools Server", "tool": "ordinals_marketSales", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Bitcoin SV Tools Server", "tool": "ordinals_getTokenByIdOrTicker", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Bitcoin SV Tools Server", "tool": "utils_convertData", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Unreal Engine Plugin", "tool": "get_scene_info", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Unreal Engine Plugin", "tool": "create_object", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Unreal Engine Plugin", "tool": "modify_object", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Unreal Engine Plugin", "tool": "delete_object", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Unreal Engine Plugin", "tool": "create_material", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Unreal Engine Plugin", "tool": "modify_material", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Unreal Engine Plugin", "tool": "get_material_info", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Unreal Engine Plugin", "tool": "execute_python", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Unreal Engine Plugin", "tool": "my_custom_tool", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Unreal Engine Plugin", "tool": "get_actor_count", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Rust Docs Server", "tool": "search_crates", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Rust Docs Server", "tool": "get_crate_documentation", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Rust Docs Server", "tool": "get_type_info", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Rust Docs Server", "tool": "get_feature_flags", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Rust Docs Server", "tool": "get_crate_versions", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Rust Docs Server", "tool": "get_source_code", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Rust Docs Server", "tool": "search_symbols", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:DuckDuckGo Search Plugin", "tool": "duckduckgo_web_search", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:DuckDuckGo Search Plugin", "tool": "duckduckgo_get_details", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:DuckDuckGo Search Plugin", "tool": "duckduckgo_related_searches", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Analogical Reasoning Server", "tool": "analogicalReasoning", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:PentestThinking", "tool": "pentestthinkingMCP", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Academic Author Network", "tool": "get_coauthors", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 1, "src_PERF": 1, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Academic Author Network", "tool": "get_author_keywords", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 1, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Cooking Units Converter", "tool": "convert_temperature", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Cooking Units Converter", "tool": "convert_volume", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Cooking Units Converter", "tool": "convert_weight", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:MCP Training Starter Pack", "tool": "add", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:BigQuery Analysis Server", "tool": "dry_run_query", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:BigQuery Analysis Server", "tool": "run_query_with_validation", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Airbnb Listings Scraper", "tool": "search_airbnb_listings", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Airbnb Listings Scraper", "tool": "scrape_airbnb_listing_info", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:JSON Query", "tool": "json_query_jsonpath", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:JSON Query", "tool": "json_query_search_keys", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:JSON Query", "tool": "json_query_search_values", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Notification Server", "tool": "play_notification", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Specification MCP", "tool": "initialize_memory_bank", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 1, "src_CONT": 0}}
+{"server": "toucan:Specification MCP", "tool": "update_document", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Specification MCP", "tool": "query_memory_bank", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 1, "src_BEH": 0, "src_CONT": 1}}
+{"server": "toucan:Specification MCP", "tool": "export_memory_bank", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 1, "src_CONT": 1}}
+{"server": "toucan:Specification MCP", "tool": "create_cursor_rules", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 1, "src_CONT": 0}}
+{"server": "toucan:GroundDocs Kubernetes Documentation Assistant", "tool": "python_get_documentation", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:GroundDocs Kubernetes Documentation Assistant", "tool": "k8s_get_documentation", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Echo Server", "tool": "echo", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 1}}
+{"server": "toucan:Echo Server", "tool": "ping", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 1}}
+{"server": "toucan:Echo Server", "tool": "version", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Model Context Protocol Servers", "tool": "echo", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Model Context Protocol Servers", "tool": "add", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Model Context Protocol Servers", "tool": "printEnv", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 1, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Model Context Protocol Servers", "tool": "longRunningOperation", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Model Context Protocol Servers", "tool": "sampleLLM", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Model Context Protocol Servers", "tool": "getTinyImage", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Model Context Protocol Servers", "tool": "annotatedMessage", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Model Context Protocol Servers", "tool": "getResourceReference", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 1, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:MCP Test Server", "tool": "add", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Wait", "tool": "wait", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Website Generator", "tool": "b12_website_generator", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getLastUpdate", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getAvailableYears", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getAvailableFilters", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getFilterValues", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getAvailableFields", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getAvailableMetrics", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "queryData", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "queryMunicipalitiesData", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "queryHistoricalData", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getAuxiliaryTable", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getStates", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getStateDetails", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getCities", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getCityDetails", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getCountries", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getCountryDetails", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getEconomicBlocks", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getHarmonizedSystem", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getNBM", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Comexstat Data Server (Brazilian foreign trade statistics)", "tool": "getNBMDetails", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Super Shell", "tool": "get_platform_info", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 1, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Super Shell", "tool": "execute_command", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 1, "src_PERF": 0, "src_BEH": 1, "src_CONT": 0}}
+{"server": "toucan:Super Shell", "tool": "get_whitelist", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Super Shell", "tool": "add_to_whitelist", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Super Shell", "tool": "update_security_level", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Super Shell", "tool": "remove_from_whitelist", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 1, "src_CONT": 0}}
+{"server": "toucan:Super Shell", "tool": "get_pending_commands", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 1, "src_CONT": 1}}
+{"server": "toucan:Super Shell", "tool": "approve_command", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 1, "src_CONT": 1}}
+{"server": "toucan:Super Shell", "tool": "deny_command", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 1, "src_PERF": 0, "src_BEH": 1, "src_CONT": 0}}
+{"server": "toucan:Met Museum Server", "tool": "list-departments", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Met Museum Server", "tool": "search-museum-objects", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Met Museum Server", "tool": "get-museum-object", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_historical_k_data", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_stock_basic_info", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_dividend_data", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_adjust_factor_data", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_profit_data", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_operation_data", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_growth_data", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_balance_data", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_cash_flow_data", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_dupont_data", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_performance_express_report", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_forecast_report", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_stock_industry", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_sz50_stocks", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_hs300_stocks", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_zz500_stocks", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_trade_dates", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_all_stock", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_deposit_rate_data", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_loan_rate_data", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_required_reserve_ratio_data", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_money_supply_data_month", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_money_supply_data_year", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_shibor_data", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_latest_trading_date", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_market_analysis_timeframe", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:A-Share Market Data Server", "tool": "get_stock_analysis", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:F2C Design to Code Server", "tool": "get_code", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:F2C Design to Code Server", "tool": "get_image", "model": "claude-sonnet-5-5", "labels": {"out": 1, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Excel to PDF Converter", "tool": "convert_excel_to_pdf", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 1}}
+{"server": "toucan:Excel to PDF Converter", "tool": "convert_numbers_to_pdf", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 1}}
+{"server": "toucan:Task Scheduler", "tool": "list_tasks", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 1, "src_BEH": 1, "src_CONT": 0}}
+{"server": "toucan:Task Scheduler", "tool": "get_task", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 1, "src_BEH": 1, "src_CONT": 1}}
+{"server": "toucan:Task Scheduler", "tool": "add_command_task", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Task Scheduler", "tool": "add_api_task", "model": "claude-sonnet-5-5", "labels": {"out": "unknown", "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Task Scheduler", "tool": "add_ai_task", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": "unknown"}}
+{"server": "toucan:Task Scheduler", "tool": "add_reminder_task", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Task Scheduler", "tool": "update_task", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 1, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Task Scheduler", "tool": "remove_task", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 1, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Task Scheduler", "tool": "enable_task", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 1, "src_BEH": 1, "src_CONT": "unknown"}}
+{"server": "toucan:Task Scheduler", "tool": "disable_task", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": "unknown"}}
+{"server": "toucan:Task Scheduler", "tool": "run_task_now", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 1, "src_BEH": 1, "src_CONT": "unknown"}}
+{"server": "toucan:Task Scheduler", "tool": "get_task_executions", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 1, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:Task Scheduler", "tool": "get_server_info", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:OpenPyXL Excel MCP Server", "tool": "get_cell_details", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 1}}
+{"server": "toucan:OpenPyXL Excel MCP Server", "tool": "get_cell_value", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 1, "src_BEH": 0, "src_CONT": 1}}
+{"server": "toucan:OpenPyXL Excel MCP Server", "tool": "get_values_of_cell_range", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 1, "src_BEH": 0, "src_CONT": 0}}
+{"server": "toucan:OpenPyXL Excel MCP Server", "tool": "get_content_of_cell_list", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 1, "src_BEH": 0, "src_CONT": 1}}
+{"server": "toucan:OpenPyXL Excel MCP Server", "tool": "search_in_cell_range", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 1, "src_BEH": 0, "src_CONT": 1}}
+{"server": "toucan:OpenPyXL Excel MCP Server", "tool": "get_list_of_sheets", "model": "claude-sonnet-5-5", "labels": {"out": 0, "src_ID": 0, "src_PROF": 0, "src_PERF": 0, "src_BEH": 0, "src_CONT": 0}}

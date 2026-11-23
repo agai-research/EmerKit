@@ -1,0 +1,181 @@
+[
+ {
+  "domain": "programming",
+  "targets": [
+   "encapsulation",
+   "strings"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "version_control",
+   "comprehensions"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "iteration_patterns"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "classes_and_objects",
+   "tuples_and_sets"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "stacks_and_queues"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "files"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "recursion"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "searching",
+   "inheritance"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "monte_carlo_tree_search"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "mathematical_models"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "semi_supervised_learning",
+   "chinese_nlp"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "reinforcement_learning",
+   "sentiment_analysis"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "sentiment_analysis"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "alphago",
+   "stack_lstm"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "dependency_parsing"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "generative_and_discriminative_models",
+   "noisy_channel_model"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "questions_and_negation"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "reported_speech"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "second_conditional"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "countable_uncountable",
+   "comparatives_superlatives"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "future_forms"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "numbers_dates_time"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "essay_structure",
+   "presentations"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "phrasal_verbs",
+   "present_simple"
+  ],
+  "known": 0
+ }
+]

@@ -1,0 +1,218 @@
+\documentclass[10pt]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{booktabs,graphicx,amsmath,amssymb,xcolor}
+\input{macros}\input{macros2}\input{macros3}\input{macros4}\input{macros5}
+\newcommand{\sysname}{EmerKit}
+\title{EmerKit: complete experimental results\\\large All experiments, tables, and figures, generated from the result files}
+\date{}
+\begin{document}
+\maketitle
+\noindent This document gathers every experimental result of EmerKit. Every number, table, and figure is generated from the result files of the repository (\texttt{make\_report*.py}, \texttt{make\_figures.py}, \texttt{make\_paper\_tables.py}); none is typed by hand. Part~I follows the organisation of the paper. Part~II gives the detailed tables of each series, named as in the repository: A0 and B0 (preparation), A1 (reference comparison), A2 to A4 (structure of toolkits, QoS bounds), A5 to A7 (probes, agent, trajectories), B1 to B3 (calibration, metadata, norms), C1 to C4 (end-to-end, solver, catalogue), D1 and D2 (ablations, weights), E1 and E2 (gap map), F1 (live enactment), P1 and P2 (model panel), and X1 to X6 (catalogue size, capabilities per task, workflow length, exact or greedy composition, distribution shift). Figures are also provided as vector PDF and 300-dpi PNG files.
+
+\part*{Part I: Results}
+\section{Implementation}\label{sec:impl}
+
+\sysname{} is implemented in Python and consists of six components. The catalogue preparation component (Algorithm 1) extracts capabilities, infers behavioural labels by weak supervision and logistic regression, builds split-conformal prediction sets, and computes the interference index. The workflow generator is either rule-based or a language model, and a deterministic repair step followed by the validator enforces the contract of the paper. The composer (Algorithm 2) solves the composition program exactly with CP-SAT and explains infeasibility by a minimal conflict. The reviser (Algorithm 3) applies backtracking and substitution. The runtime executes every synthetic server as a real MCP server built with the official SDK, whose tools return learner data marked with canaries and actually forward what they receive, behind a gateway that exposes only the toolkit of the current task. Finally, the calibrator implements Learn-then-Test at the task level and at the workflow level. Ten property tests check the implementation against the definitions and propositions of the paper, including the equivalence between the constraints and the flow model, the optimality of the composer against exhaustive enumeration, and the minimality of conflicts. The language models are Claude Haiku~5.5, Sonnet~5.5, and Opus~5.5, and every call is logged.
+
+\section{Experimental Protocol}\label{sec:setup}
+
+\paragraph{Catalogues.} The experiments rely on two kinds of catalogues. The synthetic catalogue of educational MCP servers is regenerated for each seed, with about 165 tools on 36 servers, and it has a complete ground truth: capabilities, learner data returned, forwarding behaviour, receiver role, and near-duplicate pairs. Its observable side is deliberately noisy, since 60\% of the behavioural annotations are missing, 5\% of the present ones are wrong, and cues about data handling appear in 40\% of the descriptions. The real catalogues are MCP-tools, with 2{,}797 tools of 308 servers, and the Toucan server catalogue, with 6{,}044 tools described by full schemas, published annotations, categories, and measured success rates. We also use \RSvTraces{} Toucan trajectories, of which \RSvSuccess{} succeeded and call \RSvTools{} distinct tools.
+
+\paragraph{Tasks and requests.} Tasks are generated independently of any scenario in three domains: data science, from the prerequisite graph of LectureBank~2.0; programming, from the Software Development Fundamentals area of CS2023; and English as a foreign language, from the CEFR progression. Each seed yields 300 test tasks, 50 per pedagogical type, 300 calibration tasks, and 24 learner requests for the end-to-end experiments.
+
+\paragraph{Measures.} A task is \emph{equipped} when a toolkit is returned for it. A toolkit is \emph{valid} when it covers every required capability, allows no denied flow under the true labels, and meets the QoS bounds. The \emph{denied-flow rate} (DFR) is the share of returned toolkits that allow at least one denied flow. Redundancy is the number of providers beyond one per capability, and the load is the share of the budget $B$ used by the tool definitions. For workflows, we report the share that is fully equipped, the share that contains at least one risky toolkit, and the share of target concepts covered. The reference comparison uses five seeds and \RNTasks{} tasks; the other experiments use three seeds and the fixed level $\epsilon=0.05$ unless stated otherwise. Paired comparisons use Wilcoxon signed-rank tests with Holm correction.
+
+\section{Compared Methods}\label{sec:methods}
+
+Table~\ref{tab:methods} summarises the compared methods. RAG-MCP keeps the $k$ tools most similar to the task. QoS-IP denotes QoS-aware composition by integer programming, which selects one service per capability under global QoS constraints. Compositio Prompto (CP) asks a language model for the whole composition, given the service specifications, the task, and the output schema. Since no baseline handles norms, RAG-MCP and QoS-IP are also run with a filter that removes the tools whose declared annotations make a denied flow possible; these variants are denoted RAG-MCP+F and QoS-IP+F. The Oracle is \sysname{} supplied with the true labels, an upper bound that no deployable method can reach. Four variants of \sysname{} isolate its components: \sysname{}-NS disables substitution, \sysname{}-NI removes the interaction terms, \sysname{}-DA replaces the prediction sets by declared annotations, and \sysname{}-LLM places \sysname{} behind a language-model workflow generator.
+
+\begin{table}[!ht]\centering
+\caption{Compared methods and the aspects each one handles.}\label{tab:methods}
+\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccccc}\toprule
+Method & \rotatebox{70}{Capability once} & \rotatebox{70}{QoS bounds} & \rotatebox{70}{Interactions} & \rotatebox{70}{Flow norms} & \rotatebox{70}{Uncertain labels} & \rotatebox{70}{Workflow revision} \\ \midrule
+RAG-MCP & -- & -- & -- & -- & -- & -- \\
+RAG-MCP+F & -- & -- & -- & declared & -- & -- \\
+QoS-IP & \checkmark & \checkmark & -- & -- & -- & -- \\
+QoS-IP+F & \checkmark & \checkmark & -- & declared & -- & -- \\
+CP & -- & -- & -- & -- & -- & -- \\
+\sysname{} & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\ \bottomrule
+\end{tabular}\end{table}
+
+\section{Parameter Settings and Experimental Design}\label{sec:params}
+
+Table~\ref{tab:params} lists the parameters with their default values and the ranges explored. The interaction weights $\lambda_I$ and $\lambda_C$ are provisional defaults: the selection probes of Sect.~\ref{sec:res-h1} estimate them, and the sensitivity analysis of Sect.~\ref{sec:res-sens} shows that the results do not depend on them. Table~\ref{tab:series} gives an overview of the experiments, the research question that each one addresses, and the data that it uses.
+
+\begin{table}[!ht]\centering
+\caption{Parameter settings: defaults and values explored.}\label{tab:params}
+\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llll}\toprule
+Symbol & Meaning & Default & Explored \\ \midrule
+$|\mathcal{T}|$ & tools in the catalogue & 165 & 60--2{,}960 \\
+$|R(v)|$ & capabilities required per task & 1--4 & 1--5 \\
+$|V|$ & tasks per workflow & 3--8 & 3--10 \\
+$B$ & context budget (tokens) & 2{,}000 & 500--4{,}000 \\
+$\theta$ & soft threshold of saturation & 0.75 & 0.5--0.9 \\
+$k_{\max}$ & maximal toolkit size & 4 & 3--8 \\
+$N$ & shortlist bound & 20 & 10--100 \\
+$\tau$ & tightness of QoS bounds & 1.25 & 0.5--1.5 \\
+$\lambda_I,\lambda_C$ & interaction weights & 1,\,1 & 0--2 \\
+$\lambda_Q$ & weight of QoS deficit & 0.5 & 0--1 \\
+$\eta$ & weight of trace evidence & 0.25 & 0,\,1 \\
+$\xi,\zeta$ & target risk, confidence & 0.05,\,0.1 & $\xi$: 0.05--0.20 \\
+$n_{cal}$ & calibration tasks & 300 & 45--300 \\
+$\epsilon$ & level grid & 0--0.5 & 27 levels \\
+$s_{\max}$ & substitutions per workflow & 2 & 0--3 \\
+$n_W,\mu,\nu$ & candidates, penalties & 3,\,1,\,0.5 & $\nu$: 0.1--1 \\
+$m,w$ & missing, wrong annotations & 0.6,\,0.05 & 0--0.8,\,0--0.2 \\ \bottomrule
+\end{tabular}\end{table}
+
+\begin{table}[!ht]\centering
+\caption{Overview of the experiments.}\label{tab:series}
+\scriptsize
+\resizebox{\textwidth}{!}{\begin{tabular}{llcll}\toprule
+Experiment & Question addressed & RQ & Catalogue & Scale \\ \midrule
+Selection probes & Do co-present tools degrade the choice of an agent? & 1 & Toucan (real) & 500 requests, 2 models \\
+Agent on composed toolkits & Does interference-aware composition help an agent? & 1 & Toucan (real) & 500 requests \\
+Structure of toolkits & How do near-duplicates, load, and redundancy differ across methods? & 1 & synthetic & 3--5 seeds \\
+Real trajectories & What is the value of trace evidence and co-usage? & 1 & Toucan (real) & \RSvSuccess{} trajectories \\
+Reference comparison & How do coverage, validity, and risk compare? & 2 & synthetic & 5 seeds, \RNTasks{} tasks \\
+Calibration and shift & Does the bound hold, with which sample size, and under shift? & 2 & synthetic & 17 settings \\
+Metadata and norms & How robust is each method to what providers declare? & 2 & synthetic & 19 settings \\
+Live enactment & Do predicted flows match observed flows? & 2 & synthetic, executable & 99 toolkits \\
+Workflow guarantee & What does a bound per workflow cost? & 2 & synthetic & 450 workflows \\
+End-to-end composition & What does substitution bring, and how do pipelines compare? & 3 & synthetic & 72 requests \\
+Request complexity & How do methods behave with more capabilities and longer workflows? & 3 & synthetic & 11 settings \\
+Exact or greedy composition & Is exact optimization worth its cost? & 3 & synthetic & 8 settings \\
+Scalability & How do quality and time evolve with the catalogue? & 3 & synthetic, real & 60--2{,}960 tools \\
+Gap map & Do the classes react to norms and annotations? & 4 & synthetic, MCP-tools & 11 settings \\
+Ablation and sensitivity & What does each component and parameter contribute? & all & synthetic, real & 3--5 seeds \\ \bottomrule
+\end{tabular}}\end{table}
+
+\section{Quality of Toolkits (RQ1)}\label{sec:res-h1}
+
+\begin{figure}[!ht]\centering
+\includegraphics[width=\textwidth]{fig_rq1.pdf}
+\caption{Quality of toolkits. (a,\,b) Selection probes on real tool definitions. (c) Agent success and clone pairs on composed toolkits. (d) Recall of the tools called in real trajectories. (e--h) Near-duplicates, context load, load distribution, and redundancy of the toolkits.}\label{fig:rq1}
+\end{figure}
+
+\paragraph{Tool selection by agents on real definitions.} The first experiment tests whether co-present tools degrade the choice of an agent, which is the premise of the quality model, and it estimates the interaction terms. A model that is not probed wrote, for each of 500 real tools of the Toucan catalogue, a request that this tool should serve. The probed model then chose among the target and $k-1$ other real tools, with $k$ between 4 and 64; the other tools are either drawn at random or are the tools of other servers whose descriptions are closest to the target. Fig.~\ref{fig:rq1}a shows that both models choose the target in more than 99\% of the probes with random distractors, but only in \RAfiveHaikuConf\% (Haiku) and \RAfiveOpusConf\% (Opus) of the probes with confusable distractors. Fig.~\ref{fig:rq1}b shows that the size of the toolkit has no visible effect. A logistic model fitted on half of the probes confirms both observations: confusable distractors lower the log-odds of a correct choice by \RAfiveCoefConf{} ($p\RAfivePConf$), whereas the coefficient of the log of the load is \RAfiveCoefLoad{} ($p=\RAfivePLoad$). The interference index of the paper, fitted on the same half, predicts the errors of the other half with an AUC of \RFitAuc, against \RFitAucBase{} without it, and the fitted saturation weight is \RFitLamC. A closer inspection reveals that \RClShare\% of the errors select a clone of the target, that is, the same tool published by another server; when clones are accepted, accuracy under confusable distractors reaches \RClHaiku\% and \RClOpus\%. These results support the interference component of the quality model and show that it is predictive. They do not support the saturation component for these models and for loads of up to 64 real definitions; we therefore set its weight to zero and keep the term for smaller agents, for which it remains to be tested. The prevalence of clones also indicates that interference is a governance issue, because a clone serves the request but may belong to a server with another receiver role.
+
+A second experiment examines whether composing against interference helps an agent. For the same 500 requests, the 16 most relevant tools form a common pool from which 8 tools are kept by three strategies: the 8 most relevant tools (RAG-MCP), the subset that maximizes relevance minus the fitted interference, found by enumeration (\sysname{}), and a random subset. A choice is counted as successful when the agent selects the target or one of its clones. As Fig.~\ref{fig:rq1}c shows, \sysname{} succeeds in \RSixEmk\% of the requests and RAG-MCP in \RSixRag\%, a difference that is not significant ($p=\RSixP$), whereas the random toolkit succeeds in \RSixRnd\%. \sysname{} nevertheless keeps \RSixEmkClones{} clone pairs per toolkit against \RSixRagClones{} for RAG-MCP. Removing clones therefore does not change the success of this agent, which picks the target or a clone in about 95\% of the cases when one is present; its benefit lies in controlling which provider receives the data.
+
+\paragraph{Structure of the composed toolkits.} We next measure what the quality model changes in the toolkits themselves on the synthetic catalogue. When up to 40\% of the capabilities have a near-duplicate provider, RAG-MCP returns a near-duplicate pair in up to \RARagCpMax\% of its toolkits, whereas \sysname{} returns none (Fig.~\ref{fig:rq1}e). Under a budget of 1{,}000 tokens, \RAOverEmk\% of the toolkits of \sysname{} exceed the threshold $\theta B$, against \RAOverNoInt\% for \sysname{}-NI, \RAOverZeng\% for QoS-IP, and \RAOverRag\% for RAG-MCP, which exceeds the budget itself in \RARagExceed\% of the tasks at 500 tokens (Fig.~\ref{fig:rq1}f). The distribution of the load in Fig.~\ref{fig:rq1}g and the redundancy in Fig.~\ref{fig:rq1}h lead to the same conclusion: methods that count each capability once, namely \sysname{} and QoS-IP, use about a fifth of the budget and almost no redundant provider, whereas relevance retrieval accumulates overlapping tools, with \RARagMcpRed{} redundant providers per task.
+
+\paragraph{Evidence from real trajectories.} The last experiment of this group assesses trace evidence and co-usage on real requests. Toolkits are compared with the tools that Toucan trajectories actually called; the capabilities of a real tool are the categories of its server, and those of a request are its two closest categories. Fig.~\ref{fig:rq1}d shows that, when tools have a usage history, trace evidence raises the recall of \sysname{} from \RSvWarmNoTraces\% to \RSvWarmTraces\%, and that it lowers it from \RSvColdNoTraces\% to \RSvColdTraces\% for tools without history, while RAG-MCP reaches \RSvWarmRag\% and \RSvColdRag\%. Co-usage has no measurable effect, since at most one tool per category is selected. Trace evidence thus helps but carries a cold-start bias. More importantly, composition by capabilities requires a vocabulary as fine as the needs it serves: with categories as coarse as those of servers, relevance retrieval finds real tools better than \sysname{}.
+
+\section{Norm Compliance and Risk Guarantee (RQ2)}\label{sec:res-h2}
+
+\begin{table}[!ht]\centering
+\caption{Reference comparison over \RNTasks{} tasks and \RNSeeds{} seeds (rates in \%). Best deployable value in bold.}\label{tab:main}
+\scriptsize\setlength{\tabcolsep}{4pt}\input{tab_main}
+\end{table}
+
+\begin{figure}[!ht]\centering
+\includegraphics[width=\textwidth]{fig_rq2.pdf}
+\caption{Norm compliance and risk guarantee. (a) Coverage against risk. (b) Risk and coverage by level $\epsilon$. (c) Effect of the calibration set. (d) Calibration under distribution shift. (e--g) Denied-flow rate under missing annotations, wrong annotations, and third-party providers. (h) Task-level and workflow-level calibration.}\label{fig:rq2}
+\end{figure}
+
+\paragraph{Comparison with the baselines.} The reference comparison measures coverage, validity, and risk for all methods on the same tasks. Table~\ref{tab:main} and Fig.~\ref{fig:rq2}a show that \sysname{} returns toolkits with a denied flow in \RAEmerkitDfr\% of the equipped tasks, whereas RAG-MCP reaches \RARagMcpDfr\%, QoS-IP \RAZengDfr\%, and their filtered variants \RARagMcpPlusFilterDfr\% and \RAZengPlusFilterDfr\%. \sysname{} equips \RAEmerkitEq\% of the tasks, against \RAOracleEq\% for the Oracle. Its share of valid toolkits, \RAEmerkitValid\%, exceeds that of RAG-MCP, RAG-MCP+F, and QoS-IP, but not that of QoS-IP+F, which reaches \RAZengPlusFilterValid\%. When \sysname{} is calibrated at $\xi=0.10$, it equips \RAEmerkitXiEq\% of the tasks with \RAEmerkitXiDfr\% of denied flows. The breakdown by pedagogical type in Table~\ref{tab:main} shows that validity is lowest for practice and assessment tasks with every method, and that the gap between \sysname{} and the Oracle is largest for production and discussion tasks. These results confirm that relevance and QoS are blind to data flows and that a filter on declared annotations cannot see what is not declared. They also show that safety has a cost in coverage: the gap to the Oracle is the price of uncertain labels, and QoS-IP+F obtains its additional valid toolkits with a denied-flow rate more than three times higher.
+
+\paragraph{Calibration, sample size, and distribution shift.} We then check the bound of Proposition 3 and its cost. Over the twelve combinations of the target risk $\xi$ and the number of calibration tasks $n_{cal}$, the test denied-flow rate stays below $\xi$ and reaches at most \RBMaxDfrRatio{} times the target. Fig.~\ref{fig:rq2}b illustrates the trade-off controlled by the level $\epsilon$, and Fig.~\ref{fig:rq2}c shows the role of statistical power: at $\xi=0.05$, the share of equipped tasks grows from \RBEqHundred\% with 100 calibration tasks to \RBEqThree\% with 300, whereas the purely worst-case check ($\epsilon=0$) equips only \RBEqEpsZero\% of the tasks. Table~\ref{tab:shift} and Fig.~\ref{fig:rq2}d examine what happens when the calibration tasks do not follow the distribution of the test tasks. The bound holds when calibration and test are matched (\RXsixMatchDfr\% of denied flows at $\xi=0.05$) and under a change of domain (at most \RXsixDomMax\%). It becomes very conservative when the level is calibrated on low-stakes types and applied to assessment types (\RXsixLowEq\% of tasks equipped), and it is violated in the opposite direction, with \RXsixAssessDfr\% of denied flows. The guarantee is therefore valid for the calibrated task distribution only, and calibration must cover the pedagogical types that are deployed, as the sample-size rule of the paper already requires for statistical power.
+
+\begin{table}[!ht]\centering
+\caption{Calibration under distribution shift: calibrated level, test denied-flow rate (\%), and equipped tasks (\%). Underlined rates exceed the target.}\label{tab:shift}
+\scriptsize\setlength{\tabcolsep}{6pt}\input{tab_shift}
+\end{table}
+
+\begin{table}[!ht]\centering
+\caption{Denied-flow rate (\%) under imperfect metadata and under different norm bases. Best value in bold.}\label{tab:robust}
+\scriptsize\setlength{\tabcolsep}{4pt}\input{tab_robust}
+\end{table}
+
+\paragraph{Robustness to imperfect metadata and to norms.} This experiment tests how each method reacts to what providers publish and to the norm base. Table~\ref{tab:robust} and Fig.~\ref{fig:rq2}e--g show that, when missing annotations vary from 0 to 80\% and wrong ones from 0 to 20\%, the denied-flow rate of \sysname{} stays between \RBtwoEmkMin\% and \RBtwoEmkMax\%. In contrast, \sysname{}-DA, which trusts declared annotations, goes from \RBtwoDeclMzero\% to \RBtwoDeclMeight\%, and the filtered baselines reach \RBtwoRagMax\% (RAG-MCP+F) and \RBtwoZengMax\% (QoS-IP+F). Under three norm profiles and three shares of third-party providers, the rate of \sysname{} never exceeds \RBthreeEmkMax\%, whereas QoS-IP+F reaches \RBthreeZengHigh\% when third parties dominate. The risk of \sysname{} thus does not depend on how much providers declare. Wrong annotations make it more cautious, since it equips \RBtwoEqWzero\% and then \RBtwoEqWtwenty\% of the tasks, but they do not make it riskier.
+
+\paragraph{Live enactment through the gateway.} To confront the flow graph with real executions, every toolkit was enacted on executable servers. Over \RFoneN{} toolkits, the gateway exposed only the tools of the toolkit and refused every other call, and a policy that calls every tool with everything its parameters can carry realised exactly the predicted flows in \RFoneExact\% of the toolkits. A Claude agent that enacted \RFlN{} tasks realised \RFlRealised\% of the possible flows and none outside the predicted set. On these servers, the flow graph is therefore exact, and an agent realises a subset of what a toolkit makes possible, which is what the worst-case reading assumes.
+
+\paragraph{From task-level to workflow-level guarantees.} The bound of Proposition 3 is stated per task, and Fig.~\ref{fig:rq2}h quantifies its consequence for whole workflows. With the task-level calibration, \RWcTaskRisk\% of the workflows contain a risky toolkit and \RWcTaskAll\% are fully equipped. With the workflow-level calibration, the share of risky workflows falls to \RWcWfRisk\%, but only \RWcWfAll\% of the workflows remain fully equipped. A bound per task does not bound the risk of a workflow, and a bound per workflow is attainable only at a high price in coverage.
+
+\section{Composition and Revision (RQ3)}\label{sec:res-h3}
+
+\begin{figure}[!ht]\centering
+\includegraphics[width=\textwidth]{fig_rq3.pdf}
+\caption{Composition and revision. (a) Substitution. (b) Workflows with a risky toolkit, end to end. (c,\,d) Coverage and risk against workflow length. (e,\,f) Validity and risk against catalogue size. (g) Validity against the number of capabilities per task. (h) Exact and greedy composition.}\label{fig:rq3}
+\end{figure}
+
+\begin{table}[!ht]\centering
+\caption{End-to-end comparison (rates in \%): tasks equipped, fully equipped workflows, workflows with a risky toolkit, and objectives covered. Top: rule-based generator; bottom: language model. Best value in bold.}\label{tab:e2e}
+\scriptsize\setlength{\tabcolsep}{3pt}\input{tab_e2e}
+\end{table}
+
+\paragraph{End-to-end composition and substitution.} This experiment evaluates substitution and compares complete pipelines, from the request to the composed workflow. Table~\ref{tab:e2e} and Fig.~\ref{fig:rq3}a show that, behind the rule-based generator, substitution raises the share of fully equipped workflows from \RCtwoAllZero\% (\sysname{}-NS) to \RCtwoAllTwo\% with at most two substitutions. In this setting, \RCtwoSub\% of the tasks are substituted, with \RCtwoPrereq{} prerequisite violation and \RCtwoPres{} substitution outside the preservation relation, whereas QoS-IP+F equips every task of only \RCtwoZfAll\% of the workflows. With a language model, CP equips every task, but all of its compositions contain a toolkit with a denied flow and it covers \RCoCpObj\% of the target concepts (Fig.~\ref{fig:rq3}b). \sysname{}-LLM obtains a valid workflow for \RCoLgValid\% of the requests, covers all targets, and \RCoLgRisk\% of its workflows contain a risky toolkit. Substitution thus turns incomplete workflows into complete ones without leaving the catalogue approved by instructors, and a language model alone composes plausible but non-compliant toolkits.
+
+\begin{table}[!ht]\centering
+\caption{Effect of the number of capabilities required per task (rates in \%). Best deployable value in bold.}\label{tab:caps}
+\scriptsize\setlength{\tabcolsep}{5pt}\input{tab_caps}
+\end{table}
+
+\begin{table}[!ht]\centering
+\caption{Effect of the workflow length, in tasks (rates in \%). Best value in bold.}\label{tab:len}
+\scriptsize\setlength{\tabcolsep}{5pt}\input{tab_len}
+\end{table}
+
+\paragraph{Complexity of requests.} We study how the methods behave when requests become more demanding, first in the number of capabilities required per task and then in the length of the workflow. Table~\ref{tab:caps} and Fig.~\ref{fig:rq3}g show that validity decreases for every method as tasks require more capabilities. \sysname{} goes from \RXtwoEmkOne\% of valid toolkits with one capability to \RXtwoEmkFive\% with five, close to the Oracle (\RXtwoOraFive\%), while RAG-MCP+F collapses to \RXtwoRagFive\%. QoS-IP+F keeps the highest validity (\RXtwoZfFive\% with five capabilities), but its denied-flow rate grows to \RXtwoZfDfrFive\%; that of \sysname{} peaks at \RXtwoEmkDfrMax\%, above the target, because tasks with many capabilities differ from the tasks used at the fixed level. Table~\ref{tab:len} and Fig.~\ref{fig:rq3}c,\,d report the effect of the workflow length. The share of fully equipped workflows of \sysname{} decreases from \RXfourEmkThree\% for three tasks to \RXfourEmkTen\% for ten, against \RXfourNsTen\% without substitution and \RXfourZfTen\% for QoS-IP+F. QoS-IP equips \RXfourZTen\% of the ten-task workflows, but \RXfourZRiskTen\% of them contain a risky toolkit. The risk of \sysname{} accumulates with length, from \RXfourEmkRiskThree\% to \RXfourEmkRiskTen\% of risky workflows, and remains below that of QoS-IP+F (\RXfourZfRiskTen\%). Longer and more demanding requests therefore widen the difference between methods: substitution preserves coverage, and the per-task guarantee limits, without eliminating, the accumulation of risk.
+
+\begin{table}[!ht]\centering
+\caption{Exact and greedy composition by shortlist bound $N$ and capabilities per task $|R|$.}\label{tab:greedy}
+\scriptsize\setlength{\tabcolsep}{3pt}\input{tab_greedy}
+\end{table}
+
+\paragraph{Exact versus greedy composition.} Since Proposition 1 gives a greedy guarantee under a condition, we compare the exact composer with a greedy composer that uses the same shortlist, coefficients, and constraints and serves capabilities one at a time. Table~\ref{tab:greedy} and Fig.~\ref{fig:rq3}h show that, when both composers return a toolkit, the greedy objective is on average \RXfiveRatio{} times the optimum. The difference lies in feasibility: the greedy composer fails on up to \RXfiveLoss\% of the tasks that the exact composer equips, for example \RXfiveGrFifty\% against \RXfiveExFifty\% of tasks equipped with a shortlist of 50 candidates. The exact composer needs at most \RXfiveExMs{}~ms per task in median, against \RXfiveGrMs{}~ms for the greedy one. Exact composition is thus valuable because of the hard constraints on flows, budget, and QoS, which a myopic choice often cannot satisfy, rather than because of the objective.
+
+\section{Scalability}\label{sec:res-scal}
+
+\begin{table}[!ht]\centering
+\caption{Effect of the catalogue size, in tools (rates in \%; last column: median composition time per task at the largest size). Best deployable value in bold.}\label{tab:scale}
+\scriptsize\setlength{\tabcolsep}{4pt}\input{tab_scale}
+\end{table}
+
+\begin{figure}[!ht]\centering
+\includegraphics[width=\textwidth]{fig_rq4.pdf}
+\caption{Scalability, gap map, and sensitivity. (a) Solver time against the shortlist bound. (b) Composition time against catalogue size. (c) Gap map by catalogue (S: synthetic, R: with MCP-tools) and norm profile. (d) Effect of published annotations. (e) QoS bounds. (f) Valid toolkits by pedagogical type. (g) Denied-flow rate across seeds. (h) Weights of the quality model.}\label{fig:rq4}
+\end{figure}
+
+\paragraph{Catalogue size.} This experiment varies the number of providers per capability, so that the synthetic catalogue grows from \RXoneMin{} to \RXoneMax{} tools with its ground truth. Table~\ref{tab:scale} and Fig.~\ref{fig:rq3}e,\,f show that the validity of \sysname{} rises from \RXoneEmkValidMin\% with the smallest catalogue, in which most tasks have no admissible provider, to \RXoneEmkValidMax\%, and that its denied-flow rate never exceeds \RXoneEmkDfrMax\%. QoS-IP+F reaches up to \RXoneZfValidMax\% of valid toolkits but its denied-flow rate reaches \RXoneZfDfrMax\%, and RAG-MCP stays below 12\% of valid toolkits at every size. A larger catalogue thus helps the methods that reason on capabilities and constraints, because it offers more admissible alternatives, and it does not help relevance retrieval.
+
+\paragraph{Solver and catalogue scaling.} With up to 100 candidates per task, the median solving time stays below \RCthreeMedMax{}~s and the 95th percentile below \RCthreePmax{}~s, without any time-out (Fig.~\ref{fig:rq4}a). The median composition time of \sysname{} grows from about 2~ms to \RXoneEmkMs{}~ms between the smallest and the largest synthetic catalogue, against \RXoneZMs{}~ms for QoS-IP (Fig.~\ref{fig:rq4}b). When up to 2{,}960 real tools from MCP-tools and Toucan are added, preparation takes \RCfourPrep{}~s, a task is composed in \RCfourEmkSmall{} to \RCfourEmkLarge{}~ms, and memory stays below \RCfourMem{}~MB. Exact composition is therefore practical at these sizes, and the main cost lies in the preparation, which is performed once per catalogue snapshot.
+
+\section{Gap Map of the Ecosystem (RQ4)}\label{sec:res-h4}
+
+The gap map is expected to expose actionable levers. On the synthetic catalogue with the standard norms, \REoneSafeSyn\% of the demand-weighted archetypes are safe, \REoneUncSyn\% are uncertain, and \REoneRiskStd\% are risky. Strict norms raise the risky share to \REoneRiskStrict\%, and adding the unannotated MCP-tools raises the uncertain share to \REoneUncMix\% (Fig.~\ref{fig:rq4}c). When providers publish correct annotations for half of the tools, the uncertain share falls to \REtwoUncHalf\% (Fig.~\ref{fig:rq4}d). The classes thus react to the levers they are meant to expose: norms create risky archetypes, and undocumented tools create uncertain ones. The map tells providers which annotations to publish and institutions which tools to commission.
+
+\section{Ablation and Sensitivity Analysis}\label{sec:res-sens}
+
+\begin{table}[!ht]\centering
+\caption{Ablation of the components of \sysname{}: equipped, valid, denied-flow rate, QoS violations, and load (\%), and redundancy. Best value in bold.}\label{tab:abl}
+\scriptsize\setlength{\tabcolsep}{3pt}\input{tab_abl}
+\end{table}
+
+Table~\ref{tab:abl} removes one component of \sysname{} at a time. Replacing the prediction sets by declared annotations equips more tasks but multiplies the denied-flow rate by almost six. The additive utility multiplies redundancy by twelve, and removing QoS leads \RDNoQosQviol\% of the toolkits to violate their bounds. Without the interaction terms, coverage and risk are unchanged and redundancy rises from \RDFullEmerkitRed{} to \RDNoInteractionsRed.
+
+The results are stable with respect to the parameters. The share of valid toolkits stays between \RDtwoValidMin\% and \RDtwoValidMax\% over eleven settings of $\lambda_I$, $\lambda_C$, $\lambda_Q$, and $\theta$ (Fig.~\ref{fig:rq4}h). The tightness of the QoS bounds matters more: with $\tau=1.25$, \sysname{} returns \RAfourEmk\% of valid toolkits at the fixed level, against \RAfourZeng\% for QoS-IP, and both fall near 10\% at $\tau=0.75$ (Fig.~\ref{fig:rq4}e). Fig.~\ref{fig:rq4}f details validity by pedagogical type, and Fig.~\ref{fig:rq4}g shows that the denied-flow rate of \sysname{} varies little across seeds, whereas that of the baselines varies widely. The pedagogical parameters were also submitted to three language models, which judged every norm cell, substitution pair, and fit value. Their majority agrees with the norm base on \RJnAgree\% of the cells ($\kappa=\RJnKappa$) and with the substitution catalogue on \RJsAgree\% of the pairs ($\kappa=\RJsKappa$); with their norms and catalogue, \sysname{} keeps a denied-flow rate of \RPonePanelDfr\%, against \RPoneStandardDfr\% with ours, and \RPtwoPanelAll\% of fully equipped workflows, against \RPtwoStandardAll\%. Finally, the labels of 210 real tools come from a static analysis of their code followed by a model review, and Sonnet agrees with an independent review of 40 tools on \RAuSonnetAgree{} of them.
+
+\section{Threats to Validity}\label{sec:threats}
+
+Regarding internal validity, the measures of norm compliance need a ground truth and therefore use synthetic servers, whose descriptions are cleaner than real ones; real catalogues are used in the selection probes, the agent experiment, the trajectories, the scalability experiment, and the gap map. Regarding construct validity, the pedagogical parameters and the audit labels of real tools come from model judgements and not from instructors or human auditors, and the models of the panel share a family, which may inflate their agreement. Regarding external validity, all language models come from one provider: interference is supported for these models, saturation is not, and smaller open models remain to be tested. The guarantee is stated per task and for the calibrated task distribution, as the shift experiment shows, and it must be recalibrated with each registry snapshot. The end-to-end experiments that involve a language model use three seeds and a few dozen requests or tasks each.
+
+
+\part*{Part II: Detailed tables by series}
+\section{Preparation quality }
+Capability extraction reaches a precision of \RCapPrec\% and a recall of \RCapRec\%; synthetic descriptions are easier than real ones, so this figure is optimistic. Label classifiers reach an accuracy between \RLabAccMin\% and \RLabAccMax\% depending on the label. The empirical coverage of the conformal sets is \RConfCovFive\%, \RConfCovTen\%, and \RConfCovTwenty\% for $\epsilon=0.05$, $0.1$, and $0.2$, so it stays at or above the nominal $1-\epsilon$ in all three cases, as split conformal prediction guarantees.
+
+
+\section{Detailed tables of the reference and grid series}
+\input{full_tables}
+\input{full_tables2}
+\section{Detailed table of the series with language models}
+\input{full_tables3}
+\end{document}

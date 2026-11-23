@@ -1,0 +1,12 @@
+[project]
+name = "emerkit"
+version = "0.1.0"
+description = "EmerKit: composition of MCP toolkits for LLM agents in learning workflows (implementation, datasets, experiments)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "scikit-learn>=1.4", "pandas>=2.1", "matplotlib>=3.8", "ortools>=9.10",
+                "statsmodels>=0.14", "mcp>=1.10,<2"]
+[project.optional-dependencies]
+llm = ["anthropic>=0.40", "openai>=1.40", "datasets>=2.19"]
+[tool.setuptools]
+packages = ["emerkit", "emerkit.runtime"]

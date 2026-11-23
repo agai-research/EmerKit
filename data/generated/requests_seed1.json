@@ -1,0 +1,182 @@
+[
+ {
+  "domain": "programming",
+  "targets": [
+   "classes_and_objects"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "tuples_and_sets"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "polymorphism",
+   "parameters_and_scope"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "dictionaries",
+   "classes_and_objects"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "strings",
+   "software_design"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "comprehensions"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "classes_and_objects",
+   "debugging"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "programming",
+  "targets": [
+   "dictionaries"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "kernels"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "parts_of_speech",
+   "neural_question_answering"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "lexical_semantics",
+   "dynamic_programming"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "citation_networks"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "sequence_classification_and_conditional_random_fields"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "neural_machine_translation"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "feature_learning",
+   "social_network_extraction"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "datascience",
+  "targets": [
+   "grammar_checker",
+   "recursive_neural_networks"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "relative_clauses"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "phrasal_verbs"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "present_continuous"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "prepositions_of_place_time",
+   "debate_and_discussion"
+  ],
+  "known": 1
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "countable_uncountable"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "present_perfect",
+   "listening_everyday"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "present_perfect",
+   "present_simple"
+  ],
+  "known": 0
+ },
+ {
+  "domain": "language",
+  "targets": [
+   "presentations",
+   "present_simple"
+  ],
+  "known": 0
+ }
+]

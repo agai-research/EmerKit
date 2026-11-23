@@ -1,0 +1,23 @@
+# EmerKit experimental protocol (frozen before the campaign). Pilot values; provisional pedagogical parameters in emerkit/vocab.py.
+domains: [programming, datascience, language]        # English as a foreign language replaces mathematics
+tasks: {test_per_seed: 300, per_type: 50, calibration_pool: 200, workflows_end_to_end: 100}
+seeds: {pilot_reference: [0, 1, 2, 3, 4], grids: [0, 1, 2]}
+defaults:
+  B: 2000; theta: 0.75; k_max: 4; N: 20; n_min: 2; T_max_s: 10
+  tau: 1.25            # QoS bounds = 1.25 x median aggregate (1.0 left even the oracle without toolkit for half the tasks)
+  xi: 0.05; zeta: 0.10; n_cal: 300; eps_grid: "0, 0.001, 0.0025, 0.005, 0.01, 0.015, 0.02, then 0.025..0.5 step 0.025"   # n_cal=100 lacked power (1 tolerated violation at xi=0.05)
+  weights: {lam_I: 1.0, lam_C: 1.0, lam_Q: 0.5, eta: 0.25}   # provisional; replaced by the fit of series A5
+  catalogue: {rho_conf: 0.05, m_synthetic: 0.6, m_real: 1.0, w: 0.05, cue: 0.4, providers_per_capability: [4, 6]}
+  norm_profile: standard
+grids:
+  A2: {rho_conf: [0, 0.1, 0.2, 0.3, 0.4]}
+  A3: {B: [500, 1000, 2000, 4000], length_factor: [1, 4]}
+  A4: {tau: [0.5, 0.75, 1.0, 1.25, 1.5]}
+  B1: {xi: [0.05, 0.10, 0.20], n_cal: [45, 100, 200, 300]}
+  B2: {m: [0, 0.2, 0.4, 0.6, 0.8], w: [0, 0.05, 0.1, 0.2], cue: [0.2, 0.4, 0.6]}
+  B3: {norm_profile: [permissive, standard, strict], contracted_share_real: [0, 0.1, 0.3]}
+  C3: {N: [10, 20, 30, 50, 100], R: [1, 2, 3, 5], k_max: [3, 4, 6, 8], T_max_s: [1, 10, 60]}
+  C4: {catalogue_size: [300, 1000, 3000, 5000]}
+  D2: {lam_I: [0, 0.5, 1, 2], lam_C: [0, 0.5, 1, 2], lam_Q: [0, 0.5, 1], theta: [0.5, 0.75, 0.9]}
+valid_toolkit: "returned AND all required capabilities covered AND no denied flow (true labels) AND QoS bounds met"
+statistics: {bootstrap: 10000, test: wilcoxon_signed_rank, correction: holm, effect_size: cliffs_delta}

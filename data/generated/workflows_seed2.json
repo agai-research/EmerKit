@@ -1,0 +1,11828 @@
+[
+ [
+  {
+   "domain": "programming",
+   "targets": [
+    "encapsulation",
+    "strings"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "encapsulation"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "encapsulation"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "strings"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "strings"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "encapsulation",
+      "strings"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_code",
+      "learning_analytics",
+      "record_grade"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "programming",
+     "concepts": [
+      "encapsulation",
+      "strings"
+     ],
+     "level": 4,
+     "R": [
+      "generate_quiz",
+      "grade_answers",
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "score",
+      "submission"
+     ]
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "encapsulation",
+    "strings"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "lint_code",
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "encapsulation"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "encapsulation"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "give_hint",
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "strings"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "strings"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "encapsulation",
+      "strings"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "programming",
+     "concepts": [
+      "encapsulation",
+      "strings"
+     ],
+     "level": 4,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "plagiarism_check",
+      "read_gradebook"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "submission"
+     ]
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "encapsulation",
+    "strings"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "encapsulation"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "encapsulation"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "strings"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "strings"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "encapsulation",
+      "strings"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "programming",
+     "concepts": [
+      "encapsulation",
+      "strings"
+     ],
+     "level": 6,
+     "R": [
+      "peer_review",
+      "run_code",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "submission"
+     ]
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "programming",
+   "targets": [
+    "version_control",
+    "comprehensions"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "lists"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "lists"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_code",
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "comprehensions"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "comprehensions"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "generate_quiz",
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns",
+      "comprehensions"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "record_grade",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "programming",
+     "concepts": [
+      "version_control",
+      "comprehensions"
+     ],
+     "level": 6,
+     "R": [
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "version_control",
+    "comprehensions"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "version_control"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "lists"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "lists"
+     ],
+     "level": 3,
+     "R": [
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "grade_code",
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "comprehensions"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "comprehensions"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "grade_answers",
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns",
+      "comprehensions"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "discussion",
+     "domain": "programming",
+     "concepts": [
+      "version_control",
+      "comprehensions"
+     ],
+     "level": 5,
+     "R": [
+      "explain_concept",
+      "forum_post",
+      "peer_review"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     [
+      "submission"
+     ]
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "version_control",
+    "comprehensions"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "lists"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "lists"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "generate_quiz",
+      "grade_answers",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "give_hint",
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "comprehensions"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "comprehensions"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns",
+      "comprehensions"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "read_gradebook"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "programming",
+     "concepts": [
+      "version_control",
+      "comprehensions"
+     ],
+     "level": 6,
+     "R": [
+      "export_report",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     [
+      "score"
+     ]
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "programming",
+   "targets": [
+    "iteration_patterns"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "lists"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "functions"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "give_hint",
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "functions",
+      "iteration_patterns"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "discussion",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 5,
+     "R": [
+      "forum_post"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     [
+      "submission"
+     ]
+    ],
+    [
+     4,
+     5,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "iteration_patterns"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "lists"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "lists"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "give_hint",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "functions"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "functions",
+      "iteration_patterns"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "submission"
+     ]
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "iteration_patterns"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "lists"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "lists"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "grade_answers",
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "functions"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "functions"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "give_hint",
+      "grade_answers",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "video_lookup",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "functions",
+      "iteration_patterns"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "read_gradebook"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "programming",
+     "concepts": [
+      "iteration_patterns"
+     ],
+     "level": 4,
+     "R": [
+      "generate_quiz",
+      "grade_answers",
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "programming",
+   "targets": [
+    "classes_and_objects",
+    "tuples_and_sets"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "video_lookup",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "grade_answers",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "tuples_and_sets"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "video_lookup",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "tuples_and_sets"
+     ],
+     "level": 3,
+     "R": [
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects",
+      "tuples_and_sets"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_code",
+      "record_grade"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects",
+      "tuples_and_sets"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "classes_and_objects",
+    "tuples_and_sets"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 3,
+     "R": [
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "grade_answers",
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "tuples_and_sets"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "tuples_and_sets"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_code",
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects",
+      "tuples_and_sets"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "learning_analytics"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects",
+      "tuples_and_sets"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "read_gradebook",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "score",
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "classes_and_objects",
+    "tuples_and_sets"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "give_hint",
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "tuples_and_sets"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "tuples_and_sets"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects",
+      "tuples_and_sets"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "learning_analytics"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects",
+      "tuples_and_sets"
+     ],
+     "level": 6,
+     "R": [
+      "peer_review",
+      "plagiarism_check",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "submission"
+     ]
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "programming",
+   "targets": [
+    "stacks_and_queues"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "lint_code",
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "stacks_and_queues"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "stacks_and_queues"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects",
+      "stacks_and_queues"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "programming",
+     "concepts": [
+      "stacks_and_queues"
+     ],
+     "level": 6,
+     "R": [
+      "peer_review",
+      "plagiarism_check",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     [
+      "submission"
+     ]
+    ],
+    [
+     4,
+     5,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "stacks_and_queues"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 3,
+     "R": [
+      "lint_code",
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "stacks_and_queues"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "stacks_and_queues"
+     ],
+     "level": 3,
+     "R": [
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects",
+      "stacks_and_queues"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "learning_analytics",
+      "read_gradebook"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "programming",
+     "concepts": [
+      "stacks_and_queues"
+     ],
+     "level": 6,
+     "R": [
+      "peer_review",
+      "run_code",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "stacks_and_queues"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "stacks_and_queues"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "stacks_and_queues"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects",
+      "stacks_and_queues"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "learning_analytics",
+      "record_grade",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "programming",
+     "concepts": [
+      "stacks_and_queues"
+     ],
+     "level": 6,
+     "R": [
+      "export_report",
+      "peer_review",
+      "run_code",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "submission"
+     ]
+    ],
+    [
+     5,
+     6,
+     [
+      "score",
+      "submission"
+     ]
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "programming",
+   "targets": [
+    "files"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "strings"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "functions"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "give_hint",
+      "grade_answers",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "files"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "files"
+     ],
+     "level": 3,
+     "R": [
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "functions",
+      "files"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "programming",
+     "concepts": [
+      "files"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     [
+      "submission"
+     ]
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     [
+      "submission"
+     ]
+    ],
+    [
+     4,
+     5,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "files"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "strings"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "functions"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "files"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "files"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "functions",
+      "files"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_answers",
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "discussion",
+     "domain": "programming",
+     "concepts": [
+      "files"
+     ],
+     "level": 5,
+     "R": [
+      "forum_post"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     [
+      "submission"
+     ]
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     [
+      "submission"
+     ]
+    ],
+    [
+     4,
+     5,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "files"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "strings"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "video_lookup",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "strings"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "functions"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "files"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "files"
+     ],
+     "level": 3,
+     "R": [
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "functions",
+      "files"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "programming",
+     "concepts": [
+      "files"
+     ],
+     "level": 4,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "plagiarism_check",
+      "record_grade"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     [
+      "submission"
+     ]
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "submission"
+     ]
+    ],
+    [
+     5,
+     6,
+     [
+      "score"
+     ]
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "programming",
+   "targets": [
+    "recursion"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "loops"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "functions"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "functions"
+     ],
+     "level": 3,
+     "R": [
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "recursion"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "recursion"
+     ],
+     "level": 3,
+     "R": [
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "functions",
+      "recursion"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "learning_analytics",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "programming",
+     "concepts": [
+      "recursion"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "record_grade"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "submission"
+     ]
+    ],
+    [
+     5,
+     6,
+     [
+      "score",
+      "submission"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "recursion"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "loops"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "grade_answers",
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "functions"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "recursion"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "recursion"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "functions",
+      "recursion"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_answers",
+      "grade_code",
+      "read_gradebook"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "programming",
+     "concepts": [
+      "recursion"
+     ],
+     "level": 6,
+     "R": [
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     [
+      "submission"
+     ]
+    ],
+    [
+     4,
+     5,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "recursion"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "loops"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "generate_quiz",
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "functions"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "recursion"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "recursion"
+     ],
+     "level": 3,
+     "R": [
+      "lint_code",
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "functions",
+      "recursion"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "learning_analytics",
+      "read_gradebook",
+      "record_grade"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "programming",
+     "concepts": [
+      "recursion"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "read_gradebook",
+      "record_grade"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     [
+      "submission"
+     ]
+    ],
+    [
+     4,
+     5,
+     [
+      "score"
+     ]
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "programming",
+   "targets": [
+    "searching",
+    "inheritance"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "searching"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "grade_answers",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "query_sql",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "inheritance"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "inheritance"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects",
+      "inheritance"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "programming",
+     "concepts": [
+      "searching",
+      "inheritance"
+     ],
+     "level": 6,
+     "R": [
+      "peer_review",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "searching",
+    "inheritance"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_answers",
+      "lint_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "generate_quiz",
+      "give_hint",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "inheritance"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "inheritance"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "grade_answers",
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects",
+      "inheritance"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "programming",
+     "concepts": [
+      "searching",
+      "inheritance"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "programming",
+   "targets": [
+    "searching",
+    "inheritance"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "searching"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "video_lookup",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "dictionaries"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "programming",
+     "concepts": [
+      "inheritance"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "programming",
+     "concepts": [
+      "inheritance"
+     ],
+     "level": 3,
+     "R": [
+      "run_code"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "programming",
+     "concepts": [
+      "classes_and_objects",
+      "inheritance"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "discussion",
+     "domain": "programming",
+     "concepts": [
+      "searching",
+      "inheritance"
+     ],
+     "level": 5,
+     "R": [
+      "forum_post"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "datascience",
+   "targets": [
+    "monte_carlo_tree_search"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "monte_carlo_tree_search"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset",
+      "read_profile"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "monte_carlo_tree_search"
+     ],
+     "level": 3,
+     "R": [
+      "query_sql",
+      "run_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "monte_carlo_tree_search"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "monte_carlo_tree_search"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     [
+      "submission"
+     ]
+    ],
+    [
+     2,
+     3,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "monte_carlo_tree_search"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "monte_carlo_tree_search"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "monte_carlo_tree_search"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "grade_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "monte_carlo_tree_search"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_code",
+      "read_gradebook",
+      "record_grade"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "discussion",
+     "domain": "datascience",
+     "concepts": [
+      "monte_carlo_tree_search"
+     ],
+     "level": 5,
+     "R": [
+      "forum_post",
+      "notify_instructor",
+      "peer_review"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     [
+      "score",
+      "submission"
+     ]
+    ],
+    [
+     2,
+     3,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "monte_carlo_tree_search"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "monte_carlo_tree_search"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "video_lookup",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "monte_carlo_tree_search"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "generate_quiz",
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "monte_carlo_tree_search"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_code",
+      "record_grade",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "monte_carlo_tree_search"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "plagiarism_check"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     [
+      "submission"
+     ]
+    ],
+    [
+     2,
+     3,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "datascience",
+   "targets": [
+    "mathematical_models"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "linear_algebra"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "linear_algebra"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "generate_quiz",
+      "run_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "probabilities"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "probabilities"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "mathematical_models"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "mathematical_models"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "probabilities",
+      "mathematical_models"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_code",
+      "read_gradebook"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "mathematical_models"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "mathematical_models"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "linear_algebra"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "probabilities"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "mathematical_models"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset",
+      "read_profile",
+      "retrieve_courseware"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "mathematical_models"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "probabilities",
+      "mathematical_models"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "record_grade",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "mathematical_models"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     [
+      "submission"
+     ]
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     [
+      "submission"
+     ]
+    ],
+    [
+     4,
+     5,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "mathematical_models"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "linear_algebra"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "linear_algebra"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "grade_code",
+      "plot_data",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "probabilities"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset",
+      "video_lookup",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "probabilities"
+     ],
+     "level": 3,
+     "R": [
+      "plot_data",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "mathematical_models"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset",
+      "retrieve_courseware",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "mathematical_models"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "probabilities",
+      "mathematical_models"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "mathematical_models"
+     ],
+     "level": 4,
+     "R": [
+      "generate_quiz",
+      "grade_code",
+      "read_gradebook",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "datascience",
+   "targets": [
+    "semi_supervised_learning",
+    "chinese_nlp"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "random_walks_and_harmonic_functions"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset",
+      "retrieve_courseware",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "random_walks_and_harmonic_functions"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "grade_answers",
+      "grade_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "semi_supervised_learning"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "semi_supervised_learning"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "chinese_nlp"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "chinese_nlp"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "semi_supervised_learning",
+      "chinese_nlp"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "semi_supervised_learning",
+      "chinese_nlp"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "semi_supervised_learning",
+    "chinese_nlp"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "random_walks_and_harmonic_functions"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "semi_supervised_learning"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "semi_supervised_learning"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "chinese_nlp"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "video_lookup",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "chinese_nlp"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "semi_supervised_learning",
+      "chinese_nlp"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "datascience",
+     "concepts": [
+      "semi_supervised_learning",
+      "chinese_nlp"
+     ],
+     "level": 6,
+     "R": [
+      "export_report",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "submission"
+     ]
+    ],
+    [
+     5,
+     6,
+     [
+      "score"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "semi_supervised_learning",
+    "chinese_nlp"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "random_walks_and_harmonic_functions"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "run_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "semi_supervised_learning"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "semi_supervised_learning"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "give_hint",
+      "plot_data",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "chinese_nlp"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "chinese_nlp"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "semi_supervised_learning",
+      "chinese_nlp"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "semi_supervised_learning",
+      "chinese_nlp"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "run_code",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "submission"
+     ]
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "datascience",
+   "targets": [
+    "reinforcement_learning",
+    "sentiment_analysis"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "reinforcement_learning"
+     ],
+     "level": 3,
+     "R": [
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "evaluation_of_text_classification"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "evaluation_of_text_classification"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "run_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_answers",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations",
+      "sentiment_analysis"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "reinforcement_learning",
+      "sentiment_analysis"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     [
+      "submission"
+     ]
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "reinforcement_learning",
+    "sentiment_analysis"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "reinforcement_learning"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "plot_data",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "evaluation_of_text_classification"
+     ],
+     "level": 3,
+     "R": [
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset",
+      "video_lookup",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations",
+      "sentiment_analysis"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_answers",
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "reinforcement_learning",
+      "sentiment_analysis"
+     ],
+     "level": 4,
+     "R": [
+      "grade_answers",
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "reinforcement_learning",
+    "sentiment_analysis"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "reinforcement_learning"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "video_lookup",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "reinforcement_learning"
+     ],
+     "level": 3,
+     "R": [
+      "plot_data",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "evaluation_of_text_classification"
+     ],
+     "level": 3,
+     "R": [
+      "run_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations",
+      "sentiment_analysis"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "learning_analytics",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "reinforcement_learning",
+      "sentiment_analysis"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "read_gradebook"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "datascience",
+   "targets": [
+    "sentiment_analysis"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "random_walks_and_harmonic_functions"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "random_walks_and_harmonic_functions"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "plot_data",
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations",
+      "sentiment_analysis"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 6,
+     "R": [
+      "plagiarism_check",
+      "run_code",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "sentiment_analysis"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "random_walks_and_harmonic_functions"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "random_walks_and_harmonic_functions"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations",
+      "sentiment_analysis"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "read_gradebook"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "plagiarism_check",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "sentiment_analysis"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "random_walks_and_harmonic_functions"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "run_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "query_sql",
+      "run_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "sentence_representations",
+      "sentiment_analysis"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "datascience",
+     "concepts": [
+      "sentiment_analysis"
+     ],
+     "level": 6,
+     "R": [
+      "plagiarism_check",
+      "plot_data",
+      "run_code",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     [
+      "submission"
+     ]
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     [
+      "submission"
+     ]
+    ],
+    [
+     4,
+     5,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "datascience",
+   "targets": [
+    "alphago",
+    "stack_lstm"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "alphago"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "alphago"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "give_hint",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "neural_networks"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "training_neural_networks"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "plot_data",
+      "run_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "stack_lstm"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "stack_lstm"
+     ],
+     "level": 3,
+     "R": [
+      "run_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "training_neural_networks",
+      "stack_lstm"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_answers",
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "alphago",
+      "stack_lstm"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     [
+      "submission"
+     ]
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "alphago",
+    "stack_lstm"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "alphago"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "alphago"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "neural_networks"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "give_hint",
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "training_neural_networks"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "stack_lstm"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "stack_lstm"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "training_neural_networks",
+      "stack_lstm"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "record_grade"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "alphago",
+      "stack_lstm"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "record_grade",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     [
+      "score"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "alphago",
+    "stack_lstm"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "alphago"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "neural_networks"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "query_sql",
+      "run_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "training_neural_networks"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "training_neural_networks"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "plot_data",
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "stack_lstm"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "stack_lstm"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "training_neural_networks",
+      "stack_lstm"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "alphago",
+      "stack_lstm"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "plagiarism_check",
+      "read_gradebook",
+      "record_grade"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     [
+      "score"
+     ]
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "datascience",
+   "targets": [
+    "dependency_parsing"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "natural_language_processing_intro"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "plot_data",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "parsing"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "dependency_parsing"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset",
+      "read_profile",
+      "retrieve_courseware"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "dependency_parsing"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "parsing",
+      "dependency_parsing"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "discussion",
+     "domain": "datascience",
+     "concepts": [
+      "dependency_parsing"
+     ],
+     "level": 5,
+     "R": [
+      "forum_post",
+      "notify_instructor",
+      "peer_review"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     [
+      "submission"
+     ]
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     [
+      "submission"
+     ]
+    ],
+    [
+     4,
+     5,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "dependency_parsing"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "natural_language_processing_intro"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_answers",
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "parsing"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset",
+      "read_profile",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "parsing"
+     ],
+     "level": 3,
+     "R": [
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "dependency_parsing"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset",
+      "video_lookup",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "dependency_parsing"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "parsing",
+      "dependency_parsing"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code",
+      "learning_analytics",
+      "read_gradebook",
+      "record_grade"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "dependency_parsing"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "submission"
+     ]
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "dependency_parsing"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "natural_language_processing_intro"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "plot_data",
+      "run_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "parsing"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "parsing"
+     ],
+     "level": 3,
+     "R": [
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "dependency_parsing"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "dependency_parsing"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "plot_data",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "parsing",
+      "dependency_parsing"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "learning_analytics"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "dependency_parsing"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "score",
+      "submission"
+     ]
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "datascience",
+   "targets": [
+    "generative_and_discriminative_models",
+    "noisy_channel_model"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "generative_and_discriminative_models"
+     ],
+     "level": 3,
+     "R": [
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "natural_language_processing_intro"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "machine_translation"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "machine_translation"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "plot_data",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "noisy_channel_model"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "noisy_channel_model"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "machine_translation",
+      "noisy_channel_model"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "learning_analytics",
+      "read_gradebook"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "generative_and_discriminative_models",
+      "noisy_channel_model"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "record_grade",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     [
+      "submission"
+     ]
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     [
+      "score"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "generative_and_discriminative_models",
+    "noisy_channel_model"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "generative_and_discriminative_models"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "generative_and_discriminative_models"
+     ],
+     "level": 3,
+     "R": [
+      "plot_data",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "natural_language_processing_intro"
+     ],
+     "level": 3,
+     "R": [
+      "query_sql",
+      "run_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "machine_translation"
+     ],
+     "level": 3,
+     "R": [
+      "plot_data",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "noisy_channel_model"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "noisy_channel_model"
+     ],
+     "level": 3,
+     "R": [
+      "give_hint",
+      "grade_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "machine_translation",
+      "noisy_channel_model"
+     ],
+     "level": 3,
+     "R": [
+      "grade_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "datascience",
+     "concepts": [
+      "generative_and_discriminative_models",
+      "noisy_channel_model"
+     ],
+     "level": 4,
+     "R": [
+      "grade_code",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "datascience",
+   "targets": [
+    "generative_and_discriminative_models",
+    "noisy_channel_model"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "generative_and_discriminative_models"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "generative_and_discriminative_models"
+     ],
+     "level": 3,
+     "R": [
+      "query_sql",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "natural_language_processing_intro"
+     ],
+     "level": 3,
+     "R": [
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "machine_translation"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "generate_quiz",
+      "grade_code",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "datascience",
+     "concepts": [
+      "noisy_channel_model"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "load_dataset",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "datascience",
+     "concepts": [
+      "noisy_channel_model"
+     ],
+     "level": 3,
+     "R": [
+      "flashcards",
+      "run_notebook"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "datascience",
+     "concepts": [
+      "machine_translation",
+      "noisy_channel_model"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "grade_code",
+      "record_grade",
+      "run_code"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "discussion",
+     "domain": "datascience",
+     "concepts": [
+      "generative_and_discriminative_models",
+      "noisy_channel_model"
+     ],
+     "level": 5,
+     "R": [
+      "explain_concept",
+      "forum_post"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     [
+      "submission"
+     ]
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "language",
+   "targets": [
+    "questions_and_negation"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "basic_vocabulary"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "give_hint",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "present_simple"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "translate_text"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "present_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "questions_and_negation"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "questions_and_negation"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "present_simple",
+      "questions_and_negation"
+     ],
+     "level": 3,
+     "R": [
+      "pronunciation_eval",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "language",
+     "concepts": [
+      "questions_and_negation"
+     ],
+     "level": 4,
+     "R": [
+      "pronunciation_eval",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "questions_and_negation"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "basic_vocabulary"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "present_simple"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "present_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "conversation_practice",
+      "generate_quiz",
+      "give_hint"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "questions_and_negation"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "questions_and_negation"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "give_hint"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "present_simple",
+      "questions_and_negation"
+     ],
+     "level": 3,
+     "R": [
+      "record_grade",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "language",
+     "concepts": [
+      "questions_and_negation"
+     ],
+     "level": 4,
+     "R": [
+      "generate_quiz",
+      "pronunciation_eval",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "questions_and_negation"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "basic_vocabulary"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "basic_vocabulary"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "grade_answers"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "present_simple"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "present_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "conversation_practice",
+      "grade_answers"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "questions_and_negation"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "questions_and_negation"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "present_simple",
+      "questions_and_negation"
+     ],
+     "level": 3,
+     "R": [
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "language",
+     "concepts": [
+      "questions_and_negation"
+     ],
+     "level": 4,
+     "R": [
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     []
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "language",
+   "targets": [
+    "reported_speech"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "past_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "present_perfect"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "give_hint"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "reported_speech"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "reported_speech"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "present_perfect",
+      "reported_speech"
+     ],
+     "level": 3,
+     "R": [
+      "learning_analytics",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "language",
+     "concepts": [
+      "reported_speech"
+     ],
+     "level": 4,
+     "R": [
+      "pronunciation_eval",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "reported_speech"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "past_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "generate_quiz"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "present_perfect"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "reported_speech"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept",
+      "read_profile"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "reported_speech"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "present_perfect",
+      "reported_speech"
+     ],
+     "level": 3,
+     "R": [
+      "pronunciation_eval",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "language",
+     "concepts": [
+      "reported_speech"
+     ],
+     "level": 4,
+     "R": [
+      "pronunciation_eval",
+      "record_grade"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "score"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "reported_speech"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "past_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "conversation_practice",
+      "flashcards",
+      "give_hint"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "present_perfect"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "translate_text",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "present_perfect"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "reported_speech"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "translate_text",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "reported_speech"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "generate_quiz",
+      "give_hint"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "present_perfect",
+      "reported_speech"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "learning_analytics",
+      "pronunciation_eval",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "discussion",
+     "domain": "language",
+     "concepts": [
+      "reported_speech"
+     ],
+     "level": 5,
+     "R": [
+      "conversation_practice",
+      "explain_concept",
+      "forum_post"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "language",
+   "targets": [
+    "second_conditional"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "first_conditional"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "second_conditional"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "translate_text",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "second_conditional"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "first_conditional",
+      "second_conditional"
+     ],
+     "level": 3,
+     "R": [
+      "learning_analytics",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "language",
+     "concepts": [
+      "second_conditional"
+     ],
+     "level": 6,
+     "R": [
+      "check_grammar",
+      "plagiarism_check",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "second_conditional"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "generate_quiz",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "first_conditional"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "grade_answers"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "second_conditional"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "second_conditional"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "generate_quiz"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "first_conditional",
+      "second_conditional"
+     ],
+     "level": 3,
+     "R": [
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "discussion",
+     "domain": "language",
+     "concepts": [
+      "second_conditional"
+     ],
+     "level": 5,
+     "R": [
+      "conversation_practice",
+      "forum_post",
+      "notify_instructor"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "second_conditional"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "first_conditional"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "give_hint",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "second_conditional"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "second_conditional"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "first_conditional",
+      "second_conditional"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_answers",
+      "read_gradebook",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "language",
+     "concepts": [
+      "second_conditional"
+     ],
+     "level": 6,
+     "R": [
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "language",
+   "targets": [
+    "countable_uncountable",
+    "comparatives_superlatives"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "articles_and_plurals"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "articles_and_plurals"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "give_hint",
+      "grade_answers"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "countable_uncountable"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "translate_text",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "countable_uncountable"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "generate_quiz"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "comparatives_superlatives"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "comparatives_superlatives"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "give_hint",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "countable_uncountable",
+      "comparatives_superlatives"
+     ],
+     "level": 3,
+     "R": [
+      "learning_analytics",
+      "pronunciation_eval",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "language",
+     "concepts": [
+      "countable_uncountable",
+      "comparatives_superlatives"
+     ],
+     "level": 6,
+     "R": [
+      "export_report",
+      "plagiarism_check",
+      "submit_assignment",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "score"
+     ]
+    ],
+    [
+     6,
+     7,
+     [
+      "score",
+      "submission"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "countable_uncountable",
+    "comparatives_superlatives"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "articles_and_plurals"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "countable_uncountable"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware",
+      "translate_text"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "countable_uncountable"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "give_hint"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "comparatives_superlatives"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "comparatives_superlatives"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "conversation_practice",
+      "generate_quiz",
+      "give_hint"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "countable_uncountable",
+      "comparatives_superlatives"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "read_gradebook",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "language",
+     "concepts": [
+      "countable_uncountable",
+      "comparatives_superlatives"
+     ],
+     "level": 6,
+     "R": [
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "countable_uncountable",
+    "comparatives_superlatives"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "articles_and_plurals"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "articles_and_plurals"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "countable_uncountable"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "countable_uncountable"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "comparatives_superlatives"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept",
+      "read_profile",
+      "translate_text"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "comparatives_superlatives"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "conversation_practice"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "countable_uncountable",
+      "comparatives_superlatives"
+     ],
+     "level": 3,
+     "R": [
+      "pronunciation_eval",
+      "read_gradebook",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "language",
+     "concepts": [
+      "countable_uncountable",
+      "comparatives_superlatives"
+     ],
+     "level": 4,
+     "R": [
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     []
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "language",
+   "targets": [
+    "future_forms"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "present_continuous"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept",
+      "translate_text"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "present_continuous"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "generate_quiz",
+      "give_hint",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "past_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "conversation_practice"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "translate_text",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "grade_answers",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "past_simple",
+      "future_forms"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "learning_analytics",
+      "pronunciation_eval",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 6,
+     "R": [
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "score"
+     ]
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "future_forms"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "present_continuous"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "conversation_practice",
+      "flashcards",
+      "generate_quiz"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "past_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "generate_quiz",
+      "give_hint",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept",
+      "read_profile",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "generate_quiz"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "past_simple",
+      "future_forms"
+     ],
+     "level": 3,
+     "R": [
+      "pronunciation_eval",
+      "read_gradebook",
+      "record_grade",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 4,
+     "R": [
+      "grade_answers",
+      "plagiarism_check",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "future_forms"
+   ],
+   "tasks": [
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "present_continuous"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "past_simple"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "retrieve_courseware",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "past_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "conversation_practice",
+      "generate_quiz",
+      "give_hint"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "past_simple",
+      "future_forms"
+     ],
+     "level": 3,
+     "R": [
+      "read_gradebook",
+      "record_grade",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "language",
+     "concepts": [
+      "future_forms"
+     ],
+     "level": 4,
+     "R": [
+      "pronunciation_eval",
+      "record_grade"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "language",
+   "targets": [
+    "numbers_dates_time"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "numbers_dates_time"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "read_profile",
+      "translate_text",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "numbers_dates_time"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "conversation_practice",
+      "give_hint"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "numbers_dates_time"
+     ],
+     "level": 3,
+     "R": [
+      "pronunciation_eval",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "language",
+     "concepts": [
+      "numbers_dates_time"
+     ],
+     "level": 4,
+     "R": [
+      "grade_answers",
+      "pronunciation_eval",
+      "record_grade"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     [
+      "score",
+      "submission"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "numbers_dates_time"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "numbers_dates_time"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept",
+      "retrieve_courseware",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "numbers_dates_time"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "grade_answers",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "numbers_dates_time"
+     ],
+     "level": 3,
+     "R": [
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "language",
+     "concepts": [
+      "numbers_dates_time"
+     ],
+     "level": 4,
+     "R": [
+      "generate_quiz",
+      "pronunciation_eval",
+      "record_grade",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "numbers_dates_time"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "numbers_dates_time"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept",
+      "retrieve_courseware",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "numbers_dates_time"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "conversation_practice",
+      "flashcards",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "numbers_dates_time"
+     ],
+     "level": 3,
+     "R": [
+      "grade_answers",
+      "read_gradebook",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "language",
+     "concepts": [
+      "numbers_dates_time"
+     ],
+     "level": 4,
+     "R": [
+      "generate_quiz",
+      "grade_answers",
+      "plagiarism_check",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "language",
+   "targets": [
+    "essay_structure",
+    "presentations"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "essay_structure"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "translate_text",
+      "web_search"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "essay_structure"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "listening_everyday"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "generate_quiz",
+      "grade_answers",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "debate_and_discussion"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "conversation_practice",
+      "generate_quiz",
+      "grade_answers"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "presentations"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "presentations"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "debate_and_discussion",
+      "presentations"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "learning_analytics",
+      "record_grade",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "language",
+     "concepts": [
+      "essay_structure",
+      "presentations"
+     ],
+     "level": 6,
+     "R": [
+      "plagiarism_check",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     []
+    ],
+    [
+     6,
+     7,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "essay_structure",
+    "presentations"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "essay_structure"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "essay_structure"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "listening_everyday"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "give_hint"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "debate_and_discussion"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "conversation_practice",
+      "flashcards",
+      "generate_quiz"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "presentations"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware",
+      "translate_text",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "presentations"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "debate_and_discussion",
+      "presentations"
+     ],
+     "level": 3,
+     "R": [
+      "learning_analytics",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "language",
+     "concepts": [
+      "essay_structure",
+      "presentations"
+     ],
+     "level": 6,
+     "R": [
+      "peer_review",
+      "plagiarism_check",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     []
+    ],
+    [
+     6,
+     7,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "essay_structure",
+    "presentations"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "listening_everyday"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "listening_everyday"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "generate_quiz"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "debate_and_discussion"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "debate_and_discussion"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "conversation_practice",
+      "generate_quiz",
+      "give_hint"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "presentations"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "presentations"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "generate_quiz"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "debate_and_discussion",
+      "presentations"
+     ],
+     "level": 3,
+     "R": [
+      "generate_quiz",
+      "grade_answers",
+      "record_grade",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "summative",
+     "domain": "language",
+     "concepts": [
+      "essay_structure",
+      "presentations"
+     ],
+     "level": 4,
+     "R": [
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "summative"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     []
+    ],
+    [
+     6,
+     7,
+     []
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "domain": "language",
+   "targets": [
+    "phrasal_verbs",
+    "present_simple"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "present_simple"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept",
+      "retrieve_courseware"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "present_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "past_simple"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "past_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "give_hint",
+      "grade_answers"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "phrasal_verbs"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept",
+      "retrieve_courseware"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "phrasal_verbs"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "pronunciation_eval"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "past_simple",
+      "phrasal_verbs"
+     ],
+     "level": 3,
+     "R": [
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "discussion",
+     "domain": "language",
+     "concepts": [
+      "phrasal_verbs",
+      "present_simple"
+     ],
+     "level": 5,
+     "R": [
+      "conversation_practice",
+      "forum_post",
+      "peer_review"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     []
+    ],
+    [
+     6,
+     7,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "phrasal_verbs",
+    "present_simple"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "present_simple"
+     ],
+     "level": 2,
+     "R": [
+      "explain_concept"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "present_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "flashcards",
+      "grade_answers"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "past_simple"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept",
+      "retrieve_courseware"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "past_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "grade_answers"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "phrasal_verbs"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept",
+      "translate_text",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "phrasal_verbs"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar",
+      "give_hint"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "past_simple",
+      "phrasal_verbs"
+     ],
+     "level": 3,
+     "R": [
+      "read_gradebook",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "production",
+     "domain": "language",
+     "concepts": [
+      "phrasal_verbs",
+      "present_simple"
+     ],
+     "level": 6,
+     "R": [
+      "export_report",
+      "peer_review",
+      "plagiarism_check",
+      "submit_assignment"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     []
+    ],
+    [
+     6,
+     7,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  },
+  {
+   "domain": "language",
+   "targets": [
+    "phrasal_verbs",
+    "present_simple"
+   ],
+   "tasks": [
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "present_simple"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept",
+      "read_profile",
+      "video_lookup"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "present_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "past_simple"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "acquisition",
+     "domain": "language",
+     "concepts": [
+      "phrasal_verbs"
+     ],
+     "level": 2,
+     "R": [
+      "dictionary_lookup",
+      "explain_concept",
+      "read_profile",
+      "translate_text"
+     ],
+     "D": [
+      "PROF"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "practice",
+     "domain": "language",
+     "concepts": [
+      "phrasal_verbs"
+     ],
+     "level": 3,
+     "R": [
+      "check_grammar"
+     ],
+     "D": [
+      "CONT"
+     ],
+     "asm": "none"
+    },
+    {
+     "type": "formative",
+     "domain": "language",
+     "concepts": [
+      "past_simple",
+      "phrasal_verbs"
+     ],
+     "level": 3,
+     "R": [
+      "learning_analytics",
+      "read_gradebook",
+      "writing_feedback"
+     ],
+     "D": [
+      "CONT",
+      "ID",
+      "PERF"
+     ],
+     "asm": "formative"
+    },
+    {
+     "type": "discussion",
+     "domain": "language",
+     "concepts": [
+      "phrasal_verbs",
+      "present_simple"
+     ],
+     "level": 5,
+     "R": [
+      "conversation_practice",
+      "forum_post",
+      "notify_instructor",
+      "peer_review"
+     ],
+     "D": [
+      "CONT",
+      "ID"
+     ],
+     "asm": "none"
+    }
+   ],
+   "edges": [
+    [
+     0,
+     1,
+     []
+    ],
+    [
+     1,
+     2,
+     []
+    ],
+    [
+     2,
+     3,
+     []
+    ],
+    [
+     3,
+     4,
+     []
+    ],
+    [
+     4,
+     5,
+     []
+    ],
+    [
+     5,
+     6,
+     [
+      "submission"
+     ]
+    ]
+   ]
+  }
+ ]
+]

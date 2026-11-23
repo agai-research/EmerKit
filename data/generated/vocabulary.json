@@ -1,0 +1,2578 @@
+{
+ "attributes": [
+  "ID",
+  "PROF",
+  "PERF",
+  "BEH",
+  "CONT"
+ ],
+ "roles": [
+  "INS",
+  "PRO",
+  "EXT",
+  "PUB"
+ ],
+ "types": [
+  "acquisition",
+  "practice",
+  "formative",
+  "summative",
+  "discussion",
+  "production"
+ ],
+ "capabilities": {
+  "explain_concept": {
+   "description": "explain a concept with worked examples and analogies",
+   "domains": null,
+   "src": [],
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "explain"
+  },
+  "retrieve_courseware": {
+   "description": "retrieve the course lesson and reading material for a topic",
+   "domains": null,
+   "src": [],
+   "acc": [
+    "ID"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "explain"
+  },
+  "web_search": {
+   "description": "search the public web for pages about a query",
+   "domains": null,
+   "src": [],
+   "acc": null,
+   "produces": [],
+   "consumes": [],
+   "act": "search"
+  },
+  "video_lookup": {
+   "description": "find educational videos and lectures about a topic",
+   "domains": null,
+   "src": [],
+   "acc": [
+    "CONT"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "illustrate"
+  },
+  "generate_quiz": {
+   "description": "generate quiz questions and multiple choice items on a topic",
+   "domains": null,
+   "src": [],
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "produces": [
+    "quiz"
+   ],
+   "consumes": [],
+   "act": "exercise"
+  },
+  "grade_answers": {
+   "description": "grade quiz answers and return the score of the learner",
+   "domains": null,
+   "src": [
+    "PERF"
+   ],
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "produces": [
+    "score"
+   ],
+   "consumes": [
+    "submission"
+   ],
+   "act": "assess"
+  },
+  "record_grade": {
+   "description": "write a grade into the course gradebook",
+   "domains": null,
+   "src": [],
+   "acc": [
+    "ID",
+    "PERF"
+   ],
+   "produces": [],
+   "consumes": [
+    "score"
+   ],
+   "act": "record"
+  },
+  "read_gradebook": {
+   "description": "read the grades of the learner from the gradebook",
+   "domains": null,
+   "src": [
+    "ID",
+    "PERF"
+   ],
+   "acc": [
+    "ID"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "record"
+  },
+  "read_profile": {
+   "description": "read the learner profile preferences and prior knowledge",
+   "domains": null,
+   "src": [
+    "ID",
+    "PROF"
+   ],
+   "acc": [
+    "ID"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "record"
+  },
+  "give_hint": {
+   "description": "give a hint for an exercise without revealing the full solution",
+   "domains": null,
+   "src": [],
+   "acc": [
+    "CONT"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "exercise"
+  },
+  "flashcards": {
+   "description": "create spaced repetition flashcards and track reviews",
+   "domains": null,
+   "src": [
+    "BEH"
+   ],
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "exercise"
+  },
+  "forum_post": {
+   "description": "post a message to the course discussion forum",
+   "domains": null,
+   "src": [],
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "explain"
+  },
+  "peer_review": {
+   "description": "assign and collect peer reviews of submissions",
+   "domains": null,
+   "src": [
+    "CONT",
+    "ID"
+   ],
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "produces": [],
+   "consumes": [
+    "submission"
+   ],
+   "act": "assess"
+  },
+  "plagiarism_check": {
+   "description": "check a submission for plagiarism and similarity",
+   "domains": null,
+   "src": [],
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "produces": [],
+   "consumes": [
+    "submission"
+   ],
+   "act": "assess"
+  },
+  "submit_assignment": {
+   "description": "submit an assignment file to the learning management system",
+   "domains": null,
+   "src": [],
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "produces": [
+    "submission"
+   ],
+   "consumes": [],
+   "act": "record"
+  },
+  "notify_instructor": {
+   "description": "notify the instructor by message about the learner",
+   "domains": null,
+   "src": [],
+   "acc": null,
+   "produces": [],
+   "consumes": [],
+   "act": "record"
+  },
+  "learning_analytics": {
+   "description": "track learner activity time on task and engagement",
+   "domains": null,
+   "src": [
+    "BEH",
+    "ID"
+   ],
+   "acc": [
+    "ID"
+   ],
+   "produces": [],
+   "consumes": [
+    "score"
+   ],
+   "act": "record"
+  },
+  "export_report": {
+   "description": "export a progress report as a file and send it by email",
+   "domains": null,
+   "src": [],
+   "acc": null,
+   "produces": [],
+   "consumes": [
+    "score"
+   ],
+   "act": "record"
+  },
+  "run_code": {
+   "description": "execute code in a sandbox and return the output",
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "src": [
+    "CONT"
+   ],
+   "acc": null,
+   "produces": [
+    "submission"
+   ],
+   "consumes": [],
+   "act": "exercise"
+  },
+  "grade_code": {
+   "description": "run unit tests to grade a code submission",
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "src": [
+    "PERF"
+   ],
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "produces": [
+    "score"
+   ],
+   "consumes": [
+    "submission"
+   ],
+   "act": "assess"
+  },
+  "lint_code": {
+   "description": "static analysis and style feedback on source code",
+   "domains": [
+    "programming"
+   ],
+   "src": [],
+   "acc": [
+    "CONT"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "exercise"
+  },
+  "query_sql": {
+   "description": "run SQL queries on a practice database",
+   "domains": [
+    "datascience",
+    "programming"
+   ],
+   "src": [],
+   "acc": [
+    "CONT"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "exercise"
+  },
+  "load_dataset": {
+   "description": "load a tabular dataset for analysis",
+   "domains": [
+    "datascience"
+   ],
+   "src": [],
+   "acc": [],
+   "produces": [],
+   "consumes": [],
+   "act": "illustrate"
+  },
+  "run_notebook": {
+   "description": "execute a notebook cell and return results",
+   "domains": [
+    "datascience"
+   ],
+   "src": [
+    "CONT"
+   ],
+   "acc": null,
+   "produces": [
+    "submission"
+   ],
+   "consumes": [],
+   "act": "exercise"
+  },
+  "plot_data": {
+   "description": "plot charts and visualizations from data",
+   "domains": [
+    "datascience"
+   ],
+   "src": [],
+   "acc": [
+    "CONT"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "illustrate"
+  },
+  "check_grammar": {
+   "description": "check grammar and spelling of an English text",
+   "domains": [
+    "language"
+   ],
+   "src": [],
+   "acc": [
+    "CONT"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "exercise"
+  },
+  "writing_feedback": {
+   "description": "give feedback on a written essay in English",
+   "domains": [
+    "language"
+   ],
+   "src": [],
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "produces": [
+    "submission"
+   ],
+   "consumes": [],
+   "act": "assess"
+  },
+  "translate_text": {
+   "description": "translate a text between English and another language",
+   "domains": [
+    "language"
+   ],
+   "src": [],
+   "acc": [
+    "CONT"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "explain"
+  },
+  "dictionary_lookup": {
+   "description": "look up English word definitions and examples",
+   "domains": [
+    "language"
+   ],
+   "src": [],
+   "acc": [],
+   "produces": [],
+   "consumes": [],
+   "act": "explain"
+  },
+  "pronunciation_eval": {
+   "description": "evaluate pronunciation from a voice recording",
+   "domains": [
+    "language"
+   ],
+   "src": [
+    "BEH",
+    "PERF"
+   ],
+   "acc": [
+    "CONT",
+    "ID"
+   ],
+   "produces": [
+    "score"
+   ],
+   "consumes": [],
+   "act": "assess"
+  },
+  "conversation_practice": {
+   "description": "role play a conversation partner for speaking practice",
+   "domains": [
+    "language"
+   ],
+   "src": [],
+   "acc": [
+    "CONT",
+    "PROF"
+   ],
+   "produces": [],
+   "consumes": [],
+   "act": "exercise"
+  }
+ },
+ "type_capabilities": {
+  "acquisition": [
+   "explain_concept",
+   "retrieve_courseware",
+   "web_search",
+   "video_lookup",
+   "dictionary_lookup",
+   "translate_text",
+   "read_profile",
+   "load_dataset"
+  ],
+  "practice": [
+   "generate_quiz",
+   "grade_answers",
+   "give_hint",
+   "run_code",
+   "grade_code",
+   "lint_code",
+   "run_notebook",
+   "plot_data",
+   "query_sql",
+   "check_grammar",
+   "conversation_practice",
+   "pronunciation_eval",
+   "flashcards"
+  ],
+  "formative": [
+   "generate_quiz",
+   "grade_answers",
+   "record_grade",
+   "grade_code",
+   "run_code",
+   "writing_feedback",
+   "pronunciation_eval",
+   "read_gradebook",
+   "learning_analytics"
+  ],
+  "summative": [
+   "generate_quiz",
+   "grade_answers",
+   "record_grade",
+   "grade_code",
+   "run_code",
+   "plagiarism_check",
+   "submit_assignment",
+   "pronunciation_eval",
+   "read_gradebook"
+  ],
+  "discussion": [
+   "forum_post",
+   "peer_review",
+   "conversation_practice",
+   "explain_concept",
+   "notify_instructor"
+  ],
+  "production": [
+   "submit_assignment",
+   "peer_review",
+   "plagiarism_check",
+   "writing_feedback",
+   "run_notebook",
+   "plot_data",
+   "run_code",
+   "export_report",
+   "check_grammar"
+  ]
+ },
+ "substitution_catalogue": {
+  "acquisition": [
+   "acquisition",
+   "discussion"
+  ],
+  "practice": [
+   "practice",
+   "production"
+  ],
+  "formative": [
+   "formative"
+  ],
+  "summative": [],
+  "discussion": [
+   "discussion",
+   "acquisition"
+  ],
+  "production": [
+   "production",
+   "practice"
+  ]
+ },
+ "fit_matrix": {
+  "explain": {
+   "acquisition": 1.0,
+   "practice": 0.5,
+   "formative": 0.2,
+   "summative": 0.1,
+   "discussion": 0.7,
+   "production": 0.4
+  },
+  "search": {
+   "acquisition": 0.9,
+   "practice": 0.4,
+   "formative": 0.1,
+   "summative": 0.0,
+   "discussion": 0.6,
+   "production": 0.5
+  },
+  "illustrate": {
+   "acquisition": 0.9,
+   "practice": 0.6,
+   "formative": 0.3,
+   "summative": 0.2,
+   "discussion": 0.5,
+   "production": 0.7
+  },
+  "exercise": {
+   "acquisition": 0.4,
+   "practice": 1.0,
+   "formative": 0.8,
+   "summative": 0.6,
+   "discussion": 0.4,
+   "production": 0.7
+  },
+  "assess": {
+   "acquisition": 0.1,
+   "practice": 0.7,
+   "formative": 1.0,
+   "summative": 1.0,
+   "discussion": 0.5,
+   "production": 0.8
+  },
+  "record": {
+   "acquisition": 0.3,
+   "practice": 0.5,
+   "formative": 0.9,
+   "summative": 1.0,
+   "discussion": 0.6,
+   "production": 0.8
+  }
+ },
+ "concepts": {
+  "programming": [
+   [
+    "values_and_variables",
+    []
+   ],
+   [
+    "expressions",
+    [
+     "values_and_variables"
+    ]
+   ],
+   [
+    "primitive_types",
+    [
+     "values_and_variables"
+    ]
+   ],
+   [
+    "input_output",
+    [
+     "expressions"
+    ]
+   ],
+   [
+    "conditionals",
+    [
+     "expressions",
+     "primitive_types"
+    ]
+   ],
+   [
+    "loops",
+    [
+     "conditionals"
+    ]
+   ],
+   [
+    "strings",
+    [
+     "primitive_types",
+     "loops"
+    ]
+   ],
+   [
+    "functions",
+    [
+     "loops"
+    ]
+   ],
+   [
+    "parameters_and_scope",
+    [
+     "functions"
+    ]
+   ],
+   [
+    "lists",
+    [
+     "loops"
+    ]
+   ],
+   [
+    "tuples_and_sets",
+    [
+     "lists"
+    ]
+   ],
+   [
+    "dictionaries",
+    [
+     "lists"
+    ]
+   ],
+   [
+    "nested_structures",
+    [
+     "dictionaries",
+     "lists"
+    ]
+   ],
+   [
+    "files",
+    [
+     "strings",
+     "functions"
+    ]
+   ],
+   [
+    "exceptions",
+    [
+     "functions"
+    ]
+   ],
+   [
+    "modules_and_packages",
+    [
+     "functions"
+    ]
+   ],
+   [
+    "recursion",
+    [
+     "functions"
+    ]
+   ],
+   [
+    "iteration_patterns",
+    [
+     "lists",
+     "functions"
+    ]
+   ],
+   [
+    "comprehensions",
+    [
+     "iteration_patterns"
+    ]
+   ],
+   [
+    "classes_and_objects",
+    [
+     "functions",
+     "dictionaries"
+    ]
+   ],
+   [
+    "encapsulation",
+    [
+     "classes_and_objects"
+    ]
+   ],
+   [
+    "inheritance",
+    [
+     "classes_and_objects"
+    ]
+   ],
+   [
+    "polymorphism",
+    [
+     "inheritance"
+    ]
+   ],
+   [
+    "unit_testing",
+    [
+     "functions",
+     "exceptions"
+    ]
+   ],
+   [
+    "debugging",
+    [
+     "exceptions"
+    ]
+   ],
+   [
+    "searching",
+    [
+     "lists",
+     "loops"
+    ]
+   ],
+   [
+    "sorting",
+    [
+     "searching"
+    ]
+   ],
+   [
+    "algorithmic_complexity",
+    [
+     "sorting",
+     "recursion"
+    ]
+   ],
+   [
+    "stacks_and_queues",
+    [
+     "lists",
+     "classes_and_objects"
+    ]
+   ],
+   [
+    "linked_structures",
+    [
+     "classes_and_objects",
+     "recursion"
+    ]
+   ],
+   [
+    "version_control",
+    [
+     "modules_and_packages"
+    ]
+   ],
+   [
+    "software_design",
+    [
+     "polymorphism",
+     "unit_testing"
+    ]
+   ]
+  ],
+  "datascience": [
+   [
+    "search",
+    []
+   ],
+   [
+    "heuristic_search",
+    [
+     "search"
+    ]
+   ],
+   [
+    "a__search",
+    [
+     "heuristic_search",
+     "search"
+    ]
+   ],
+   [
+    "planning",
+    []
+   ],
+   [
+    "adversarial_search",
+    [
+     "planning",
+     "search"
+    ]
+   ],
+   [
+    "calculus",
+    []
+   ],
+   [
+    "optimization",
+    []
+   ],
+   [
+    "linear_algebra",
+    []
+   ],
+   [
+    "machine_learning_resources",
+    [
+     "calculus",
+     "linear_algebra",
+     "optimization"
+    ]
+   ],
+   [
+    "random_walks_and_harmonic_functions",
+    [
+     "machine_learning_resources"
+    ]
+   ],
+   [
+    "unsupervised_learning",
+    [
+     "machine_learning_resources",
+     "random_walks_and_harmonic_functions"
+    ]
+   ],
+   [
+    "reinforcement_learning",
+    [
+     "unsupervised_learning"
+    ]
+   ],
+   [
+    "logic_and_logical_agents",
+    [
+     "planning",
+     "search"
+    ]
+   ],
+   [
+    "agent_based_view_of_ai",
+    [
+     "logic_and_logical_agents",
+     "reinforcement_learning"
+    ]
+   ],
+   [
+    "probabilities",
+    []
+   ],
+   [
+    "monte_carlo_tree_search",
+    [
+     "probabilities"
+    ]
+   ],
+   [
+    "alphago",
+    [
+     "monte_carlo_tree_search"
+    ]
+   ],
+   [
+    "maximum_likelihood_estimation",
+    []
+   ],
+   [
+    "backpropagation",
+    []
+   ],
+   [
+    "natural_language_processing_intro",
+    []
+   ],
+   [
+    "parsing",
+    [
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "semi_supervised_learning",
+    [
+     "machine_learning_resources",
+     "parsing",
+     "random_walks_and_harmonic_functions"
+    ]
+   ],
+   [
+    "neural_networks",
+    [
+     "machine_learning_resources",
+     "random_walks_and_harmonic_functions",
+     "semi_supervised_learning",
+     "unsupervised_learning"
+    ]
+   ],
+   [
+    "loss_function",
+    [
+     "machine_learning_resources"
+    ]
+   ],
+   [
+    "autoencoders",
+    [
+     "backpropagation",
+     "loss_function",
+     "maximum_likelihood_estimation",
+     "neural_networks"
+    ]
+   ],
+   [
+    "structured_learning",
+    [
+     "linear_algebra",
+     "probabilities"
+    ]
+   ],
+   [
+    "chinese_nlp",
+    [
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "linguistics_basics",
+    []
+   ],
+   [
+    "sentence_representations",
+    [
+     "structured_learning"
+    ]
+   ],
+   [
+    "vector_semantics",
+    [
+     "structured_learning"
+    ]
+   ],
+   [
+    "n_gram_models",
+    []
+   ],
+   [
+    "word_distributions",
+    [
+     "n_gram_models",
+     "probabilities",
+     "structured_learning"
+    ]
+   ],
+   [
+    "vector_representations",
+    [
+     "natural_language_processing_intro",
+     "structured_learning",
+     "word_distributions"
+    ]
+   ],
+   [
+    "semantic_similarity",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "structured_learning",
+     "vector_semantics"
+    ]
+   ],
+   [
+    "automated_essay_scoring",
+    [
+     "chinese_nlp",
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "semantic_similarity",
+     "sentence_representations",
+     "structured_learning",
+     "vector_representations",
+     "vector_semantics"
+    ]
+   ],
+   [
+    "autonomous_cars",
+    [
+     "machine_learning_resources"
+    ]
+   ],
+   [
+    "bag_of_words_model",
+    [
+     "vector_representations"
+    ]
+   ],
+   [
+    "bayes_theorem",
+    [
+     "probabilities"
+    ]
+   ],
+   [
+    "bayesian_network",
+    [
+     "bayes_theorem",
+     "probabilities"
+    ]
+   ],
+   [
+    "beam_search",
+    []
+   ],
+   [
+    "text_similarity",
+    []
+   ],
+   [
+    "bio_text_mining",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "structured_learning",
+     "text_similarity",
+     "vector_representations",
+     "vector_semantics"
+    ]
+   ],
+   [
+    "language_modeling",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "word_distributions"
+    ]
+   ],
+   [
+    "evaluation_of_language_modeling",
+    [
+     "language_modeling"
+    ]
+   ],
+   [
+    "character_level_language_models",
+    [
+     "evaluation_of_language_modeling",
+     "word_distributions"
+    ]
+   ],
+   [
+    "chomsky_hierarchy",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "information_retrieval",
+    []
+   ],
+   [
+    "toolkits_for_information_retrieval",
+    [
+     "information_retrieval"
+    ]
+   ],
+   [
+    "information_extraction",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "sentence_representations",
+     "text_similarity",
+     "toolkits_for_information_retrieval"
+    ]
+   ],
+   [
+    "social_network_extraction",
+    [
+     "information_extraction",
+     "probabilities"
+    ]
+   ],
+   [
+    "graph_based_nlp",
+    [
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "citation_networks",
+    [
+     "graph_based_nlp",
+     "social_network_extraction"
+    ]
+   ],
+   [
+    "syntax",
+    []
+   ],
+   [
+    "shallow_parsing",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "parsing"
+    ]
+   ],
+   [
+    "context_free_grammar",
+    []
+   ],
+   [
+    "dynamic_programming",
+    []
+   ],
+   [
+    "cky_parsing",
+    [
+     "context_free_grammar",
+     "dynamic_programming",
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "probabilities",
+     "shallow_parsing",
+     "syntax"
+    ]
+   ],
+   [
+    "classic_parsing_methods",
+    []
+   ],
+   [
+    "classification",
+    [
+     "loss_function",
+     "probabilities"
+    ]
+   ],
+   [
+    "clustering",
+    []
+   ],
+   [
+    "computation_theory",
+    [
+     "chomsky_hierarchy"
+    ]
+   ],
+   [
+    "computational_phonology",
+    [
+     "linguistics_basics"
+    ]
+   ],
+   [
+    "computer_vision",
+    []
+   ],
+   [
+    "context_free_grammars",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "structured_learning",
+     "vector_representations",
+     "vector_semantics",
+     "word_distributions"
+    ]
+   ],
+   [
+    "tree_adjoining_grammar",
+    []
+   ],
+   [
+    "context_sensitive_grammar",
+    [
+     "chomsky_hierarchy",
+     "context_free_grammar",
+     "tree_adjoining_grammar"
+    ]
+   ],
+   [
+    "convolutional_neural_network",
+    []
+   ],
+   [
+    "convolutional_neural_networks",
+    [
+     "neural_networks"
+    ]
+   ],
+   [
+    "hidden_markov_models",
+    [
+     "bayesian_network",
+     "probabilities"
+    ]
+   ],
+   [
+    "part_of_speech_tagging",
+    []
+   ],
+   [
+    "statistical_part_of_speech_tagging",
+    [
+     "part_of_speech_tagging"
+    ]
+   ],
+   [
+    "course_introduction",
+    [
+     "dynamic_programming",
+     "hidden_markov_models",
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "part_of_speech_tagging",
+     "probabilities",
+     "statistical_part_of_speech_tagging"
+    ]
+   ],
+   [
+    "deep_learning_introduction",
+    []
+   ],
+   [
+    "dependency_parsing",
+    [
+     "parsing"
+    ]
+   ],
+   [
+    "dependency_syntax",
+    [
+     "syntax"
+    ]
+   ],
+   [
+    "dialog_systems",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "dimensionality_reduction",
+    [
+     "linear_algebra"
+    ]
+   ],
+   [
+    "dirichlet_processes",
+    [
+     "probabilities"
+    ]
+   ],
+   [
+    "discourse_analysis",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "discourse_parsing",
+    [
+     "discourse_analysis"
+    ]
+   ],
+   [
+    "document_ranking",
+    [
+     "information_retrieval"
+    ]
+   ],
+   [
+    "document_representation",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "sentence_representations",
+     "structured_learning",
+     "text_similarity",
+     "vector_semantics",
+     "word_distributions"
+    ]
+   ],
+   [
+    "dual_decomposition",
+    [
+     "optimization"
+    ]
+   ],
+   [
+    "edit_distance",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "entailment",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "evaluation_of_dependency_parsing",
+    [
+     "dependency_parsing"
+    ]
+   ],
+   [
+    "evaluation_of_information_retrieval",
+    []
+   ],
+   [
+    "question_answering",
+    [
+     "bayes_theorem",
+     "probabilities"
+    ]
+   ],
+   [
+    "evaluation_of_question_answering",
+    [
+     "question_answering"
+    ]
+   ],
+   [
+    "evaluation_of_text_classification",
+    [
+     "vector_representations"
+    ]
+   ],
+   [
+    "wordnet",
+    []
+   ],
+   [
+    "lexical_semantics",
+    [
+     "wordnet"
+    ]
+   ],
+   [
+    "event_detection",
+    [
+     "lexical_semantics",
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "parsing",
+     "text_similarity"
+    ]
+   ],
+   [
+    "latent_variable_models",
+    [
+     "calculus",
+     "linear_algebra",
+     "loss_function",
+     "probabilities"
+    ]
+   ],
+   [
+    "kernel_function",
+    [
+     "machine_learning_resources"
+    ]
+   ],
+   [
+    "gaussian_graphical_models",
+    []
+   ],
+   [
+    "mixture_models",
+    [
+     "calculus",
+     "clustering",
+     "gaussian_graphical_models",
+     "kernel_function",
+     "linear_algebra",
+     "probabilities"
+    ]
+   ],
+   [
+    "expectation_maximization_algorithm",
+    [
+     "latent_variable_models",
+     "mixture_models"
+    ]
+   ],
+   [
+    "expert_systems",
+    [
+     "logic_and_logical_agents"
+    ]
+   ],
+   [
+    "feature_learning",
+    []
+   ],
+   [
+    "feature_selection",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "parts_of_speech",
+    []
+   ],
+   [
+    "penn_treebank",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "parts_of_speech",
+     "syntax"
+    ]
+   ],
+   [
+    "first_order_logic",
+    [
+     "penn_treebank",
+     "semi_supervised_learning"
+    ]
+   ],
+   [
+    "problem_solving_and_search",
+    [
+     "planning",
+     "probabilities",
+     "search"
+    ]
+   ],
+   [
+    "multi_agent_systems",
+    []
+   ],
+   [
+    "game_playing_in_ai",
+    [
+     "machine_learning_resources",
+     "multi_agent_systems",
+     "planning",
+     "problem_solving_and_search",
+     "search"
+    ]
+   ],
+   [
+    "recurrent_neural_networks",
+    []
+   ],
+   [
+    "gated_recurrent_units",
+    [
+     "recurrent_neural_networks"
+    ]
+   ],
+   [
+    "generative_adversarial_networks",
+    []
+   ],
+   [
+    "generative_and_discriminative_models",
+    []
+   ],
+   [
+    "sampling",
+    []
+   ],
+   [
+    "gibbs_sampling",
+    [
+     "sampling"
+    ]
+   ],
+   [
+    "grammar_checker",
+    [
+     "chinese_nlp",
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "training_neural_networks",
+    [
+     "neural_networks"
+    ]
+   ],
+   [
+    "graph_convolutional_networks",
+    [
+     "convolutional_neural_networks",
+     "semi_supervised_learning",
+     "training_neural_networks"
+    ]
+   ],
+   [
+    "graph_theory",
+    []
+   ],
+   [
+    "random_walks",
+    []
+   ],
+   [
+    "harmonic_functions",
+    [
+     "calculus",
+     "random_walks"
+    ]
+   ],
+   [
+    "image_retrieval",
+    [
+     "information_retrieval"
+    ]
+   ],
+   [
+    "informed_search",
+    [
+     "search"
+    ]
+   ],
+   [
+    "k_means",
+    [
+     "machine_learning_resources",
+     "unsupervised_learning"
+    ]
+   ],
+   [
+    "kernels",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "structured_learning",
+     "vector_representations",
+     "vector_semantics"
+    ]
+   ],
+   [
+    "kkt_conditions",
+    [
+     "optimization"
+    ]
+   ],
+   [
+    "logic_and_reasoning",
+    []
+   ],
+   [
+    "knowledge_representation",
+    [
+     "linguistics_basics",
+     "logic_and_reasoning",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "lagrange_duality",
+    [
+     "optimization"
+    ]
+   ],
+   [
+    "language_identification",
+    [
+     "evaluation_of_text_classification",
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "monte_carlo_methods",
+    [
+     "probabilities"
+    ]
+   ],
+   [
+    "markov_chains",
+    []
+   ],
+   [
+    "latent_dirichlet_allocation",
+    [
+     "latent_variable_models",
+     "machine_learning_resources",
+     "markov_chains",
+     "monte_carlo_methods"
+    ]
+   ],
+   [
+    "singular_value_decomposition",
+    [
+     "dimensionality_reduction"
+    ]
+   ],
+   [
+    "principal_component_analysis",
+    [
+     "dimensionality_reduction",
+     "linear_algebra",
+     "singular_value_decomposition"
+    ]
+   ],
+   [
+    "latent_semantic_indexing",
+    [
+     "dimensionality_reduction",
+     "principal_component_analysis"
+    ]
+   ],
+   [
+    "lexicalized_parsing",
+    [
+     "parsing"
+    ]
+   ],
+   [
+    "lexicography",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "linear_discriminant_analysis",
+    [
+     "latent_variable_models",
+     "machine_learning_resources",
+     "structured_learning"
+    ]
+   ],
+   [
+    "linear_regression",
+    [
+     "machine_learning_resources"
+    ]
+   ],
+   [
+    "log_linear_models",
+    [
+     "machine_learning_resources"
+    ]
+   ],
+   [
+    "logistic_regression",
+    [
+     "machine_learning_resources"
+    ]
+   ],
+   [
+    "long_short_term_memory_networks",
+    []
+   ],
+   [
+    "machine_translation",
+    [
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "machine_translation_techniques",
+    [
+     "machine_translation"
+    ]
+   ],
+   [
+    "manifold_learning",
+    [
+     "calculus",
+     "dimensionality_reduction",
+     "feature_learning",
+     "linear_algebra",
+     "principal_component_analysis",
+     "probabilities"
+    ]
+   ],
+   [
+    "markov_chain_monte_carlo",
+    [
+     "markov_chains",
+     "sampling"
+    ]
+   ],
+   [
+    "markov_decision_processes",
+    [
+     "markov_chains"
+    ]
+   ],
+   [
+    "mathematical_models",
+    [
+     "calculus",
+     "linear_algebra",
+     "probabilities"
+    ]
+   ],
+   [
+    "matrix_factorization",
+    [
+     "machine_learning_resources",
+     "principal_component_analysis"
+    ]
+   ],
+   [
+    "matrix_multiplication",
+    []
+   ],
+   [
+    "memory_networks",
+    [
+     "long_short_term_memory_networks",
+     "neural_networks",
+     "optimization"
+    ]
+   ],
+   [
+    "message_passing",
+    [
+     "graph_theory",
+     "linear_algebra",
+     "matrix_multiplication"
+    ]
+   ],
+   [
+    "meta_learning",
+    [
+     "calculus",
+     "loss_function",
+     "machine_learning_resources",
+     "optimization",
+     "probabilities"
+    ]
+   ],
+   [
+    "morphology_and_lexicon",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "morphology_and_semantics_in_machine_translation",
+    [
+     "machine_translation"
+    ]
+   ],
+   [
+    "word_embedding",
+    [
+     "deep_learning_introduction",
+     "linguistics_basics",
+     "machine_learning_resources",
+     "natural_language_processing_intro",
+     "structured_learning",
+     "vector_representations",
+     "vector_semantics",
+     "word_distributions"
+    ]
+   ],
+   [
+    "word_embedding_variations",
+    [
+     "word_embedding"
+    ]
+   ],
+   [
+    "multilingual_word_embedding",
+    [
+     "word_embedding_variations"
+    ]
+   ],
+   [
+    "naive_bayes",
+    [
+     "probabilities"
+    ]
+   ],
+   [
+    "named_entity_recognition",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "neural_language_modeling",
+    [
+     "evaluation_of_language_modeling",
+     "language_modeling",
+     "neural_networks"
+    ]
+   ],
+   [
+    "neural_machine_translation",
+    [
+     "deep_learning_introduction",
+     "machine_translation",
+     "machine_translation_techniques",
+     "sentence_representations"
+    ]
+   ],
+   [
+    "neural_parsing",
+    [
+     "neural_networks",
+     "parsing"
+    ]
+   ],
+   [
+    "neural_question_answering",
+    [
+     "convolutional_neural_network",
+     "long_short_term_memory_networks",
+     "neural_networks",
+     "question_answering",
+     "recurrent_neural_networks"
+    ]
+   ],
+   [
+    "seq2seq",
+    []
+   ],
+   [
+    "text_summarization",
+    [
+     "sentence_representations"
+    ]
+   ],
+   [
+    "neural_summarization",
+    [
+     "beam_search",
+     "seq2seq",
+     "text_summarization"
+    ]
+   ],
+   [
+    "neural_turing_machine",
+    [
+     "deep_learning_introduction",
+     "recurrent_neural_networks"
+    ]
+   ],
+   [
+    "newton_method",
+    [
+     "calculus",
+     "optimization"
+    ]
+   ],
+   [
+    "nlp_and_vision",
+    [
+     "computer_vision",
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "nlp_for_biology",
+    [
+     "bio_text_mining"
+    ]
+   ],
+   [
+    "nlp_for_the_humanities",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "noisy_channel_model",
+    [
+     "linguistics_basics",
+     "machine_translation",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "pagerank",
+    [
+     "graph_based_nlp"
+    ]
+   ],
+   [
+    "parsing_evaluation",
+    [
+     "parsing"
+    ]
+   ],
+   [
+    "particle_filter",
+    [
+     "monte_carlo_methods"
+    ]
+   ],
+   [
+    "phonetics",
+    [
+     "linguistics_basics"
+    ]
+   ],
+   [
+    "pointer_networks",
+    [
+     "training_neural_networks"
+    ]
+   ],
+   [
+    "predicate_logic",
+    [
+     "first_order_logic",
+     "knowledge_representation",
+     "logic_and_reasoning"
+    ]
+   ],
+   [
+    "probabilistic_grammars",
+    [
+     "chomsky_hierarchy"
+    ]
+   ],
+   [
+    "probabilistic_context_free_grammars",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "probabilistic_grammars"
+    ]
+   ],
+   [
+    "propositional_logic",
+    [
+     "linguistics_basics",
+     "logic_and_logical_agents",
+     "logic_and_reasoning",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "prosody",
+    [
+     "linguistics_basics"
+    ]
+   ],
+   [
+    "query_expansion",
+    [
+     "evaluation_of_information_retrieval",
+     "linguistics_basics",
+     "morphology_and_lexicon",
+     "natural_language_processing_intro",
+     "toolkits_for_information_retrieval"
+    ]
+   ],
+   [
+    "recommendation_system",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "structured_learning",
+     "text_similarity",
+     "vector_representations",
+     "vector_semantics"
+    ]
+   ],
+   [
+    "recursive_neural_network",
+    [
+     "calculus",
+     "probabilities"
+    ]
+   ],
+   [
+    "recursive_neural_networks",
+    [
+     "training_neural_networks"
+    ]
+   ],
+   [
+    "regular_expressions",
+    [
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "relation_extraction",
+    [
+     "evaluation_of_text_classification",
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "random_walks_and_harmonic_functions",
+     "semantic_similarity"
+    ]
+   ],
+   [
+    "resnet",
+    [
+     "convolutional_neural_network"
+    ]
+   ],
+   [
+    "uncertainty",
+    [
+     "search"
+    ]
+   ],
+   [
+    "robotics",
+    [
+     "planning",
+     "reinforcement_learning",
+     "uncertainty"
+    ]
+   ],
+   [
+    "robotic_locomotion",
+    [
+     "robotics"
+    ]
+   ],
+   [
+    "summarization_evaluation",
+    [
+     "text_summarization"
+    ]
+   ],
+   [
+    "scientific_article_summarization",
+    [
+     "neural_summarization",
+     "random_walks_and_harmonic_functions",
+     "summarization_evaluation"
+    ]
+   ],
+   [
+    "search_engines",
+    [
+     "information_retrieval"
+    ]
+   ],
+   [
+    "semantic_parsing",
+    [
+     "classic_parsing_methods",
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "parsing",
+     "parsing_evaluation"
+    ]
+   ],
+   [
+    "semantic_role_labeling",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "sentence_boundary_recognition",
+    [
+     "classification",
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "sentence_simplification",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "semantic_similarity",
+     "sentence_representations"
+    ]
+   ],
+   [
+    "sentiment_analysis",
+    [
+     "classification",
+     "evaluation_of_text_classification",
+     "random_walks_and_harmonic_functions",
+     "sentence_representations"
+    ]
+   ],
+   [
+    "sequence_classification_and_conditional_random_fields",
+    [
+     "classification",
+     "machine_learning_resources"
+    ]
+   ],
+   [
+    "sequence_to_sequence",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "shift_reduce_parsing",
+    [
+     "classic_parsing_methods",
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "syntax"
+    ]
+   ],
+   [
+    "social_media_analysis",
+    [
+     "information_extraction",
+     "relation_extraction",
+     "sentiment_analysis"
+    ]
+   ],
+   [
+    "spectral_clustering",
+    [
+     "machine_learning_resources",
+     "unsupervised_learning"
+    ]
+   ],
+   [
+    "spectral_methods",
+    [
+     "calculus",
+     "linear_algebra"
+    ]
+   ],
+   [
+    "speech_signal_analysis",
+    []
+   ],
+   [
+    "speech_processing",
+    [
+     "linguistics_basics",
+     "loss_function",
+     "natural_language_processing_intro",
+     "probabilities",
+     "speech_signal_analysis"
+    ]
+   ],
+   [
+    "speech_synthesis",
+    [
+     "linguistics_basics",
+     "machine_learning_resources",
+     "speech_processing"
+    ]
+   ],
+   [
+    "spelling_correction",
+    [
+     "chinese_nlp",
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "stack_lstm",
+    [
+     "deep_learning_introduction",
+     "training_neural_networks"
+    ]
+   ],
+   [
+    "state_space_models",
+    [
+     "calculus",
+     "linear_algebra"
+    ]
+   ],
+   [
+    "statistical_machine_translation",
+    [
+     "machine_translation",
+     "machine_translation_techniques"
+    ]
+   ],
+   [
+    "statistical_parsing",
+    [
+     "parsing",
+     "probabilities"
+    ]
+   ],
+   [
+    "structured_sparsity",
+    [
+     "calculus",
+     "linear_algebra",
+     "probabilities"
+    ]
+   ],
+   [
+    "syntax_based_machine_translation",
+    [
+     "machine_translation",
+     "syntax"
+    ]
+   ],
+   [
+    "syntaxnet",
+    [
+     "neural_networks",
+     "parsing",
+     "part_of_speech_tagging",
+     "penn_treebank",
+     "syntax",
+     "word_embedding"
+    ]
+   ],
+   [
+    "text_generation",
+    [
+     "evaluation_of_language_modeling",
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "text_mining",
+    [
+     "information_retrieval",
+     "natural_language_processing_intro",
+     "semantic_similarity",
+     "sentence_representations",
+     "structured_learning",
+     "text_similarity",
+     "toolkits_for_information_retrieval",
+     "vector_representations",
+     "vector_semantics"
+    ]
+   ],
+   [
+    "text_to_speech_generation",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "speech_processing"
+    ]
+   ],
+   [
+    "the_ibm_models",
+    [
+     "machine_translation"
+    ]
+   ],
+   [
+    "thesaurus_based_similarity",
+    [
+     "lexical_semantics",
+     "semantic_similarity",
+     "wordnet"
+    ]
+   ],
+   [
+    "tokenization",
+    [
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "topic_modeling",
+    [
+     "latent_variable_models",
+     "word_distributions"
+    ]
+   ],
+   [
+    "transition_based_dependency_parsing",
+    [
+     "dependency_parsing",
+     "shift_reduce_parsing"
+    ]
+   ],
+   [
+    "tsne",
+    [
+     "dimensionality_reduction",
+     "machine_learning_resources",
+     "structured_learning",
+     "unsupervised_learning",
+     "vector_representations",
+     "vector_semantics"
+    ]
+   ],
+   [
+    "variational_bayes_models",
+    [
+     "probabilities"
+    ]
+   ],
+   [
+    "variations_of_gans",
+    [
+     "backpropagation",
+     "generative_adversarial_networks",
+     "generative_and_discriminative_models",
+     "linear_algebra",
+     "loss_function"
+    ]
+   ],
+   [
+    "visual_qa",
+    [
+     "question_answering"
+    ]
+   ],
+   [
+    "weakly_supervised_learning",
+    [
+     "random_walks_and_harmonic_functions"
+    ]
+   ],
+   [
+    "word_segmentation",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro"
+    ]
+   ],
+   [
+    "word_sense_disambiguation",
+    [
+     "linguistics_basics",
+     "natural_language_processing_intro",
+     "semantic_similarity",
+     "text_similarity",
+     "vector_representations",
+     "vector_semantics",
+     "word_embedding_variations"
+    ]
+   ]
+  ],
+  "language": [
+   [
+    "alphabet_and_sounds",
+    []
+   ],
+   [
+    "greetings_and_introductions",
+    [
+     "alphabet_and_sounds"
+    ]
+   ],
+   [
+    "numbers_dates_time",
+    [
+     "alphabet_and_sounds"
+    ]
+   ],
+   [
+    "basic_vocabulary",
+    [
+     "greetings_and_introductions"
+    ]
+   ],
+   [
+    "present_simple",
+    [
+     "basic_vocabulary"
+    ]
+   ],
+   [
+    "articles_and_plurals",
+    [
+     "basic_vocabulary"
+    ]
+   ],
+   [
+    "questions_and_negation",
+    [
+     "present_simple"
+    ]
+   ],
+   [
+    "present_continuous",
+    [
+     "present_simple"
+    ]
+   ],
+   [
+    "prepositions_of_place_time",
+    [
+     "articles_and_plurals"
+    ]
+   ],
+   [
+    "past_simple",
+    [
+     "present_simple"
+    ]
+   ],
+   [
+    "comparatives_superlatives",
+    [
+     "articles_and_plurals"
+    ]
+   ],
+   [
+    "countable_uncountable",
+    [
+     "articles_and_plurals"
+    ]
+   ],
+   [
+    "future_forms",
+    [
+     "present_continuous",
+     "past_simple"
+    ]
+   ],
+   [
+    "present_perfect",
+    [
+     "past_simple"
+    ]
+   ],
+   [
+    "modal_verbs",
+    [
+     "present_simple"
+    ]
+   ],
+   [
+    "pronunciation_stress_intonation",
+    [
+     "basic_vocabulary"
+    ]
+   ],
+   [
+    "listening_everyday",
+    [
+     "present_continuous"
+    ]
+   ],
+   [
+    "reading_short_texts",
+    [
+     "past_simple"
+    ]
+   ],
+   [
+    "first_conditional",
+    [
+     "future_forms"
+    ]
+   ],
+   [
+    "second_conditional",
+    [
+     "first_conditional",
+     "past_simple"
+    ]
+   ],
+   [
+    "passive_voice",
+    [
+     "present_perfect"
+    ]
+   ],
+   [
+    "reported_speech",
+    [
+     "past_simple",
+     "present_perfect"
+    ]
+   ],
+   [
+    "relative_clauses",
+    [
+     "reading_short_texts"
+    ]
+   ],
+   [
+    "phrasal_verbs",
+    [
+     "past_simple"
+    ]
+   ],
+   [
+    "paragraph_writing",
+    [
+     "reading_short_texts",
+     "relative_clauses"
+    ]
+   ],
+   [
+    "formal_letters_emails",
+    [
+     "paragraph_writing",
+     "modal_verbs"
+    ]
+   ],
+   [
+    "essay_structure",
+    [
+     "paragraph_writing"
+    ]
+   ],
+   [
+    "argumentation",
+    [
+     "essay_structure",
+     "second_conditional"
+    ]
+   ],
+   [
+    "debate_and_discussion",
+    [
+     "argumentation",
+     "listening_everyday"
+    ]
+   ],
+   [
+    "presentations",
+    [
+     "pronunciation_stress_intonation",
+     "debate_and_discussion"
+    ]
+   ],
+   [
+    "idioms_and_register",
+    [
+     "phrasal_verbs",
+     "formal_letters_emails"
+    ]
+   ],
+   [
+    "academic_writing",
+    [
+     "essay_structure",
+     "passive_voice",
+     "reported_speech"
+    ]
+   ]
+  ]
+ }
+}

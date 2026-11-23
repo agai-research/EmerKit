@@ -1,0 +1,128 @@
+{
+ "sub": {
+  "items": 19,
+  "unanimous": 0.9473684210526315,
+  "fleiss_kappa": 0.9131097560975607,
+  "majority_agrees_with_current": 0.7368421052631579,
+  "disagreements": [
+   [
+    [
+     "acquisition",
+     "discussion"
+    ],
+    1,
+    0
+   ],
+   [
+    [
+     "discussion",
+     "acquisition"
+    ],
+    1,
+    0
+   ],
+   [
+    [
+     "practice",
+     "production"
+    ],
+    1,
+    0
+   ],
+   [
+    [
+     "production",
+     "practice"
+    ],
+    1,
+    0
+   ],
+   [
+    [
+     "summative",
+     "summative"
+    ],
+    0,
+    1
+   ]
+  ]
+ },
+ "norm": {
+  "items": 108,
+  "unanimous": 1.0,
+  "fleiss_kappa": 1.0,
+  "majority_agrees_with_current": 0.9351851851851852,
+  "disagreements": [
+   [
+    [
+     "acquisition|CONT",
+     "EXT"
+    ],
+    1,
+    0
+   ],
+   [
+    [
+     "acquisition|CONT",
+     "PUB"
+    ],
+    1,
+    0
+   ],
+   [
+    [
+     "acquisition|PROF",
+     "EXT"
+    ],
+    1,
+    0
+   ],
+   [
+    [
+     "acquisition|PROF",
+     "PUB"
+    ],
+    1,
+    0
+   ],
+   [
+    [
+     "formative|ID",
+     "PRO"
+    ],
+    0,
+    1
+   ],
+   [
+    [
+     "summative|ID",
+     "PRO"
+    ],
+    0,
+    1
+   ],
+   [
+    [
+     "summative|PERF",
+     "PRO"
+    ],
+    0,
+    1
+   ]
+  ]
+ },
+ "fit": {
+  "items": 33,
+  "corr_with_current": 0.6650904618524264,
+  "mean_abs_gap": 0.23262626262626263,
+  "inter_model_corr": 0.8530186529564125,
+  "largest_gaps": {
+   "('record', 'formative')": -0.52,
+   "('search', 'acquisition')": -0.47,
+   "('record', 'summative')": -0.4,
+   "('illustrate', 'production')": -0.38,
+   "('explain', 'discussion')": -0.38,
+   "('exercise', 'production')": -0.38
+  }
+ }
+}

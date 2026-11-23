@@ -1,0 +1,1001 @@
+split,trace,method,k,size,hit,precision,recall,jaccard
+cold,0,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,0,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,0,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,0,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,0,Zeng,1,1,0,0.0,0.0,0.0
+cold,1,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,1,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,1,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,1,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,1,Zeng,1,0,0,0.0,0.0,0.0
+cold,2,EmerKit (traces),5,0,0,0.0,0.0,0.0
+cold,2,"EmerKit (traces, no co-usage)",5,0,0,0.0,0.0,0.0
+cold,2,EmerKit (no traces),5,0,0,0.0,0.0,0.0
+cold,2,RAG-MCP,5,5,0,0.0,0.0,0.0
+cold,2,Zeng,5,0,0,0.0,0.0,0.0
+cold,3,EmerKit (traces),3,2,0,0.0,0.0,0.0
+cold,3,"EmerKit (traces, no co-usage)",3,2,0,0.0,0.0,0.0
+cold,3,EmerKit (no traces),3,2,0,0.0,0.0,0.0
+cold,3,RAG-MCP,3,3,1,0.3333333333333333,0.3333333333333333,0.2
+cold,3,Zeng,3,2,0,0.0,0.0,0.0
+cold,4,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,4,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,4,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,4,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,4,Zeng,2,0,0,0.0,0.0,0.0
+cold,5,EmerKit (traces),2,2,0,0.0,0.0,0.0
+cold,5,"EmerKit (traces, no co-usage)",2,2,0,0.0,0.0,0.0
+cold,5,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,5,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,5,Zeng,2,2,0,0.0,0.0,0.0
+cold,6,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,6,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,6,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,6,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,6,Zeng,1,0,0,0.0,0.0,0.0
+cold,7,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,7,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,7,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,7,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,7,Zeng,2,1,0,0.0,0.0,0.0
+cold,8,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,8,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,8,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,8,RAG-MCP,2,2,1,1.0,1.0,1.0
+cold,8,Zeng,2,0,0,0.0,0.0,0.0
+cold,9,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,9,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,9,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,9,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,9,Zeng,1,0,0,0.0,0.0,0.0
+cold,10,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,10,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,10,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,10,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,10,Zeng,1,0,0,0.0,0.0,0.0
+cold,11,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,11,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,11,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,11,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,11,Zeng,1,1,0,0.0,0.0,0.0
+cold,12,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,12,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,12,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,12,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,12,Zeng,1,1,0,0.0,0.0,0.0
+cold,13,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,13,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,13,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,13,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,13,Zeng,1,0,0,0.0,0.0,0.0
+cold,14,EmerKit (traces),3,1,0,0.0,0.0,0.0
+cold,14,"EmerKit (traces, no co-usage)",3,1,0,0.0,0.0,0.0
+cold,14,EmerKit (no traces),3,1,0,0.0,0.0,0.0
+cold,14,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,14,Zeng,3,1,0,0.0,0.0,0.0
+cold,15,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,15,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,15,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,15,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,15,Zeng,1,0,0,0.0,0.0,0.0
+cold,16,EmerKit (traces),2,1,1,1.0,0.5,0.5
+cold,16,"EmerKit (traces, no co-usage)",2,1,1,1.0,0.5,0.5
+cold,16,EmerKit (no traces),2,1,1,1.0,0.5,0.5
+cold,16,RAG-MCP,2,2,1,1.0,1.0,1.0
+cold,16,Zeng,2,1,0,0.0,0.0,0.0
+cold,17,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,17,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,17,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,17,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,17,Zeng,1,0,0,0.0,0.0,0.0
+cold,18,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,18,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,18,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,18,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,18,Zeng,1,2,0,0.0,0.0,0.0
+cold,19,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,19,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,19,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,19,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,19,Zeng,1,1,0,0.0,0.0,0.0
+cold,20,EmerKit (traces),3,0,0,0.0,0.0,0.0
+cold,20,"EmerKit (traces, no co-usage)",3,0,0,0.0,0.0,0.0
+cold,20,EmerKit (no traces),3,0,0,0.0,0.0,0.0
+cold,20,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,20,Zeng,3,0,0,0.0,0.0,0.0
+cold,21,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,21,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,21,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,21,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,21,Zeng,1,0,0,0.0,0.0,0.0
+cold,22,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,22,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,22,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,22,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,22,Zeng,1,0,0,0.0,0.0,0.0
+cold,23,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,23,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,23,EmerKit (no traces),2,1,1,1.0,0.5,0.5
+cold,23,RAG-MCP,2,2,1,1.0,1.0,1.0
+cold,23,Zeng,2,1,0,0.0,0.0,0.0
+cold,24,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,24,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,24,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,24,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,24,Zeng,1,0,0,0.0,0.0,0.0
+cold,25,EmerKit (traces),1,2,0,0.0,0.0,0.0
+cold,25,"EmerKit (traces, no co-usage)",1,2,0,0.0,0.0,0.0
+cold,25,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,25,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,25,Zeng,1,2,0,0.0,0.0,0.0
+cold,26,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,26,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,26,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,26,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,26,Zeng,2,0,0,0.0,0.0,0.0
+cold,27,EmerKit (traces),1,1,1,1.0,1.0,1.0
+cold,27,"EmerKit (traces, no co-usage)",1,1,1,1.0,1.0,1.0
+cold,27,EmerKit (no traces),1,1,1,1.0,1.0,1.0
+cold,27,RAG-MCP,1,1,1,1.0,1.0,1.0
+cold,27,Zeng,1,1,0,0.0,0.0,0.0
+cold,28,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,28,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,28,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,28,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,28,Zeng,1,0,0,0.0,0.0,0.0
+cold,29,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,29,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,29,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,29,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,29,Zeng,2,1,0,0.0,0.0,0.0
+cold,30,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,30,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,30,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,30,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,30,Zeng,1,0,0,0.0,0.0,0.0
+cold,31,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,31,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,31,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,31,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,31,Zeng,1,1,0,0.0,0.0,0.0
+cold,32,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,32,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,32,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,32,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,32,Zeng,1,1,0,0.0,0.0,0.0
+cold,33,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,33,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,33,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,33,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,33,Zeng,2,1,0,0.0,0.0,0.0
+cold,34,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,34,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,34,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,34,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,34,Zeng,1,0,0,0.0,0.0,0.0
+cold,35,EmerKit (traces),1,2,0,0.0,0.0,0.0
+cold,35,"EmerKit (traces, no co-usage)",1,2,0,0.0,0.0,0.0
+cold,35,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,35,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,35,Zeng,1,2,0,0.0,0.0,0.0
+cold,36,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,36,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,36,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,36,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,36,Zeng,1,0,0,0.0,0.0,0.0
+cold,37,EmerKit (traces),3,1,0,0.0,0.0,0.0
+cold,37,"EmerKit (traces, no co-usage)",3,1,0,0.0,0.0,0.0
+cold,37,EmerKit (no traces),3,1,0,0.0,0.0,0.0
+cold,37,RAG-MCP,3,3,1,0.3333333333333333,0.3333333333333333,0.2
+cold,37,Zeng,3,1,0,0.0,0.0,0.0
+cold,38,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,38,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,38,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,38,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,38,Zeng,2,0,0,0.0,0.0,0.0
+cold,39,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,39,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,39,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,39,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,39,Zeng,2,0,0,0.0,0.0,0.0
+cold,40,EmerKit (traces),1,2,0,0.0,0.0,0.0
+cold,40,"EmerKit (traces, no co-usage)",1,2,0,0.0,0.0,0.0
+cold,40,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,40,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,40,Zeng,1,2,0,0.0,0.0,0.0
+cold,41,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,41,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,41,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,41,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,41,Zeng,1,0,0,0.0,0.0,0.0
+cold,42,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,42,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,42,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,42,RAG-MCP,2,2,1,0.5,0.5,0.3333333333333333
+cold,42,Zeng,2,0,0,0.0,0.0,0.0
+cold,43,EmerKit (traces),1,2,1,0.5,1.0,0.5
+cold,43,"EmerKit (traces, no co-usage)",1,2,1,0.5,1.0,0.5
+cold,43,EmerKit (no traces),1,2,1,0.5,1.0,0.5
+cold,43,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,43,Zeng,1,2,0,0.0,0.0,0.0
+cold,44,EmerKit (traces),3,1,0,0.0,0.0,0.0
+cold,44,"EmerKit (traces, no co-usage)",3,1,0,0.0,0.0,0.0
+cold,44,EmerKit (no traces),3,1,0,0.0,0.0,0.0
+cold,44,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,44,Zeng,3,1,0,0.0,0.0,0.0
+cold,45,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,45,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,45,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,45,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,45,Zeng,2,1,0,0.0,0.0,0.0
+cold,46,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,46,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,46,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,46,RAG-MCP,2,2,1,1.0,1.0,1.0
+cold,46,Zeng,2,0,0,0.0,0.0,0.0
+cold,47,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,47,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,47,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,47,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,47,Zeng,2,1,0,0.0,0.0,0.0
+cold,48,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,48,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,48,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,48,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,48,Zeng,1,0,0,0.0,0.0,0.0
+cold,49,EmerKit (traces),1,2,0,0.0,0.0,0.0
+cold,49,"EmerKit (traces, no co-usage)",1,2,0,0.0,0.0,0.0
+cold,49,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,49,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,49,Zeng,1,2,0,0.0,0.0,0.0
+cold,50,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,50,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,50,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,50,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,50,Zeng,1,1,0,0.0,0.0,0.0
+cold,51,EmerKit (traces),1,2,0,0.0,0.0,0.0
+cold,51,"EmerKit (traces, no co-usage)",1,2,0,0.0,0.0,0.0
+cold,51,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,51,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,51,Zeng,1,1,0,0.0,0.0,0.0
+cold,52,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,52,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,52,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,52,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,52,Zeng,1,0,0,0.0,0.0,0.0
+cold,53,EmerKit (traces),1,2,0,0.0,0.0,0.0
+cold,53,"EmerKit (traces, no co-usage)",1,2,0,0.0,0.0,0.0
+cold,53,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,53,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,53,Zeng,1,2,0,0.0,0.0,0.0
+cold,54,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,54,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,54,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,54,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,54,Zeng,2,0,0,0.0,0.0,0.0
+cold,55,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,55,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,55,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,55,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,55,Zeng,1,0,0,0.0,0.0,0.0
+cold,56,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,56,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,56,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,56,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,56,Zeng,2,0,0,0.0,0.0,0.0
+cold,57,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,57,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,57,EmerKit (no traces),1,1,1,1.0,1.0,1.0
+cold,57,RAG-MCP,1,1,1,1.0,1.0,1.0
+cold,57,Zeng,1,1,0,0.0,0.0,0.0
+cold,58,EmerKit (traces),3,1,0,0.0,0.0,0.0
+cold,58,"EmerKit (traces, no co-usage)",3,1,0,0.0,0.0,0.0
+cold,58,EmerKit (no traces),3,1,0,0.0,0.0,0.0
+cold,58,RAG-MCP,3,3,1,0.3333333333333333,0.3333333333333333,0.2
+cold,58,Zeng,3,1,0,0.0,0.0,0.0
+cold,59,EmerKit (traces),3,3,0,0.0,0.0,0.0
+cold,59,"EmerKit (traces, no co-usage)",3,3,0,0.0,0.0,0.0
+cold,59,EmerKit (no traces),3,3,0,0.0,0.0,0.0
+cold,59,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,59,Zeng,3,2,0,0.0,0.0,0.0
+cold,60,EmerKit (traces),3,1,0,0.0,0.0,0.0
+cold,60,"EmerKit (traces, no co-usage)",3,1,0,0.0,0.0,0.0
+cold,60,EmerKit (no traces),3,1,0,0.0,0.0,0.0
+cold,60,RAG-MCP,3,3,1,0.3333333333333333,0.3333333333333333,0.2
+cold,60,Zeng,3,1,0,0.0,0.0,0.0
+cold,61,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,61,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,61,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,61,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,61,Zeng,2,1,0,0.0,0.0,0.0
+cold,62,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,62,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,62,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,62,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,62,Zeng,1,0,0,0.0,0.0,0.0
+cold,63,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,63,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,63,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,63,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,63,Zeng,2,0,0,0.0,0.0,0.0
+cold,64,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,64,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,64,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,64,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,64,Zeng,1,0,0,0.0,0.0,0.0
+cold,65,EmerKit (traces),3,0,0,0.0,0.0,0.0
+cold,65,"EmerKit (traces, no co-usage)",3,0,0,0.0,0.0,0.0
+cold,65,EmerKit (no traces),3,0,0,0.0,0.0,0.0
+cold,65,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,65,Zeng,3,0,0,0.0,0.0,0.0
+cold,66,EmerKit (traces),2,2,0,0.0,0.0,0.0
+cold,66,"EmerKit (traces, no co-usage)",2,2,0,0.0,0.0,0.0
+cold,66,EmerKit (no traces),2,2,0,0.0,0.0,0.0
+cold,66,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,66,Zeng,2,2,0,0.0,0.0,0.0
+cold,67,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,67,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,67,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,67,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,67,Zeng,2,1,0,0.0,0.0,0.0
+cold,68,EmerKit (traces),3,2,0,0.0,0.0,0.0
+cold,68,"EmerKit (traces, no co-usage)",3,2,0,0.0,0.0,0.0
+cold,68,EmerKit (no traces),3,2,0,0.0,0.0,0.0
+cold,68,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,68,Zeng,3,2,0,0.0,0.0,0.0
+cold,69,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,69,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,69,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,69,RAG-MCP,2,2,1,0.5,0.5,0.3333333333333333
+cold,69,Zeng,2,1,0,0.0,0.0,0.0
+cold,70,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,70,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,70,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,70,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,70,Zeng,1,0,0,0.0,0.0,0.0
+cold,71,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,71,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,71,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,71,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,71,Zeng,2,1,0,0.0,0.0,0.0
+cold,72,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,72,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,72,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,72,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,72,Zeng,1,0,0,0.0,0.0,0.0
+cold,73,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,73,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,73,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,73,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,73,Zeng,1,1,0,0.0,0.0,0.0
+cold,74,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,74,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,74,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,74,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,74,Zeng,2,0,0,0.0,0.0,0.0
+cold,75,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,75,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,75,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,75,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,75,Zeng,1,0,0,0.0,0.0,0.0
+cold,76,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,76,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,76,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,76,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,76,Zeng,1,0,0,0.0,0.0,0.0
+cold,77,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,77,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,77,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,77,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,77,Zeng,1,0,0,0.0,0.0,0.0
+cold,78,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,78,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,78,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,78,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,78,Zeng,1,0,0,0.0,0.0,0.0
+cold,79,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,79,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,79,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,79,RAG-MCP,2,2,1,0.5,0.5,0.3333333333333333
+cold,79,Zeng,2,0,0,0.0,0.0,0.0
+cold,80,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,80,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,80,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,80,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,80,Zeng,1,0,0,0.0,0.0,0.0
+cold,81,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,81,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,81,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,81,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,81,Zeng,2,0,0,0.0,0.0,0.0
+cold,82,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,82,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,82,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,82,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,82,Zeng,1,0,0,0.0,0.0,0.0
+cold,83,EmerKit (traces),4,0,0,0.0,0.0,0.0
+cold,83,"EmerKit (traces, no co-usage)",4,0,0,0.0,0.0,0.0
+cold,83,EmerKit (no traces),4,0,0,0.0,0.0,0.0
+cold,83,RAG-MCP,4,4,0,0.0,0.0,0.0
+cold,83,Zeng,4,0,0,0.0,0.0,0.0
+cold,84,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,84,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,84,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,84,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,84,Zeng,1,1,0,0.0,0.0,0.0
+cold,85,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,85,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,85,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,85,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,85,Zeng,1,1,0,0.0,0.0,0.0
+cold,86,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,86,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,86,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,86,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,86,Zeng,1,0,0,0.0,0.0,0.0
+cold,87,EmerKit (traces),3,3,0,0.0,0.0,0.0
+cold,87,"EmerKit (traces, no co-usage)",3,3,0,0.0,0.0,0.0
+cold,87,EmerKit (no traces),3,2,0,0.0,0.0,0.0
+cold,87,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,87,Zeng,3,2,0,0.0,0.0,0.0
+cold,88,EmerKit (traces),3,1,0,0.0,0.0,0.0
+cold,88,"EmerKit (traces, no co-usage)",3,1,0,0.0,0.0,0.0
+cold,88,EmerKit (no traces),3,1,0,0.0,0.0,0.0
+cold,88,RAG-MCP,3,3,1,0.3333333333333333,0.3333333333333333,0.2
+cold,88,Zeng,3,1,0,0.0,0.0,0.0
+cold,89,EmerKit (traces),1,2,0,0.0,0.0,0.0
+cold,89,"EmerKit (traces, no co-usage)",1,2,0,0.0,0.0,0.0
+cold,89,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,89,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,89,Zeng,1,2,0,0.0,0.0,0.0
+cold,90,EmerKit (traces),3,0,0,0.0,0.0,0.0
+cold,90,"EmerKit (traces, no co-usage)",3,0,0,0.0,0.0,0.0
+cold,90,EmerKit (no traces),3,0,0,0.0,0.0,0.0
+cold,90,RAG-MCP,3,3,1,0.3333333333333333,0.3333333333333333,0.2
+cold,90,Zeng,3,0,0,0.0,0.0,0.0
+cold,91,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,91,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,91,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,91,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,91,Zeng,1,0,0,0.0,0.0,0.0
+cold,92,EmerKit (traces),3,2,0,0.0,0.0,0.0
+cold,92,"EmerKit (traces, no co-usage)",3,2,0,0.0,0.0,0.0
+cold,92,EmerKit (no traces),3,2,0,0.0,0.0,0.0
+cold,92,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,92,Zeng,3,2,0,0.0,0.0,0.0
+cold,93,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,93,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,93,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,93,RAG-MCP,1,1,1,1.0,1.0,1.0
+cold,93,Zeng,1,0,0,0.0,0.0,0.0
+cold,94,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,94,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,94,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,94,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,94,Zeng,1,0,0,0.0,0.0,0.0
+cold,95,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,95,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,95,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,95,RAG-MCP,1,1,1,1.0,1.0,1.0
+cold,95,Zeng,1,1,0,0.0,0.0,0.0
+cold,96,EmerKit (traces),3,1,0,0.0,0.0,0.0
+cold,96,"EmerKit (traces, no co-usage)",3,1,0,0.0,0.0,0.0
+cold,96,EmerKit (no traces),3,1,0,0.0,0.0,0.0
+cold,96,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,96,Zeng,3,1,0,0.0,0.0,0.0
+cold,97,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,97,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,97,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,97,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,97,Zeng,1,0,0,0.0,0.0,0.0
+cold,98,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,98,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,98,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,98,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,98,Zeng,2,1,0,0.0,0.0,0.0
+cold,99,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,99,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,99,EmerKit (no traces),1,1,1,1.0,1.0,1.0
+cold,99,RAG-MCP,1,1,1,1.0,1.0,1.0
+cold,99,Zeng,1,1,0,0.0,0.0,0.0
+cold,100,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,100,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,100,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,100,RAG-MCP,1,1,1,1.0,1.0,1.0
+cold,100,Zeng,1,0,0,0.0,0.0,0.0
+cold,101,EmerKit (traces),3,0,0,0.0,0.0,0.0
+cold,101,"EmerKit (traces, no co-usage)",3,0,0,0.0,0.0,0.0
+cold,101,EmerKit (no traces),3,0,0,0.0,0.0,0.0
+cold,101,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,101,Zeng,3,0,0,0.0,0.0,0.0
+cold,102,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,102,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,102,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,102,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,102,Zeng,1,0,0,0.0,0.0,0.0
+cold,103,EmerKit (traces),3,1,0,0.0,0.0,0.0
+cold,103,"EmerKit (traces, no co-usage)",3,1,0,0.0,0.0,0.0
+cold,103,EmerKit (no traces),3,1,0,0.0,0.0,0.0
+cold,103,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,103,Zeng,3,1,0,0.0,0.0,0.0
+cold,104,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,104,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,104,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,104,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,104,Zeng,1,1,0,0.0,0.0,0.0
+cold,105,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,105,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,105,EmerKit (no traces),1,1,1,1.0,1.0,1.0
+cold,105,RAG-MCP,1,1,1,1.0,1.0,1.0
+cold,105,Zeng,1,1,0,0.0,0.0,0.0
+cold,106,EmerKit (traces),3,0,0,0.0,0.0,0.0
+cold,106,"EmerKit (traces, no co-usage)",3,0,0,0.0,0.0,0.0
+cold,106,EmerKit (no traces),3,0,0,0.0,0.0,0.0
+cold,106,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,106,Zeng,3,0,0,0.0,0.0,0.0
+cold,107,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,107,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,107,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,107,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,107,Zeng,1,1,0,0.0,0.0,0.0
+cold,108,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,108,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,108,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,108,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,108,Zeng,2,1,0,0.0,0.0,0.0
+cold,109,EmerKit (traces),1,2,0,0.0,0.0,0.0
+cold,109,"EmerKit (traces, no co-usage)",1,2,0,0.0,0.0,0.0
+cold,109,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,109,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,109,Zeng,1,2,0,0.0,0.0,0.0
+cold,110,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,110,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,110,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,110,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,110,Zeng,2,0,0,0.0,0.0,0.0
+cold,111,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,111,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,111,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,111,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,111,Zeng,1,0,0,0.0,0.0,0.0
+cold,112,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,112,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,112,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,112,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,112,Zeng,1,0,0,0.0,0.0,0.0
+cold,113,EmerKit (traces),4,0,0,0.0,0.0,0.0
+cold,113,"EmerKit (traces, no co-usage)",4,0,0,0.0,0.0,0.0
+cold,113,EmerKit (no traces),4,0,0,0.0,0.0,0.0
+cold,113,RAG-MCP,4,4,1,0.25,0.25,0.14285714285714285
+cold,113,Zeng,4,0,0,0.0,0.0,0.0
+cold,114,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,114,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,114,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,114,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,114,Zeng,1,0,0,0.0,0.0,0.0
+cold,115,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,115,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,115,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,115,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,115,Zeng,1,0,0,0.0,0.0,0.0
+cold,116,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,116,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,116,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,116,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,116,Zeng,1,0,0,0.0,0.0,0.0
+cold,117,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,117,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,117,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,117,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,117,Zeng,1,0,0,0.0,0.0,0.0
+cold,118,EmerKit (traces),4,0,0,0.0,0.0,0.0
+cold,118,"EmerKit (traces, no co-usage)",4,0,0,0.0,0.0,0.0
+cold,118,EmerKit (no traces),4,0,0,0.0,0.0,0.0
+cold,118,RAG-MCP,4,4,0,0.0,0.0,0.0
+cold,118,Zeng,4,0,0,0.0,0.0,0.0
+cold,119,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,119,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,119,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,119,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,119,Zeng,1,1,0,0.0,0.0,0.0
+cold,120,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,120,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,120,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,120,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,120,Zeng,1,1,0,0.0,0.0,0.0
+cold,121,EmerKit (traces),3,2,0,0.0,0.0,0.0
+cold,121,"EmerKit (traces, no co-usage)",3,2,0,0.0,0.0,0.0
+cold,121,EmerKit (no traces),3,2,0,0.0,0.0,0.0
+cold,121,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,121,Zeng,3,1,0,0.0,0.0,0.0
+cold,122,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,122,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,122,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,122,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,122,Zeng,1,0,0,0.0,0.0,0.0
+cold,123,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,123,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,123,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,123,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,123,Zeng,2,0,0,0.0,0.0,0.0
+cold,124,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,124,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,124,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,124,RAG-MCP,1,1,1,1.0,1.0,1.0
+cold,124,Zeng,1,0,0,0.0,0.0,0.0
+cold,125,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,125,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,125,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,125,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,125,Zeng,2,1,0,0.0,0.0,0.0
+cold,126,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,126,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,126,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,126,RAG-MCP,2,2,1,0.5,0.5,0.3333333333333333
+cold,126,Zeng,2,0,0,0.0,0.0,0.0
+cold,127,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,127,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,127,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,127,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,127,Zeng,2,0,0,0.0,0.0,0.0
+cold,128,EmerKit (traces),2,2,0,0.0,0.0,0.0
+cold,128,"EmerKit (traces, no co-usage)",2,2,0,0.0,0.0,0.0
+cold,128,EmerKit (no traces),2,2,0,0.0,0.0,0.0
+cold,128,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,128,Zeng,2,2,0,0.0,0.0,0.0
+cold,129,EmerKit (traces),1,2,0,0.0,0.0,0.0
+cold,129,"EmerKit (traces, no co-usage)",1,2,0,0.0,0.0,0.0
+cold,129,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,129,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,129,Zeng,1,2,0,0.0,0.0,0.0
+cold,130,EmerKit (traces),1,2,0,0.0,0.0,0.0
+cold,130,"EmerKit (traces, no co-usage)",1,2,0,0.0,0.0,0.0
+cold,130,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,130,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,130,Zeng,1,2,0,0.0,0.0,0.0
+cold,131,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,131,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,131,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,131,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,131,Zeng,1,1,0,0.0,0.0,0.0
+cold,132,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,132,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,132,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,132,RAG-MCP,1,1,1,1.0,1.0,1.0
+cold,132,Zeng,1,1,0,0.0,0.0,0.0
+cold,133,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,133,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,133,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,133,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,133,Zeng,2,1,0,0.0,0.0,0.0
+cold,134,EmerKit (traces),3,2,0,0.0,0.0,0.0
+cold,134,"EmerKit (traces, no co-usage)",3,2,0,0.0,0.0,0.0
+cold,134,EmerKit (no traces),3,1,0,0.0,0.0,0.0
+cold,134,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,134,Zeng,3,2,0,0.0,0.0,0.0
+cold,135,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,135,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,135,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,135,RAG-MCP,1,1,1,1.0,1.0,1.0
+cold,135,Zeng,1,1,0,0.0,0.0,0.0
+cold,136,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,136,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,136,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,136,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,136,Zeng,1,0,0,0.0,0.0,0.0
+cold,137,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,137,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,137,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,137,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,137,Zeng,2,0,0,0.0,0.0,0.0
+cold,138,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,138,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,138,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,138,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,138,Zeng,1,0,0,0.0,0.0,0.0
+cold,139,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,139,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,139,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,139,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,139,Zeng,1,0,0,0.0,0.0,0.0
+cold,140,EmerKit (traces),2,2,0,0.0,0.0,0.0
+cold,140,"EmerKit (traces, no co-usage)",2,2,0,0.0,0.0,0.0
+cold,140,EmerKit (no traces),2,2,0,0.0,0.0,0.0
+cold,140,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,140,Zeng,2,2,0,0.0,0.0,0.0
+cold,141,EmerKit (traces),3,2,0,0.0,0.0,0.0
+cold,141,"EmerKit (traces, no co-usage)",3,2,0,0.0,0.0,0.0
+cold,141,EmerKit (no traces),3,2,0,0.0,0.0,0.0
+cold,141,RAG-MCP,3,3,1,0.3333333333333333,0.3333333333333333,0.2
+cold,141,Zeng,3,2,0,0.0,0.0,0.0
+cold,142,EmerKit (traces),4,0,0,0.0,0.0,0.0
+cold,142,"EmerKit (traces, no co-usage)",4,0,0,0.0,0.0,0.0
+cold,142,EmerKit (no traces),4,0,0,0.0,0.0,0.0
+cold,142,RAG-MCP,4,4,0,0.0,0.0,0.0
+cold,142,Zeng,4,0,0,0.0,0.0,0.0
+cold,143,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,143,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,143,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,143,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,143,Zeng,1,0,0,0.0,0.0,0.0
+cold,144,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,144,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,144,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,144,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,144,Zeng,1,0,0,0.0,0.0,0.0
+cold,145,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,145,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,145,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,145,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,145,Zeng,1,0,0,0.0,0.0,0.0
+cold,146,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,146,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,146,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,146,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,146,Zeng,1,0,0,0.0,0.0,0.0
+cold,147,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,147,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,147,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,147,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,147,Zeng,1,1,0,0.0,0.0,0.0
+cold,148,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,148,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,148,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,148,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,148,Zeng,1,0,0,0.0,0.0,0.0
+cold,149,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,149,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,149,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,149,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,149,Zeng,2,1,0,0.0,0.0,0.0
+cold,150,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,150,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,150,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,150,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,150,Zeng,2,2,0,0.0,0.0,0.0
+cold,151,EmerKit (traces),1,2,0,0.0,0.0,0.0
+cold,151,"EmerKit (traces, no co-usage)",1,2,0,0.0,0.0,0.0
+cold,151,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,151,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,151,Zeng,1,2,0,0.0,0.0,0.0
+cold,152,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,152,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,152,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,152,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,152,Zeng,1,0,0,0.0,0.0,0.0
+cold,153,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,153,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,153,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,153,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,153,Zeng,1,0,0,0.0,0.0,0.0
+cold,154,EmerKit (traces),1,2,0,0.0,0.0,0.0
+cold,154,"EmerKit (traces, no co-usage)",1,2,0,0.0,0.0,0.0
+cold,154,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,154,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,154,Zeng,1,2,0,0.0,0.0,0.0
+cold,155,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,155,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,155,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,155,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,155,Zeng,2,1,0,0.0,0.0,0.0
+cold,156,EmerKit (traces),3,0,0,0.0,0.0,0.0
+cold,156,"EmerKit (traces, no co-usage)",3,0,0,0.0,0.0,0.0
+cold,156,EmerKit (no traces),3,0,0,0.0,0.0,0.0
+cold,156,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,156,Zeng,3,0,0,0.0,0.0,0.0
+cold,157,EmerKit (traces),5,1,0,0.0,0.0,0.0
+cold,157,"EmerKit (traces, no co-usage)",5,1,0,0.0,0.0,0.0
+cold,157,EmerKit (no traces),5,1,0,0.0,0.0,0.0
+cold,157,RAG-MCP,5,5,0,0.0,0.0,0.0
+cold,157,Zeng,5,1,0,0.0,0.0,0.0
+cold,158,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,158,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,158,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,158,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,158,Zeng,2,1,0,0.0,0.0,0.0
+cold,159,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,159,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,159,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,159,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,159,Zeng,1,0,0,0.0,0.0,0.0
+cold,160,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,160,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,160,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,160,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,160,Zeng,2,1,0,0.0,0.0,0.0
+cold,161,EmerKit (traces),3,1,0,0.0,0.0,0.0
+cold,161,"EmerKit (traces, no co-usage)",3,1,0,0.0,0.0,0.0
+cold,161,EmerKit (no traces),3,1,0,0.0,0.0,0.0
+cold,161,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,161,Zeng,3,1,0,0.0,0.0,0.0
+cold,162,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,162,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,162,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,162,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,162,Zeng,1,0,0,0.0,0.0,0.0
+cold,163,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,163,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,163,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,163,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,163,Zeng,2,0,0,0.0,0.0,0.0
+cold,164,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,164,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,164,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,164,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,164,Zeng,1,1,0,0.0,0.0,0.0
+cold,165,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,165,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,165,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,165,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,165,Zeng,1,1,0,0.0,0.0,0.0
+cold,166,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,166,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,166,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,166,RAG-MCP,1,1,1,1.0,1.0,1.0
+cold,166,Zeng,1,0,0,0.0,0.0,0.0
+cold,167,EmerKit (traces),2,0,0,0.0,0.0,0.0
+cold,167,"EmerKit (traces, no co-usage)",2,0,0,0.0,0.0,0.0
+cold,167,EmerKit (no traces),2,0,0,0.0,0.0,0.0
+cold,167,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,167,Zeng,2,0,0,0.0,0.0,0.0
+cold,168,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,168,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,168,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,168,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,168,Zeng,1,0,0,0.0,0.0,0.0
+cold,169,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,169,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,169,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,169,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,169,Zeng,1,1,0,0.0,0.0,0.0
+cold,170,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,170,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,170,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,170,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,170,Zeng,1,0,0,0.0,0.0,0.0
+cold,171,EmerKit (traces),4,0,0,0.0,0.0,0.0
+cold,171,"EmerKit (traces, no co-usage)",4,0,0,0.0,0.0,0.0
+cold,171,EmerKit (no traces),4,0,0,0.0,0.0,0.0
+cold,171,RAG-MCP,4,4,0,0.0,0.0,0.0
+cold,171,Zeng,4,0,0,0.0,0.0,0.0
+cold,172,EmerKit (traces),3,0,0,0.0,0.0,0.0
+cold,172,"EmerKit (traces, no co-usage)",3,0,0,0.0,0.0,0.0
+cold,172,EmerKit (no traces),3,0,0,0.0,0.0,0.0
+cold,172,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,172,Zeng,3,0,0,0.0,0.0,0.0
+cold,173,EmerKit (traces),1,2,1,0.5,1.0,0.5
+cold,173,"EmerKit (traces, no co-usage)",1,2,1,0.5,1.0,0.5
+cold,173,EmerKit (no traces),1,2,1,0.5,1.0,0.5
+cold,173,RAG-MCP,1,1,1,1.0,1.0,1.0
+cold,173,Zeng,1,2,0,0.0,0.0,0.0
+cold,174,EmerKit (traces),2,2,0,0.0,0.0,0.0
+cold,174,"EmerKit (traces, no co-usage)",2,2,0,0.0,0.0,0.0
+cold,174,EmerKit (no traces),2,2,1,0.5,0.5,0.3333333333333333
+cold,174,RAG-MCP,2,2,1,0.5,0.5,0.3333333333333333
+cold,174,Zeng,2,2,0,0.0,0.0,0.0
+cold,175,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,175,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,175,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,175,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,175,Zeng,1,0,0,0.0,0.0,0.0
+cold,176,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,176,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,176,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,176,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,176,Zeng,1,0,0,0.0,0.0,0.0
+cold,177,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,177,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,177,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,177,RAG-MCP,1,1,1,1.0,1.0,1.0
+cold,177,Zeng,1,0,0,0.0,0.0,0.0
+cold,178,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,178,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,178,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,178,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,178,Zeng,1,0,0,0.0,0.0,0.0
+cold,179,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,179,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,179,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,179,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,179,Zeng,1,0,0,0.0,0.0,0.0
+cold,180,EmerKit (traces),2,2,0,0.0,0.0,0.0
+cold,180,"EmerKit (traces, no co-usage)",2,2,0,0.0,0.0,0.0
+cold,180,EmerKit (no traces),2,2,0,0.0,0.0,0.0
+cold,180,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,180,Zeng,2,2,0,0.0,0.0,0.0
+cold,181,EmerKit (traces),3,0,0,0.0,0.0,0.0
+cold,181,"EmerKit (traces, no co-usage)",3,0,0,0.0,0.0,0.0
+cold,181,EmerKit (no traces),3,0,0,0.0,0.0,0.0
+cold,181,RAG-MCP,3,3,1,0.6666666666666666,0.6666666666666666,0.5
+cold,181,Zeng,3,0,0,0.0,0.0,0.0
+cold,182,EmerKit (traces),2,2,0,0.0,0.0,0.0
+cold,182,"EmerKit (traces, no co-usage)",2,2,0,0.0,0.0,0.0
+cold,182,EmerKit (no traces),2,2,0,0.0,0.0,0.0
+cold,182,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,182,Zeng,2,2,0,0.0,0.0,0.0
+cold,183,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,183,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,183,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,183,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,183,Zeng,1,0,0,0.0,0.0,0.0
+cold,184,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,184,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,184,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,184,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,184,Zeng,1,1,0,0.0,0.0,0.0
+cold,185,EmerKit (traces),2,2,0,0.0,0.0,0.0
+cold,185,"EmerKit (traces, no co-usage)",2,2,0,0.0,0.0,0.0
+cold,185,EmerKit (no traces),2,2,0,0.0,0.0,0.0
+cold,185,RAG-MCP,2,2,1,0.5,0.5,0.3333333333333333
+cold,185,Zeng,2,2,0,0.0,0.0,0.0
+cold,186,EmerKit (traces),1,2,0,0.0,0.0,0.0
+cold,186,"EmerKit (traces, no co-usage)",1,2,0,0.0,0.0,0.0
+cold,186,EmerKit (no traces),1,2,0,0.0,0.0,0.0
+cold,186,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,186,Zeng,1,2,0,0.0,0.0,0.0
+cold,187,EmerKit (traces),3,1,0,0.0,0.0,0.0
+cold,187,"EmerKit (traces, no co-usage)",3,1,0,0.0,0.0,0.0
+cold,187,EmerKit (no traces),3,1,0,0.0,0.0,0.0
+cold,187,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,187,Zeng,3,1,0,0.0,0.0,0.0
+cold,188,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,188,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,188,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,188,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,188,Zeng,1,0,0,0.0,0.0,0.0
+cold,189,EmerKit (traces),3,0,0,0.0,0.0,0.0
+cold,189,"EmerKit (traces, no co-usage)",3,0,0,0.0,0.0,0.0
+cold,189,EmerKit (no traces),3,0,0,0.0,0.0,0.0
+cold,189,RAG-MCP,3,3,1,0.6666666666666666,0.6666666666666666,0.5
+cold,189,Zeng,3,0,0,0.0,0.0,0.0
+cold,190,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,190,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,190,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,190,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,190,Zeng,1,0,0,0.0,0.0,0.0
+cold,191,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,191,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,191,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,191,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,191,Zeng,1,1,0,0.0,0.0,0.0
+cold,192,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,192,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,192,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,192,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,192,Zeng,1,0,0,0.0,0.0,0.0
+cold,193,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,193,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,193,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,193,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,193,Zeng,1,1,0,0.0,0.0,0.0
+cold,194,EmerKit (traces),1,1,0,0.0,0.0,0.0
+cold,194,"EmerKit (traces, no co-usage)",1,1,0,0.0,0.0,0.0
+cold,194,EmerKit (no traces),1,1,0,0.0,0.0,0.0
+cold,194,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,194,Zeng,1,1,0,0.0,0.0,0.0
+cold,195,EmerKit (traces),2,1,0,0.0,0.0,0.0
+cold,195,"EmerKit (traces, no co-usage)",2,1,0,0.0,0.0,0.0
+cold,195,EmerKit (no traces),2,1,0,0.0,0.0,0.0
+cold,195,RAG-MCP,2,2,0,0.0,0.0,0.0
+cold,195,Zeng,2,1,0,0.0,0.0,0.0
+cold,196,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,196,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,196,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,196,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,196,Zeng,1,0,0,0.0,0.0,0.0
+cold,197,EmerKit (traces),3,1,0,0.0,0.0,0.0
+cold,197,"EmerKit (traces, no co-usage)",3,1,0,0.0,0.0,0.0
+cold,197,EmerKit (no traces),3,1,0,0.0,0.0,0.0
+cold,197,RAG-MCP,3,3,0,0.0,0.0,0.0
+cold,197,Zeng,3,1,0,0.0,0.0,0.0
+cold,198,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,198,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,198,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,198,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,198,Zeng,1,0,0,0.0,0.0,0.0
+cold,199,EmerKit (traces),1,0,0,0.0,0.0,0.0
+cold,199,"EmerKit (traces, no co-usage)",1,0,0,0.0,0.0,0.0
+cold,199,EmerKit (no traces),1,0,0,0.0,0.0,0.0
+cold,199,RAG-MCP,1,1,0,0.0,0.0,0.0
+cold,199,Zeng,1,0,0,0.0,0.0,0.0

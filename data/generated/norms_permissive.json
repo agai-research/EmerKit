@@ -1,0 +1,722 @@
+[
+ {
+  "type": "acquisition",
+  "attribute": "ID",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "acquisition",
+  "attribute": "ID",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "acquisition",
+  "attribute": "ID",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "acquisition",
+  "attribute": "ID",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "acquisition",
+  "attribute": "PROF",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "acquisition",
+  "attribute": "PROF",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "acquisition",
+  "attribute": "PROF",
+  "role": "EXT",
+  "deny": false
+ },
+ {
+  "type": "acquisition",
+  "attribute": "PROF",
+  "role": "PUB",
+  "deny": false
+ },
+ {
+  "type": "acquisition",
+  "attribute": "PERF",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "acquisition",
+  "attribute": "PERF",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "acquisition",
+  "attribute": "PERF",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "acquisition",
+  "attribute": "PERF",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "acquisition",
+  "attribute": "BEH",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "acquisition",
+  "attribute": "BEH",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "acquisition",
+  "attribute": "BEH",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "acquisition",
+  "attribute": "BEH",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "acquisition",
+  "attribute": "CONT",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "acquisition",
+  "attribute": "CONT",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "acquisition",
+  "attribute": "CONT",
+  "role": "EXT",
+  "deny": false
+ },
+ {
+  "type": "acquisition",
+  "attribute": "CONT",
+  "role": "PUB",
+  "deny": false
+ },
+ {
+  "type": "practice",
+  "attribute": "ID",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "practice",
+  "attribute": "ID",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "practice",
+  "attribute": "ID",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "practice",
+  "attribute": "ID",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "practice",
+  "attribute": "PROF",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "practice",
+  "attribute": "PROF",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "practice",
+  "attribute": "PROF",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "practice",
+  "attribute": "PROF",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "practice",
+  "attribute": "PERF",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "practice",
+  "attribute": "PERF",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "practice",
+  "attribute": "PERF",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "practice",
+  "attribute": "PERF",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "practice",
+  "attribute": "BEH",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "practice",
+  "attribute": "BEH",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "practice",
+  "attribute": "BEH",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "practice",
+  "attribute": "BEH",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "practice",
+  "attribute": "CONT",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "practice",
+  "attribute": "CONT",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "practice",
+  "attribute": "CONT",
+  "role": "EXT",
+  "deny": false
+ },
+ {
+  "type": "practice",
+  "attribute": "CONT",
+  "role": "PUB",
+  "deny": false
+ },
+ {
+  "type": "formative",
+  "attribute": "ID",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "formative",
+  "attribute": "ID",
+  "role": "PRO",
+  "deny": true
+ },
+ {
+  "type": "formative",
+  "attribute": "ID",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "formative",
+  "attribute": "ID",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "formative",
+  "attribute": "PROF",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "formative",
+  "attribute": "PROF",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "formative",
+  "attribute": "PROF",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "formative",
+  "attribute": "PROF",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "formative",
+  "attribute": "PERF",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "formative",
+  "attribute": "PERF",
+  "role": "PRO",
+  "deny": true
+ },
+ {
+  "type": "formative",
+  "attribute": "PERF",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "formative",
+  "attribute": "PERF",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "formative",
+  "attribute": "BEH",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "formative",
+  "attribute": "BEH",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "formative",
+  "attribute": "BEH",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "formative",
+  "attribute": "BEH",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "formative",
+  "attribute": "CONT",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "formative",
+  "attribute": "CONT",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "formative",
+  "attribute": "CONT",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "formative",
+  "attribute": "CONT",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "summative",
+  "attribute": "ID",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "summative",
+  "attribute": "ID",
+  "role": "PRO",
+  "deny": true
+ },
+ {
+  "type": "summative",
+  "attribute": "ID",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "summative",
+  "attribute": "ID",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "summative",
+  "attribute": "PROF",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "summative",
+  "attribute": "PROF",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "summative",
+  "attribute": "PROF",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "summative",
+  "attribute": "PROF",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "summative",
+  "attribute": "PERF",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "summative",
+  "attribute": "PERF",
+  "role": "PRO",
+  "deny": true
+ },
+ {
+  "type": "summative",
+  "attribute": "PERF",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "summative",
+  "attribute": "PERF",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "summative",
+  "attribute": "BEH",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "summative",
+  "attribute": "BEH",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "summative",
+  "attribute": "BEH",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "summative",
+  "attribute": "BEH",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "summative",
+  "attribute": "CONT",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "summative",
+  "attribute": "CONT",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "summative",
+  "attribute": "CONT",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "summative",
+  "attribute": "CONT",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "discussion",
+  "attribute": "ID",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "discussion",
+  "attribute": "ID",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "discussion",
+  "attribute": "ID",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "discussion",
+  "attribute": "ID",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "discussion",
+  "attribute": "PROF",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "discussion",
+  "attribute": "PROF",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "discussion",
+  "attribute": "PROF",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "discussion",
+  "attribute": "PROF",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "discussion",
+  "attribute": "PERF",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "discussion",
+  "attribute": "PERF",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "discussion",
+  "attribute": "PERF",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "discussion",
+  "attribute": "PERF",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "discussion",
+  "attribute": "BEH",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "discussion",
+  "attribute": "BEH",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "discussion",
+  "attribute": "BEH",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "discussion",
+  "attribute": "BEH",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "discussion",
+  "attribute": "CONT",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "discussion",
+  "attribute": "CONT",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "discussion",
+  "attribute": "CONT",
+  "role": "EXT",
+  "deny": false
+ },
+ {
+  "type": "discussion",
+  "attribute": "CONT",
+  "role": "PUB",
+  "deny": false
+ },
+ {
+  "type": "production",
+  "attribute": "ID",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "production",
+  "attribute": "ID",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "production",
+  "attribute": "ID",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "production",
+  "attribute": "ID",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "production",
+  "attribute": "PROF",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "production",
+  "attribute": "PROF",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "production",
+  "attribute": "PROF",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "production",
+  "attribute": "PROF",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "production",
+  "attribute": "PERF",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "production",
+  "attribute": "PERF",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "production",
+  "attribute": "PERF",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "production",
+  "attribute": "PERF",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "production",
+  "attribute": "BEH",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "production",
+  "attribute": "BEH",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "production",
+  "attribute": "BEH",
+  "role": "EXT",
+  "deny": true
+ },
+ {
+  "type": "production",
+  "attribute": "BEH",
+  "role": "PUB",
+  "deny": true
+ },
+ {
+  "type": "production",
+  "attribute": "CONT",
+  "role": "INS",
+  "deny": false
+ },
+ {
+  "type": "production",
+  "attribute": "CONT",
+  "role": "PRO",
+  "deny": false
+ },
+ {
+  "type": "production",
+  "attribute": "CONT",
+  "role": "EXT",
+  "deny": false
+ },
+ {
+  "type": "production",
+  "attribute": "CONT",
+  "role": "PUB",
+  "deny": false
+ }
+]

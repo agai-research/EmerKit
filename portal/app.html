@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EmerKit: safe AI tools for every step of your learning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#18233A;--muted:#55607A;--line:#D9DFE8;--canvas:#F2F4F8;--card:#FFFFFF;--soft:#E9EDF4;--accent:#4B3FC4;--accent-ink:#FFFFFF;--accent-soft:#ECEAFB;
+--safe:#0E7C66;--warn:#A86A06;--bad:#B4234A;--safe-bg:#E3F3EE;--warn-bg:#FBF0DC;--bad-bg:#FAE6EC;
+--t-acquisition:#3367D6;--t-practice:#0E8A6B;--t-formative:#B5740A;--t-summative:#9C2F66;--t-discussion:#5D4FC4;--t-production:#2B7A92;
+--r-INS:#0E7C66;--r-PRO:#3367D6;--r-EXT:#B5740A;--r-PUB:#B4234A;
+--display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;--body:"Atkinson Hyperlegible",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#E6EAF2;--muted:#A3ADC2;--line:#2E3850;--canvas:#111827;--card:#182235;--soft:#1F2B42;--accent:#9C93FF;--accent-ink:#111827;--accent-soft:#2A2D55;
+--safe:#4CC3A5;--warn:#E7B14E;--bad:#F07A97;--safe-bg:#143A33;--warn-bg:#3B2E14;--bad-bg:#40182A;--t-acquisition:#7AA2F0;--t-practice:#4CC3A5;--t-formative:#E7B14E;--t-summative:#E07AAE;--t-discussion:#A49BFF;--t-production:#6CC0D9;
+--r-INS:#4CC3A5;--r-PRO:#7AA2F0;--r-EXT:#E7B14E;--r-PUB:#F07A97;color-scheme:dark}}
+:root[data-theme="dark"]{--ink:#E6EAF2;--muted:#A3ADC2;--line:#2E3850;--canvas:#111827;--card:#182235;--soft:#1F2B42;--accent:#9C93FF;--accent-ink:#111827;--accent-soft:#2A2D55;
+--safe:#4CC3A5;--warn:#E7B14E;--bad:#F07A97;--safe-bg:#143A33;--warn-bg:#3B2E14;--bad-bg:#40182A;--t-acquisition:#7AA2F0;--t-practice:#4CC3A5;--t-formative:#E7B14E;--t-summative:#E07AAE;--t-discussion:#A49BFF;--t-production:#6CC0D9;
+--r-INS:#4CC3A5;--r-PRO:#7AA2F0;--r-EXT:#E7B14E;--r-PUB:#F07A97;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 76px)}
+body{margin:0;background:var(--canvas);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55}
+a{color:var(--accent)}button,input,select,textarea{font:inherit;color:inherit}main:focus{outline:none}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:6px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:var(--canvas);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:50;background:var(--canvas)}
+.bar{max-width:1240px;margin:0 auto;display:flex;align-items:center;gap:18px;padding:11px 20px;flex-wrap:wrap}
+.brand{font-family:var(--display);font-weight:700;font-size:22px;text-decoration:none;color:var(--ink);display:flex;align-items:center;gap:10px}
+nav{display:flex;gap:4px;flex-wrap:wrap;flex:1}nav a{padding:6px 12px;border-radius:999px;text-decoration:none;color:var(--muted);font-size:15px;display:inline-flex;align-items:center;gap:6px}
+nav a[aria-current="page"]{background:var(--ink);color:var(--canvas)}nav a:hover{color:var(--ink)}nav .end{margin-left:auto}
+main{max-width:1240px;margin:0 auto;padding:26px 20px 90px}
+h1,h2,h3{font-family:var(--display);letter-spacing:-.015em;line-height:1.15;margin:0}
+h1{font-size:clamp(30px,4.4vw,50px);font-weight:700;max-width:22ch}h2{font-size:25px;font-weight:700}h3{font-size:18px;font-weight:700}
+p{max-width:74ch;margin:.45em 0}.muted{color:var(--muted)}.small{font-size:14px}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px}.panel+.panel{margin-top:16px}
+.grid{display:grid;gap:16px}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:900px){.g2,.g3,.g4{grid-template-columns:1fr}}
+.btn{border:0;border-radius:12px;padding:11px 20px;background:var(--accent);color:var(--accent-ink);font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:8px;text-decoration:none}
+.btn[disabled]{opacity:.55;cursor:progress}.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}.btn.small{padding:7px 12px;font-size:14px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.in{width:100%;border:1px solid var(--line);border-radius:10px;background:var(--card);padding:9px 11px}
+label.f{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--muted);margin:14px 0 5px}
+.badge{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;padding:2px 9px;border-radius:999px;background:var(--soft);white-space:nowrap}
+.b-safe{background:var(--safe-bg);color:var(--safe)}.b-warn{background:var(--warn-bg);color:var(--warn)}.b-bad{background:var(--bad-bg);color:var(--bad)}.b-acc{background:var(--accent-soft);color:var(--accent)}
+.role{font-weight:700;font-size:12px;border-radius:6px;padding:1px 6px;border:1.5px solid currentColor;white-space:nowrap}
+/* tooltips */
+[data-tip]{position:relative}
+[data-tip]:hover::after,[data-tip]:focus-visible::after{content:attr(data-tip);position:absolute;left:50%;bottom:calc(100% + 8px);transform:translateX(-50%);width:max-content;max-width:290px;background:var(--ink);color:var(--canvas);
+ font-size:13px;line-height:1.4;font-weight:400;padding:8px 10px;border-radius:8px;z-index:60;white-space:normal;text-align:left;pointer-events:none;box-shadow:0 6px 20px rgba(0,0,0,.18)}
+.info{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:var(--soft);color:var(--muted);font-size:12px;font-weight:700;cursor:help;flex:none}
+/* user page */
+.hero{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:26px;align-items:center;margin-bottom:22px}
+@media (max-width:900px){.hero{grid-template-columns:1fr}}
+.ask{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:14px;display:flex;flex-direction:column;gap:10px;box-shadow:0 10px 30px rgba(24,35,58,.06)}
+.ask textarea{border:0;background:transparent;font-size:19px;min-height:84px;resize:vertical;padding:6px 6px 0}.ask textarea:focus{outline:none}
+.ask:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 22%,transparent)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 12px;cursor:pointer;font-size:14px}.chip:hover{border-color:var(--accent)}
+.how{display:grid;gap:10px}.how div{display:grid;grid-template-columns:36px 1fr;gap:10px;align-items:start}
+.how b{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:var(--accent-soft);color:var(--accent);font-family:var(--display)}
+.progress{display:grid;gap:8px;margin:14px 0}.stage{display:flex;gap:10px;align-items:center;font-size:15px;color:var(--muted)}
+.stage .dot{width:22px;height:22px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;font-size:12px;flex:none}
+.stage.run{color:var(--ink)}.stage.run .dot{border-color:var(--accent);border-top-color:transparent;animation:spin .8s linear infinite}
+.stage.done{color:var(--ink)}.stage.done .dot{background:var(--safe);border-color:var(--safe);color:#fff}.stage.fail .dot{background:var(--bad);border-color:var(--bad);color:#fff}
+@keyframes spin{to{transform:rotate(360deg)}}
+.summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:14px 0}
+@media (max-width:900px){.summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px}.stat b{display:block;font-family:var(--display);font-size:30px;line-height:1.1}.stat span{color:var(--muted);font-size:14px}
+.prov{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:14px;color:var(--muted);margin:4px 0 12px}
+.graphwrap{overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:var(--card);padding:10px}
+.stepcards{display:grid;gap:12px;margin-top:16px}
+.sc{display:grid;grid-template-columns:56px 1fr;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px}
+.sc .n{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;color:#fff;font-family:var(--display);font-weight:700;font-size:20px}
+.helpers{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}.helper{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);border-radius:12px;padding:5px 10px;font-size:14px;background:var(--canvas);cursor:help}
+.helper svg{flex:none}.privacy{display:flex;gap:8px;align-items:flex-start;font-size:14px;color:var(--muted)}
+/* expert page */
+.step{background:var(--card);border:1px solid var(--line);border-radius:16px;margin-bottom:16px;overflow:hidden}
+.step>.hd{display:grid;grid-template-columns:42px 1fr auto;gap:12px;align-items:start;padding:16px 18px 6px}
+.num{width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--canvas);display:grid;place-items:center;font-family:var(--display);font-weight:700}
+.step .why{margin:2px 0 0;color:var(--muted);font-size:14.5px}.step>.bd{padding:6px 18px 18px 72px}@media (max-width:700px){.step>.bd{padding:6px 14px 16px}}
+.tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:700;color:var(--muted);font-size:12.5px}tbody tr:hover{background:var(--soft)}td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.kv{display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;font-size:14px}.kv dt{color:var(--muted)}.kv dd{margin:0}
+.note{border-left:4px solid var(--warn);background:var(--warn-bg);padding:10px 14px;border-radius:10px;font-size:14.5px;margin:10px 0}
+.ok{border-left:4px solid var(--safe);background:var(--safe-bg);padding:10px 14px;border-radius:10px;font-size:14.5px;margin:10px 0}
+.err{border-left:4px solid var(--bad);background:var(--bad-bg);padding:10px 14px;border-radius:10px;font-size:14.5px;margin:10px 0}
+.cell{display:inline-block;min-width:24px;height:22px;border-radius:5px;line-height:22px;font-size:12px;font-weight:700;text-align:center;padding:0 4px}
+.cell.y{background:var(--safe-bg);color:var(--safe)}.cell.n{background:var(--bad-bg);color:var(--bad)}.cell.u{background:var(--warn-bg);color:var(--warn)}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px}.tab{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:7px 12px;cursor:pointer;white-space:nowrap;font-size:14px}
+.tab[aria-pressed="true"]{border-color:var(--ink);box-shadow:0 0 0 2px var(--ink)}
+.chartbox{position:relative;height:260px}
+details>summary{cursor:pointer;color:var(--accent);font-size:14px}
+.figure{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;margin:0}.figure img{width:100%;height:auto;border-radius:10px;background:#fff}
+.figure figcaption{font-size:14px;color:var(--muted);margin-top:8px}
+.pipeline{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;margin:18px 0}@media (max-width:900px){.pipeline{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.pipe{border:1px solid var(--line);background:var(--card);border-radius:14px;padding:12px;cursor:pointer;text-align:left}.pipe[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+.pipe b{display:block;font-family:var(--display);font-size:15.5px;margin:6px 0 2px}.pipe .k{font-size:12px;color:var(--muted)}
+.empty{padding:28px;border:2px dashed var(--line);border-radius:16px;text-align:center;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.hcard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;display:flex;flex-direction:column;gap:6px}
+dialog{border:1px solid var(--line);border-radius:18px;background:var(--card);color:var(--ink);max-width:min(780px,94vw);padding:20px}dialog::backdrop{background:rgba(10,15,30,.45)}
+.author{display:flex;gap:10px;align-items:center}.avatar{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);font-weight:700;font-family:var(--display)}
+@media (prefers-reduced-motion:no-preference){.reveal{animation:rise .35s ease-out both}@keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}}
+
+/* ===== theme: clearer, modern layer (colours, surfaces, depth); layout unchanged ===== */
+:root{--ink:#111827;--muted:#5B6474;--line:#E5E8EF;--canvas:#F6F7FB;--card:#FFFFFF;--soft:#F0F2F7;--accent:#5146E5;--accent-ink:#FFFFFF;--accent-soft:#EEEDFD;
+--shadow-sm:0 1px 2px rgba(16,24,40,.05);--shadow:0 1px 3px rgba(16,24,40,.06),0 10px 28px rgba(16,24,40,.06)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#E8EBF2;--muted:#A1A9BA;--line:#2A3346;--canvas:#0E1320;--card:#161D2D;--soft:#1C2538;--accent:#A29BFF;--accent-ink:#0E1320;--accent-soft:#262B52;
+--shadow-sm:none;--shadow:0 1px 2px rgba(0,0,0,.4)}}
+:root[data-theme="dark"]{--ink:#E8EBF2;--muted:#A1A9BA;--line:#2A3346;--canvas:#0E1320;--card:#161D2D;--soft:#1C2538;--accent:#A29BFF;--accent-ink:#0E1320;--accent-soft:#262B52;--shadow-sm:none;--shadow:0 1px 2px rgba(0,0,0,.4)}
+body{background:radial-gradient(1200px 500px at 85% -10%,color-mix(in srgb,var(--accent) 7%,transparent),transparent 60%),var(--canvas);background-attachment:fixed}
+header{background:color-mix(in srgb,var(--canvas) 82%,transparent);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px)}
+body::before{background:color-mix(in srgb,var(--canvas) 82%,transparent)}
+nav a{font-weight:500}nav a[aria-current="page"]{background:var(--accent);color:var(--accent-ink);box-shadow:0 4px 14px color-mix(in srgb,var(--accent) 30%,transparent)}
+.panel,.stat,.sc,.hcard,.step,.figure,.ask,.graphwrap{border-color:var(--line);box-shadow:var(--shadow)}
+.panel{border-radius:20px}.stat{border-radius:18px}.stat b{color:var(--accent)}
+.btn{background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 70%,#7C3AED));box-shadow:0 4px 14px color-mix(in srgb,var(--accent) 28%,transparent);transition:transform .12s ease,box-shadow .12s ease}
+.btn:hover{transform:translateY(-1px)}.btn.ghost{background:var(--card);box-shadow:var(--shadow-sm)}.btn.ghost:hover{border-color:var(--accent)}
+.chip{box-shadow:var(--shadow-sm)}.chip:hover{background:var(--accent-soft)}
+.in{background:var(--card);box-shadow:inset 0 1px 2px rgba(16,24,40,.04)}.in:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 20%,transparent)}
+.badge{border:1px solid color-mix(in srgb,currentColor 18%,transparent)}
+.ok,.note,.err{border-radius:12px}
+.sc{transition:box-shadow .15s ease}.sc:hover{box-shadow:0 2px 6px rgba(16,24,40,.06),0 16px 34px rgba(16,24,40,.08)}
+.helper{background:var(--card);cursor:pointer}.helper:hover{border-color:var(--accent);background:var(--accent-soft)}
+dialog{box-shadow:0 24px 60px rgba(16,24,40,.25)}dialog.wide{max-width:min(1200px,96vw)}
+.dlg-icon{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font-size:22px;font-weight:700;flex:none}
+#pathsvg [data-utool]:hover rect{stroke-width:2.4}
+</style>
+</head>
+<body>
+<header><div class="bar">
+<a class="brand" href="#plan" aria-label="EmerKit, home"><svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true"><circle cx="5" cy="14" r="3.2" fill="#3367D6"/><circle cx="14" cy="8" r="3.2" fill="#0E8A6B"/><circle cx="23" cy="14" r="3.2" fill="#B5740A"/><circle cx="14" cy="20" r="3.2" fill="#9C2F66"/><path d="M5 14 L14 8 L23 14 L14 20 Z" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>EmerKit</a>
+<nav aria-label="Sections"><a href="#plan">Plan my learning</a><a href="#approach">How it works</a><a href="#registry">Tool registry</a><a href="#expert">Expert view</a><a href="#history">History</a><a href="#about">About</a>
+<a href="#settings" class="end" data-tip="Configure the language model, your API key, the registry, and the rules used to choose tools.">⚙ Settings</a></nav>
+</div></header>
+<main id="view" tabindex="-1"></main>
+<dialog id="dlg"></dialog>
+<script id="bundle" type="application/json">__BUNDLE__</script>
+<script>__CHARTJS__</script>
+<script>__ENGINE__</script>
+<script>
+const PAPER = {title: 'EmerKit: Composing MCP Toolkits for LLM Agents in Learning Workflows', repo: 'https://github.com/agai-research/EmerKit', authors: [
+  ['Fedia Ghedass', 'Higher Institute of Technological Studies, Jendouba, Tunisia'], ['Haithem Mezni', 'University of Jendouba, Tunisia'],
+  ['Aishah Alsehaim', 'Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia (corresponding author)'], ['Hela Elmannai', 'Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia'],
+  ['Shiyam Alalmaei', 'Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia'], ['Mohamed Sliti', 'Higher Institute of Technological Studies of Radès, Tunisia']],
+  keywords: ['Service composition', 'Model Context Protocol', 'LLM agents', 'Agentic AI', 'Tool selection', 'Quality of service', 'Conformal prediction', 'Smart education']};
+const FIGS = __FIGS__;
+const BUNDLE = JSON.parse(document.getElementById('bundle').textContent);
+const V = BUNDLE.vocab, LABELS = EmerKitEngine.LABELS;
+const ENG = {emerkit: new EmerKitEngine.Engine(BUNDLE, 'emerkit'), real: new EmerKitEngine.Engine(BUNDLE, 'real')};
+const DOM_NAME = {programming: 'Programming', datascience: 'Data science and AI', language: 'English as a foreign language'};
+const TYPE_USER = {acquisition: ['Learn', 'Discover the material'], practice: ['Practise', 'Exercises without a grade'], formative: ['Check', 'Feedback on your progress'], summative: ['Assessment', 'A graded test'], discussion: ['Discuss', 'Exchange with other learners'], production: ['Create', 'Produce and submit your own work']};
+const TYPE_NOUN = {acquisition: 'learning activity', practice: 'practice exercise', formative: 'progress check', summative: 'graded assessment', discussion: 'discussion', production: 'production task'};
+const TYPE_HEX = {acquisition: '#3367D6', practice: '#0E8A6B', formative: '#B5740A', summative: '#9C2F66', discussion: '#5D4FC4', production: '#2B7A92'};
+const ROLE_HEX = {INS: '#0E7C66', PRO: '#3367D6', EXT: '#B5740A', PUB: '#B4234A'};
+const ROLE_NAME = {INS: 'institution', PRO: 'contracted processor', EXT: 'third party', PUB: 'public web'};
+const ROLE_USER = {INS: 'your school', PRO: 'a provider under contract with your school', EXT: 'an external service', PUB: 'the public web'};
+const ATT_NAME = {ID: 'identity', PROF: 'profile', PERF: 'performance', BEH: 'behaviour', CONT: 'learner content'};
+const ATT_USER = {ID: 'your name and account', PROF: 'your learning profile', PERF: 'your marks', BEH: 'your activity', CONT: 'your answers and work'};
+const LBL_NAME = {src_ID: 'returns identity', src_PROF: 'returns profile', src_PERF: 'returns performance', src_BEH: 'returns behaviour', src_CONT: 'returns learner content', out: 'forwards beyond its server'};
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+const human = c => String(c).replace(/_/g, ' ');
+const cap1 = s => s.charAt(0).toUpperCase() + s.slice(1);
+const $ = s => document.querySelector(s);
+const store = {get(k, d) {try {return JSON.parse(localStorage.getItem('emerkit.' + k)) ?? d} catch (e) {return d}}, set(k, v) {try {localStorage.setItem('emerkit.' + k, JSON.stringify(v))} catch (e) {}}};
+const sess = {get(k) {try {return sessionStorage.getItem('emerkit.' + k) || ''} catch (e) {return ''}}, set(k, v) {try {sessionStorage.setItem('emerkit.' + k, v)} catch (e) {}}};
+const hash32 = s => {let h = 2166136261; for (const c of s) {h ^= c.charCodeAt(0); h = Math.imul(h, 16777619)} return h >>> 0};
+const roleTag = r => `<span class="role" style="color:var(--r-${r})" data-tip="${ROLE_NAME[r]}: ${ROLE_USER[r]}">${r}</span>`;
+const tip = t => `<span class="info" tabindex="0" data-tip="${esc(t)}">i</span>`;
+
+/* ---------------- icons by capability family ---------------- */
+const ICON = {
+  book: 'M4 5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2zM8 7h7', search: 'M11 4a7 7 0 1 1 0 14a7 7 0 0 1 0-14zM16 16l5 5', play: 'M5 4l14 8-14 8z', check: 'M4 12l5 5L20 6',
+  chat: 'M4 5h16v11H9l-5 4z', code: 'M8 8l-4 4 4 4M16 8l4 4-4 4', data: 'M4 6c0-2 16-2 16 0v12c0 2-16 2-16 0zM4 12c0 2 16 2 16 0', user: 'M12 12a4 4 0 1 0 0-8a4 4 0 0 0 0 8zM4 21c1-4 5-6 8-6s7 2 8 6',
+  bulb: 'M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10c1 1 1 2 1 3h6c0-1 0-2 1-3a6 6 0 0 0-4-10z', upload: 'M12 16V4M7 9l5-5 5 5M4 20h16', pen: 'M4 20l4-1 11-11-3-3L5 16zM14 6l3 3', mic: 'M12 3a3 3 0 0 1 3 3v6a3 3 0 0 1-6 0V6a3 3 0 0 1 3-3zM5 11a7 7 0 0 0 14 0M12 18v3', chart: 'M4 20V10M10 20V4M16 20v-7M22 20H2', shield: 'M12 3l8 3v6c0 5-4 8-8 9-4-1-8-4-8-9V6z'};
+function iconFor(cap) {
+  const c = cap || ''; return c.match(/explain|retrieve|courseware|dictionary|flashcard|translate/) ? 'book' : c.match(/search|lookup/) && !c.match(/video/) ? 'search' : c.match(/video/) ? 'play'
+    : c.match(/grade|quiz|check|lint/) ? 'check' : c.match(/forum|peer|discussion/) ? 'chat' : c.match(/code|notebook/) ? 'code' : c.match(/dataset|sql|record|gradebook/) ? 'data' : c.match(/profile/) ? 'user'
+    : c.match(/hint/) ? 'bulb' : c.match(/submit|export/) ? 'upload' : c.match(/writing|essay/) ? 'pen' : c.match(/pronunciation|speech/) ? 'mic' : c.match(/analytics|chart|plot/) ? 'chart' : c.match(/plagiarism/) ? 'shield' : 'book';
+}
+const svgIcon = (name, color = 'currentColor', size = 16) => `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${ICON[name]}"/></svg>`;
+
+/* ---------------- settings ---------------- */
+const DEF = {registry: 'emerkit', profile: 'standard', xi: '0.05', level: null, B: 2000, k_max: 4, mode: 'isolated', s_max: 2, generator: 'llm', provider: 'anthropic', model: 'claude-haiku-5-5', obase: 'http://localhost:11434/v1', omodel: 'qwen3:8b', remember: false, fallback: false};
+let S = {...DEF, ...store.get('settings', {})};
+if ((S.v || 0) < 3) {S.generator = S.generator === 'rule' && S.v ? 'rule' : 'llm'; S.v = 3; store.set('settings', {...S})}   /* earlier versions switched silently to rule-based */
+const saveS = () => store.set('settings', {...S});
+const levelFor = xi => (S.level !== null && S.level !== undefined && BUNDLE.meta.levels.includes(+S.level)) ? +S.level : (BUNDLE.meta.eps_hat['0.05'] ?? 0.05);
+const levelStat = e => BUNDLE.meta.level_stats[String(+e === Math.trunc(+e) ? (+e).toFixed(1) : +e)] || null;
+const apiKey = () => S.remember ? (store.get('key', '') || '') : sess.get('key');
+const ruleSession = () => sess.get('rule') === '1';   /* rule-based chosen in a dialog: this browser session only */
+const useLLM = () => S.generator !== 'rule' && !ruleSession();
+const modelName = () => S.provider === 'openai' ? S.omodel : S.model;
+function runContext() {
+  if (/claude\.ai$|claudeusercontent\.com$|claude\.site$/.test(location.hostname)) return {kind: 'preview', text: 'Running inside the claude.ai preview: calls to other sites (language model, official registry) are blocked here. Run the portal on your computer with python3 portal/serve.py.'};
+  if (location.protocol === 'file:') return {kind: 'file', text: 'Opened as a local file: no relay is available. Start the portal with python3 portal/serve.py and open http://localhost:8000.'};
+  if (RELAY) return {kind: 'relay', text: 'Running through the local relay of serve.py: calls to the language model and to the official registry go through your computer.'};
+  return {kind: 'web', text: 'Running on a web server without the local relay: calls go directly from this browser and may be blocked by the remote site. For full functionality, run python3 portal/serve.py.'};
+}
+let RELAY = null;
+const withTimeout = (ms) => {const c = new AbortController(); const t = setTimeout(() => c.abort(), ms); return {signal: c.signal, done: () => clearTimeout(t)}};
+const relayReady = (async () => {if (!/^https?:$/.test(location.protocol)) return; const to = withTimeout(2500); try {const r = await fetch('/api/health', {signal: to.signal}); if (r.ok) {const j = await r.json(); if (j.ok) RELAY = j}} catch (e) {} finally {to.done()}})();
+
+/* ---------------- language model calls (every call is recorded) ---------------- */
+async function callLLM(system, user, purpose, calls, maxTokens = 4000) {
+  await relayReady; const key = apiKey(), LIMIT = 90000, t0 = performance.now(), to = withTimeout(LIMIT); let r, url, init;
+  if (S.provider === 'openai') {
+    const body = JSON.stringify({model: S.omodel, max_tokens: maxTokens, temperature: 0, messages: [{role: 'system', content: system}, {role: 'user', content: user}]});
+    url = RELAY ? '/api/openai' : S.obase.replace(/\/$/, '') + '/chat/completions';
+    init = {method: 'POST', signal: to.signal, headers: {'content-type': 'application/json', ...(RELAY ? {'x-target-base': S.obase} : {}), ...(key ? (RELAY ? {'x-api-key': key} : {authorization: 'Bearer ' + key}) : {})}, body};
+  } else {
+    if (!key && !RELAY?.env_key) {to.done(); throw new Error('No API key is set. Add your Anthropic API key in Settings.')}
+    const body = JSON.stringify({model: S.model, max_tokens: maxTokens, system, messages: [{role: 'user', content: user}]});
+    url = RELAY ? '/api/anthropic' : 'https://api.anthropic.com/v1/messages';
+    init = {method: 'POST', signal: to.signal, headers: RELAY ? {'content-type': 'application/json', ...(key ? {'x-api-key': key} : {})} : {'content-type': 'application/json', 'x-api-key': key, 'anthropic-version': '2023-06-01', 'anthropic-dangerous-direct-browser-access': 'true'}, body};
+  }
+  try {r = await fetch(url, init)}
+  catch (e) {to.done(); if (e.name === 'AbortError') throw new Error(`The language model did not answer within ${LIMIT / 1000} seconds.`);
+    throw new Error(S.provider === 'openai' ? `The browser could not reach ${S.obase}. Start your model server (for example: ollama serve) and the portal with python3 portal/serve.py.` : runContext().kind === 'relay' ? 'The local relay did not answer.' : 'The browser could not reach the language model. ' + runContext().text)}
+  to.done();
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) {const m = j?.error?.message || j?.error || 'request refused'; throw new Error(`The model server answered ${r.status}: ${m}.` + (/CORS/i.test(m) ? ' Your organization forbids calls from web pages: start the portal with python3 portal/serve.py, which relays the call from your computer.' : ''))}
+  const text = S.provider === 'openai' ? (j.choices?.[0]?.message?.content || '') : (j.content || []).filter(b => b.type === 'text').map(b => b.text).join('');
+  calls.push({purpose, model: j.model || modelName(), id: j.id, ms: performance.now() - t0, input: j.usage?.input_tokens ?? j.usage?.prompt_tokens, output: j.usage?.output_tokens ?? j.usage?.completion_tokens, via: RELAY ? 'local relay' : 'browser'});
+  return text;
+}
+const parseJSON = t => {const m = String(t).match(/\{[\s\S]*\}/); if (!m) throw new Error('The model did not return JSON.'); return JSON.parse(m[0])};
+async function llmDecompose(text, calls) {
+  const lists = V.domains.map(d => `${d}: ${V.concepts[d].map(x => x[0]).join(', ')}`).join('\n');
+  const raw = await callLLM('You analyse the learning request of a learner for an educational AI agent. Answer with JSON only.',
+    `Request: """${text}"""\nDomains and their concepts (prerequisites first):\n${lists}\n\nReturn {"domain": one domain name, "targets": 1 to 3 concepts of that domain that the learner wants to reach, "known": concepts of that domain the learner says they already master, "goal": one sentence, "constraints": list of short constraints the learner states (privacy, time, format), "reasoning": one sentence}. Use only concept names from the lists.`, 'decompose the request', calls, 3000);
+  const o = parseJSON(raw); if (!V.domains.includes(o.domain)) throw new Error('The model chose an unknown domain.');
+  const names = new Set(V.concepts[o.domain].map(x => x[0])); o.targets = (o.targets || []).filter(c => names.has(c)); o.known = (o.known || []).filter(c => names.has(c));
+  if (!o.targets.length) throw new Error('The model returned no concept of the domain.'); return {...o, source: 'llm', raw};
+}
+async function llmWorkflow(eng, dec, calls) {
+  const closure = eng.closure(dec.domain, dec.targets).filter(c => !dec.known.includes(c) || dec.targets.includes(c)).slice(-12);
+  const caps = Object.fromEntries(V.types.map(t => [t, V.type_caps[t].filter(c => !V.caps[c].domains || V.caps[c].domains.includes(dec.domain))]));
+  const raw = await callLLM('You design learning workflows. Answer with JSON only.',
+    `Learner request: learn ${dec.targets.join(', ')} in ${dec.domain}. Goal: ${dec.goal || ''}\nConcepts you may use, prerequisites first: ${JSON.stringify(closure)}.\nTask types: ${JSON.stringify(V.types)}.\nCapabilities allowed for each type in this domain: ${JSON.stringify(caps)}.\nReturn {"tasks": [{"type": .., "concepts": [..], "capabilities": [..]}]} with 3 to 8 tasks, ordered so that every concept comes after its prerequisites, covering every requested concept, and using only allowed capabilities.`, 'generate the workflow', calls, 4000);
+  const o = parseJSON(raw);
+  const tasks = (o.tasks || []).filter(t => V.types.includes(t.type)).map(t => ({type: t.type, domain: dec.domain, concepts: [...(t.concepts || [])], level: V.level[t.type], R: [...new Set(t.capabilities || [])], D: [...V.default_d[t.type]], asm: V.asm[t.type]}));
+  return {domain: dec.domain, targets: dec.targets, tasks, edges: eng.edges(tasks), source: 'llm', raw};
+}
+
+/* ---------------- request understanding without a model ---------------- */
+const DOMAIN_HINTS = {programming: ['python', 'code', 'coding', 'program', 'programming', 'java', 'function', 'loop', 'software', 'debug', 'algorithm'],
+  datascience: ['data', 'machine', 'learning', 'neural', 'model', 'statistics', 'ai', 'nlp', 'deep', 'network', 'regression', 'classification'],
+  language: ['english', 'grammar', 'tense', 'vocabulary', 'speaking', 'writing', 'essay', 'pronunciation', 'conditional', 'cefr']};
+const STOP = new Set('i want to learn how the a an of in on for with and about understand study master improve my me please help get better at do is what'.split(' '));
+const tokens = s => s.toLowerCase().replace(/[^a-z0-9+ ]/g, ' ').split(/\s+/).filter(w => w && !STOP.has(w));
+function ruleDecompose(text) {
+  const tk = tokens(text), scored = [];
+  for (const d of V.domains) {const dom = DOMAIN_HINTS[d].filter(h => tk.includes(h)).length;
+    for (const [c] of V.concepts[d]) {const words = c.split('_'); let s = 0;
+      for (const w of words) {if (w.length < 3) continue; if (tk.includes(w)) s += 2; else if (tk.some(t => t.length > 3 && (w.startsWith(t) || t.startsWith(w)))) s += 1}
+      if (s > 0) scored.push({d, c, s: s / Math.sqrt(words.length) + 0.8 * dom})}}
+  scored.sort((a, b) => b.s - a.s); if (!scored.length) return null;
+  const dom = scored[0].d, clauses = text.toLowerCase().split(/[.;,]| but | and then | then /);
+  const inClause = (c, re) => clauses.some(cl => re.test(cl) && c.split('_').filter(w => w.length > 2).every(w => cl.includes(w.slice(0, Math.max(4, w.length - 2)))));
+  const same = scored.filter(x => x.d === dom && x.s >= scored[0].s * 0.6), known = same.filter(x => inClause(x.c, /know|already|familiar|mastered/)).map(x => x.c);
+  let targets = same.filter(x => !known.includes(x.c)).map(x => x.c).slice(0, 2); if (!targets.length) targets = [scored[0].c];
+  return {domain: dom, targets, known, goal: text, constraints: /grade|private|privacy|share|personal/i.test(text) ? ['protect personal data (stated in the request)'] : [], alternatives: scored.filter(x => !targets.includes(x.c) && !known.includes(x.c)).slice(0, 4), source: 'rule'};
+}
+
+/* ---------------- pipeline with visible stages ---------------- */
+let RUN = null, SEL = 0;
+const STAGES = ['Understanding your request', 'Planning your learning path', 'Choosing safe tools for each step', 'Checking the result'];
+let TICK = null;
+function setStage(k, state, extra = '') {const el = document.querySelector(`.stage[data-k="${k}"]`); if (!el) return; el.className = 'stage ' + state; el.querySelector('.dot').textContent = state === 'done' ? '✓' : state === 'fail' ? '!' : '';
+  if (TICK) {clearInterval(TICK); TICK = null}
+  if (state === 'run') {const t0 = performance.now(), base = extra; el.querySelector('.x').textContent = base; TICK = setInterval(() => {el.querySelector('.x').textContent = `${base}${base ? ' · ' : ''}${((performance.now() - t0) / 1000).toFixed(0)} s`}, 500)}
+  else if (extra) el.querySelector('.x').textContent = extra}
+async function execute(text, forceRule = false, opts = {}) {
+  const eng = ENG[S.registry], t0 = performance.now(), calls = [];
+  const llm = !forceRule && useLLM(); let dec = opts.dec || null, wf0 = opts.wf || null;
+  if (opts.wf) {setStage(0, 'done', 'kept from your plan'); setStage(1, 'done', 'edited plan')}
+  else {
+    setStage(0, 'run', dec ? 'concept chosen by you' : llm ? `with ${modelName()}` : 'without a language model');
+    try {
+      if (llm && !dec) {dec = await llmDecompose(text, calls); setStage(0, 'done', `${modelName()}, ${(calls.at(-1).ms / 1000).toFixed(1)} s`)}
+      else if (dec) setStage(0, 'done', 'concept chosen by you');
+      if (llm) {setStage(1, 'run', `with ${modelName()}`); wf0 = await llmWorkflow(eng, dec, calls); setStage(1, 'done', `${modelName()}, ${(calls.at(-1).ms / 1000).toFixed(1)} s`)}
+    } catch (e) {setStage(dec && !opts.dec ? 1 : 0, 'fail'); if (!S.fallback) return {error: e.message, llmFailed: true}; RUN_WARN = e.message; wf0 = null; if (!opts.dec) dec = null}
+  }
+  if (!dec) {dec = ruleDecompose(text); if (!dec) return {error: 'No concept of the three domains matches this request. Try a topic such as loops, recursion, regression, word embeddings, or the past simple.'}; setStage(0, 'done', 'keyword matching')}
+  if (!wf0) {wf0 = {...eng.ruleWorkflow(dec.domain, dec.targets, hash32(text + dec.targets.join())), source: 'rule'}; setStage(1, 'done', 'rule-based planner')}
+  const errors0 = eng.validate(wf0); let wf = errors0.length ? eng.repair(wf0) : {...wf0, repairs: []}; let errors = eng.validate(wf); const log = [];
+  if (errors.length && wf0.source === 'llm') {log.push('The repaired workflow still violated the contract; the rule-based planner was used instead.'); wf = {...eng.ruleWorkflow(dec.domain, dec.targets, hash32(text)), repairs: [], source: 'rule'}; errors = eng.validate(wf)}
+  if (opts.edit) log.push(opts.edit);
+  setStage(2, 'run'); await new Promise(r => setTimeout(r, 30));
+  const base = {text, dec, wf0: opts.wf0 || wf0, wf, errors0, errors, calls: opts.calls ? [...opts.calls, ...calls] : calls, log, warn: RUN_WARN};
+  const R = composeRun(base);
+  setStage(2, 'done', `${Object.values(R.res.plan).reduce((s_, q) => s_ + (q.ms || 0), 0).toFixed(0)} ms`); setStage(3, 'done', 'norms and guarantee');
+  return {...R, ms: performance.now() - t0};
+}
+/* composition phase only: deterministic, no language-model call (recompute, restore, edit) */
+function composeRun(base) {
+  const eng = ENG[S.registry], level = levelFor(), dec = base.dec;
+  let profile = S.profile, adapted = null;   /* the learner's own privacy constraints tighten the norms for this plan */
+  if (profile !== 'strict' && (dec.constraints || []).some(c => /mark|grade|score|privacy|private|personal|share|inside|confidential|school/i.test(c))) {profile = 'strict'; adapted = (dec.constraints || []).join('; ')}
+  const denyUsed = eng.deny(profile), labels = eng.labels(level), truth = eng.labels(level, 'truth'), params = {B: +S.B, k_max: +S.k_max};
+  const res = eng.runWorkflow(JSON.parse(JSON.stringify(base.wf)), labels, denyUsed, params, {mode: S.mode, s_max: +S.s_max, seed: hash32(base.text) + 3});
+  return {...base, wfFinal: res.wf, res, eng, labels, truth, deny: denyUsed, level, params, settings: {...S, profile}, profileAdapted: adapted, ms: 0, stale: false};
+}
+function toRecord(R) {return {text: R.text, at: new Date().toISOString(), settings: R.settings, dec: R.dec, wf0: {source: R.wf0.source, raw: R.wf0.raw}, wf: R.wf, errors0: R.errors0, errors: R.errors, calls: R.calls, log: R.log,
+  targets: R.dec.targets, domain: R.dec.domain, llm: R.calls.length ? R.calls[0].model : null, tasks: R.wfFinal.tasks.map(t => t.type), equipped: Object.values(R.res.plan).filter(q => q.K).length}}
+function restoreRecord(x) {const keep = {...S}; S = {...S, ...x.settings, v: keep.v, provider: keep.provider, model: keep.model, generator: keep.generator};
+  const R = composeRun({text: x.text, dec: x.dec, wf0: x.wf0 || {source: 'rule'}, wf: x.wf, errors0: x.errors0 || [], errors: x.errors || [], calls: x.calls || [], log: x.log || [], warn: null}); return R}
+let RUN_WARN = null;
+
+/* ---------------- routing ---------------- */
+const VIEWS = {plan: viewPlan, expert: viewExpert, approach: viewApproach, registry: viewRegistry, history: viewHistory, settings: viewSettings, about: viewAbout};
+let CHARTS = [];
+function route() {CHARTS.forEach(c => c.destroy()); CHARTS = []; speechSynthesis?.cancel?.();
+  const h = (location.hash || '#plan').slice(1); const v = VIEWS[h] ? h : 'plan';
+  document.querySelectorAll('nav a').forEach(a => a.setAttribute('aria-current', a.getAttribute('href') === '#' + v ? 'page' : 'false')); VIEWS[v](); $('#view').focus({preventScroll: true}); window.scrollTo(0, 0)}
+window.addEventListener('hashchange', route);
+document.addEventListener('click', e => {const a = e.target.closest('[data-tool]'); if (a) {e.preventDefault(); showTool(a.dataset.reg || S.registry, +a.dataset.tool); return}
+  const u = e.target.closest('[data-utool]'); if (u && RUN && !RUN.error) {e.preventDefault(); showToolUser(RUN, +u.dataset.utool, +u.dataset.step); return}
+  const z = e.target.closest('img[data-zoom]'); if (z) {const d = $('#dlg'); d.innerHTML = `<div class="row" style="justify-content:space-between"><b>${esc(z.alt)}</b><button class="btn ghost small" id="x">Close</button></div><img src="${z.src}" alt="${esc(z.alt)}" style="width:100%;height:auto;margin-top:10px;background:#fff;border-radius:10px">`; d.classList.add('wide'); d.showModal(); $('#x').onclick = () => d.close(); d.addEventListener('close', () => d.classList.remove('wide'), {once: true})}});
+document.addEventListener('keydown', e => {const u = e.target.closest?.('.helper[data-utool]'); if (u && RUN && (e.key === 'Enter' || e.key === ' ')) {e.preventDefault(); showToolUser(RUN, +u.dataset.utool, +u.dataset.step)}});
+const toolLink = (eng, i) => `<a href="#" data-tool="${i}" data-reg="${eng === ENG.real ? 'real' : 'emerkit'}">${esc(eng.T[i].name)}</a>`;
+
+/* ---------------- speech and image synthesis ---------------- */
+function speak(text, btn) {
+  if (!('speechSynthesis' in window)) {alert('Your browser cannot read text aloud.'); return}
+  if (speechSynthesis.speaking) {speechSynthesis.cancel(); if (btn) btn.textContent = '🔊 Listen'; return}
+  const u = new SpeechSynthesisUtterance(text); u.lang = 'en-GB'; u.rate = 1.0; u.onend = () => {if (btn) btn.textContent = '🔊 Listen'};
+  speechSynthesis.speak(u); if (btn) btn.textContent = '⏹ Stop';
+}
+function downloadSVG(svgEl, name) {
+  const xml = new XMLSerializer().serializeToString(svgEl), img = new Image(), w = svgEl.viewBox.baseVal.width, h = svgEl.viewBox.baseVal.height;
+  img.onload = () => {const c = document.createElement('canvas'); c.width = w * 2; c.height = h * 2; const x = c.getContext('2d'); x.fillStyle = '#fff'; x.fillRect(0, 0, c.width, c.height); x.drawImage(img, 0, 0, c.width, c.height);
+    c.toBlob(b => {const a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000)})};
+  img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(xml);
+}
+
+/* ---------------- user page ---------------- */
+function viewPlan() {
+  const ex = ['I already know variables in Python. I want to master loops, then recursion.', 'Help me understand recursion before my exam', 'Teach me the second conditional in English', 'I need to learn word embeddings for my NLP course', 'Explain backpropagation and let me practise it'];
+  const mode = useLLM() ? `Planner: language model ${modelName()}` : ruleSession() ? 'Planner: rule-based for this session' : 'Planner: rule-based (no language model)';
+  $('#view').innerHTML = `<section class="hero"><div><h1>Tell us what you want to learn.</h1>
+  <p class="muted" style="font-size:18px">EmerKit plans your learning path and gives the AI assistant of each step a small set of tools, checked against your school's rules on where your personal data may go.</p>
+  <div class="ask"><textarea id="q" aria-label="What do you want to learn?" placeholder="For example: I already know variables in Python. I want to master loops, then recursion.">${esc(RUN?.text || '')}</textarea>
+  <div class="row" style="justify-content:space-between"><span class="small muted">${esc(mode)} · ${ruleSession() ? '<a href="#" id="backllm">use the language model again</a>' : '<a href="#settings">change</a>'}</span><button class="btn" id="go">Plan my learning →</button></div></div>
+  <div class="chips" style="margin-top:12px">${ex.map(x => `<button class="chip" type="button">${esc(x)}</button>`).join('')}</div></div>
+  <div class="panel how"><h3>What happens when you ask</h3>
+  <div><b>1</b><span><strong>We understand your goal</strong><br><span class="small muted">the topics to reach and what you already know</span></span></div>
+  <div><b>2</b><span><strong>We plan your path</strong><br><span class="small muted">steps in the right order: learn, practise, check</span></span></div>
+  <div><b>3</b><span><strong>We pick checked tools</strong><br><span class="small muted">a few helpers per step, checked against your school's data rules</span></span></div>
+  <div><b>4</b><span><strong>You get a clear plan</strong><br><span class="small muted">with a picture you can save and a summary you can listen to</span></span></div></div></section>
+  <div id="prog"></div><div id="out"></div>`;
+  $('#go').onclick = () => go($('#q').value);
+  const bl = $('#backllm'); if (bl) bl.onclick = e => {e.preventDefault(); sess.set('rule', ''); viewPlan()};
+  document.querySelectorAll('.chip').forEach(c => c.onclick = () => {$('#q').value = c.textContent; go(c.textContent)});
+  restoreLast(); if (RUN && !RUN.error) renderPlan();
+}
+async function go(text, forceRule = false, opts = {}) {
+  text = (text || '').trim(); if (!text) {$('#q').focus(); return}
+  await relayReady;
+  if (!forceRule && useLLM() && S.provider !== 'openai' && !apiKey() && !RELAY?.env_key) {askRule(text, 'No API key is set. Add your Anthropic API key in Settings to plan with the language model.', opts); return}
+  $('#go').disabled = true; $('#out').innerHTML = '';
+  $('#prog').innerHTML = `<div class="panel progress" aria-live="polite">${STAGES.map((s, k) => `<div class="stage" data-k="${k}"><span class="dot"></span><span>${s}</span><span class="x small muted"></span></div>`).join('')}</div>`;
+  RUN_WARN = null;
+  try {RUN = await execute(text, forceRule, opts)} catch (e) {RUN = {error: 'An unexpected error stopped the computation: ' + (e.message || e)}}
+  if (TICK) {clearInterval(TICK); TICK = null} $('#go').disabled = false;
+  if (RUN.error && RUN.llmFailed) {const reason = RUN.error; RUN = null; askRule(text, reason, opts); return}
+  if (RUN.error) {$('#out').innerHTML = `<div class="err"><b>We could not plan this request.</b> ${esc(RUN.error)}</div>${RUN.llmFailed ? `<div class="row"><button class="btn ghost" id="rule">Plan without the language model</button><a class="btn ghost" href="#settings">Open settings</a></div>` : ''}`;
+    const b = $('#rule'); if (b) b.onclick = () => go(text, true); return}
+  SEL = 0; saveHistory(RUN); setTimeout(() => {$('#prog').innerHTML = ''; renderPlan()}, 450);
+}
+function stepSentence(R, i) {
+  const t = R.wfFinal.tasks[i], [verb] = TYPE_USER[t.type];
+  return `${verb}: ${t.concepts.map(human).join(' and ')}`;
+}
+function riskLine(R) {
+  const eh = BUNDLE.meta.eps_hat['0.05'], st = levelStat(R.level);
+  return R.level === eh ? 'With the calibrated level, at most 5% of the toolkits EmerKit returns may still allow a forbidden flow (bound guaranteed with 90% confidence).'
+    : `At this level (ε = ${R.level}), ${st ? (100 * st.risk).toFixed(1) + '% of the toolkits allowed a forbidden flow on test tasks' : 'the risk was not measured'}; it is not the calibrated level.`;
+}
+function handoffOf(R, i, j) {const p = R.res.plan[i], t = p.task, x = R.eng.T[j]; return [...(t.ho_out || []).filter(a => x.prod.includes(a)), ...(t.ho_in || []).filter(a => x.cons.includes(a))]}
+function toolLabel(R, i, j) {const p = R.res.plan[i], serves = Object.entries(p.W || {}).filter(([, v]) => v === j).map(([r]) => r);
+  if (serves.length) return {cap: serves[0], text: cap1(human(serves[0])), handoff: false};
+  const h = handoffOf(R, i, j); return {cap: R.eng.T[j].caps[0], text: 'Hand-off' + (h.length ? ': ' + human(h[0]) : ''), handoff: true}}
+function flowsOf(R, i) {
+  /* which learner data each tool of the step may receive, and the receivers it reaches */
+  const p = R.res.plan[i], t = p.task, eng = R.eng, A0 = [...new Set([...t.D, ...(t.delta_in || [])])], out = [];
+  for (const j of p.K || []) {const x = eng.T[j], seen = A0.filter(a => x.acc.includes(a)), lab = R.labels[j];
+    const roles = [x.role, ...(lab.out ? V.ext_roles.filter(r => r !== x.role) : [])];
+    for (const a of seen) for (const r of roles) out.push({a, r, tool: j, own: r === x.role})}
+  return {A0, out};
+}
+function privacyText(R, i) {
+  const p = R.res.plan[i]; if (!p.K) return null;
+  const {A0, out} = flowsOf(R, i), eng = R.eng;
+  if (!A0.length) return 'This step does not need any of your personal data.';
+  const byData = A0.map(a => {const rs = [...new Set(out.filter(o => o.a === a).map(o => o.r))];
+    const names = rs.map(r => ROLE_USER[r]), list = names.length > 1 ? names.slice(0, -1).join(', ') + ' and ' + names.at(-1) : names[0];
+    return rs.length ? `${ATT_USER[a]} may reach ${list}` : `${ATT_USER[a]} stays with your school`}).join('; ');
+  return `${cap1(byData)}. Your school's rules allow these flows for this kind of activity.`;
+}
+function truthWarning(R, i) {
+  const p = R.res.plan[i], eng = R.eng; if (!p.K || !eng.T[p.K[0]].truth) return null;
+  const {F, P} = eng.forbidden(p.K, R.truth, p.task, R.deny); if (!F.size && !P.size) return null;
+  const c = [...F.values(), ...P.values()].flat()[0];
+  return `This demonstration registry knows the true behaviour of its tools: here, ${ATT_USER[c[0]]} could in fact reach ${ROLE_USER[c[1]]}, which the rules forbid. EmerKit could not see it from the published information; this is the kind of residual error that its risk bound covers.`;
+}
+function summaryText(R) {
+  const T = R.wfFinal.tasks, nEq = Object.values(R.res.plan).filter(p => p.K).length;
+  return `Your learning path for ${R.dec.targets.map(human).join(' and ')} has ${T.length} steps. ` + T.map((t, i) => {const p = R.res.plan[i];
+    return `Step ${i + 1}: ${TYPE_USER[t.type][0].toLowerCase()} ${t.concepts.map(human).join(' and ')}${p.K ? `, with ${p.K.length} tools: ${p.K.map(j => toolLabel(R, i, j).text).join(', ')}` : ', without an AI tool for now'}.`}).join(' ') + ` ${nEq} of ${T.length} steps have tools checked against your school's data rules.`;
+}
+function graphSVG(R, perRow) {
+  const eng = R.eng, T = R.wfFinal.tasks, W = 214, x0 = 18, cardH = 86, toolH = 34, gap = 8, rowsN = Math.ceil(T.length / perRow);
+  const maxTools = Math.max(1, ...T.map((t, i) => (R.res.plan[i].K || []).length)), rowH = cardH + 40 + maxTools * (toolH + gap) + 34;
+  const width = x0 * 2 + Math.min(T.length, perRow) * W - 18, H = 40 + rowsN * rowH + 16; let s = '';
+  s += `<rect x="0" y="0" width="${width}" height="${H}" fill="#ffffff"/>`;
+  s += `<text x="${x0}" y="24" font-family="Atkinson Hyperlegible, sans-serif" font-size="14" fill="#55607A">Learning path for ${esc(R.dec.targets.map(human).join(', '))}: steps and the tools of each step (click a tool for details)</text>`;
+  T.forEach((t, i) => {
+    const row = Math.floor(i / perRow), col = i % perRow, x = x0 + col * W, y = 40 + row * rowH, c = TYPE_HEX[t.type], p = R.res.plan[i], sub = R.res.subs.some(s_ => s_.index === i);
+    if (i < T.length - 1) {
+      if (col < perRow - 1) s += `<path d="M${x + 190} ${y + cardH / 2} L${x + W - 4} ${y + cardH / 2}" stroke="#AEB6C6" stroke-width="2" marker-end="url(#arr)"/>`;
+      else {const yb = y + rowH - 18; s += `<path d="M${x + 95} ${y + cardH} L${x + 95} ${y + cardH + 14}" stroke="#AEB6C6" stroke-width="2" fill="none" stroke-dasharray="2 4"/><path d="M${x + 200} ${y + cardH / 2} L${x + 206} ${y + cardH / 2} L${x + 206} ${yb} L${x0 + 95} ${yb} L${x0 + 95} ${yb + 18 + 2}" stroke="#AEB6C6" stroke-width="2" fill="none" marker-end="url(#arr)"/>`}
+    }
+    s += `<g><title>${esc(TYPE_USER[t.type][1])}: ${esc(t.concepts.map(human).join(', '))}${sub ? ' (replaced a step that had no suitable tool)' : ''}</title>
+      <rect x="${x}" y="${y}" width="190" height="${cardH}" rx="14" fill="#fff" stroke="${c}" stroke-width="2"/><rect x="${x}" y="${y}" width="190" height="8" rx="4" fill="${c}"/>
+      <circle cx="${x + 22}" cy="${y + 32}" r="13" fill="${c}"/><text x="${x + 22}" y="${y + 37}" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-weight="700" font-size="13" fill="#fff">${i + 1}</text>
+      <text x="${x + 42}" y="${y + 30}" font-family="Atkinson Hyperlegible, sans-serif" font-size="12" fill="#55607A">${TYPE_USER[t.type][0]}${sub ? ' · adapted' : ''}</text>
+      <text x="${x + 42}" y="${y + 47}" font-family="Atkinson Hyperlegible, sans-serif" font-weight="700" font-size="13.5" fill="#18233A">${esc(human(t.concepts[0] || '').slice(0, 20))}</text>
+      ${t.concepts[1] ? `<text x="${x + 42}" y="${y + 63}" font-family="Atkinson Hyperlegible, sans-serif" font-size="12" fill="#18233A">+ ${esc(human(t.concepts[1]).slice(0, 20))}</text>` : ''}
+      <text x="${x + 12}" y="${y + 78}" font-family="Atkinson Hyperlegible, sans-serif" font-size="11.5" fill="${p.K ? '#0E7C66' : '#B4234A'}">${p.K ? `${p.K.length} checked tool${p.K.length > 1 ? 's' : ''}` : 'no suitable tool yet'}</text></g>`;
+    (p.K || []).forEach((j, k) => {
+      const tool = eng.T[j], ty = y + cardH + 40 + k * (toolH + gap), lb = toolLabel(R, i, j), rc = ROLE_HEX[tool.role];
+      s += `<path d="M${x + 95} ${y + cardH} C ${x + 95} ${y + cardH + 20}, ${x + 30} ${ty - 10}, ${x + 30} ${ty}" stroke="#CBD2DE" fill="none" stroke-width="1.4"/>`;
+      s += `<g data-utool="${j}" data-step="${i}" style="cursor:pointer"><title>${esc(lb.handoff ? 'Passes your work to the next step' : cap1(V.caps[lb.cap]?.text || human(lb.cap)))}. Run by ${ROLE_USER[tool.role]}. Click for details.</title><rect x="${x + 8}" y="${ty}" width="182" height="${toolH}" rx="10" fill="${lb.handoff ? '#FFFFFF' : '#F2F4F8'}" stroke="${rc}" stroke-width="1.3" ${lb.handoff ? 'stroke-dasharray="4 3"' : ''}/>
+        <g transform="translate(${x + 15},${ty + 9})"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="${rc}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="${ICON[lb.handoff ? 'upload' : iconFor(lb.cap)]}"/></svg></g>
+        <text x="${x + 38}" y="${ty + 21}" font-family="Atkinson Hyperlegible, sans-serif" font-size="12.5" fill="#18233A">${esc(lb.text.slice(0, 22))}</text><circle cx="${x + 178}" cy="${ty + 17}" r="5" fill="${rc}"/></g>`;
+    });
+  });
+  const lx = 18, ly = H - 8;
+  s += Object.entries(ROLE_HEX).map(([r, c], k) => `<circle cx="${lx + k * 190}" cy="${ly - 4}" r="5" fill="${c}"/><text x="${lx + 10 + k * 190}" y="${ly}" font-family="Atkinson Hyperlegible, sans-serif" font-size="11.5" fill="#55607A">run by ${ROLE_USER[r].replace('a provider under contract with your school', 'a contracted provider')}</text>`).join('');
+  return `<svg id="pathsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${H}" width="${width}" height="${H}" style="max-width:100%;height:auto" role="img" aria-label="Learning path and tools"><defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#AEB6C6"/></marker></defs>${s}</svg>`;
+}
+function renderPlan() {
+  const R = RUN, T = R.wfFinal.tasks, plan = R.res.plan, nEq = Object.values(plan).filter(p => p.K).length, nTools = Object.values(plan).reduce((s_, p) => s_ + (p.K?.length || 0), 0);
+  const llmCalls = R.calls.length, tokens = R.calls.reduce((s_, c) => s_ + (c.input || 0) + (c.output || 0), 0);
+  const prov = llmCalls ? `<span class="badge b-acc" data-tip="Each call is a real request to the model server. Request ids: ${esc(R.calls.map(c => c.id).join(', '))}">✦ Planned by ${esc(R.calls[0].model)}</span><span>${llmCalls} model calls · ${(R.calls.reduce((s_, c) => s_ + c.ms, 0) / 1000).toFixed(1)} s · ${tokens.toLocaleString()} tokens · via ${R.calls[0].via}</span>`
+    : `<span class="badge" data-tip="No language model was called: keyword matching and the rule-based planner of the paper were used.">Planned without a language model</span>`;
+  const perRow = Math.max(2, Math.floor(Math.max(440, ($('#out')?.clientWidth || 1100) - 20) / 214));
+  const alts = (R.dec.alternatives || []).slice(0, 4);
+  $('#out').innerHTML = `<section class="reveal">${R.warn ? `<div class="note">${esc(R.warn)} The rule-based planner was used instead.</div>` : ''}
+  ${R.stale ? `<div class="note row" style="justify-content:space-between"><span>The settings changed since this plan was computed.</span><button class="btn small" id="recompute">Recompute with these settings</button></div>` : ''}
+  <div class="row" style="justify-content:space-between;align-items:end"><div><h2>Your learning path: ${esc(R.dec.targets.map(human).join(' and '))}</h2><div class="prov">${prov}</div></div>
+  <div class="row"><button class="btn ghost small" id="listen" data-tip="Read the summary of your plan aloud.">🔊 Listen</button><button class="btn ghost small" id="img" data-tip="Save the picture of your path and its tools as an image.">⬇ Save image</button><a class="btn small" href="#expert" data-tip="See every step of the computation: candidates, uncertainty, data flows, optimisation, guarantee.">How EmerKit built this →</a></div></div>
+  ${alts.length ? `<div class="row small" style="gap:8px;margin:4px 0 10px"><span class="muted">Not what you meant? Plan instead for:</span>${alts.map(a => `<button class="chip" data-alt="${esc(a.d)}|${esc(a.c)}">${esc(human(a.c))}</button>`).join('')}</div>` : ''}
+  <div class="summary"><div class="stat"><b>${T.length}</b><span>steps in your path</span></div><div class="stat"><b>${nEq}/${T.length}</b><span>steps with checked tools ${tip('A step is equipped when EmerKit found tools that cover it and that, from what is known about them, keep your data within the school rules. ' + riskLine(R))}</span></div>
+  <div class="stat"><b>${nTools}</b><span>tools in total</span></div><div class="stat"><b>${R.res.subs.length}</b><span>steps adapted ${tip('When no suitable tool exists for a step, EmerKit replaces it by an equivalent activity on the same topic, at the same level or higher.')}</span></div></div>
+  <p class="small muted" style="margin:0 0 10px">${svgIcon('shield', 'var(--safe)', 14)} Tools are checked against your school's data rules. ${esc(riskLine(R))}</p>
+  ${R.dec.known?.length ? `<p class="small muted">You said you already know ${R.dec.known.map(human).join(', ')}, so the path starts after it.</p>` : ''}
+  ${R.profileAdapted ? `<div class="ok">${svgIcon('shield', 'var(--safe)', 16)} You asked: “${esc(R.profileAdapted)}”. EmerKit applied the strict data rules to your whole plan.</div>` : ''}
+  ${R.log.length ? R.log.map(l => `<div class="ok">${esc(l)}</div>`).join('') : ''}
+  <div class="graphwrap" id="gw">${graphSVG(R, perRow)}</div>
+  <div class="stepcards">${T.map((t, i) => {const p = plan[i], col = TYPE_HEX[t.type], sub = R.res.subs.find(s_ => s_.index === i), tw = truthWarning(R, i);
+    return `<div class="sc"><div class="n" style="background:${col}">${i + 1}</div><div><div class="row" style="gap:8px;justify-content:space-between"><div class="row" style="gap:8px"><h3>${esc(stepSentence(R, i))}</h3><span class="badge" style="color:${col}">${TYPE_USER[t.type][1]}</span>${sub ? '<span class="badge b-warn">adapted</span>' : ''}</div>
+      <div class="row" style="gap:6px"><button class="btn ghost small" data-altstep="${i}" data-tip="Ask EmerKit for another activity on the same topic.">↻ Alternative</button><button class="btn ghost small" data-rmstep="${i}" data-tip="Remove this step from your path and recompute the tools.">✕ Remove</button></div></div>
+    ${sub ? `<p class="small" style="margin:4px 0 0">${sub.original.type === sub.substitute.type
+      ? `The original ${TYPE_NOUN[sub.original.type]} needed ${sub.original.R.map(human).join(', ')}, and no combination of tools for it stayed within your school's data rules. EmerKit kept the same kind of activity on the same topic, with other tools (${sub.substitute.R.map(human).join(', ')}).`
+      : `Originally a ${TYPE_NOUN[sub.original.type]}. No combination of tools for it stayed within your school's data rules, so EmerKit replaced it by this ${TYPE_NOUN[sub.substitute.type]} on the same topic, at the same level or higher.`}</p>` : ''}
+    ${p.K ? `<div class="helpers">${p.K.map(j => {const tool = R.eng.T[j], lb = toolLabel(R, i, j); return `<span class="helper" tabindex="0" role="button" data-utool="${j}" data-step="${i}" data-tip="${esc(lb.handoff ? 'Passes your work to the next step' : cap1(V.caps[lb.cap]?.text || human(lb.cap)))}. Tool: ${esc(tool.name)}, run by ${ROLE_USER[tool.role]}. Click for details.">${svgIcon(lb.handoff ? 'upload' : iconFor(lb.cap), ROLE_HEX[tool.role])}${esc(lb.text)}</span>`}).join('')}</div>
+    <div class="privacy">${svgIcon('shield', 'var(--safe)', 18)}<span>${esc(privacyText(R, i))}</span></div>${tw ? `<div class="note small" style="margin-top:8px">${esc(tw)}</div>` : ''}`
+      : `<p class="small" style="color:var(--bad)">No AI tool can support this step within your school's data rules yet. Your teacher will guide you through it.</p>`}</div></div>`}).join('')}</div></section>`;
+  $('#listen').onclick = e => speak(summaryText(R), e.currentTarget); $('#img').onclick = () => downloadSVG($('#pathsvg'), 'emerkit-learning-path.png');
+  const rc = $('#recompute'); if (rc) rc.onclick = () => {RUN = composeRun(RUN); saveHistory(RUN, true); renderPlan()};
+  document.querySelectorAll('[data-alt]').forEach(b => b.onclick = () => {const [d, c] = b.dataset.alt.split('|'); $('#q').value = R.text;
+    go(R.text, !useLLM(), {dec: {...R.dec, domain: d, targets: [c], alternatives: [], known: d === R.dec.domain ? R.dec.known : [], source: 'chosen'}})});
+  document.querySelectorAll('[data-rmstep]').forEach(b => b.onclick = () => editStep(R, +b.dataset.rmstep, 'remove'));
+  document.querySelectorAll('[data-altstep]').forEach(b => b.onclick = () => editStep(R, +b.dataset.altstep, 'alternative'));
+}
+function editStep(R, i, kind) {
+  const eng = R.eng, wf = JSON.parse(JSON.stringify(R.wfFinal)), t = wf.tasks[i];
+  if (kind === 'remove') {
+    if (wf.tasks.length <= 1) {dialogBox(false, 'Cannot remove this step', '<p>A learning path needs at least one step.</p>', [{label: 'OK'}]); return}
+    const rest = wf.tasks.filter((_, k) => k !== i), covered = new Set(rest.flatMap(x => x.concepts)), lost = wf.targets.filter(c => !covered.has(c));
+    const doit = () => {const nwf = {...wf, tasks: rest, edges: eng.edges(rest)}; applyEdit(R, nwf, `You removed step ${i + 1} (${TYPE_USER[t.type][0].toLowerCase()}: ${t.concepts.map(human).join(', ')}); EmerKit recomputed the tools of the other steps.`)};
+    if (lost.length) dialogBox(false, 'This step is the only one on a goal', `<p>Removing it leaves ${lost.map(human).join(', ')} without any activity. Remove it anyway?</p>`, [{label: 'Keep it', ghost: true}, {label: 'Remove', action: doit}]);
+    else doit(); return;
+  }
+  /* alternative: another admissible activity on the same concepts (substitution catalogue, level not lower), best toolkit first */
+  const view = eng.view(wf, i, S.mode, {}, R.labels), sub = {...V.sub}; sub[t.type] = [...new Set([...(V.sub[t.type] || []), t.type])];
+  const r = EmerKitEngine.rng(hash32(R.text) + i * 97 + (R.altCount || 0) * 13); let best = null;
+  for (const vp of eng.substitutes(r, view, sub, 6)) {
+    if (vp.type === t.type && vp.R.slice().sort().join() === t.R.slice().sort().join()) continue;
+    if (t.asm === 'summative' && vp.type !== t.type) continue;
+    const res = eng.compose(vp, R.labels, R.deny, R.params, new Set(), false); if (res.K && (!best || res.obj > best[1].obj)) best = [vp, res];
+  }
+  if (!best) {dialogBox(false, 'No alternative found', '<p>EmerKit found no other activity on this topic that keeps the learning objective and can be equipped within the data rules.</p>', [{label: 'OK'}]); return}
+  const v = best[0]; wf.tasks[i] = {type: v.type, domain: v.domain, concepts: v.concepts, level: v.level, R: v.R, D: v.D, asm: v.asm}; wf.edges = eng.edges(wf.tasks);
+  applyEdit(R, wf, `Step ${i + 1} now is: ${TYPE_USER[v.type][0].toLowerCase()} ${v.concepts.map(human).join(', ')} (${v.R.map(human).join(', ')}), an alternative to the previous activity.`, true);
+}
+function applyEdit(R, nwf, message, alt) {
+  const base = {text: R.text, dec: R.dec, wf0: R.wf0, wf: nwf, errors0: [], errors: R.eng.validate(nwf), calls: R.calls, log: [message], warn: null};
+  RUN = {...composeRun(base), altCount: (R.altCount || 0) + (alt ? 1 : 0)}; saveHistory(RUN, true); renderPlan();
+  document.getElementById('out').scrollIntoView({behavior: 'smooth'});
+}
+function dialogBox(ok, title, body, buttons) {
+  const dlg = $('#dlg');
+  dlg.innerHTML = `<div class="row" style="flex-wrap:nowrap;align-items:start;gap:14px"><span class="dlg-icon" style="background:${ok ? 'var(--safe-bg)' : 'var(--bad-bg)'};color:${ok ? 'var(--safe)' : 'var(--bad)'}">${ok ? '✓' : '!'}</span><div><h3>${title}</h3><div style="margin-top:6px">${body}</div></div></div>
+  <div class="row" style="justify-content:flex-end;margin-top:16px">${buttons.map((b, k) => `<button class="btn ${b.ghost ? 'ghost' : ''}" data-b="${k}">${b.label}</button>`).join('')}</div>`;
+  dlg.showModal(); dlg.querySelectorAll('[data-b]').forEach(el => el.onclick = () => {dlg.close(); const f = buttons[+el.dataset.b].action; if (f) f()});
+}
+
+function askRule(text, reason, opts) {
+  dialogBox(false, 'The language model is not available', `<p>${esc(reason)}</p><p><b>Do you want to plan this request with the rule-based method?</b> It does not use a language model: the request is matched to the curriculum by keywords.</p>`,
+    [{label: 'No', ghost: true, action: () => {$('#prog').innerHTML = ''; $('#out').innerHTML = `<div class="note">The plan was not generated. Check the language model in <a href="#settings">Settings</a> and try again.</div>`}},
+     {label: 'Yes, use the rule-based method', action: () => go(text, true, opts)}]);
+}
+/* ---------------- tool details for learners ---------------- */
+function showToolUser(R, j, step) {
+  const eng = R.eng, x = eng.T[j], p = R.res.plan[step], t = p?.task || R.wfFinal.tasks[step], k = BUNDLE.meta.levels.indexOf(R.level), dlg = $('#dlg'), sv = eng.S[x.server] || {};
+  const serves = p?.W ? Object.entries(p.W).filter(([, v]) => v === j).map(([r]) => r) : [];
+  const data = [...new Set([...(t?.D || []), ...(t?.delta_in || [])])].filter(a => x.acc.includes(a));
+  const yes = LABELS.filter((l, b) => !((x.m[k][1] >> b) & 1) && ((x.m[k][0] >> b) & 1)), unsure = LABELS.filter((l, b) => (x.m[k][1] >> b) & 1);
+  const fwd = yes.includes('out') || unsure.includes('out');
+  dlg.innerHTML = `<div class="row" style="justify-content:space-between;align-items:start;flex-wrap:nowrap"><div class="row" style="flex-wrap:nowrap"><span class="dlg-icon" style="background:${ROLE_HEX[x.role]}22;color:${ROLE_HEX[x.role]}">${svgIcon(iconFor(serves[0] || x.caps[0]), ROLE_HEX[x.role], 24)}</span>
+  <div><h3>${esc(cap1(human(serves[0] || x.caps[0] || x.name)))}</h3><p class="small muted" style="margin:2px 0 0">Tool <b>${esc(x.name)}</b> · step ${step + 1} of your path</p></div></div><button class="btn ghost small" id="x">Close</button></div>
+  <p style="margin-top:12px">${esc(x.desc)}</p>
+  <div class="grid g2" style="gap:10px;margin-top:6px">
+   <div class="panel" style="padding:12px"><b>What it does for you</b><p class="small" style="margin:4px 0 0">${(serves.length ? serves : x.caps).map(c => esc(cap1(V.caps[c]?.text || human(c)))).join('; ') || 'Supports a hand-off between steps.'}</p></div>
+   <div class="panel" style="padding:12px"><b>Who runs it</b><p class="small" style="margin:4px 0 0">${roleTag(x.role)} ${cap1(ROLE_USER[x.role])}<br><span class="muted">server ${esc(x.server)}</span></p></div>
+   <div class="panel" style="padding:12px"><b>Your data</b><p class="small" style="margin:4px 0 0">${data.length ? `In this step it may see ${data.map(a => ATT_USER[a]).join(', ')}.` : 'It does not need your personal data in this step.'} ${fwd ? 'It may pass what it receives to another service, so EmerKit only allows it with data your school permits there.' : 'It keeps what it receives on its own server.'}</p></div>
+   <div class="panel" style="padding:12px"><b>Quality</b><p class="small" style="margin:4px 0 0">Answers in about ${x.lat.toFixed(0)} ms · works ${(100 * x.rel).toFixed(1)}% of the time · uses ${x.cost} tokens of the assistant's memory</p></div></div>
+  ${unsure.length ? `<div class="note" style="margin-top:10px">Some behaviours of this tool are not documented (${unsure.map(l => LBL_NAME[l]).join(', ')}); EmerKit assumed the worst case when it checked your data.</div>` : ''}
+  <details style="margin-top:10px"><summary>Technical details</summary><div class="tbl" style="margin-top:8px"><table><thead><tr><th>Behaviour</th><th>Declared</th><th>Inferred set (ε = ${R.level})</th></tr></thead><tbody>${LABELS.map((l, b) => `<tr><td>${LBL_NAME[l]}</td><td>${x.declared[b] === null || x.declared[b] === undefined ? '<span class="muted">not declared</span>' : x.declared[b] ? 'yes' : 'no'}</td><td>${(x.m[k][1] >> b) & 1 ? '<span class="cell u">{0,1}</span>' : (x.m[k][0] >> b) & 1 ? '<span class="cell n">{1}</span>' : '<span class="cell y">{0}</span>'}</td></tr>`).join('')}</tbody></table></div>
+  <p class="small muted">Capabilities: ${x.caps.map(human).join(', ')}. Parameters: <span class="mono">${(x.params || []).join(', ') || 'none'}</span>.${sv.repository ? ` Repository: <a href="${esc(sv.repository)}" target="_blank" rel="noopener">${esc(sv.repository)}</a>.` : ''}</p></details>`;
+  dlg.showModal(); $('#x').onclick = () => dlg.close();
+}
+
+/* ---------------- expert page ---------------- */
+function viewExpert() {
+  restoreLast();
+  if (!RUN || RUN.error) {$('#view').innerHTML = `<h1>Expert view</h1><div class="empty">Plan a learning request first, then come back here to see how EmerKit computed it. <a href="#plan">Plan my learning</a></div>`; return}
+  const R = RUN, eng = R.eng, plan = R.res.plan, T = R.wfFinal.tasks;
+  $('#view').innerHTML = `<div class="row" style="justify-content:space-between;align-items:end"><div><h1>How EmerKit built your plan</h1><p class="muted">“${esc(R.text)}”</p></div><a class="btn ghost" href="#plan">← Back to the plan</a></div>
+  <div class="grid g4" style="margin:14px 0">
+   <div class="stat"><b>${R.calls.length}</b><span>language-model calls ${tip('Real calls to the Anthropic API, with their request identifiers below. Zero means the rule-based planner was used.')}</span></div>
+   <div class="stat"><b>${Object.values(plan).reduce((s, p) => s + (p.cands?.length || 0), 0)}</b><span>candidate tools examined</span></div>
+   <div class="stat"><b>${Object.values(plan).reduce((s, p) => s + (p.F?.size || 0) + (p.P?.size || 0), 0)}</b><span>tools or pairs excluded by the norms</span></div>
+   <div class="stat"><b>${Object.values(plan).reduce((s, p) => s + (p.ms || 0), 0).toFixed(0)} ms</b><span>exact composition, all tasks</span></div></div>
+  <div class="grid g2"><div class="panel"><h3>Where the candidates went, per task ${tip('For each task: providers found in the registry, shortlisted by fit, still admissible after the flow check, and finally kept in the toolkit.')}</h3><p class="small muted" style="margin:2px 0 8px">Number of tools at each stage of the selection, task by task: found in the registry, shortlisted by fit, still admissible after the flow check, and kept in the toolkit.</p><div class="chartbox"><canvas id="c1"></canvas></div></div>
+  <div class="panel"><h3>Objective of each toolkit ${tip('Utility of covering each capability once, minus the penalties for interference between similar tools and for context saturation.')}</h3><p class="small muted" style="margin:2px 0 8px">Score of the chosen toolkit (dimensionless; higher is better). Bars above zero are the utility of covering each capability once; bars below zero are the penalties subtracted for similar tools (interference) and for a crowded context (saturation).</p><div class="chartbox"><canvas id="c2"></canvas></div></div></div>
+  ${stepX(1, 'Understand the request', 'The request is decomposed into a domain, the concepts to reach, and what the learner already knows, which anchor the workflow in a curriculum graph.', renderDecomposition(R))}
+  ${stepX(2, 'Plan a typed workflow', 'The planner proposes typed tasks; a validator enforces the contract (prerequisites upstream, admissible capabilities, targets covered) and violations are repaired.', renderWorkflow(R))}
+  <div class="panel" style="margin-bottom:16px"><h3>Follow one task through steps 3 to 8</h3><div class="tabs" style="margin-top:8px">${T.map((t, i) => `<button class="tab" aria-pressed="${i === SEL}" data-i="${i}"><span style="color:${TYPE_HEX[t.type]}">●</span> ${i + 1}. ${t.type}: ${esc(t.concepts.map(human).join(', '))}</button>`).join('')}</div></div>
+  <div id="taskx"></div>`;
+  document.querySelectorAll('.tab').forEach(b => b.onclick = () => {SEL = +b.dataset.i; document.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-pressed', x === b)); renderTaskX()});
+  renderTaskX(); expertCharts(R);
+}
+function stepX(n, title, why, body, badge = '') {return `<section class="step reveal"><div class="hd"><div class="num">${n}</div><div><h3>${title}</h3><p class="why">${why}</p></div><div>${badge}</div></div><div class="bd">${body}</div></section>`}
+function renderTaskX() {
+  const R = RUN, p = R.res.plan[SEL];
+  $('#taskx').innerHTML = stepX(3, 'Retrieve candidates from the registry', 'Providers of each required capability, ranked by fit to the task (similarity to the capability times the fit of their pedagogical act); the QoS deficit summarises latency, price, and reliability.', renderCandidates(R, p))
+    + stepX(4, 'Infer behaviour under uncertainty', 'Six behavioural labels per tool with conformal prediction sets; an uncertain set is treated in the worst case.', renderLabels(R, p), `<span class="badge">ε = ${R.level}</span>`)
+    + stepX(5, 'Check data flows against the norms', 'Data present in the task can reach the server of each tool that accepts it, and third parties when a tool forwards it; denied flows exclude tools and pairs.', renderFlows(R, p))
+    + stepX(6, 'Compose the toolkit', 'Exact optimisation of utility minus interference and saturation, under size, context, and QoS bounds; otherwise a minimal conflict.', renderComposition(R, p), p.K ? '<span class="badge b-safe">optimal</span>' : '<span class="badge b-bad">no admissible toolkit</span>')
+    + stepX(7, 'Revise the workflow', 'Backtracking in shared contexts, then substitution by an approved activity that preserves the learning objective; otherwise a reported gap.', renderRevision(R))
+    + stepX(8, 'Guarantee and enactment', 'The calibrated level bounds the probability of a denied flow; a gateway exposes to the agent only the toolkit of its task.', renderGuarantee(R, p));
+}
+function expertCharts(R) {
+  const plan = R.res.plan, labels = R.wfFinal.tasks.map((t, i) => `${i + 1}. ${t.type}`), css = getComputedStyle(document.documentElement), ink = css.getPropertyValue('--muted').trim();
+  Chart.defaults.color = ink; Chart.defaults.font.family = 'Atkinson Hyperlegible, sans-serif';
+  const admissible = Object.values(plan).map(p => p.Nv ? p.Nv.filter(i => !p.F.has(i)).length : 0);
+  CHARTS.push(new Chart($('#c1'), {type: 'bar', data: {labels, datasets: [
+    {label: 'in the registry', data: Object.values(plan).map(p => p.cands?.length || 0), backgroundColor: '#C9D3EA'},
+    {label: 'shortlisted', data: Object.values(plan).map(p => p.Nv?.length || 0), backgroundColor: '#7FA0E0'},
+    {label: 'admissible', data: admissible, backgroundColor: '#3C6FD6'},
+    {label: 'in the toolkit', data: Object.values(plan).map(p => p.K?.length || 0), backgroundColor: '#0E7C66'}]}, options: {maintainAspectRatio: false, plugins: {legend: {position: 'bottom'}}, scales: {x: {title: {display: true, text: 'task'}}, y: {title: {display: true, text: 'number of tools'}}}}}));
+  CHARTS.push(new Chart($('#c2'), {type: 'bar', data: {labels, datasets: [
+    {label: 'utility (+)', data: Object.values(plan).map(p => p.parts?.utility || 0), backgroundColor: '#0E7C66'},
+    {label: '− interference', data: Object.values(plan).map(p => -(p.parts?.interference || 0)), backgroundColor: '#B5740A'},
+    {label: '− saturation', data: Object.values(plan).map(p => -(p.parts?.saturation || 0)), backgroundColor: '#B4234A'}]}, options: {maintainAspectRatio: false, plugins: {legend: {position: 'bottom'}}, scales: {x: {stacked: true, title: {display: true, text: 'task'}}, y: {stacked: true, title: {display: true, text: 'objective (score units)'}}}}}));
+}
+function renderDecomposition(R) {
+  const d = R.dec, calls = R.calls;
+  return `<dl class="kv"><dt>Domain</dt><dd>${DOM_NAME[d.domain]}</dd><dt>Concepts to reach</dt><dd>${d.targets.map(c => `<b>${human(c)}</b>`).join(', ')}</dd>
+  <dt>Already known</dt><dd>${d.known?.length ? d.known.map(human).join(', ') : '<span class="muted">nothing stated</span>'}</dd>${d.goal ? `<dt>Goal</dt><dd>${esc(d.goal)}</dd>` : ''}
+  ${d.constraints?.length ? `<dt>Constraints</dt><dd>${d.constraints.map(esc).join('; ')}</dd>` : ''}<dt>Prerequisite chain</dt><dd class="small">${R.eng.closure(d.domain, d.targets).map(human).join(' → ')}</dd></dl>
+  ${calls.length ? `<h3 style="font-size:15px;margin:14px 0 4px">Language-model calls ${tip('Evidence that the model was really invoked: identifiers returned by the Anthropic API, duration, and tokens billed.')}</h3><div class="tbl"><table><thead><tr><th>Purpose</th><th>Model</th><th>Request id</th><th class="n">Time</th><th class="n">Input tokens</th><th class="n">Output tokens</th><th>Route</th></tr></thead><tbody>${calls.map(c => `<tr><td>${esc(c.purpose)}</td><td>${esc(c.model)}</td><td class="mono">${esc(c.id || '–')}</td><td class="n">${(c.ms / 1000).toFixed(2)} s</td><td class="n">${c.input ?? '–'}</td><td class="n">${c.output ?? '–'}</td><td>${c.via}</td></tr>`).join('')}</tbody></table></div>`
+    : '<div class="note">No language model was called for this plan: keyword matching and the rule-based planner were used.</div>'}
+  ${d.raw ? `<details><summary>Answer of the language model</summary><pre class="mono" style="white-space:pre-wrap">${esc(d.raw)}</pre></details>` : ''}`;
+}
+function renderWorkflow(R) {
+  const rows = R.wf.tasks.map((t, i) => `<tr><td class="n">${i + 1}</td><td><span class="badge" style="color:${TYPE_HEX[t.type]}">${t.type}</span></td><td>${t.concepts.map(human).join(', ')}</td><td class="small">${t.R.map(human).join(', ')}</td><td class="small">${t.D.join(', ')}</td></tr>`).join('');
+  return `${R.errors0.length ? `<div class="note"><b>The validator found ${R.errors0.length} violation${R.errors0.length > 1 ? 's' : ''}:</b> ${R.errors0.map(e => `${e.kind}${e.task !== undefined ? ' in task ' + (e.task + 1) : ''} (${esc(e.detail)})`).join('; ')}. Repairs: ${R.wf.repairs.map(esc).join('; ')}.</div>` : '<div class="ok">The proposed workflow satisfies the planner contract.</div>'}${R.log.map(l => `<div class="note">${esc(l)}</div>`).join('')}
+  <div class="tbl"><table><thead><tr><th class="n">#</th><th>Type</th><th>Concepts</th><th>Required capabilities</th><th>Task data</th></tr></thead><tbody>${rows}</tbody></table></div>
+  ${R.wf0.raw ? `<details><summary>Answer of the language model</summary><pre class="mono" style="white-space:pre-wrap">${esc(R.wf0.raw)}</pre></details>` : ''}`;
+}
+function renderCandidates(R, p) {
+  const eng = R.eng, t = p.task; if (!p.cands) return '<p class="muted">No candidate.</p>'; if (p.status === 'uncovered') return `<div class="note">No provider of ${(p.uncovered || []).map(human).join(', ')} in this registry.</div>`;
+  const rows = (p.Nv || []).map(i => {const x = eng.T[i]; const g = Math.max(...t.R.map(r => p.g[i + '|' + r] ?? 0));
+    return `<tr><td>${toolLink(eng, i)}${x.real ? ' <span class="badge">real</span>' : ''}<div class="small muted">${esc(x.server)}</div></td><td class="small">${x.caps.filter(c => t.R.includes(c)).map(human).join(', ')}</td><td>${roleTag(x.role)}</td><td class="n">${g.toFixed(3)}</td><td class="n">${(p.dq[i] ?? 0).toFixed(2)}</td><td class="n">${x.cost}</td></tr>`}).join('');
+  return `<p class="small">${p.cands.length} candidate tools; ${t.R.map(r => `${human(r)}: ${p.cands.filter(i => eng.T[i].caps.includes(r)).length}`).join(', ')}.</p><div class="tbl"><table><thead><tr><th>Shortlisted tool</th><th>Serves</th><th>Receiver</th><th class="n">Fit</th><th class="n">QoS deficit</th><th class="n">Tokens</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+function renderLabels(R, p) {
+  const eng = R.eng, k = BUNDLE.meta.levels.indexOf(R.level); if (!p.Nv) return '<p class="muted small">No candidate.</p>';
+  const cell = (i, b) => {const m = eng.T[i].m[k]; return (m[1] >> b) & 1 ? '<span class="cell u" data-tip="uncertain: treated as yes">?</span>' : (m[0] >> b) & 1 ? '<span class="cell n">yes</span>' : '<span class="cell y">no</span>'};
+  return `<div class="tbl"><table><thead><tr><th>Tool</th>${LABELS.map(l => `<th data-tip="${LBL_NAME[l]}">${l === 'out' ? 'forwards' : l.slice(4)}</th>`).join('')}</tr></thead><tbody>${p.Nv.map(i => `<tr><td>${toolLink(eng, i)}${eng.T[i].audited ? ' <span class="badge b-safe">audited</span>' : ''}</td>${LABELS.map((l, b) => `<td>${cell(i, b)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+}
+function renderFlows(R, p) {
+  const eng = R.eng, t = p.task; if (!p.Nv) return '<p class="muted small">No candidate.</p>';
+  const A0 = [...new Set([...t.D, ...(t.delta_in || [])])];
+  const matrix = `<div class="tbl"><table><thead><tr><th>Receiver</th>${V.attributes.map(a => `<th data-tip="${ATT_NAME[a]}">${a}</th>`).join('')}</tr></thead><tbody>${V.roles.map(r => `<tr><td>${roleTag(r)} <span class="small muted">${ROLE_NAME[r]}</span></td>${V.attributes.map(a => {const d = R.deny(t.type, a, r); return `<td><span class="cell ${d ? 'n' : 'y'}">${d ? '✕' : '✓'}</span></td>`}).join('')}</tr>`).join('')}</tbody></table></div>`;
+  const ex = [...p.F.entries()].map(([i, cs]) => `<li>${toolLink(eng, i)} could send ${[...new Set(cs.map(c => `${ATT_NAME[c[0]]} to the ${ROLE_NAME[c[1]]}`))].join(', ')}.</li>`);
+  const px = [...p.P.entries()].slice(0, 6).map(([k, cs]) => {const [i, j] = k.split('|').map(Number); return `<li>${toolLink(eng, i)} with ${toolLink(eng, j)} would carry ${[...new Set(cs.map(c => `${ATT_NAME[c[0]]} to the ${ROLE_NAME[c[1]]}`))].join(', ')}.</li>`});
+  return `<p class="small">Data in the task: ${A0.map(a => `<b>${a}</b>`).join(', ')} (${A0.map(a => ATT_NAME[a]).join(', ')}).</p>${matrix}<h3 style="font-size:15px;margin:12px 0 4px">Excluded</h3>${ex.length || px.length ? `<ul class="small">${ex.join('')}${px.join('')}</ul>` : '<p class="small muted">Nothing excluded.</p>'}`;
+}
+function renderComposition(R, p) {
+  const eng = R.eng; if (!p.K) {const expl = {budget: 'the context budget', qos: 'the QoS bounds', size: 'the toolkit size', flow: 'the flow norms'};
+    return p.status === 'uncovered' ? `<div class="err">No provider of ${(p.uncovered || []).map(human).join(', ')} exists in this registry.</div>` : `<div class="err">Minimal conflict: ${(p.conflict || []).map(g => g.startsWith('cov|') ? 'covering ' + human(g.slice(4)) : g.startsWith('ho|') ? 'handing off ' + g.slice(3) : expl[g] || g).join(' + ')}.</div>`}
+  const q = p.qos, B = p.params.B, meter = (v, max, lab) => `<div class="small" style="margin:6px 0 2px">${lab}</div><div style="height:9px;border-radius:5px;background:var(--soft);overflow:hidden"><span style="display:block;height:100%;width:${Math.min(100, 100 * v / max)}%;background:var(--safe)"></span></div>`;
+  const tr = eng.T[p.K[0]].truth ? eng.risk(p.K, R.truth, p.task, R.deny) : null;
+  return `<div class="tbl"><table><thead><tr><th>Tool</th><th>Serves</th><th>Receiver</th><th class="n">Tokens</th></tr></thead><tbody>${p.K.map(i => `<tr><td>${toolLink(eng, i)}</td><td class="small">${Object.entries(p.W).filter(([, v]) => v === i).map(([r]) => human(r)).join(', ') || 'hand-off'}</td><td>${roleTag(eng.T[i].role)}</td><td class="n">${eng.T[i].cost}</td></tr>`).join('')}</tbody></table></div>
+  <div class="grid g2" style="margin-top:10px"><dl class="kv"><dt>Utility</dt><dd>${p.parts.utility.toFixed(3)}</dd><dt>Interference</dt><dd>− ${p.parts.interference.toFixed(3)}</dd><dt>Saturation</dt><dd>− ${p.parts.saturation.toFixed(3)}</dd><dt><b>Objective</b></dt><dd><b>${p.obj.toFixed(3)}</b></dd></dl>
+  <div>${meter(p.load, B, `Context ${p.load} / ${B} tokens`)}${meter(q.lat, Math.max(q.latb, 1), `Latency ${q.lat} / ${q.latb} ms`)}${meter(q.price, Math.max(q.priceb, 1e-9), `Price $${q.price.toFixed(4)} / $${q.priceb.toFixed(4)}`)}</div></div>
+  <p class="small muted">Exact optimum over ${p.Nv.length} tools in ${p.ms.toFixed(0)} ms.${tr !== null ? ` Against the ground truth: ${tr ? '<b style="color:var(--bad)">a denied flow is possible</b>' : 'no denied flow possible'}.` : ''}</p>`;
+}
+function renderRevision(R) {
+  const ev = Object.entries(R.res.plan).flatMap(([i, p]) => (p.events || []).map(e => `<li>Task ${+i + 1}: ${esc(e)}.</li>`)), gaps = R.res.gaps.map(i => `<li>Task ${i + 1} remains a gap.</li>`);
+  return ev.length || gaps.length ? `<ul class="small">${ev.join('')}${gaps.join('')}</ul>` : '<div class="ok">Every task was equipped without revision.</div>';
+}
+function renderGuarantee(R, p) {
+  const defs = (p.K || []).map(i => ({name: R.eng.T[i].name, description: R.eng.T[i].desc})), tw = truthWarning(R, SEL);
+  return `<div class="ok">${esc(riskLine(R))} The bound holds per task, for tasks like those used in calibration.</div>${tw ? `<div class="note">${esc(tw)}</div>` : ''}${p.K ? `<pre class="mono" style="white-space:pre-wrap;background:var(--soft);padding:10px;border-radius:10px;max-height:200px;overflow:auto">${esc(JSON.stringify(defs, null, 2))}</pre>` : ''}`;
+}
+function showTool(reg, i) {
+  const eng = ENG[reg], x = eng.T[i], k = BUNDLE.meta.levels.indexOf(levelFor(S.xi)), sv = eng.S[x.server] || {}, dlg = $('#dlg');
+  const dec = v => v === null || v === undefined ? '<span class="muted">not declared</span>' : (v ? 'yes' : 'no');
+  dlg.innerHTML = `<div class="row" style="justify-content:space-between;align-items:start"><div><h3>${esc(x.name)}</h3><p class="small muted" style="margin:2px 0 0">${esc(x.server)} · ${ROLE_NAME[x.role]}${x.real ? ' · real tool' : ''}</p></div><button class="btn ghost small" id="x">Close</button></div>
+  <p>${esc(x.desc)}</p><dl class="kv"><dt>Capabilities</dt><dd>${x.caps.map(human).join(', ') || 'none extracted'}</dd><dt>Context cost</dt><dd>${x.cost} tokens</dd><dt>Latency</dt><dd>${x.lat.toFixed(0)} ms</dd><dt>Reliability</dt><dd>${(100 * x.rel).toFixed(1)}%</dd>${sv.repository ? `<dt>Repository</dt><dd><a href="${esc(sv.repository)}" target="_blank" rel="noopener">${esc(sv.repository)}</a></dd>` : ''}</dl>
+  <div class="tbl" style="margin-top:10px"><table><thead><tr><th>Behaviour</th><th>Declared</th><th>Inferred set</th><th>Ground truth</th></tr></thead><tbody>${LABELS.map((l, b) => `<tr><td>${LBL_NAME[l]}</td><td>${dec(x.declared[b])}</td><td>${(x.m[k][1] >> b) & 1 ? '<span class="cell u">{0,1}</span>' : (x.m[k][0] >> b) & 1 ? '<span class="cell n">{1}</span>' : '<span class="cell y">{0}</span>'}</td><td>${x.truth ? (x.truth[b] ? 'yes' : 'no') : '<span class="muted">unknown</span>'}</td></tr>`).join('')}</tbody></table></div>`;
+  dlg.showModal(); $('#x').onclick = () => dlg.close();
+}
+
+/* ---------------- approach page ---------------- */
+const PIPE = [
+  ['Prepare', 'once per registry', 'architecture', 'EmerKit reads the tool definitions of MCP registries, extracts what each tool can do, measures its context cost, infers what it does with data, and calibrates how much uncertainty to tolerate.'],
+  ['Understand', 'per request', 'motivation', 'A language model turns the learner\'s words into a domain, target concepts, and what the learner already knows.'],
+  ['Plan', 'per request', 'motivation', 'A typed workflow orders the tasks by prerequisites; a validator repairs what breaks the contract.'],
+  ['Check flows', 'per task', 'norms', 'Each tool is placed on a flow graph: which learner data could reach which receiver. Tools and pairs that make a forbidden flow possible are excluded.'],
+  ['Compose', 'per task', 'emergent', 'The toolkit is optimised as a whole: each capability counted once, similar tools penalised, context saturation penalised, QoS bounded.'],
+  ['Revise', 'per workflow', 'result', 'Tasks without an admissible toolkit are replaced by approved activities that keep the learning objective.'],
+  ['Map gaps', 'across curricula', 'gapmap', 'Across all task archetypes, EmerKit tells providers which annotations to publish and institutions which tools to commission.']];
+let PSEL = 0;
+function viewApproach() {
+  $('#view').innerHTML = `<div class="row" style="justify-content:space-between;align-items:end"><div><h1>How EmerKit composes safe toolkits</h1><p class="muted" style="font-size:17px">An AI assistant cannot load every tool of a registry. EmerKit chooses, for each step of a learning path, a few tools that work well together and never let learner data reach a forbidden receiver.</p></div>
+  <button class="btn ghost" id="lis">🔊 Listen to this page</button></div>
+  <figure class="figure" style="margin-top:14px"><img src="${FIGS.architecture}" data-zoom alt="Architecture of EmerKit: preparation phase, request phase, run time" style="cursor:zoom-in"><figcaption><b>The complete framework.</b> The preparation phase enriches the registry once; the request phase turns a learner request into a workflow and a toolkit per task; at run time, a gateway exposes to the agent only the toolkit of its task. (Figure from the paper.)</figcaption></figure>
+  <h2 style="margin-top:24px">The process, step by step</h2><p class="muted">Select a step to see what it does and the figure of the paper that illustrates it.</p>
+  <div class="pipeline">${PIPE.map((x, i) => `<button class="pipe" aria-pressed="${i === PSEL}" data-i="${i}"><span class="k">${i + 1} · ${x[1]}</span><b>${x[0]}</b></button>`).join('')}</div>
+  <div id="pdet"></div>
+  <h2 style="margin-top:24px">Two tools that are fine alone, forbidden together</h2><p class="muted">A live example computed by EmerKit on its registry: each tool passes the flow check on its own, but loading both in the same toolkit would let learner data reach a receiver that the rules forbid.</p><div id="combo"></div>
+  <h2 style="margin-top:24px">Why a toolkit is more than a list of tools</h2>
+  <div class="grid g2" style="margin-top:10px"><figure class="figure"><img src="${FIGS.motivation}" data-zoom alt="Running scenario" style="cursor:zoom-in"><figcaption><b>The running scenario.</b> A selector that scores tools one by one returns a toolkit whose qualities do not add up: tools duplicate each other and, together, let a learner's marks reach a third party.</figcaption></figure>
+  <figure class="figure"><img src="${FIGS.emergent}" data-zoom alt="Three emergent properties" style="cursor:zoom-in"><figcaption><b>Three emergent properties.</b> Tools that share a capability interfere; context load is not additive and saturates; flows of data appear only when tools are combined.</figcaption></figure></div>
+  <div class="grid g3" style="margin-top:16px">${[['Each capability once', 'Two tools that do the same job add nothing but confusion. Utility counts each required capability once, through the tool that serves it.'], ['Norms of data flows', 'For each type of learning task, the norm base states which data (identity, profile, marks, activity, work) may reach which receiver (school, contracted provider, third party, public web).'], ['A guarantee under uncertainty', 'Providers rarely declare what their tools do with data. EmerKit infers it with prediction sets and calibrates them so that the risk of a forbidden flow stays below a target, for example 5%.']].map(([a, b]) => `<div class="panel"><h3>${a}</h3><p class="small">${b}</p></div>`).join('')}</div>`;
+  renderCombo();
+  $('#lis').onclick = e => speak('EmerKit composes safe toolkits for learning workflows. ' + PIPE.map((x, i) => `Step ${i + 1}, ${x[0]}: ${x[3]}`).join(' '), e.currentTarget);
+  const draw = () => {const x = PIPE[PSEL]; $('#pdet').innerHTML = `<div class="grid g2 reveal" style="align-items:center"><div class="panel"><span class="badge b-acc">${x[1]}</span><h2 style="margin-top:8px">${x[0]}</h2><p>${x[3]}</p><p class="small muted">Try it on the <a href="#plan">planning page</a>, then open the expert view to see this step on your own request.</p></div><figure class="figure"><img src="${FIGS[x[2]]}" data-zoom alt="${x[0]}" style="cursor:zoom-in"></figure></div>`};
+  document.querySelectorAll('.pipe').forEach(b => b.onclick = () => {PSEL = +b.dataset.i; document.querySelectorAll('.pipe').forEach(y => y.setAttribute('aria-pressed', y === b)); draw()}); draw();
+}
+
+function findCombo() {
+  const eng = ENG.emerkit, deny = eng.deny('standard'), lab = eng.labels(levelFor()), truth = eng.labels(levelFor(), 'truth');
+  for (const ty of ['formative', 'summative', 'practice', 'acquisition', 'discussion', 'production']) {
+    const R_ = V.type_caps[ty].filter(c => !V.caps[c].domains || V.caps[c].domains.includes('programming'));
+    const task = {type: ty, domain: 'programming', concepts: ['loops'], R: R_, D: [...V.default_d[ty]], delta_in: []};
+    const cands = eng.candidates(task); const {F, P} = eng.forbidden(cands, lab, task, deny);
+    for (const [k, cs] of P) {const [i, j] = k.split('|').map(Number); if (F.has(i) || F.has(j) || !eng.T[i].truth || !eng.T[j].truth) continue;
+      const tr = eng.forbidden([i, j], truth, task, deny); if (!tr.P.size) continue;   /* the combination is also forbidden under the true behaviour */
+      return {ty, i, j, c: cs[0], task}}
+  }
+  return null;
+}
+function renderCombo() {
+  const ex = findCombo(), el = $('#combo'); if (!el) return; if (!ex) {el.innerHTML = '<p class="muted">No example found in this registry.</p>'; return}
+  const eng = ENG.emerkit, A = eng.T[ex.j], B = eng.T[ex.i], [att, role] = ex.c;
+  el.innerHTML = `<div class="grid g2" style="align-items:center"><div class="panel"><svg viewBox="0 0 560 210" width="100%" role="img" aria-label="Two tools combining into a forbidden flow">
+    <defs><marker id="ar2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#55607A"/></marker></defs>
+    <rect x="10" y="70" width="150" height="66" rx="12" fill="#fff" stroke="${ROLE_HEX[A.role]}" stroke-width="2"/><text x="85" y="98" text-anchor="middle" font-size="13" font-weight="700" fill="#18233A">${esc(A.name.slice(0, 20))}</text><text x="85" y="118" text-anchor="middle" font-size="11.5" fill="#55607A">returns ${esc(ATT_NAME[att])}</text>
+    <rect x="205" y="70" width="150" height="66" rx="12" fill="#fff" stroke="${ROLE_HEX[B.role]}" stroke-width="2"/><text x="280" y="98" text-anchor="middle" font-size="13" font-weight="700" fill="#18233A">${esc(B.name.slice(0, 20))}</text><text x="280" y="118" text-anchor="middle" font-size="11.5" fill="#55607A">accepts free text${eng.labels(levelFor())[ex.i].out ? ', forwards it' : ''}</text>
+    <rect x="400" y="70" width="150" height="66" rx="12" fill="#FAE6EC" stroke="#B4234A" stroke-width="2"/><text x="475" y="98" text-anchor="middle" font-size="13" font-weight="700" fill="#8A1A38">${esc(cap1(ROLE_NAME[role]))}</text><text x="475" y="118" text-anchor="middle" font-size="11.5" fill="#8A1A38">forbidden receiver</text>
+    <path d="M160 103 L203 103" stroke="#55607A" stroke-width="2" marker-end="url(#ar2)"/><path d="M355 103 L398 103" stroke="#B4234A" stroke-width="2.4" stroke-dasharray="6 4" marker-end="url(#ar2)"/>
+    <text x="182" y="92" text-anchor="middle" font-size="11" fill="#55607A">${esc(att)}</text><text x="377" y="92" text-anchor="middle" font-size="16" fill="#B4234A">✕</text>
+    <text x="85" y="160" text-anchor="middle" font-size="11.5" fill="#0E7C66">✓ allowed alone</text><text x="280" y="160" text-anchor="middle" font-size="11.5" fill="#0E7C66">✓ allowed alone</text><text x="182" y="190" text-anchor="middle" font-size="12" fill="#B4234A" font-weight="700">together: ${esc(ATT_NAME[att])} → ${esc(ROLE_NAME[role])}, forbidden</text></svg></div>
+    <div class="panel"><span class="badge b-acc">${esc(TYPE_USER[ex.ty][1])}</span><p style="margin-top:8px"><b>${esc(A.name)}</b> returns the learner's ${esc(ATT_NAME[att])} (${esc(ATT_USER[att])}); alone, it keeps it with ${ROLE_USER[A.role]}, which is allowed. <b>${esc(B.name)}</b> accepts free text and is run by ${ROLE_USER[B.role]}${eng.labels(levelFor())[ex.i].out ? ', and may forward what it receives' : ''}; alone, the data of this activity may reach it.</p>
+    <p>Loaded together, the agent can copy the output of the first into the input of the second, so ${esc(ATT_USER[att])} could reach ${ROLE_USER[role]}, which the norms of a ${ex.ty} activity forbid. No selector that scores tools one by one can see this; EmerKit checks the whole toolkit and never returns both.</p>
+    <p class="small muted">Computed live on the EmerKit registry with the standard norms; confirmed by the ground truth of the registry.</p></div></div>`;
+}
+/* ---------------- registry dashboard ---------------- */
+let RG = 'emerkit';
+function viewRegistry() {
+  const eng = ENG[RG], T = eng.T, k = BUNDLE.meta.levels.indexOf(levelFor(S.xi)), active = T.filter(t => t.caps.length), servers = new Set(T.map(t => t.server));
+  const unc = active.filter(t => t.m[k][1]).length;
+  $('#view').innerHTML = `<div class="row" style="justify-content:space-between;align-items:end"><div><h1>Tool registry</h1><p class="muted">The tools EmerKit can compose, prepared from MCP registries.</p></div>
+  <div class="row"><label for="rg" class="small muted">Registry ${tip('The EmerKit registry is the educational registry of the paper, with known ground truth. The extended registry adds the 6,044 real tools of the Toucan MCP catalogue.')}</label><select class="in" id="rg" style="width:auto"><option value="emerkit" ${RG === 'emerkit' ? 'selected' : ''}>EmerKit registry</option><option value="real" ${RG === 'real' ? 'selected' : ''}>+ real Toucan tools</option></select></div></div>
+  <div class="grid g4" style="margin:14px 0"><div class="stat"><b>${T.length.toLocaleString()}</b><span>tools</span></div><div class="stat"><b>${servers.size.toLocaleString()}</b><span>servers</span></div>
+  <div class="stat"><b>${active.length}</b><span>composable for learning ${tip('Tools that provide at least one educational capability; only these can enter a toolkit.')}</span></div><div class="stat"><b>${Math.round(100 * unc / Math.max(1, active.length))}%</b><span>with an uncertain behaviour ${tip('Share of composable tools with at least one behavioural label whose prediction set is {0,1} at the calibrated level.')}</span></div></div>
+  <div class="grid g2"><div class="panel"><h3>Tools per capability</h3><div class="chartbox" style="height:340px"><canvas id="r1"></canvas></div></div>
+  <div class="panel"><h3>Who runs the tools ${tip('Receiver role of the server that runs the tool: your institution, a contracted processor, a third party, or the public web.')}</h3><div class="chartbox" style="height:340px"><canvas id="r2"></canvas></div></div>
+  <div class="panel"><h3>What tools do with data ${tip('For each behavioural label: share of composable tools inferred yes, no, or uncertain at the calibrated level.')}</h3><div class="chartbox"><canvas id="r3"></canvas></div></div>
+  <div class="panel"><h3>Quality of service ${tip('Each point is a composable tool: latency against reliability, coloured by receiver role.')}</h3><div class="chartbox"><canvas id="r4"></canvas></div><p class="small muted" style="margin:8px 0 0">${RG === 'real' ? 'For the real Toucan tools, reliability comes from the success rates measured by Toucan; latency and price are simulated, since the catalogue does not publish them.' : 'All values of the EmerKit registry are synthetic.'}</p></div></div>
+  <div class="panel" style="margin-top:16px"><div class="row" style="justify-content:space-between"><h3>Browse the tools</h3><input class="in" id="rq" placeholder="Search by name, server, or capability" style="max-width:360px"></div><div class="cards" id="rcards" style="margin-top:12px"></div><p class="small muted" id="rn"></p></div>
+  <div class="panel"><h3>Official MCP Registry ${tip('The official registry lists public MCP servers, not their tools; servers found here must be prepared before EmerKit can compose them.')}</h3>
+  <div class="row" style="margin-top:8px"><input class="in" id="oq" placeholder="Search servers, for example: education, quiz, notebook" style="flex:1 1 280px"><button class="btn" id="og">Search</button></div><div id="oo" class="small" style="margin-top:10px"></div></div>`;
+  $('#rg').onchange = e => {RG = e.target.value; route()};
+  Chart.defaults.color = getComputedStyle(document.documentElement).getPropertyValue('--muted').trim(); Chart.defaults.font.family = 'Atkinson Hyperlegible, sans-serif';
+  const capCount = Object.keys(V.caps).map(c => [c, active.filter(t => t.caps.includes(c)).length]).filter(x => x[1]).sort((a, b) => b[1] - a[1]);
+  CHARTS.push(new Chart($('#r1'), {type: 'bar', data: {labels: capCount.map(x => human(x[0])), datasets: [{label: 'tools', data: capCount.map(x => x[1]), backgroundColor: '#4B3FC4'}]}, options: {indexAxis: 'y', maintainAspectRatio: false, plugins: {legend: {display: false}}, scales: {y: {ticks: {font: {size: 10}}}}}}));
+  const roles = V.roles.map(r => T.filter(t => t.role === r).length);
+  CHARTS.push(new Chart($('#r2'), {type: 'doughnut', data: {labels: V.roles.map(r => ROLE_NAME[r]), datasets: [{data: roles, backgroundColor: V.roles.map(r => ROLE_HEX[r])}]}, options: {maintainAspectRatio: false, plugins: {legend: {position: 'bottom'}}}}));
+  const lab = LABELS.map((l, b) => [active.filter(t => !((t.m[k][1] >> b) & 1) && ((t.m[k][0] >> b) & 1)).length, active.filter(t => !((t.m[k][1] >> b) & 1) && !((t.m[k][0] >> b) & 1)).length, active.filter(t => (t.m[k][1] >> b) & 1).length]);
+  CHARTS.push(new Chart($('#r3'), {type: 'bar', data: {labels: LABELS.map(l => LBL_NAME[l].replace('returns ', '')), datasets: [{label: 'yes', data: lab.map(x => x[0]), backgroundColor: '#B4234A'}, {label: 'no', data: lab.map(x => x[1]), backgroundColor: '#0E7C66'}, {label: 'uncertain', data: lab.map(x => x[2]), backgroundColor: '#B5740A'}]}, options: {maintainAspectRatio: false, plugins: {legend: {position: 'bottom'}}, scales: {x: {stacked: true}, y: {stacked: true, title: {display: true, text: 'tools'}}}}}));
+  CHARTS.push(new Chart($('#r4'), {type: 'scatter', data: {datasets: V.roles.map(r => ({label: ROLE_NAME[r], data: active.filter(t => t.role === r).map(t => ({x: t.lat, y: 100 * t.rel, name: t.name})), backgroundColor: ROLE_HEX[r]}))}, options: {maintainAspectRatio: false, plugins: {legend: {position: 'bottom'}, tooltip: {callbacks: {label: c => `${c.raw.name}: ${c.raw.x.toFixed(0)} ms, ${c.raw.y.toFixed(1)}%`}}}, scales: {x: {title: {display: true, text: 'latency (ms)'}}, y: {title: {display: true, text: 'reliability (%)'}}}}}));
+  const draw = () => {const q = $('#rq').value.toLowerCase(); const ids = T.map((t, i) => i).filter(i => {const t = T[i]; return t.caps.length && (!q || (t.name + ' ' + t.server + ' ' + t.caps.join(' ') + ' ' + t.desc).toLowerCase().includes(q))});
+    $('#rn').textContent = `${ids.length} composable tools match${ids.length > 60 ? '; showing 60' : ''}.`;
+    $('#rcards').innerHTML = ids.slice(0, 60).map(i => {const t = T[i], c = t.caps[0]; return `<div class="hcard"><div class="row" style="gap:8px">${svgIcon(iconFor(c), ROLE_HEX[t.role], 20)}<b><a href="#" data-tool="${i}" data-reg="${RG}">${esc(t.name)}</a></b>${t.real ? '<span class="badge">real</span>' : ''}</div><span class="small muted">${esc(t.desc).slice(0, 110)}${t.desc.length > 110 ? '…' : ''}</span><div class="row" style="gap:6px">${t.caps.map(x => `<span class="badge">${human(x)}</span>`).join('')}${roleTag(t.role)}</div></div>`}).join('')};
+  $('#rq').oninput = draw; draw();
+  const searchOfficial = async () => {const q = $('#oq').value.trim();
+    if (q && q.length < 3) {$('#oo').innerHTML = '<div class="note">The official registry needs at least three characters to search.</div>'; return}
+    $('#og').disabled = true; $('#oo').textContent = 'Searching the official registry…'; await relayReady;
+    const s_ = q ? '&search=' + encodeURIComponent(q) : '', variants = ['limit=30&version=latest' + s_, 'limit=30' + s_, s_.slice(1) || 'limit=30'], tried = [];
+    const attempt = async (url, label) => {const to = withTimeout(30000);
+      try {const r = await fetch(url, {headers: {Accept: 'application/json'}, signal: to.signal}); const txt = await r.text(); let j = {}; try {j = JSON.parse(txt)} catch (e) {}
+        if (!r.ok) {const m = j.error || j.detail || j.title || (j.errors && JSON.stringify(j.errors)) || txt.slice(0, 120) || ''; tried.push(`${label}: HTTP ${r.status}${m ? ' (' + m + ')' : ''}`); return {status: r.status}}
+        if (!j || !Array.isArray(j.servers)) {tried.push(`${label}: unexpected answer`); return {status: 0}}
+        return {j}}
+      catch (e) {tried.push(`${label}: ${e.name === 'AbortError' ? 'no answer within 30 s' : (e.message || 'network error')}`); return {status: -1}} finally {to.done()}};
+    const routes = [...(RELAY ? [['/api/registry?', 'local relay']] : []), ['https://registry.modelcontextprotocol.io/v0.1/servers?', 'direct from the browser']];
+    let j = null;
+    for (const [base, label] of routes) {for (const v of variants) {const r = await attempt(base + v, label); if (r.j) {j = r.j; break} if (r.status < 400 || r.status >= 500) break}   /* retry other parameters only when the registry refuses them */
+      if (j) break}
+    $('#og').disabled = false;
+    if (!j) {$('#oo').innerHTML = `<div class="err"><b>The official registry could not be reached.</b></div><div class="note">${esc(runContext().text)} You can also browse <a href="https://registry.modelcontextprotocol.io/docs" target="_blank" rel="noopener">the registry</a> directly.</div><details><summary>What was tried</summary><ul class="small">${tried.map(t => `<li>${esc(t)}</li>`).join('')}</ul></details>`; return}
+    const list = (j.servers || []).map(s => ({...(s.server || s), meta: (s._meta || {})['io.modelcontextprotocol.registry/official'] || {}})).filter(s => s.meta.status !== 'deleted');
+    $('#oo').innerHTML = list.length ? `<p class="small muted">${list.length} servers returned by registry.modelcontextprotocol.io${RELAY ? ' through the local relay' : ''}.</p><div class="cards">${list.map(s => `<div class="hcard"><b class="mono" style="overflow-wrap:anywhere">${esc(s.title || s.name)}</b>${s.title ? `<span class="small mono muted">${esc(s.name)}</span>` : ''}<span class="small muted">${esc(s.description || '')}</span>
+      <div class="row" style="gap:6px"><span class="badge">v${esc(s.version || '?')}</span>${(s.remotes || []).length ? `<span class="badge b-acc" data-tip="${esc((s.remotes || []).map(r => r.type + ' ' + (r.url || '')).join(', '))}">remote</span>` : ''}${(s.packages || []).length ? `<span class="badge" data-tip="${esc((s.packages || []).map(p_ => (p_.registryType || p_.registry_type || '') + ' ' + (p_.identifier || p_.name || '')).join(', '))}">package</span>` : ''}${s.meta.status && s.meta.status !== 'active' ? `<span class="badge b-warn">${esc(s.meta.status)}</span>` : ''}</div>
+      ${s.repository?.url ? `<a class="small" href="${esc(s.repository.url)}" target="_blank" rel="noopener">repository</a>` : ''}</div>`).join('')}</div>` : `<p>No server of the official registry matches “${esc(q)}”. Try a shorter or more general word.</p>`;
+  };
+  $('#og').onclick = searchOfficial; $('#oq').onkeydown = e => {if (e.key === 'Enter') searchOfficial()};
+}
+
+/* ---------------- history ---------------- */
+function saveHistory(R, replace = false) {const h = store.get('runs', []); const rec = toRecord(R); if (replace && h.length && h[0].text === R.text) h[0] = rec; else h.unshift(rec); store.set('runs', h.slice(0, 40))}
+function restoreLast() {if (RUN) return; const h = store.get('runs', []); if (h.length && h[0].wf) {try {RUN = restoreRecord(h[0])} catch (e) {RUN = null}}}
+function viewHistory() {
+  const h = store.get('runs', []);
+  $('#view').innerHTML = `<h1>History</h1><p class="muted">Your previous plans, kept in this browser only. Opening a plan restores it exactly, without calling the language model again.</p>${h.length ? `<div class="cards" style="margin-top:14px">${h.map((x, i) => `<div class="hcard"><b>${esc(x.targets.map(human).join(', '))}</b><span class="small muted">${DOM_NAME[x.domain]} · ${new Date(x.at).toLocaleString()}</span>
+  <span class="small">“${esc(x.text.slice(0, 120))}”</span><div style="display:flex;gap:3px;margin:4px 0">${x.tasks.map(t => `<span style="flex:1;height:8px;border-radius:4px;background:${TYPE_HEX[t]}" data-tip="${t}"></span>`).join('')}</div>
+  <span class="small">${x.equipped}/${x.tasks.length} steps with checked tools · ${x.llm ? 'planned by ' + esc(x.llm) : 'rule-based planner'}</span>
+  <div class="row" style="gap:6px">${x.wf ? `<button class="btn small" data-open="${i}" data-tip="Show this plan again, exactly as computed, without a new model call.">Open</button>` : ''}<button class="btn ghost small" data-re="${i}" data-tip="Plan this request again from scratch; with a language model the result may differ.">Plan again</button></div></div>`).join('')}</div>
+  <p style="margin-top:14px"><button class="btn ghost small" id="clr">Clear history</button></p>` : `<div class="empty">No plan yet. <a href="#plan">Plan your learning</a>.</div>`}`;
+  document.querySelectorAll('[data-open]').forEach(b => b.onclick = () => {RUN = restoreRecord(h[+b.dataset.open]); location.hash = 'plan'});
+  document.querySelectorAll('[data-re]').forEach(b => b.onclick = () => {const x = h[+b.dataset.re]; location.hash = 'plan'; setTimeout(() => {$('#q').value = x.text; go(x.text)}, 60)});
+  const c = $('#clr'); if (c) c.onclick = () => {store.set('runs', []); viewHistory()};
+}
+
+/* ---------------- settings ---------------- */
+function viewSettings() {
+  const opt = (v, cur, l) => `<option value="${v}" ${String(v) === String(cur) ? 'selected' : ''}>${l}</option>`;
+  const ANTH = ['claude-haiku-5-5', 'claude-sonnet-5-5', 'claude-opus-5-5'], custom = !ANTH.includes(S.model), eh = BUNDLE.meta.eps_hat['0.05'], cur = levelFor();
+  const lev = BUNDLE.meta.levels.map(e => {const st = levelStat(e); return opt(e, cur, `ε = ${e}${e === eh ? ' (calibrated for a 5% target)' : ''}${st ? ` · measured risk ${(100 * st.risk).toFixed(1)}%, tasks equipped ${(100 * st.equipped).toFixed(0)}%` : ''}`)}).join('');
+  $('#view').innerHTML = `<h1>Settings</h1><p class="muted">For instructors, administrators, and reviewers. Learners do not need to change anything here.</p>
+  <div class="ctxline" id="ctx"></div>
+  <div class="grid g2" style="margin-top:14px"><div class="panel"><h2>Language model</h2>
+  <label class="f" for="s-gen">Planner ${tip('By default every plan is generated by the language model; if it cannot be reached, you are asked whether to use the rule-based method. Always rule-based never calls a model.')}</label><select class="in" id="s-gen">${opt('llm', S.generator, 'Language model (default)')}${opt('rule', S.generator, 'Always rule-based')}</select>
+  <label class="f" for="s-prov">Model provider ${tip('Anthropic Claude through its API, or any OpenAI-compatible server, for example a model you downloaded and run locally with Ollama.')}</label><select class="in" id="s-prov">${opt('anthropic', S.provider, 'Anthropic Claude (API key)')}${opt('openai', S.provider, 'OpenAI-compatible server (local model, e.g. Ollama)')}</select>
+  <div id="p-anth" ${S.provider === 'anthropic' ? '' : 'hidden'}>
+   <label class="f" for="s-key">Anthropic API key ${tip('Sent only to api.anthropic.com, or to the local relay of serve.py on your computer.')}</label><div class="row" style="flex-wrap:nowrap"><input class="in" id="s-key" type="password" autocomplete="off" placeholder="sk-ant-…" value="${esc(apiKey())}"><button class="btn ghost small" id="clrkey" data-tip="Remove the key from this browser">Clear</button></div>
+   <label class="small" style="display:flex;gap:6px;margin-top:6px"><input type="checkbox" id="s-rem" ${S.remember ? 'checked' : ''}> remember on this device</label>
+   <p class="small" style="color:var(--warn);margin:4px 0 0" ${S.remember ? '' : 'hidden'} id="remwarn">The key is then stored in clear text in this browser: anyone using this computer and browser profile can read it. Use it only on a personal device, and clear it when you are done.</p>
+   <label class="f" for="s-model">Model</label><select class="in" id="s-model">${ANTH.map(m => opt(m, S.model, m)).join('')}${opt('__custom', custom ? '__custom' : '', 'Other model…')}</select>
+   <input class="in" id="s-mcustom" placeholder="model identifier, for example claude-sonnet-5-5" style="margin-top:6px" ${custom ? '' : 'hidden'} value="${custom ? esc(S.model) : ''}"></div>
+  <div id="p-oai" ${S.provider === 'openai' ? '' : 'hidden'}>
+   <label class="f" for="s-obase">Server address ${tip('Base URL of an OpenAI-compatible API. Ollama serves one at http://localhost:11434/v1 once it is installed and running.')}</label><input class="in" id="s-obase" value="${esc(S.obase)}">
+   <label class="f" for="s-omodel">Model name</label><input class="in" id="s-omodel" value="${esc(S.omodel)}" placeholder="qwen3:8b">
+   <p class="small muted" style="margin:6px 0 0">To download and run a model locally: install Ollama (ollama.com), then run <span class="mono">ollama pull ${esc(S.omodel || 'qwen3:8b')}</span> in a terminal. The portal calls it through serve.py.</p></div>
+  <label class="small" style="display:flex;gap:6px;margin-top:12px"><input type="checkbox" id="s-fb" ${S.fallback ? 'checked' : ''}> if the model fails, switch to the rule-based method without asking</label>
+  <div class="row" style="margin-top:14px"><button class="btn" id="test">Test the connection</button><span id="tres" class="small"></span></div></div>
+  <div class="panel"><h2>Composition</h2>
+  <label class="f" for="s-reg">Registry</label><select class="in" id="s-reg">${opt('emerkit', S.registry, 'EmerKit registry (163 tools, ground truth)')}${opt('real', S.registry, 'EmerKit registry + 6,044 real Toucan tools')}</select>
+  <label class="f" for="s-prof">Norm profile ${tip('Which learner data may reach which receiver. Strict forbids more flows; permissive allows learner content to reach third parties in some tasks.')}</label><select class="in" id="s-prof">${['permissive', 'standard', 'strict'].map(p => opt(p, S.profile, p)).join('')}</select>
+  <label class="f" for="s-lev">Level ε of the prediction sets ${tip('The level ε decides how much uncertainty about a tool is tolerated. Calibration certified ε = ' + eh + ' for a 5% target risk; the same level is certified for a 10% target, so both targets give the same toolkits. Each option shows the risk and coverage measured on test tasks.')}</label><select class="in" id="s-lev">${lev}</select>
+  <label class="f" for="s-B">Context budget: <b id="bv">${S.B}</b> tokens ${tip('Maximum number of tokens that the tool definitions of one toolkit may occupy in the agent context.')}</label><input id="s-B" type="range" min="500" max="4000" step="250" value="${S.B}" style="width:100%">
+  <label class="f" for="s-k">Maximal toolkit size</label><select class="in" id="s-k">${[2, 3, 4, 5, 6].map(k => opt(k, S.k_max, k + ' tools')).join('')}</select>
+  <label class="f" for="s-mode">Task contexts ${tip('Isolated: one agent session per task. Conservative: tasks share a context, so data returned upstream is present downstream.')}</label><select class="in" id="s-mode">${opt('isolated', S.mode, 'isolated')}${opt('conservative', S.mode, 'conservative')}</select>
+  <label class="f" for="s-sub">Substitutions per workflow</label><select class="in" id="s-sub">${[0, 1, 2, 3].map(k => opt(k, S.s_max, k)).join('')}</select>
+  <p class="small muted" style="margin-top:12px">Changes apply to the next plan; the plan page offers to recompute the current plan.</p></div></div>`;
+  const changed = () => {saveS(); if (RUN && !RUN.error) RUN.stale = true};
+  const bind = (id, k, f = x => x) => $(id).onchange = e => {S[k] = f(e.target.value); changed()};
+  bind('#s-gen', 'generator'); bind('#s-reg', 'registry'); bind('#s-prof', 'profile'); bind('#s-lev', 'level', Number); bind('#s-k', 'k_max', Number); bind('#s-mode', 'mode'); bind('#s-sub', 's_max', Number);
+  $('#s-prov').onchange = e => {S.provider = e.target.value; saveS(); $('#p-anth').hidden = S.provider !== 'anthropic'; $('#p-oai').hidden = S.provider !== 'openai'};
+  $('#s-model').onchange = e => {if (e.target.value === '__custom') {$('#s-mcustom').hidden = false; $('#s-mcustom').focus()} else {$('#s-mcustom').hidden = true; S.model = e.target.value; saveS()}};
+  $('#s-mcustom').oninput = e => {if (e.target.value.trim()) {S.model = e.target.value.trim(); saveS()}};
+  $('#s-obase').oninput = e => {S.obase = e.target.value.trim(); saveS()}; $('#s-omodel').oninput = e => {S.omodel = e.target.value.trim(); saveS()};
+  $('#s-B').oninput = e => {$('#bv').textContent = e.target.value}; $('#s-B').onchange = e => {S.B = +e.target.value; changed()};
+  $('#s-key').oninput = e => {const v = e.target.value.trim(); if (S.remember) store.set('key', v); else sess.set('key', v)};
+  $('#s-rem').onchange = e => {S.remember = e.target.checked; const v = $('#s-key').value.trim(); if (S.remember) store.set('key', v); else {store.set('key', ''); sess.set('key', v)} $('#remwarn').hidden = !S.remember; saveS()};
+  $('#clrkey').onclick = () => {store.set('key', ''); sess.set('key', ''); $('#s-key').value = ''; $('#tres').innerHTML = '<span class="badge">key removed from this browser</span>'};
+  $('#s-fb').onchange = e => {S.fallback = e.target.checked; saveS()};
+  relayReady.then(() => {const c = runContext(); $('#ctx').innerHTML = `<div class="${c.kind === 'relay' ? 'ok' : 'note'}">${esc(c.text)}</div>`});
+  $('#test').onclick = async () => {$('#tres').textContent = 'Calling the model…'; const calls = [];
+    try {const t = await callLLM('Answer in one short sentence.', 'Say hello to a learner.', 'connection test', calls, 200); const c = calls[0];
+      $('#tres').innerHTML = `<span class="badge b-safe">✓ connected</span>`;
+      dialogBox(true, 'Connection successful', `<p>${esc(c.model)} answered in ${(c.ms / 1000).toFixed(1)} s (${c.input ?? '?'} input and ${c.output ?? '?'} output tokens${c.id ? `, request <span class="mono">${esc(c.id)}</span>` : ''}, ${c.via}):</p><p class="small muted">“${esc(t.slice(0, 160))}”</p><p>Plans will be generated by this model.</p>`,
+        [{label: 'Stay in Settings', ghost: true}, {label: 'Go to Plan my learning', action: () => {sess.set('rule', ''); location.hash = 'plan'}}])}
+    catch (e) {$('#tres').innerHTML = `<span class="badge b-bad">failed</span>`;
+      dialogBox(false, 'Connection failed', `<p>${esc(e.message)}</p><p><b>Do you want to continue with the rule-based mode?</b> Plans will then be generated without a language model, for this session.</p>`,
+        [{label: 'No, stay in Settings', ghost: true}, {label: 'Yes, use the rule-based mode', action: () => {sess.set('rule', '1'); location.hash = 'plan'}}])}};
+}
+
+/* ---------------- about ---------------- */
+function viewAbout() {
+  const repo = PAPER.repo && !PAPER.repo.startsWith('__') ? PAPER.repo : null;
+  $('#view').innerHTML = `<h1>About EmerKit</h1>
+  <div class="grid g2" style="margin-top:14px;align-items:start"><div class="panel"><span class="badge b-acc">Research article</span><h2 style="margin-top:8px">${esc(PAPER.title)}</h2>
+  <div class="grid" style="margin-top:14px;gap:10px">${PAPER.authors.map(([n, a]) => `<div class="author"><span class="avatar">${n.split(' ').map(w => w[0]).join('')}</span><span><b>${esc(n)}</b><br><span class="small muted">${esc(a)}</span></span></div>`).join('')}</div>
+  <div class="row" style="margin-top:14px">${PAPER.keywords.map(k => `<span class="badge">${k}</span>`).join('')}</div></div>
+  <div class="panel"><h2>The approach in brief</h2><p>LLM agents now reach learning services through tools exposed with the Model Context Protocol. Existing selectors rank tools one by one, as if the quality of a toolkit were the sum of the qualities of its tools. EmerKit shows that this fails when the consumer is an LLM agent: tools duplicate each other, interfere, saturate the context window, and jointly create flows of learner data that no single tool creates.</p>
+  <p>EmerKit derives a learning workflow from a learner's request and equips each task with the admissible toolkit of highest quality, a non-additive set function that counts each capability once, integrates quality of service, and charges interference and saturation. Every toolkit is checked on a flow graph against norms specific to education, with conformal prediction sets for unreliable annotations and a calibrated bound on the risk of a denied flow. Tasks that cannot be equipped are replaced by substitutes that preserve their learning objective, and a gap map states what the MCP ecosystem can safely support.</p>
+  <div class="row" style="margin-top:12px">${/^https?:$/.test(location.protocol) && runContext().kind !== 'preview' ? '<a class="btn ghost" href="EmerKit_portal_demo.mp4" target="_blank" rel="noopener">▶ Demo video (3 min)</a>' : ''}${repo ? `<a class="btn" href="${esc(repo)}" target="_blank" rel="noopener">GitHub repository</a>` : '<span class="badge" data-tip="The address of the public repository will appear here once it is published.">GitHub repository: to be published</span>'}<a class="btn ghost" href="#approach">How it works</a></div></div></div>
+  <div class="grid g3" style="margin-top:16px"><div class="panel"><h3>What runs in this portal</h3><p class="small">The request phase of EmerKit runs live in your browser: decomposition, planning, validation and repair, flow check, exact composition, revision. It was checked against the implementation of the paper on 550 tasks: same feasibility, same optimum, same minimal conflicts.</p></div>
+  <div class="panel"><h3>Run it on your computer</h3><p class="small">In the repository: <span class="mono">python portal/serve.py</span>, then open <span class="mono">http://localhost:8000</span>. The local relay lets the page reach the language model and the official MCP Registry.</p></div>
+  <div class="panel"><h3>Cite</h3><p class="small mono" style="white-space:pre-wrap">${esc(`F. Ghedass, H. Mezni, A. Alsehaim, H. Elmannai, S. Alalmaei, M. Sliti. ${PAPER.title}.`)}</p></div></div>`;
+}
+route();
+</script>
+</body>
+</html>

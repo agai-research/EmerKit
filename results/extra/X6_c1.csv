@@ -1,0 +1,7 @@
+series,config,scenario,seed,xi,eps_hat,n_cal,n_test,equipped,dfr
+X6,1,types: low-stakes to assessment,0,0.05,0.015,300,300,0.21333333333333335,0.0
+X6,1,types: low-stakes to assessment,0,0.1,0.5,300,300,0.99,0.1414141414141414
+X6,1,types: low-stakes to assessment,1,0.05,0.015,300,300,0.056666666666666664,0.0
+X6,1,types: low-stakes to assessment,1,0.1,0.125,300,300,0.62,0.0
+X6,1,types: low-stakes to assessment,2,0.05,0.02,300,300,0.36,0.0
+X6,1,types: low-stakes to assessment,2,0.1,0.075,300,300,0.8233333333333334,0.0

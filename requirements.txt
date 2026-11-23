@@ -1,0 +1,9 @@
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+pandas>=2.1
+matplotlib>=3.8
+ortools>=9.10
+statsmodels>=0.14
+mcp>=1.10,<2
+# model-dependent series (Claude Code): pip install anthropic openai datasets
