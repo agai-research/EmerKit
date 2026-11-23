@@ -17,6 +17,11 @@ cannot be equipped by substitutes that preserve their learning objective.
 | **Licence** | Code MIT; generated data CC BY 4.0; third-party data under their own licences ([`THIRD_PARTY.md`](THIRD_PARTY.md), [`DATA.md`](DATA.md)) |
 
 ## Demo video
+
+
+https://github.com/user-attachments/assets/f760c7c5-f5a4-4a9e-9705-43e3d506c3d0
+
+
 ## Portal
 The portal runs the request phase of EmerKit in the browser (decomposition by a language model or by rules, workflow validation
 and repair, flow check, exact composition, revision) on the prepared registries, and explains the approach step by step.
