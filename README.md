@@ -16,6 +16,7 @@ cannot be equipped by substitutes that preserve their learning objective.
 | **Experiments** | `pip install -r requirements.txt`, then `make test` and `make all-local` ([Reproduce](#reproduce) below) |
 | **Licence** | Code MIT; generated data CC BY 4.0; third-party data under their own licences ([`THIRD_PARTY.md`](THIRD_PARTY.md), [`DATA.md`](DATA.md)) |
 
+## Demo video
 ## Portal
 The portal runs the request phase of EmerKit in the browser (decomposition by a language model or by rules, workflow validation
 and repair, flow check, exact composition, revision) on the prepared registries, and explains the approach step by step.
